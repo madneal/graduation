@@ -1,15 +1,16 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.26)  13 AUG 2016 17:06
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  10 OCT 2016 09:27
 entering extended mode
-**E:/毕业论文资料/毕业论文/毕业论文.tex
-(E:/毕业论文资料/毕业论文/毕业论文.tex
+**G:/project/graduation/毕业论文.tex
+(G:/project/graduation/毕业论文.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(C:\CTEX\CTeX\tex\ty\tdw.tex
+("F:\Program Files\CTEX\CTeX\tex\ty\tdw.tex"
 \microdimen=\dimen102
 \lengthunit=\dimen103
-) (C:\CTEX\MiKTeX\tex\latex\base\article.cls
+)
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(C:\CTEX\MiKTeX\tex\latex\base\size12.clo
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\size12.clo"
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,55 +25,56 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen104
 )
-(C:\CTEX\MiKTeX\tex\latex\cjk\CJK.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\CJK.sty"
 Package: CJK 2008/12/29 4.8.2
 
-(C:\CTEX\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\mule\MULEenc.sty"
 Package: MULEenc 2008/12/29 4.8.2
 )
-(C:\CTEX\MiKTeX\tex\latex\cjk\CJK.enc
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\CJK.enc"
 File: CJK.enc 2008/12/29 4.8.2
 )
 LaTeX Info: Redefining \selectfont on input line 756.
 \CJK@indent=\box26
 )
-(C:\CTEX\MiKTeX\tex\latex\cjk\CJKnumb.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\CJKnumb.sty"
 Package: CJKnumb 2008/12/29 4.8.2
 \CJK@q=\count87
 \CJK@r=\count88
 )
-(C:\CTEX\MiKTeX\tex\latex\bbm\bbm.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\bbm\bbm.sty"
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
-) (C:\CTEX\MiKTeX\tex\latex\tipa\tipa.sty
+)
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tipa\tipa.sty"
 Package: tipa 2002/08/08 TIPA version 1.1
 
-(C:\CTEX\MiKTeX\tex\latex\base\fontenc.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(C:\CTEX\MiKTeX\tex\latex\tipa\t3enc.def
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tipa\t3enc.def"
 File: t3enc.def 2001/12/31 T3 encoding
 )
-(C:\CTEX\MiKTeX\tex\latex\base\ot1enc.def
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\ot1enc.def"
 File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding OT1 on input line 43.
 )))
-(C:\CTEX\MiKTeX\tex\latex\stmaryrd\stmaryrd.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\stmaryrd\stmaryrd.sty"
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
-(C:\CTEX\MiKTeX\tex\latex\base\latexsym.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(C:\CTEX\MiKTeX\tex\latex\tools\bm.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tools\bm.sty"
 Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -81,7 +83,7 @@ Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
 LaTeX Info: Redefining \bm on input line 204.
 )
-(C:\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup10
@@ -89,65 +91,66 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
-(C:\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2009/06/22 v3.00
 LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 39.
 )
-(C:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(C:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+("F:\Program Files\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: dvips.def on input line 91.
 
-(C:\CTEX\MiKTeX\tex\latex\graphics\dvips.def
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\dvips.def"
 File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(C:\CTEX\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\jknappen\mathrsfs.sty"
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup12
 )
-(C:\CTEX\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
-(C:\CTEX\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
-(C:\CTEX\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex"
 \pgfutil@everybye=\toks15
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def"
 \pgfutil@abb=\box27
 
-(C:\CTEX\MiKTeX\tex\latex\ms\everyshi.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex"
 Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
 ))
 Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
-(C:\CTEX\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
-(C:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
 )
-(C:\CTEX\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex"
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.t
+ex"
 \pgfkeys@tmptoks=\toks19
 ))
 \pgf@x=\dimen107
@@ -164,42 +167,43 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \c@pgf@countb=\count90
 \c@pgf@countc=\count91
 \c@pgf@countd=\count92
-
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+ ("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Package pgfsys Info: Driver file for pgf: pgfsys-dvips.def on input line 900.
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-dvips.def
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-dvips.def"
 File: pgfsys-dvips.def 2008/04/03  (rcs-revision 1.20)
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-postscript.def
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-postsc
+ript.def"
 File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
 \pgf@objectcount=\count93
 )))
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.
+tex"
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
 \pgfsyssoftpath@smallbuffer@items=\count94
 \pgfsyssoftpath@bigbuffer@items=\count95
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.
+tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-(C:\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty
+)) ("F:\Program Files\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(C:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+("F:\Program Files\CTEX\MiKTeX\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(C:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count96
@@ -213,13 +217,13 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen115
 \pgfmath@count=\count97
 \pgfmath@box=\box28
@@ -227,18 +231,26 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks21
 \pgfmath@stack@operation=\toks22
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)))
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code
+.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonomet
+ric.code.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.cod
+e.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison
+.code.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.
+tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code
+.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.
+tex")))
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count98
 ))
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.te
+x"
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@picminx=\dimen116
 \pgf@picmaxx=\dimen117
@@ -255,95 +267,114 @@ File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@zx=\dimen128
 \pgf@zy=\dimen129
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.
+code.tex"
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
 \pgf@path@lastx=\dimen130
 \pgf@path@lasty=\dimen131
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code
+.tex"
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 \pgf@shorten@end@additional=\dimen132
 \pgf@shorten@start@additional=\dimen133
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.te
+x"
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box29
 \pgf@hbox=\box30
 \pgf@layerbox@main=\box31
 \pgf@picture@serial@count=\count99
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.c
+ode.tex"
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
 \pgflinewidth=\dimen134
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformation
+s.code.tex"
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
 \pgf@pt@x=\dimen135
 \pgf@pt@y=\dimen136
 \pgf@pt@temp=\dimen137
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.t
+ex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing
+.code.tex"
 File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.te
+x"
 File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+"
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen138
 \pgf@sys@shading@range@num=\count100
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+"
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.
+tex"
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
 \pgfexternal@startupbox=\box32
 ))
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.te
+x"
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.c
+ode.tex"
 File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.
+tex"
 File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
-(C:\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+"
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
 \pgfnodeparttextbox=\box33
-)
-(C:\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+) ("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+"
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
-(C:\CTEX\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65
+.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen139
 \pgf@nodesepend=\dimen140
 )
-(C:\CTEX\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18
+.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
-))
-(C:\CTEX\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
-(C:\CTEX\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex))
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+)) ("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\utilities\pgffor.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen141
 \pgffor@skip=\dimen142
 \pgffor@stack=\toks23
 \pgffor@toks=\toks24
 ))
-(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+"
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers
+.code.tex"
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count101
 \pgfplotmarksize=\dimen143
@@ -361,7 +392,8 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikznumberofcurrentchild=\count104
 \tikz@fig@count=\count105
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+"
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 \pgfmatrixcurrentrow=\count106
 \pgfmatrixcurrentcolumn=\count107
@@ -369,31 +401,32 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 )
 \tikz@expandcount=\count109
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths
-.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tik
+zlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-))) (C:\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf.sty
+)))
+("F:\Program Files\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(C:\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(C:\CTEX\MiKTeX\tex\latex\oberdiek\grfext.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
 ))
-(C:\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\etexcmds.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\ifluatex.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -402,10 +435,10 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -421,28 +454,28 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
-(C:\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(C:\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(C:\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(C:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks25
 \ex@=\dimen150
 ))
-(C:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 LaTeX Info: Redefining \boldsymbol on input line 54.
 \pmbraise@=\dimen151
 )
-(C:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count110
@@ -483,7 +516,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(C:\CTEX\MiKTeX\tex\latex\ams\classes\amsthm.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\classes\amsthm.sty"
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks30
 \thm@bodyfont=\toks31
@@ -495,10 +528,10 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip48
 \dth@everypar=\toks35
 )
-(C:\CTEX\MiKTeX\tex\latex\cases\cases.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cases\cases.sty"
 Package: cases 2002/05/02 ver 2.5 
 )
-(C:\CTEX\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip49
 \f@ncyO@elh=\skip50
 \f@ncyO@erh=\skip51
@@ -509,7 +542,7 @@ Package: cases 2002/05/02 ver 2.5
 \f@ncyO@olf=\skip56
 \f@ncyO@orf=\skip57
 )
-(C:\CTEX\MiKTeX\tex\latex\titlesec\titlesec.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box38
 \beforetitleunit=\skip58
@@ -521,7 +554,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen162
 \titlewidthfirst=\dimen163
 )
-(C:\CTEX\MiKTeX\tex\latex\float\float.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count122
 \float@exts=\toks37
@@ -529,7 +562,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks38
 \@floatcapt=\box40
 )
-(C:\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip60
 \subfigcapskip=\skip61
@@ -545,14 +578,14 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(C:\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg)
+("F:\Program Files\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg")
 \subfig@top=\skip64
 \subfig@bottom=\skip65
 )
-(C:\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen166
 )
-(C:\CTEX\MiKTeX\tex\latex\lineno\lineno.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\lineno\lineno.sty"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count127
 \output=\toks39
@@ -570,15 +603,15 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box41
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(C:\CTEX\MiKTeX\tex\latex\graphics\epsfig.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen172
 \epsfysize=\dimen173
 )
-(C:\CTEX\MiKTeX\tex\latex\caption\caption.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\caption\caption.sty"
 Package: caption 2011/11/10 v3.2e Customizing captions (AR)
 
-(C:\CTEX\MiKTeX\tex\latex\caption\caption3.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\caption\caption3.sty"
 Package: caption3 2011/11/01 v1.4a caption3 kernel (AR)
 \captionmargin=\dimen174
 \captionmargin@=\dimen175
@@ -591,30 +624,30 @@ Package: caption3 2011/11/01 v1.4a caption3 kernel (AR)
 Package caption Info: float package is loaded.
 Package caption Info: subfigure package is loaded.
 )
-(C:\CTEX\MiKTeX\tex\latex\base\fontenc.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(C:\CTEX\MiKTeX\tex\latex\base\t1enc.def
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(C:\CTEX\MiKTeX\tex\latex\tools\xspace.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tools\xspace.sty"
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-(C:\CTEX\MiKTeX\tex\latex\setspace\setspace.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\CTEX\MiKTeX\tex\latex\subeqnarray\subeqnarray.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\subeqnarray\subeqnarray.sty"
 Package: subeqnarray 2004/04/15 v2.1c subeqnarray package
 \c@subequation=\count135
 )
-(C:\CTEX\MiKTeX\tex\latex\extarrows\extarrows.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\extarrows\extarrows.sty"
 Package: extarrows 2008/05/15 v1.0b Some extensible arrows
 )
-(C:\CTEX\MiKTeX\tex\latex\dstroke\dsfont.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\dstroke\dsfont.sty"
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
-(C:\CTEX\MiKTeX\tex\latex\listings\listings.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\listings\listings.sty"
 \lst@mode=\count136
 \lst@gtempboxa=\box42
 \lst@token=\toks40
@@ -628,30 +661,30 @@ Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 \lst@lineno=\count141
 \lst@maxwidth=\dimen183
 
-(C:\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count142
 \lst@skipnumbers=\count143
 \lst@framebox=\box43
 )
-(C:\CTEX\MiKTeX\tex\latex\listings\listings.cfg
+("F:\Program Files\CTEX\MiKTeX\tex\latex\listings\listings.cfg"
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(C:\CTEX\MiKTeX\tex\latex\cite\cite.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
 )
-(C:\CTEX\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2008/00/00 v3.10 algorithms environments
 \c@AlgoLine=\count144
 
-(C:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\CTEX\MiKTeX\tex\latex\ltxmisc\relsize.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
 ********************************************************
@@ -691,7 +724,7 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count147
 \algocf@algoframe=\box49
 \algocf@algobox=\box50
-) (E:\毕业论文资料\毕业论文\毕业论文.aux
+) (G:\project\graduation\毕业论文.aux
 
 LaTeX Warning: Label `alg1' multiply defined.
 
@@ -774,13 +807,13 @@ LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 120.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 120.
- (C:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
+ ("F:\Program Files\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 120.
 
 ABD: EveryShipout initializing macros
-(C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+("F:\Program Files\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count148
 \scratchdimen=\dimen190
@@ -798,19 +831,19 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count154
- (C:\CTEX\MiKTeX\tex\latex\cjk\standard.bdg
+ ("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\standard.bdg"
 File: standard.bdg 2008/12/29 4.8.2
 )
-(C:\CTEX\MiKTeX\tex\latex\cjk\extended.enc
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\extended.enc"
 File: extended.enc 2008/12/29 4.8.2
 )
-(C:\CTEX\MiKTeX\tex\latex\cjk\extended.chr
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\extended.chr"
 File: extended.chr 2008/12/29 4.8.2
 )
 LaTeX Font Info:    Try loading font information for C19+song on input line 122
 .
 
-(C:\CTEX\CTeX\tex\latex\CJK\GB\c19song.fd
+("F:\Program Files\CTEX\CTeX\tex\latex\CJK\GB\c19song.fd"
 File: c19song.fd 2009/09/23 4.8.2
 )
 \c@dingyi=\count155
@@ -820,10 +853,10 @@ File: c19song.fd 2009/09/23 4.8.2
 LaTeX Font Info:    Try loading font information for U+stmry on input line 141.
 
 
-(C:\CTEX\MiKTeX\tex\latex\stmaryrd\ustmry.fd)
+("F:\Program Files\CTEX\MiKTeX\tex\latex\stmaryrd\ustmry.fd")
 LaTeX Font Info:    Try loading font information for U+lasy on input line 141.
 
-(C:\CTEX\MiKTeX\tex\latex\base\ulasy.fd
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
@@ -831,17 +864,17 @@ LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 (Font)              using `U/stmry/m/n' instead on input line 141.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 141.
-(C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+("F:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 141.
 
-(C:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+("F:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 141.
 
-(C:\CTEX\MiKTeX\tex\latex\jknappen\ursfs.fd
+("F:\Program Files\CTEX\MiKTeX\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 <ecnu.png, id=1, 78.2925pt x 70.76437pt>
@@ -858,7 +891,8 @@ Package pdftex.def Info: ECNU_Name_black.png used on input line 149.
 (pdftex.def)             Requested size: 352.10284pt x 61.49368pt.
 LaTeX Font Info:    Try loading font information for C19+hei on input line 154.
 
- (C:\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd
+
+("F:\Program Files\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd"
 File: c19hei.fd 2009/09/23 4.8.2
 ) [1
 Non-PDF special ignored!
@@ -877,9 +911,9 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}
-{UGBK.sfd}} <E:/毕业论文资料/毕业论文/ecnu.png> <E:/毕业论文资�
-�/毕业论文/ECNU_Name_black.png>]
+Non-PDF special ignored!{F:/Program Files/CTEX/UserData/pdftex/config/pdftex.ma
+p{Unicode.sfd}{UGBK.sfd}} <G:/project/graduation/ecnu.png> <G:/project/graduati
+on/ECNU_Name_black.png>]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <15.75> not available
 (Font)              size <14.4> substituted on input line 198.
@@ -979,23 +1013,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1] [2] [3]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 468.
 
- (C:\CTEX\MiKTeX\tex\latex\base\omscmr.fd
+ ("F:\Program Files\CTEX\MiKTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 468.
- [4] [5] [6] [7]
-(E:\毕业论文资料\毕业论文\毕业论文.bbl
+ [4]
+[5] [6] [7] (G:\project\graduation\毕业论文.bbl
 LaTeX Font Info:    Try loading font information for C19+HEI on input line 78.
 
-(C:\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd
+("F:\Program Files\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd"
 File: c19hei.fd 2009/09/23 4.8.2
 )
 
 LaTeX Font Warning: Font shape `C19/HEI/m/n' undefined
 (Font)              using `C19/song/m/n' instead on input line 78.
 
-[8]) [9] (E:\毕业论文资料\毕业论文\毕业论文.aux)
+[8]) [9] (G:\project\graduation\毕业论文.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.35pt have occurred.
@@ -1009,57 +1043,66 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  18819 strings out of 495354
- 309735 string characters out of 3183859
+ 314322 string characters out of 3183074
  366127 words of memory out of 3000000
  21480 multiletter control sequences out of 15000+200000
  91599 words of font info for 308 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,15n,55p,717b,851s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
-chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>{C:/CTEX/MiK
-TeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/CTEX/CTeX/fonts/truetype/chine
-se/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fon
-ts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>
-<C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/ch
-inese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/
-fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.t
-tf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype
-/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CT
-eX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsu
-n.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truet
-ype/chinese/simsun.ttf><C:/Windows/Fonts/simhei.ttf><C:/CTEX/CTeX/fonts/truetyp
-e/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/C
-TeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/sims
-un.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fo
-nts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wi
-ndows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.tt
-f><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/s
-imhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows
-/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:
-/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei
-.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Font
-s/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wind
-ows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>
-<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/CTEX/CTeX/fonts/t
-ruetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/
-CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chines
-e/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/font
-s/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><
-C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chi
-nese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/f
-onts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.tt
-f><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/CTEX/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/CTE
-X/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx08
-00.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/CTEX/MiKTeX
-/fonts/type1/public/cm-super/sfbx1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm
--super/sfbx1728.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><C
-:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/CTEX/MiKTeX/fonts/ty
-pe1/public/cm-super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sf
-rm1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/CTEX/Mi
-KTeX/fonts/type1/public/cm-super/sfti1200.pfb>
+ 56i,15n,55p,704b,851s stack positions out of 5000i,500n,10000p,200000b,50000s
+<F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Fil
+es/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/font
+s/truetype/chinese/simsun.ttf>{F:/Program Files/CTEX/MiKTeX/fonts/enc/dvips/cm-
+super/cm-super-t1.enc}<F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun
+.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program 
+Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/f
+onts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chi
+nese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><
+F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/
+CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/t
+ruetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/s
+imsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Pro
+gram Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/C
+TeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetyp
+e/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.
+ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/F
+onts/simhei.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><
+F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/
+CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/t
+ruetype/chinese/simsun.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhe
+i.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fon
+ts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Win
+dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf
+><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/si
+mhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/
+Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/
+Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
+ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts
+/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windo
+ws/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><
+F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/
+CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/t
+ruetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/s
+imsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Pro
+gram Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/C
+TeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetyp
+e/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.
+ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program F
+iles/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fo
+nts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Pro
+gram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><F:/Program Fil
+es/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx0800.pfb><F:/Program Files/CTEX/
+MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><F:/Program Files/CTEX/MiKTeX/f
+onts/type1/public/cm-super/sfbx1440.pfb><F:/Program Files/CTEX/MiKTeX/fonts/typ
+e1/public/cm-super/sfbx1728.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/publi
+c/cm-super/sfbx2074.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-sup
+er/sfbx2488.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1
+200.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb>
+<F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><F:/Prog
+ram Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
 Output written on 毕业论文.pdf (17 pages, 591632 bytes).
 PDF statistics:
  386 PDF objects out of 1000 (max. 8388607)
