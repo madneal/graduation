@@ -111,8 +111,7 @@
 \setlength{\voffset}{-2cm}       % 顶端距离 = \voffset + 1 英寸
 \setlength{\parskip}{3pt plus1pt minus1pt}  % 段落之间的竖直距离
 \renewcommand{\baselinestretch}{1.5}    % 定义行距
-\setcounter{secnumdepth}{4}
-\titleformat{\paragraph}
+
 %%%%%%===== 自定义命令 =====
 \numberwithin{equation}{section}
 \newcommand{\C}{\mathbb{C}}
@@ -538,9 +537,24 @@ u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
 \subsubsection{主要的差分进化算法}
 差分进化算法自从提出之后，就受到了工业界以及学术界的广泛关注，各种各样基于差分进化的算法都涌现出来。下面就演化计算中广泛流行的几种差分进算法进行介绍。
 
-\subsubsubsection{Code算法}
+JADE~\cite{JADE}是一种新型的差分进化算法，在JADE中提出了一种新的变异策略"DE/current-to-\emph{p}best"，它通过使用一种自适应的方式来进行种群的更新，从而提高算法的自适应性。对于种群中的每一个目标向量，JADE都会对F和CR进行更新，同时这些信息也将用于更新F和CR，从而作用于新的种群。
 
-\subsubsubsection{}
+CoDE(Composite DE)~\cite{code}算法通过结合三个不同的后代产生策略和三个常用的参数设置，后代产生策略和参数设置会随机组合在一起来产生新的解集。这个算法虽然比较简单，但却十分有效，在CEC2005所有的测试题上经过运算，和其他差分进化算法相比都有着不小的提高。
+
+\section{基于采样策略对于连续多目标优化问题的研究}
+
+\subsection{多目标优化问题}
+在本文中，对于一个具有m个目标函数的多目标优化问题（Multi-objective Optimization Problems, MOPs）定义如下：
+
+\subsection{多目标演化算法}
+对于求解多目标优化问题的算法称为多目标演化算法（Multi-objective Evolutionary Algorithms, MOEAs）。
+
+
+
+\section{基于采样策略对于全局单目标优化问题的研究}
+\subsection{单目标优化问题}
+
+
 
 
 \newpage
