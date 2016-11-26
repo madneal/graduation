@@ -546,18 +546,12 @@ JADE~\cite{JADE}是一种新型的差分进化算法，在JADE中提出了一种新的变异策略"DE/curr
 CoDE(Composite DE)~\cite{code}算法通过结合三个不同的后代产生策略和三个常用的参数设置，后代产生策略和参数设置会随机组合在一起来产生新的解集。这个算法虽然比较简单，但却十分有效，在CEC2005所有的测试题上经过运算，和其他差分进化算法相比都有着不小的提高。
 
 \section{基于采样策略对于连续多目标优化问题的研究}
+在本章中，我们基于RM-MEDA算法提出了一种基于差分进化的采样策略来解决连续多目标问题。通过采取差分进化中的变异策略，将种群在隐空间中进行转化，从而产生新的种群。
 
-\subsection{多目标优化问题}
-在本文中，对于一个具有m个目标函数的多目标优化问题（Multi-objective Optimization Problems, MOPs）定义如下：
-\begin{equation}
-\begin{array}{rl}
-\mbox{min} & F(x) = (f_1(x), \cdots, f_m(x))\\
-\mbox{s.t} & x \in \Omega
-\end{array}
-\label{MOP}
-\end{equation}
-\subsection{多目标演化算法}
-对于求解多目标优化问题的算法称为多目标演化算法（Multi-objective Evolutionary Algorithms, MOEAs）。
+3.1节给出了连续多目标问题的相关背景知识，3.2节主要介绍RM-MEDA算法框架以及相应的背景知识，3.3节详细介绍基于差分进化的采样策略，3.4节主要讲述通过基于差分进化的采样策略来改进RM-MEDA算法，3.5节是实验结果的分析。
+
+\subsection{连续多目标问题}
+在第二章中，已经介绍过多目标问题的相关定义。
 
 
 
