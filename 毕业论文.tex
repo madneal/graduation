@@ -355,19 +355,23 @@ high-level noise.
 \textbf{\large{1.2 本文所做的工作和内容安排}$\dotfill 3$}\\[4mm]
 
 \textbf{\large{2 理论基础}\hfill \rmfamily{4}}\par
-\textbf{\large{2.1 图像噪声模型}$\dotfill 4$}\par
-\textbf{\large{2.2 图像质量评价}$\dotfill 9$}\par
-\textbf{\large{2.3 算法检测错误率}$\dotfill 11$}\\[4mm]
+\textbf{\large{2.1 多目标优化问题}$\dotfill 4$}\par
+\textbf{\large{2.2 单目标优化问题}$\dotfill 9$}\par
+\textbf{\large{2.3 分布估计算法}$\dotfill 11$}\par
+\textbf{\large{2.4 差分进化}$\dotfill 13$}
+\\[4mm]
 
-\textbf{\large{3 椒盐噪声滤波算法回顾}\hfill \rmfamily{12}}\par
-\textbf{\large{3.1 中值滤波算法(MF)}$\dotfill 12$}\par
-\textbf{\large{3.2 自适应模糊开关中值滤波算法(NAFSMF)}$\dotfill 13$}\par
-\textbf{\large{3.3 快速高效算法(FEMF)}$\dotfill 13$}\par
-\textbf{\large{3.4 自适应中值滤波算法(AMF)}$\dotfill 14$}\par
-\textbf{\large{3.5 自适应中值滤波算法的不足}$\dotfill 14$}\\[4mm]
+\textbf{\large{3 基于采样策略对于连续多目标优化问题的研究}\hfill \rmfamily{12}}\par
+\textbf{\large{3.1 连续多目标优化问题}$\dotfill 12$}\par
+\textbf{\large{3.2 RM-MEDA算法}$\dotfill 13$}\par
+\textbf{\large{3.3 基于差分进化的采样策略}$\dotfill 13$}\par
+\textbf{\large{3.4 算法框架}$\dotfill 14$}\par
+\textbf{\large{3.5 实验分析}$\dotfill 14$}\\[4mm]
 
-\textbf{\large{4 本文所提出的算法——自适应加权均值滤波算法}\hfill \rmfamily{16}}\par
-\textbf{\large{4.1 自适应加权均值滤波算法}$\dotfill 16$}\par
+\textbf{\large{4 基于差分进化的分布估计算法}\hfill \rmfamily{16}}\par
+\textbf{\large{4.1 差分进化和分布估计算法的研究}$\dotfill 16$}\par
+\textbf{\large{4.2 基于差分进化采样的分布估计算法}$\dotfill 19$}\par
+\textbf{\large{4.3 实验框架}$\dotfill 20$}\par
 \textbf{\large{4.2 实验结果分析}$\dotfill 18$}\\[4mm]
 
 \textbf{\large{5 总结与展望}\hfill \rmfamily{25}}\par
@@ -545,7 +549,13 @@ CoDE(Composite DE)~\cite{code}算法通过结合三个不同的后代产生策略和三个常用的参数
 
 \subsection{多目标优化问题}
 在本文中，对于一个具有m个目标函数的多目标优化问题（Multi-objective Optimization Problems, MOPs）定义如下：
-
+\begin{equation}
+\begin{array}{rl}
+\mbox{min} & F(x) = (f_1(x), \cdots, f_m(x))\\
+\mbox{s.t} & x \in \Omega
+\end{array}
+\label{MOP}
+\end{equation}
 \subsection{多目标演化算法}
 对于求解多目标优化问题的算法称为多目标演化算法（Multi-objective Evolutionary Algorithms, MOEAs）。
 

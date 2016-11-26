@@ -355,19 +355,23 @@ high-level noise.
 \textbf{\large{1.2 本文所做的工作和内容安排}$\dotfill 3$}\\[4mm]
 
 \textbf{\large{2 理论基础}\hfill \rmfamily{4}}\par
-\textbf{\large{2.1 图像噪声模型}$\dotfill 4$}\par
-\textbf{\large{2.2 图像质量评价}$\dotfill 9$}\par
-\textbf{\large{2.3 算法检测错误率}$\dotfill 11$}\\[4mm]
+\textbf{\large{2.1 多目标优化问题}$\dotfill 4$}\par
+\textbf{\large{2.2 单目标优化问题}$\dotfill 9$}\par
+\textbf{\large{2.3 分布估计算法}$\dotfill 11$}\par
+\textbf{\large{2.4 差分进化}$\dotfill 13$}
+\\[4mm]
 
-\textbf{\large{3 椒盐噪声滤波算法回顾}\hfill \rmfamily{12}}\par
-\textbf{\large{3.1 中值滤波算法(MF)}$\dotfill 12$}\par
-\textbf{\large{3.2 自适应模糊开关中值滤波算法(NAFSMF)}$\dotfill 13$}\par
-\textbf{\large{3.3 快速高效算法(FEMF)}$\dotfill 13$}\par
-\textbf{\large{3.4 自适应中值滤波算法(AMF)}$\dotfill 14$}\par
-\textbf{\large{3.5 自适应中值滤波算法的不足}$\dotfill 14$}\\[4mm]
+\textbf{\large{3 基于采样策略对于连续多目标优化问题的研究}\hfill \rmfamily{12}}\par
+\textbf{\large{3.1 连续多目标优化问题}$\dotfill 12$}\par
+\textbf{\large{3.2 RM-MEDA算法}$\dotfill 13$}\par
+\textbf{\large{3.3 基于差分进化的采样策略}$\dotfill 13$}\par
+\textbf{\large{3.4 算法框架}$\dotfill 14$}\par
+\textbf{\large{3.5 实验分析}$\dotfill 14$}\\[4mm]
 
-\textbf{\large{4 本文所提出的算法——自适应加权均值滤波算法}\hfill \rmfamily{16}}\par
-\textbf{\large{4.1 自适应加权均值滤波算法}$\dotfill 16$}\par
+\textbf{\large{4 基于差分进化的分布估计算法}\hfill \rmfamily{16}}\par
+\textbf{\large{4.1 差分进化和分布估计算法的研究}$\dotfill 16$}\par
+\textbf{\large{4.2 基于差分进化采样的分布估计算法}$\dotfill 19$}\par
+\textbf{\large{4.3 实验框架}$\dotfill 20$}\par
 \textbf{\large{4.2 实验结果分析}$\dotfill 18$}\\[4mm]
 
 \textbf{\large{5 总结与展望}\hfill \rmfamily{25}}\par
@@ -537,7 +541,23 @@ u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
 \subsubsection{主要的差分进化算法}
 差分进化算法自从提出之后，就受到了工业界以及学术界的广泛关注，各种各样基于差分进化的算法都涌现出来。下面就演化计算中广泛流行的几种差分进算法进行介绍。
 
-组合差分进化算法
+JADE~\cite{JADE}是一种新型的差分进化算法，在JADE中提出了一种新的变异策略"DE/current-to-\emph{p}best"，它通过使用一种自适应的方式来进行种群的更新，从而提高算法的自适应性。对于种群中的每一个目标向量，JADE都会对F和CR进行更新，同时这些信息也将用于更新F和CR，从而作用于新的种群。
+
+CoDE(Composite DE)~\cite{code}算法通过结合三个不同的后代产生策略和三个常用的参数设置，后代产生策略和参数设置会随机组合在一起来产生新的解集。这个算法虽然比较简单，但却十分有效，在CEC2005所有的测试题上经过运算，和其他差分进化算法相比都有着不小的提高。
+
+\section{基于采样策略对于连续多目标优化问题的研究}
+在本章中，我们基于RM-MEDA算法提出了一种基于差分进化的采样策略来解决连续多目标问题。通过采取差分进化中的变异策略，将种群在隐空间中进行转化，从而产生新的种群。
+
+3.1节给出了连续多目标问题的相关背景知识，3.2节主要介绍RM-MEDA算法框架以及相应的背景知识，3.3节详细介绍基于差分进化的采样策略，3.4节主要讲述通过基于差分进化的采样策略来改进RM-MEDA算法，3.5节是实验结果的分析。
+
+\subsection{连续多目标问题}
+在第二章中，已经介绍过多目标问题的相关定义。
+
+
+
+\section{基于采样策略对于全局单目标优化问题的研究}
+\subsection{单目标优化问题}
+
 
 
 
