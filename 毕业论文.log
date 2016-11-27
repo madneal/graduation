@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  27 NOV 2016 14:30
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  27 NOV 2016 14:41
 entering extended mode
 **G:/project/graduation/毕业论文.tex
 (G:/project/graduation/毕业论文.tex
@@ -964,42 +964,42 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.75> not available
 (Font)              size <14.4> substituted on input line 198.
 
 [1] [2]
-Underfull \hbox (badness 10000) in alignment at lines 274--295
+Underfull \hbox (badness 10000) in alignment at lines 273--294
 [][][][]
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
 
  []
 
 [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 350--352
+Underfull \hbox (badness 10000) in paragraph at lines 349--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--363
+Underfull \hbox (badness 10000) in paragraph at lines 360--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
 
@@ -1011,16 +1011,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [1] [2] [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 472.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 471.
 
  ("F:\Program Files\CTEX\MiKTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 472.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 471.
  [4]
 [5]
-Overfull \hbox (19.90898pt too wide) in paragraph at lines 544--545
+Overfull \hbox (19.90898pt too wide) in paragraph at lines 543--544
 []\T1/cmr/m/n/12 JADE [21]\C19/song/bx/n/12/55 � \C19/song/bx/n/12/61 � \C19/so
 ng/bx/n/12/64 � \C19/song/bx/n/12/60 # . \C19/song/bx/n/12/40  \C19/song/bx/n/
 12/38  \C19/song/bx/n/12/41 � \C19/song/bx/n/12/46 ? \C19/song/bx/n/12/44 z \C
@@ -1033,41 +1033,41 @@ ong/bx/n/12/38 � \C19/song/bx/n/12/49
  []
 
 
-LaTeX Warning: Citation `code' on page 6 undefined on input line 546.
+LaTeX Warning: Citation `code' on page 6 undefined on input line 545.
 
 [6]
 
-LaTeX Warning: Reference `ps.png' on page 7 undefined on input line 554.
+LaTeX Warning: Reference `ps.png' on page 7 undefined on input line 553.
 
-<figs/figure/ps.png, id=131, 236.38312pt x 129.48375pt>
+<figs/figure/ps.png, id=129, 236.38312pt x 129.48375pt>
 File: figs/figure/ps.png Graphic file (type png)
 
 <use figs/figure/ps.png>
-Package pdftex.def Info: figs/figure/ps.png used on input line 558.
+Package pdftex.def Info: figs/figure/ps.png used on input line 557.
 (pdftex.def)             Requested size: 234.73523pt x 128.58444pt.
 
 
-LaTeX Warning: Citation `lpca' on page 7 undefined on input line 563.
+LaTeX Warning: Citation `lpca' on page 7 undefined on input line 562.
 
 
-LaTeX Warning: Citation `nsga-ii' on page 7 undefined on input line 563.
+LaTeX Warning: Citation `nsga-ii' on page 7 undefined on input line 562.
 
 [7 <G:/project/graduation/figs/figure/ps.png>]
 
-LaTeX Warning: Reference `rm-meda' on page 8 undefined on input line 573.
+LaTeX Warning: Reference `rm-meda' on page 8 undefined on input line 572.
 
-<figs/figure/pareto.png, id=136, 688.5725pt x 377.41pt>
+<figs/figure/pareto.png, id=134, 688.5725pt x 377.41pt>
 File: figs/figure/pareto.png Graphic file (type png)
 
 <use figs/figure/pareto.png>
-Package pdftex.def Info: figs/figure/pareto.png used on input line 600.
+Package pdftex.def Info: figs/figure/pareto.png used on input line 599.
 (pdftex.def)             Requested size: 234.73523pt x 128.65747pt.
  [8]
-<figs/figure/mutation.png, id=147, 309.40594pt x 225.84375pt>
+<figs/figure/mutation.png, id=145, 309.40594pt x 225.84375pt>
 File: figs/figure/mutation.png Graphic file (type png)
 
 <use figs/figure/mutation.png>
-Package pdftex.def Info: figs/figure/mutation.png used on input line 618.
+Package pdftex.def Info: figs/figure/mutation.png used on input line 617.
 (pdftex.def)             Requested size: 234.73523pt x 171.34665pt.
  [9 <G:/project/graduation/figs/figure/pareto.png> <G:/project/graduation/figs/
 figure/mutation.png>] [10] [11]
@@ -1097,11 +1097,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18951 strings out of 495354
- 316694 string characters out of 3183074
+ 18940 strings out of 495354
+ 316502 string characters out of 3183074
  366192 words of memory out of 3000000
- 21601 multiletter control sequences out of 15000+200000
- 95033 words of font info for 319 fonts, out of 3000000 for 9000
+ 21592 multiletter control sequences out of 15000+200000
+ 94437 words of font info for 317 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,15n,55p,704b,869s stack positions out of 5000i,500n,10000p,200000b,50000s
 <F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Fil
@@ -1138,37 +1138,36 @@ s/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C
 i.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fon
 ts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Win
 dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf
-><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/si
-mhei.ttf><C:/Windows/Fonts/simhei.ttf><F:/Program Files/CTEX/CTeX/fonts/truetyp
-e/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.
-ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program F
-iles/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fo
-nts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chin
-ese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F
-:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/C
-TEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/tr
-uetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/si
-msun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Prog
-ram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><F:/Program Fil
-es/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><F:/Program Files/CTEX
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><F:/Program Files/CTEX/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Program Files/CTEX/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr6.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx0800.pfb>
-<F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><F:/Prog
-ram Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><F:/Program File
-s/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><F:/Program Files/CTEX/M
-iKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><F:/Program Files/CTEX/MiKTeX/fo
-nts/type1/public/cm-super/sfbx2488.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type
-1/public/cm-super/sfrm1200.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public
-/cm-super/sfrm1440.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-supe
-r/sfrm2074.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti12
-00.pfb>
-Output written on 毕业论文.pdf (22 pages, 714252 bytes).
+><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><F:/Program Files/CT
+EX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/tru
+etype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/sim
+sun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Progr
+am Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTe
+X/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/
+chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.tt
+f><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Fil
+es/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/font
+s/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chines
+e/simsun.ttf><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><F:/Progr
+am Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Program Files
+/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><F:/Program Files/CTEX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><F:/Program Files/CTEX/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/c
+m-super/sfbx0800.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/
+sfbx1200.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1440
+.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><F:
+/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><F:/Program
+ Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><F:/Program Files/C
+TEX/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><F:/Program Files/CTEX/MiKT
+eX/fonts/type1/public/cm-super/sfrm1440.pfb><F:/Program Files/CTEX/MiKTeX/fonts
+/type1/public/cm-super/sfrm2074.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/p
+ublic/cm-super/sfti1200.pfb>
+Output written on 毕业论文.pdf (22 pages, 707187 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
+ 435 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
