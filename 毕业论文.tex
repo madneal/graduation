@@ -319,8 +319,8 @@
 \title{{Differential Evolution Sampling Strategy in Evolution Algorithms}}
 
 \thispagestyle{plain}
-\section*{\hspace*{\fill}\Large{Differential Evolution Sampling Strategy in Evolution Algorithms}\hspace*{\fill}}
-%\\\hspace*{\fill}\Large{for salt and pepper noise} \hspace*{\fill}}
+\section*{\hspace*{\fill}\Large{Differential Evolution Sampling Strategy }\hspace*{\fill}
+\\\hspace*{\fill}\Large{in Evolution Algorithms} \hspace*{\fill}}
 \subsection*{\hspace*{\fill}ABSTRACT \hspace*{\fill}}
 \vspace*{5mm} \normalfont \quad This paper mainly studies the differential evolution sampling strategy in evolutionary algorithms. Evolution algorithm is a kind of algorithm inspired by biological evolution. Evolutionary algorithms are utilized to solve diverse problems. As it does not need any complex assumption conditions. Evolutionary algorithms have been widely applied to engineer, biology, economy, gene engineer and social science.
 
@@ -333,7 +333,7 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 \vspace*{3mm}
 
-\bfseries{Key words:}\normalfont \quad ~salt and pepper noise,~filter,~noise detection,~adaptive median filter,~adaptive weighted mean filter
+\bfseries{Key words:}\normalfont \quad ~estimation of distribution algorithm,~differential evolution,~evolutionary algorithm,~eigenvector
 
 
 \newpage
@@ -422,7 +422,7 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 \label{mop}
 \end{equation}
 
-其中，$x=(x_1, \cdots, x_n)^T\in R^n$ 是决策变量向量，$\Omega=\Pi_{i=1}^{n}[a_i, b_i] \subset R^n$ 表示可能的搜索空间区域，$f_i: R^n \rightarrow R, i=1, \cdots, m$是一个连续的目标函数，$F(x)$则是相应的目标函数向量。
+其中，$x=(x_1, \cdots, x_n)^T\in R^n$ 是决策变量向量，$\Omega=\Pi_{i=1}^{n}[a_i, b_i] \subset R^n$ 表示可能的搜索空间区域，$f_i: R^n \rightarrow R, i=1, \cdots, m$ 是一个连续的目标函数，$F(x)$则是相应的目标函数向量。
 
 在MOP中，多个目标相互之间往往是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都能够达到全局最优解，但是存在一组Pareto最优解~\cite{moead}。 对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$即是~\ref{mop}\emph{Pareto最优解},如果不存在$x\in\Omega$使得$F(X)$支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则成为Pareto前端（PF）。
 
@@ -554,10 +554,10 @@ CoDE(Composite DE)~\cite{code}算法通过结合三个不同的后代产生策略和三个常用的参数
   \label{FIG1}
 \end{figure}
 \subsection{基于采样策略的多目标分布估计算法}
-根据连续多目标问题以上的特性，基于规律模型的多目标分布算法（RM-MEDA）算法被提出用于解决连续多目标问题。其通过在每一次迭代中，通过Local PCA~\cite{lpca}在决策空间中的区域建立概率分布模型，然后通过使用拉丁采样得到新的子代种群。RM-MEDA 采用基于非劣排序的方法~\cite{nsga-ii}来挑选个体来产生新的种群。RM-MEDA 经提出后，就收到了广泛的关注。本小节基于RM-MEDA算法，提出了一种基于差分进化的采样策略，用于进一步提升RM-MEDA中采样环节。
+根据连续多目标问题以上的特性，基于规律模型的多目标分布算法（RM-MEDA）算法被提出用于解决连续多目标问题。其通过在每一次迭代中，通过Local PCA~\cite{lpca}在决策空间中的区域建立概率分布模型，然后通过使用拉丁采样得到新的子代种群。RM-MEDA 采用基于非劣排序的方法~\cite{nsga-ii}来挑选个体来产生新的种群。RM-MEDA 经提出后，就收到了广泛的关注。本小节基于RM-MEDA算法，提出了一种基于差分进化的采样策略，用于进一步提升RM-MEDA 中采样环节。
 
 \subsubsection{RM-MEDA算法}
-对于连续多目标问题，在决策空间中，种群体中的个体如果越接近Pareto set，则越容易进行问题的求解。因此，假设种群中的个体为随机向量$\xi\in{R}^D$的观测值，$\xi$的中央部分就是Pareto set。并且因为在连续多目标问题中，Pareto set是一个m-1维的流体，那么$\xi$则可以由公式~\ref{model}表示：
+对于连续多目标问题，在决策空间中，种群体中的个体如果越接近Pareto set，则越容易进行问题的求解。因此，假设种群中的个体为随机向量$\xi\in{R}^D$的观测值，$\xi$的中央部分就是Pareto set。并且因为在连续多目标问题中，Pareto set是一个m-1维的流体，那么$\xi$ 则可以由公式~\ref{model}表示：
 \begin{equation}\label{model}
   \xi=\zeta+\epsilon
 \end{equation}
@@ -586,7 +586,7 @@ RM-MEDA算法是基于分布估计算法的框架，主要也是包括建模、采样、选择三个环节。算法~
 \end{algorithm}
 
 \subsubsection{RM-MEDA中存在的问题和解决方法}
-在RM-MEDA中，通过使用Local PCA将种群分成k个聚类。如图~\ref{pareto}所示，在每一个聚类之中，$N^k$用来表示聚类中的Pareto set，而$M^k$则用来覆盖每个聚类中的Pareto set。为了能够覆盖聚类中的Pareto set，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto set。但是这个缩放比例依赖于问题，，这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不禁相同。如果缩放比例设置过大，则对于实际的Pareto set则显得多余；如果设置的缩放比例过小，又不足以覆盖实际的Pareto set。因此，如何设置一个合适的Pareto set也成为了一个比较困难的问题。
+在RM-MEDA中，通过使用Local PCA将种群分成k个聚类。如图~\ref{pareto}所示，在每一个聚类之中，$N^k$用来表示聚类中的Pareto set，而$M^k$则用来覆盖每个聚类中的Pareto set。 为了能够覆盖聚类中的Pareto set，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto set。但是这个缩放比例依赖于问题，，这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不禁相同。如果缩放比例设置过大，则对于实际的Pareto set则显得多余；如果设置的缩放比例过小，又不足以覆盖实际的Pareto set。因此，如何设置一个合适的Pareto set也成为了一个比较困难的问题。
 
 \begin{figure}
 \graphicspath{{figs/figure/}}
@@ -604,7 +604,7 @@ RM-MEDA算法是基于分布估计算法的框架，主要也是包括建模、采样、选择三个环节。算法~
   X=X_{r_1}+rand\cdot(X_{r_2}-X_{r_3})+F\cdot(X_{r_2}-X_{r_3})
 \end{equation}
 
-其中$X_{r_1}$, $X_{r_2}$, $X_{r_3}$是种群中的随机个体，$r_1, r_2, r_3$则是从1到NP(NP是种群的大小)之间选择的三个互不相同的整数。F是变异策略中的缩放因子，rand是0到1之间符合均匀分布的随机数。
+其中$X_{r_1}$, $X_{r_2}$, $X_{r_3}$是种群中的随机个体，$r_1, r_2, r_3$则是从1到NP(NP是种群的大小)之间选择的三个互不相同的整数。F是变异策略中的缩放因子，rand是0到1 之间符合均匀分布的随机数。
 
 \begin{figure}
 \graphicspath{{figs/figure/}}
@@ -643,12 +643,57 @@ $$
 x^\prime=y^\prime\cdot{R^T}.
 $$
 
-Return the generated solution.
+返回产生的新的个体
 $$
 x^{\prime\prime}=x^\prime+\varepsilon^\prime
 $$
 where $\varepsilon^\prime$ is the Gaussian noise subjects to the distribution $\mathcal{N}(0,\sigma_\tau{I})$ ($\tau\in\{1, 2, \cdots, K\}$ is a randomly generated integer).
 \end{algorithm}
+
+将DES引入到RM-MEDA算法中来采样，那么DES-RM-MEDA算法框架如算法~\ref{des-rm-meda}所示。
+
+\begin{algorithm}
+\caption{DES-RM-MEDA}
+\label{des-rm-meda}
+Initialize a population $Pop(0)$, and set $t=0$.
+
+ \While {not terminate}
+ {
+    \textbf{Modeling}: Build the probabilistic model $\delta$ in order to model the distribution of the solutions in $Pop(t)$.
+
+    \textbf{Reproduction}: Partition the population into different clusters $C_i$ according to the probabilistic model. For each cluster, use DES to generate a set of candidate solutions $Q_i$. Set $Q=\cup_i Q_i$.
+
+    \textbf{Selection}: Select $N$ solutions from $Q\bigcup{Pop(t)}$ to construct a new population $Pop(t+1)$.
+
+    $t=t+1$
+ }
+
+Return the solutions in $Pop(t)$.
+\end{algorithm}
+
+\subsection{实验分析}
+
+\subsubsection{实验设置}
+本章节主要针对ZZJ中的10个测试题做实验比较。
+
+本章节主要采用IGD(inverted generational distance)指标~\cite{igd}来比较算法的性能。令$P^*$为Pareto front周围的目标向量空间中均匀分布的一组点。假设P是Pareto front的估计，那么$P$到$P^*$之间的IGD指标定义如下：
+\begin{equation}\label{igd}
+  IGD(P^*,P)=\frac{\sum_{v\in{P^*}}d(v,P)}{P^*}
+\end{equation}
+
+其中,$d(v,P)$是$v$到$P$中任意一点的最小欧氏距离。如果$P^*$足够大到可以表示Pareto front，那么$IGD(P^*,P)$就可以用来测量$P$的多样性和收敛性。$IGD(P^*,P)$的值越小，则$P$距离$P^*$越近。
+
+RM-MEDA和DES-RM-MEDA都是使用Matllab进行编程实现并且是在同一台计算机上运行程序。在这篇论文中的试验参数如下：
+
+\begin{itemize}
+  \item \emph{初始化种群}：这两个算法中的初始种群是随机生成的。
+  \item \emph{种群大小}：对于测试集（$F3$, $F7$, $F9$）每一代的种群大小设置成100，对于其他的测试题，每一代种群大小设置为200.
+  \item \emph{决策向量的大小}: 决策向量的大小在这两个算法都设置成30。
+  \item \emph{聚类数量}：聚类的数量设置成5。
+  \item\emph{缩放因子$F$}：缩放因子 $F$设置为0.4。
+  \item\emph{The number of runs}: We run each algorithm 30 times independently for every instance.
+  \item\emph{The number of generation}: The number of generation is set to 100 for instances ($F1$, $F2$, $F5$, $F6$), 200 for instances $F4$ and $F8$, and 1000 for instances $F3$, $F7$ and $F9$.
+\end{itemize}
 
 
 

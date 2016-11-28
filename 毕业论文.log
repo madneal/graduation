@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  28 NOV 2016 08:33
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  28 NOV 2016 15:59
 entering extended mode
 **G:/project/graduation/毕业论文.tex
 (G:/project/graduation/毕业论文.tex
@@ -1070,8 +1070,11 @@ File: figs/figure/mutation.png Graphic file (type png)
 Package pdftex.def Info: figs/figure/mutation.png used on input line 612.
 (pdftex.def)             Requested size: 234.73523pt x 171.34665pt.
  [9 <G:/project/graduation/figs/figure/pareto.png> <G:/project/graduation/figs/
-figure/mutation.png>] [10] [11]
-(G:\project\graduation\毕业论文.bbl
+figure/mutation.png>]
+
+LaTeX Warning: Citation `igd' on page 10 undefined on input line 679.
+
+[10] [11] [12] [13] (G:\project\graduation\毕业论文.bbl
 LaTeX Font Info:    Try loading font information for C19+HEI on input line 78.
 
 ("F:\Program Files\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd"
@@ -1081,7 +1084,7 @@ File: c19hei.fd 2009/09/23 4.8.2
 LaTeX Font Warning: Font shape `C19/HEI/m/n' undefined
 (Font)              using `C19/song/m/n' instead on input line 78.
 
-[12]) [13] [14] (G:\project\graduation\毕业论文.aux)
+[14]) [15] [16] (G:\project\graduation\毕业论文.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.35pt have occurred.
@@ -1097,13 +1100,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18940 strings out of 495354
- 316502 string characters out of 3183074
- 366192 words of memory out of 3000000
- 21592 multiletter control sequences out of 15000+200000
- 94437 words of font info for 317 fonts, out of 3000000 for 9000
+ 18994 strings out of 495354
+ 317477 string characters out of 3183074
+ 366212 words of memory out of 3000000
+ 21635 multiletter control sequences out of 15000+200000
+ 97938 words of font info for 328 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,15n,55p,704b,869s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,15n,55p,704b,873s stack positions out of 5000i,500n,10000p,200000b,50000s
 <F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Fil
 es/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/font
 s/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chines
@@ -1111,24 +1114,33 @@ e/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/
 Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTE
 X/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/true
 type/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/sims
-un.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>{F:/Progra
-m Files/CTEX/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}<F:/Program Files/
-CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/t
-ruetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/s
-imsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Pro
-gram Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/C
-TeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetyp
-e/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.
-ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program F
-iles/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fo
-nts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chin
+un.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Progra
+m Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX
+/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/c
+hinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program File
+s/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts
+/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese
+/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/P
+rogram Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX
+/CTeX/fonts/truetype/chinese/simsun.ttf>{F:/Program Files/CTEX/MiKTeX/fonts/enc
+/dvips/cm-super/cm-super-t1.enc}<F:/Program Files/CTEX/CTeX/fonts/truetype/chin
 ese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F
 :/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/C
 TEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/tr
-uetype/chinese/simsun.ttf><C:/Windows/Fonts/simhei.ttf><F:/Program Files/CTEX/C
-TeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetyp
-e/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.
-ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/F
+uetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/si
+msun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Prog
+ram Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CT
+eX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype
+/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.t
+tf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Fi
+les/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fon
+ts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chine
+se/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:
+/Windows/Fonts/simhei.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/si
+msun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Prog
+ram Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CT
+eX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/F
 onts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/W
 indows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.t
 tf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/
@@ -1138,36 +1150,36 @@ s/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C
 i.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fon
 ts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Win
 dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf
-><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><F:/Program Files/CT
-EX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/tru
-etype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/sim
-sun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Progr
-am Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTe
-X/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/
-chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.tt
-f><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Fil
-es/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/font
-s/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chines
-e/simsun.ttf><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><F:/Progr
-am Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Program Files
-/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><F:/Program Files/CTEX/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><F:/Program Files/CTEX/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/c
-m-super/sfbx0800.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/
-sfbx1200.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1440
-.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><F:
-/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><F:/Program
- Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><F:/Program Files/C
-TEX/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><F:/Program Files/CTEX/MiKT
-eX/fonts/type1/public/cm-super/sfrm1440.pfb><F:/Program Files/CTEX/MiKTeX/fonts
-/type1/public/cm-super/sfrm2074.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/p
-ublic/cm-super/sfti1200.pfb>
-Output written on 毕业论文.pdf (22 pages, 709569 bytes).
+><C:/Windows/Fonts/simhei.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chines
+e/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/
+Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTE
+X/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/true
+type/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/sims
+un.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Progra
+m Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX
+/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/c
+hinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program File
+s/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><F:/Program Files/CTEX/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><F:/Program Files/CTEX/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><F:/Program Files/CTEX/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+<F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><F:/Prog
+ram Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx0800.pfb><F:/Program File
+s/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><F:/Program Files/CTEX/M
+iKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><F:/Program Files/CTEX/MiKTeX/fo
+nts/type1/public/cm-super/sfbx1728.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type
+1/public/cm-super/sfbx2074.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public
+/cm-super/sfbx2488.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-supe
+r/sfrm1200.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm14
+40.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><
+F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on 毕业论文.pdf (24 pages, 754162 bytes).
 PDF statistics:
- 435 PDF objects out of 1000 (max. 8388607)
+ 489 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
