@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  27 NOV 2016 14:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  28 NOV 2016 08:30
 entering extended mode
 **G:/project/graduation/毕业论文.tex
 (G:/project/graduation/毕业论文.tex
@@ -969,37 +969,37 @@ Underfull \hbox (badness 10000) in alignment at lines 273--294
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 312--314
+Underfull \hbox (badness 10000) in paragraph at lines 313--315
 
  []
 
 [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 349--351
+Underfull \hbox (badness 10000) in paragraph at lines 344--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--362
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
@@ -1011,16 +1011,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [1] [2] [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 471.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 466.
 
  ("F:\Program Files\CTEX\MiKTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 471.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 466.
  [4]
 [5]
-Overfull \hbox (19.90898pt too wide) in paragraph at lines 543--544
+Overfull \hbox (19.90898pt too wide) in paragraph at lines 538--539
 []\T1/cmr/m/n/12 JADE [21]\C19/song/bx/n/12/55 � \C19/song/bx/n/12/61 � \C19/so
 ng/bx/n/12/64 � \C19/song/bx/n/12/60 # . \C19/song/bx/n/12/40  \C19/song/bx/n/
 12/38  \C19/song/bx/n/12/41 � \C19/song/bx/n/12/46 ? \C19/song/bx/n/12/44 z \C
@@ -1033,41 +1033,41 @@ ong/bx/n/12/38 � \C19/song/bx/n/12/49
  []
 
 
-LaTeX Warning: Citation `code' on page 6 undefined on input line 545.
+LaTeX Warning: Citation `code' on page 6 undefined on input line 540.
 
 [6]
 
-LaTeX Warning: Reference `ps.png' on page 7 undefined on input line 553.
+LaTeX Warning: Reference `ps.png' on page 7 undefined on input line 548.
 
 <figs/figure/ps.png, id=129, 236.38312pt x 129.48375pt>
 File: figs/figure/ps.png Graphic file (type png)
 
 <use figs/figure/ps.png>
-Package pdftex.def Info: figs/figure/ps.png used on input line 557.
+Package pdftex.def Info: figs/figure/ps.png used on input line 552.
 (pdftex.def)             Requested size: 234.73523pt x 128.58444pt.
 
 
-LaTeX Warning: Citation `lpca' on page 7 undefined on input line 562.
+LaTeX Warning: Citation `lpca' on page 7 undefined on input line 557.
 
 
-LaTeX Warning: Citation `nsga-ii' on page 7 undefined on input line 562.
+LaTeX Warning: Citation `nsga-ii' on page 7 undefined on input line 557.
 
 [7 <G:/project/graduation/figs/figure/ps.png>]
 
-LaTeX Warning: Reference `rm-meda' on page 8 undefined on input line 572.
+LaTeX Warning: Reference `rm-meda' on page 8 undefined on input line 567.
 
 <figs/figure/pareto.png, id=134, 688.5725pt x 377.41pt>
 File: figs/figure/pareto.png Graphic file (type png)
 
 <use figs/figure/pareto.png>
-Package pdftex.def Info: figs/figure/pareto.png used on input line 599.
+Package pdftex.def Info: figs/figure/pareto.png used on input line 594.
 (pdftex.def)             Requested size: 234.73523pt x 128.65747pt.
  [8]
 <figs/figure/mutation.png, id=145, 309.40594pt x 225.84375pt>
 File: figs/figure/mutation.png Graphic file (type png)
 
 <use figs/figure/mutation.png>
-Package pdftex.def Info: figs/figure/mutation.png used on input line 617.
+Package pdftex.def Info: figs/figure/mutation.png used on input line 612.
 (pdftex.def)             Requested size: 234.73523pt x 171.34665pt.
  [9 <G:/project/graduation/figs/figure/pareto.png> <G:/project/graduation/figs/
 figure/mutation.png>] [10] [11]
@@ -1165,7 +1165,7 @@ TEX/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><F:/Program Files/CTEX/MiKT
 eX/fonts/type1/public/cm-super/sfrm1440.pfb><F:/Program Files/CTEX/MiKTeX/fonts
 /type1/public/cm-super/sfrm2074.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/p
 ublic/cm-super/sfti1200.pfb>
-Output written on 毕业论文.pdf (22 pages, 707187 bytes).
+Output written on 毕业论文.pdf (22 pages, 709568 bytes).
 PDF statistics:
  435 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

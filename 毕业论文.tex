@@ -212,11 +212,11 @@
       \cline{2-2}\\
       {\large  Supervisor：}&{\large A. Prof. Aimin Zhou}\\
       \cline{2-2}\\
-      {\large  Candidate：}&{\large Peixuan Zhang}\\
+      {\large  Candidate：}&{\large Bing Dong}\\
       \cline{2-2}
     \end{tabular}
    \vfill
-   {\large April，2015 $\cdot$ Shanghai}
+   {\large June，2017 $\cdot$ Shanghai}
   \end{center}
 \vfill
 %%-------------------------独创性声明-------------------------------------------------------------------------------------
@@ -305,6 +305,7 @@
 \subsection*{\hspace*{\fill}\huge{中\quad 文\quad 摘\quad 要} \hspace*{\fill}}
 \vspace*{5mm} \normalfont
 本文研究的是对于演化算法中采样策略的改进工作。演化计算是一种受生物进化启发的基于种群的启发式的优化算法。演化算法适用于解决各种问题，因为它并不需要复杂的假设条件。演化计算已经被广泛应用于工程、生物学、经济学、基因工程以及社会科学等。
+
 分布估计算法是一种新型的演化算法。不同于传统的演化算法，分布估计算法中没有杂交变异操作。分布估计算法中主要由三个主要的步骤组成，即：建模，采样，选择。采样对于分布估计算法来说是至关重要的环节，它关系到能否产生更为优异的的子代种群。优异的子代种群对于最终求得最优解有着重大意义。
 
 差分进化自从1995年被提出之后就受到研究者的广泛关注。差分进化是一种简单但却十分强大的随机优化算法，得益于它的诸多优点，它已经被广泛应用于各个领域。由于差分进化的易于实现，它被用于与其他的演化算法进行结合，并且已经多数学者提出了基于差分进化的混合算法。本文将差分进化的思想引入到分布估计算法的采样中，提高算法性能和运行效率。
@@ -315,25 +316,19 @@
 \bfseries{ 关键词:}\normalfont\quad\ ~分布估计算法,~ 差分进化,~ 演化算法,~特征向量
 
 \newpage
-\title{{A new adaptive weighted mean filter for salt and pepper noise}}
+\title{{Differential Evolution Sampling Strategy in Evolution Algorithms}}
 
 \thispagestyle{plain}
-\section*{\hspace*{\fill}\Large{A new adaptive weighted mean filter }\hspace*{\fill}
-\\\hspace*{\fill}\Large{for salt and pepper noise} \hspace*{\fill}}
+\section*{\hspace*{\fill}\Large{Differential Evolution Sampling Strategy in Evolution Algorithms}\hspace*{\fill}}
+%\\\hspace*{\fill}\Large{for salt and pepper noise} \hspace*{\fill}}
 \subsection*{\hspace*{\fill}ABSTRACT \hspace*{\fill}}
-\vspace*{5mm} \normalfont \quad In this letter, we propose a new adaptive weighted
-mean filter (AWMF) for detecting and removing high level of
-salt-and-pepper noise. For each pixel, we firstly determine the
-adaptive window size by continuously enlarging the window
-size until the maximum and minimum values of two successive
-windows are equal respectively. Then the current pixel is regarded
-as noise candidate if it is equal to the maximum or minimum
-values, otherwise, it is regarded as noise-free pixel. Finally, the
-noise candidate is replaced by the weighted mean of the current
-window, while the noise-free pixel is left unchanged. Experiments
-and comparisons demonstrate that our proposed filter has very
-low detection error rate and high restoration quality especially for
-high-level noise.
+\vspace*{5mm} \normalfont \quad This paper mainly studies the differential evolution sampling strategy in evolutionary algorithms. Evolution algorithm is a kind of algorithm inspired by biological evolution. Evolutionary algorithms are utilized to solve diverse problems. As it does not need any complex assumption conditions. Evolutionary algorithms have been widely applied to engineer, biology, economy, gene engineer and social science.
+
+Estimation of distribution algorithm is a novel evolutionary algorithm. Unlike traditional evolutionary algorithm, there is no crossover and mutation in EDA. EDA mainly consists of three steps, namely, modeling, sampling and selection. Sampling is crucial to EDA. Since it is significant to generate promising offspring generation, which will be useful to obtain the final solutions.
+
+Differential evolution has attracted many researchers since proposed in 1995. Differential evolution is a simple but powerful random optimization algorithm. Due to the advantages of differential evolution, it has been widely applied to different areas. As it is easy to implement differential evolution, and it can combine with other evolutionary algorithm. Hence lots of researcher have proposed a number of hybrid algorithms based on differential evolution. This paper mainly study the sampling in EDA based on differential evolution.
+
+This paper combine differential evolution sampling strategy with EDA. Moreover, we will study its performance on single object and multi-objective problems. And the experimental results have shown that it is significant to improve the performance of EDA.
 
 
 \vspace*{3mm}
@@ -578,7 +573,7 @@ RM-MEDA算法是基于分布估计算法的框架，主要也是包括建模、采样、选择三个环节。算法~
 
  \While {没有达到停机条件}
  {
-    \textbf{建模}：建立一个概率模型$\xi$来表示在随机种群$Pop(t)$中的个体。     
+    \textbf{建模}：建立一个概率模型$\xi$来表示在随机种群$Pop(t)$中的个体。
 
     \textbf{采样}：通过上述的概率模型进行采样得到新的解集$Q$。
 
