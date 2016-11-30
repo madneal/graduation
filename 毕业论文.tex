@@ -461,7 +461,7 @@ $t=t+1$
 
 
 \subsection{差分进化}
-差分进化（Differential Evolution, DE）自从由Storn于1995年提出，就得到了广大学者的关注并且发展迅速~\cite{DE1}。自从20 是90年代以来，差分进化算法就在多数科学工程领域得到广泛的应用~\cite{des2011}。究其原因，可以总结如下：
+差分进化（Differential Evolution, DE）自从由Storn于1995年提出，就得到了广大学者的关注并且发展迅速~\cite{DE1}。自从20 是90 年代以来，差分进化算法就在多数科学工程领域得到广泛的应用~\cite{des2011}。究其原因，可以总结如下：
 \begin{itemize}
 \item 与传统的演化算法相比，差分进化更简单也更容易实施。算法的代码往往只需要几行代码即可，因此它可以很好地应用于其他的领域。尽管粒子群优化算法（Particle Swarm Optimization, PSO）的代码也比较简单，但是差分进化算法在大多数问题上的表现都比粒子群优化算法要更加优秀~\cite{deo2008,den2009}。
 \item 另一方面，差分进化中的控制参数和其他的演化算法相比，控制参数更少。在经典的差分进化中，一般只有控制参数Cr， 缩放因子F以及种群大小NP三个参数。对于F和Cr的自适应规则的研究，在不给算法带来额外的负担的条件下，对于算法性能的提升意义重大~\cite{sde2006,desa2009}。
@@ -586,7 +586,7 @@ RM-MEDA算法是基于分布估计算法的框架，主要也是包括建模、采样、选择三个环节。算法~
 \end{algorithm}
 
 \subsubsection{RM-MEDA中存在的问题和解决方法}
-在RM-MEDA中，通过使用Local PCA将种群分成k个聚类。如图~\ref{pareto}所示，在每一个聚类之中，$N^k$用来表示聚类中的Pareto set，而$M^k$则用来覆盖每个聚类中的Pareto set。 为了能够覆盖聚类中的Pareto set，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto set。但是这个缩放比例依赖于问题，，这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不禁相同。如果缩放比例设置过大，则对于实际的Pareto set则显得多余；如果设置的缩放比例过小，又不足以覆盖实际的Pareto set。因此，如何设置一个合适的Pareto set也成为了一个比较困难的问题。
+在RM-MEDA中，通过使用Local PCA将种群分成k个聚类。如图~\ref{pareto}所示，在每一个聚类之中，$N^k$用来表示聚类中的Pareto set，而$M^k$则用来覆盖每个聚类中的Pareto set。 为了能够覆盖聚类中的Pareto set，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto set。但是这个缩放比例依赖于问题，，这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不禁相同。如果缩放比例设置过大，则对于实际的Pareto set则显得多余；如果设置的缩放比例过小，又不足以覆盖实际的Pareto set。 因此，如何设置一个合适的Pareto set也成为了一个比较困难的问题。
 
 \begin{figure}
 \graphicspath{{figs/figure/}}
@@ -681,22 +681,39 @@ Return the solutions in $Pop(t)$.
   IGD(P^*,P)=\frac{\sum_{v\in{P^*}}d(v,P)}{P^*}
 \end{equation}
 
-其中,$d(v,P)$是$v$到$P$中任意一点的最小欧氏距离。如果$P^*$足够大到可以表示Pareto front，那么$IGD(P^*,P)$就可以用来测量$P$的多样性和收敛性。$IGD(P^*,P)$的值越小，则$P$距离$P^*$越近。
+其中,$d(v,P)$是$v$到$P$中任意一点的最小欧氏距离。如果$P^*$足够大到可以表示Pareto front，那么$IGD(P^*,P)$就可以用来测量$P$ 的多样性和收敛性。$IGD(P^*,P)$的值越小，则$P$距离$P^*$越近。
 
 RM-MEDA和DES-RM-MEDA都是使用Matllab进行编程实现并且是在同一台计算机上运行程序。在这篇论文中的试验参数如下：
 
 \begin{itemize}
   \item \emph{初始化种群}：这两个算法中的初始种群是随机生成的。
-  \item \emph{种群大小}：对于测试集（$F3$, $F7$, $F9$）每一代的种群大小设置成100，对于其他的测试题，每一代种群大小设置为200.
+  \item \emph{种群大小}：对于测试集（$F3$, $F7$, $F9$）每一代的种群大小设置成100，对于其它的测试题，每一代种群大小设置为200.
   \item \emph{决策向量的大小}: 决策向量的大小在这两个算法都设置成30。
   \item \emph{聚类数量}：聚类的数量设置成5。
   \item\emph{缩放因子$F$}：缩放因子 $F$设置为0.4。
   \item\emph{运行次数}：对于算法中每一个测试题将单独运行30次。
-  \item\emph{迭代次数}: The number of generation is set to 100 for instances ($F1$, $F2$, $F5$, $F6$), 200 for instances $F4$ and $F8$, and 1000 for instances $F3$, $F7$ and $F9$.
+  \item\emph{迭代次数}：对于测试题（$F1$, $F2$, $F5$, $F6$）迭代次数设置为100，对于测试题$F4$和$F8$设置为200，其它的设置为1000。p
 \end{itemize}
 
+\subsection{RM-MEDA缩放因子的影响}
+为了研究缩放因子对于RM-MEDA性能的影响，在本章节中，从0到0.5之间以0.05为间隔设置10个缩放因子，并比较RM-MEDA在这些缩放因子作用下的性能比较。图~\ref{scale-rm-meda}是RM-MEDA在不同缩放因子的作用下，IGD指标的箱线图。
 
-
+\begin{figure*}[htbp]
+\centering
+\graphicspath{{figs/box/}}
+\subfigure[F1]{\includegraphics[ width=0.26\textwidth]{box_f1.eps}}
+\subfigure[F2]{\includegraphics[ width=0.26\textwidth]{box_f2.eps}}
+\subfigure[F3]{\includegraphics[ width=0.26\textwidth]{box_f3.eps}}
+\subfigure[F4]{\includegraphics[ width=0.26\textwidth]{box_f4.eps}}
+\subfigure[F5]{\includegraphics[ width=0.26\textwidth]{box_f5.eps}}
+\subfigure[F6]{\includegraphics[ width=0.26\textwidth]{box_f6.eps}}
+\subfigure[F7]{\includegraphics[ width=0.26\textwidth]{box_f7.eps}}
+\subfigure[F8]{\includegraphics[ width=0.26\textwidth]{box_f8.eps}}
+\subfigure[F9]{\includegraphics[ width=0.26\textwidth]{box_f9.eps}}
+\subfigure[F10]{\includegraphics[ width=0.26\textwidth]{box_f10.eps}}
+\caption{Boxplots of the IGD values versus extension scale on the results obtained by RM-MEDA over 30 runs.}
+ \label{FIG4}
+\end{figure*}
 
 
 \section{基于采样策略对于全局单目标优化问题的研究}
