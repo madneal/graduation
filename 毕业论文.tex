@@ -41,8 +41,7 @@
 \usepackage{dsfont}
 \usepackage{bm}
 \usepackage{listings}
-%\usepackage{algorithm}
-%\usepackage{algorithmic}
+\usepackage{threeparttable}
 \usepackage{cite}
 \usepackage[ruled, lined,linesnumbered]{algorithm2e}
 \bibliographystyle{IEEEtran}
@@ -105,6 +104,7 @@
 \newcommand{\la}{\lambda}
 \newcommand{\tm}{\tilde\mu}
 %%%%%%===== Ò³ÃæÉèÖÃ =====
+\setlength{\tabcolsep}{4pt}
 \setlength{\textwidth}{16.5cm}  % ÕıÎÄ¿í¶È
 \setlength{\textheight}{24cm}   % ÕıÎÄ¸ß¶È
 \setlength{\hoffset}{-1.5cm}       % ×ó±ß¾à = \hoffset + 1 Ó¢´ç
@@ -545,7 +545,7 @@ CoDE(Composite DE)~\cite{code}Ëã·¨Í¨¹ı½áºÏÈı¸ö²»Í¬µÄºó´ú²úÉú²ßÂÔºÍÈı¸ö³£ÓÃµÄ²ÎÊı
 3.1½Ú¸ø³öÁËÁ¬Ğø¶àÄ¿±êÎÊÌâµÄÏà¹Ø±³¾°ÖªÊ¶£¬3.2½ÚÖ÷Òª½éÉÜRM-MEDAËã·¨¿ò¼ÜÒÔ¼°ÏàÓ¦µÄ±³¾°ÖªÊ¶£¬3.3½ÚÏêÏ¸½éÉÜ»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ£¬3.4½ÚÖ÷Òª½²ÊöÍ¨¹ı»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔÀ´¸Ä½øRM-MEDA Ëã·¨£¬3.5½ÚÊÇÊµÑé½á¹ûµÄ·ÖÎö¡£
 
 \subsection{Á¬Ğø¶àÄ¿±êÎÊÌâ}
-ÔÚµÚ¶şÕÂÖĞ£¬ÒÑ¾­½éÉÜ¹ı¶àÄ¿±êÎÊÌâµÄÏà¹Ø¶¨Òå¡£¶àÄ¿±êÎÊÌâÔÚºÜ¶à¹¤³ÌÁìÓò¶¼ÆÕ±é´æÔÚ£¬Í¨³£À´Ëµ£¬¶àÄ¿±êÎÊÌâÖĞµÄ¸÷¸öÄ¿±êÖ®¼äÍùÍù¶¼ÊÇÏà»¥³åÍ»µÄÔÚÒ»°ãÌõ¼şÏÂ£¬¸ù¾İKarush-Kuhn-Tucker ¿ÉÒÔÍÆµ¼³ö£ºÁ¬Ğø¶àÄ¿±êÎÊÌâÔÚ¾ö²ß¿Õ¼äÖĞµÄPareto set ÊÇÒ»¸öÁ¬Ğø·Ö¶ÎµÄ£¨m-1£©Î¬µÄÁ÷ĞÎÌå£¨mÊÇÄ¿±êÊı£©¡£¶ÔÓÚÒ»¸ö³É¹¦µÄ¶àÄ¿±êÑİ»¯Ëã·¨£¨multiobjective estimation of distribution algorithm,MOEA£©À´Ëµ£¬¶ÀÁ¢µÄ¸öÌåÓ¦¸ÃÊÇÔÚ¾ö²ß¿Õ¼äÖĞ·ÖÉ¢ÔÚPareto set¸½½ü£¬ÈçÍ¼~\ref{ps.png}ËùÊ¾¡£
+ÔÚµÚ¶şÕÂÖĞ£¬ÒÑ¾­½éÉÜ¹ı¶àÄ¿±êÎÊÌâµÄÏà¹Ø¶¨Òå¡£¶àÄ¿±êÎÊÌâÔÚºÜ¶à¹¤³ÌÁìÓò¶¼ÆÕ±é´æÔÚ£¬Í¨³£À´Ëµ£¬¶àÄ¿±êÎÊÌâÖĞµÄ¸÷¸öÄ¿±êÖ®¼äÍùÍù¶¼ÊÇÏà»¥³åÍ»µÄÔÚÒ»°ãÌõ¼şÏÂ£¬¸ù¾İKarush-Kuhn-Tucker ¿ÉÒÔÍÆµ¼³ö£ºÁ¬Ğø¶àÄ¿±êÎÊÌâÔÚ¾ö²ß¿Õ¼äÖĞµÄPareto set ÊÇÒ»¸öÁ¬Ğø·Ö¶ÎµÄ£¨m-1£©Î¬µÄÁ÷ĞÎÌå£¨mÊÇÄ¿±êÊı£©¡£¶ÔÓÚÒ»¸ö³É¹¦µÄ¶àÄ¿±êÑİ»¯Ëã·¨£¨multiobjective estimation of distribution algorithm, MOEA£©À´Ëµ£¬¶ÀÁ¢µÄ¸öÌåÓ¦¸ÃÊÇÔÚ¾ö²ß¿Õ¼äÖĞ·ÖÉ¢ÔÚPareto set¸½½ü£¬ÈçÍ¼~\ref{ps.png}ËùÊ¾¡£
 \begin{figure}
 \graphicspath{{figs/figure/}}
 \centering
@@ -718,8 +718,7 @@ RM-MEDAºÍDES-RM-MEDA¶¼ÊÇÊ¹ÓÃMatllab½øĞĞ±à³ÌÊµÏÖ²¢ÇÒÊÇÔÚÍ¬Ò»Ì¨¼ÆËã»úÉÏÔËĞĞ³ÌĞò¡£Ô
 ´ÓÕâ¸öÏäÏßÍ¼ÖĞ£¬Èç¹û²»ÉèÖÃËõ·ÅÒò×Ó£¬ÄÇÃ´RM-MEDA±íÏÖÔò²»ÊÇºÜºÃ¡£Ò»°ãÀ´Ëµ£¬Ëõ·ÅÒò×ÓÉèÖÃµÄÔ½´ó£¬ÔòRM-MEDA±íÏÖµÃÒ²¸ü¼ÓÓÅĞã¡£µ«¶ÔÓÚÉèÖÃ½Ï´óµÄËõ·ÅÒò×ÓÒ²¿ÉÄÜ»áÔì³ÉĞÔÄÜµÄ²»ÎÈ¶¨£¬±ÈÈçÍ¼~\ref{scale-rm-meda}(g)ºÍ(h)¡£×ÜµÄÀ´Ëµ£¬Èç¹ûÔÚÊµ¼ùÖĞÉèÖÃÒ»¸ö×î¼ÑµÄËõ·ÅÒò×Ó»¹ÊÇ±È½ÏÀ§ÄÑµÄ¡£
 
 \subsection{Ëõ·ÅÒò×ÓFµÄÃô¸ĞĞÔ}
-ÎªÁËÑéÖ¤DES-RM-MEDAÖĞËõ·ÅÒò×ÓFµÄÃô¸ĞĞÔ£¬ÔÚ±¾½ÚÖĞ£¬½«FÉèÖÃÎª´Ó0µ½1Ö®¼ä£¬´Ó¶øÀ´±È½ÏÔÚ²»Í¬Ëõ·ÅÒò×ÓF×÷ÓÃÏÂ£¬DES-RM-MEDAµÄĞÔÄÜ±íÏÖ¡£
-
+ÎªÁËÑéÖ¤DES-RM-MEDAÖĞËõ·ÅÒò×ÓFµÄÃô¸ĞĞÔ£¬ÔÚ±¾½ÚÖĞ£¬½«FÉèÖÃÎª´Ó0µ½1Ö®¼ä£¬´Ó¶øÀ´±È½ÏÔÚ²»Í¬Ëõ·ÅÒò×ÓF×÷ÓÃÏÂ£¬DES-RM-MEDA µÄĞÔÄÜ±íÏÖ¡£
 
 \begin{figure*}
 \centering
@@ -728,7 +727,79 @@ RM-MEDAºÍDES-RM-MEDA¶¼ÊÇÊ¹ÓÃMatllab½øĞĞ±à³ÌÊµÏÖ²¢ÇÒÊÇÔÚÍ¬Ò»Ì¨¼ÆËã»úÉÏÔËĞĞ³ÌĞò¡£Ô
 \subfigure[]{\includegraphics[ width=0.32\textwidth]{f6_f9.eps}}
 \subfigure[]{\includegraphics[ width=0.32\textwidth]{f10.eps}}
 \caption{²»Í¬Ëõ·ÅÒò×ÓÏÂ£¬DES-RM-MEDAµÄĞÔÄÜ±È½Ï}
- \label{FIG5}
+ \label{sensity}
+\end{figure*}
+
+´ÓÍ¼~\ref{sensity}¿ÉÒÔ¿´³ö£¬Ëõ·ÅÒò×ÓFµÄÂ³°ôĞÔ»¹ÊÇ±È½ÏÓÅĞãµÄ¡£¶ÔÓÚ´ó¶àÊı²âÊÔÌâ£¬³ıÁËF7£¬DES-RM-MEDAµÄĞÔÄÜ±íÏÖ»ù±¾ÉÏ¶¼ÊÇ·Ç³£Æ½»¬µÄ¡£Í¬Ê±£¬½«²»Í¬Ëõ·ÅÒò×ÓÏÂDES-RM-MEDAºÍRM-MEDA½øĞĞÁË¶Ô±È¡£
+
+µ±Ëõ·ÅÒò×ÓÉèÖÃÎª0.2¡¢0.5ÒÔ¼°0.7µÄÇé¿öÏÂ£¬DES-RM-MEDA±ÈRM-MEDAÔÚ9¸ö²âÊÔÌâÉÏ¶¼±íÏÖµÃ¸üºÃ¡£ÔÚËõ·ÅÒò×ÓÉèÖÃÎª0.1¡¢0.4¡¢0.6¡¢ÒÔ¼°0.9µÄÊ±ºò£¬RM-MEDAÔÚ8¸ö²âÊÔÌâÉÏ±íÏÖ²»ÈçDES-RM-MEDA¡£ÔÚ½«Ëõ·ÅÒò×ÓÉèÖÃÎªÆäËü²ÎÊıµÄÇé¿öÏÂ£¬DES-RM-MEDAµÄIGDÖ¸±êÒªÓÅÓÚRM-MEDAÔÚ7¸ö²âÊÔÌâÉÏ¡£
+
+¶ÔÓÚ²âÊÔÌâF1¡¢F2¡¢F3¡¢F4ÒÔ¼°F5£¬DES-RM-MEDAÔÚÊ¹ÓÃÈÎÒ»Ëõ·ÅÒò×ÓÉèÖÃÇé¿öÏÂ£¬ÆäĞÔÄÜ±íÏÖ¶¼ÒªÓÅÓÚRM-MEDA¡£³ıÁË½«Ëõ·ÅÒò×ÓÉèÖÃÎª0.1£¬ÔÚ²âÊÔÌâF6ÉÏ£¬DES-RM-MEDA¶¼±ÈRM-MEDAÒª±íÏÖµÃ¸üºÃ¡£¶ÔÓÚF7¡¢F8¡¢F9£¬DES-RM-MEDAµÄÓÅÊÆÔõÃ»ÓĞÕâÃ´¶à¡£¶ÔÓÚ²âÊÔÌâF10£¬¿ÉÒÔ¿´³öRM-MEDAºÍDES-RM-MEDAÖ®¼äµÄ²î¾à»¹ÊÇ±È½ÏÃ÷ÏÔµÄ¡£×ÛºÏÀ´Ëµ£¬Ëõ·ÅÒò×ÓµÄÂ³°ôĞÔ»¹ÊÇ±È½ÏºÃµÄ£¬Í¬Ê±¶ÔÓÚËã·¨ĞÔÄÜµÄÌáÉıÒ²ÓĞ×ÅÖØÒªµÄÒâÒå¡£
+
+ÎªÁË½øÒ»²½±È½ÏDES-RM-MEDAÔÚ²»Í¬µÄËõ·ÅÒò×ÓÏÂµÄĞÔÄÜ±íÏÖ£¬ÎÒÃÇ½«Ê¹ÓÃÎº¿É¿ÉËÍÁ½Ñù±¾¼ìÑé·¨£¨Wilcoxon's rank sum tes£©À´¶ÔÓÚRM-MEDAºÍDES-RM-MEDAÖ®¼äµÄĞÔÄÜ½øĞĞ±È½Ï¡£²ãµşÖù×´Í¼~\ref{bar}¿ÉÒÔ±íÃ÷ÔÚ²»Í¬Ëõ·ÅÒò×ÓÏÂ£¬DES-RM-MEDAµÄ±íÏÖ»¹ÊÇ±È½ÏÓÅÒìµÄ¡£
+
+\begin{figure}
+  \centering
+  \graphicspath{{figs/figure/}}
+  \includegraphics[width=0.4\textwidth]{f_performance.eps}
+  \caption{"$+$", "$\approx$", ÒÔ¼° "$-$" ·Ö±ğ±íÊ¾DES-RM-MEDAµÄĞÔÄÜÒªÓÅÓÚ£¬ÏàËÆÓÚ£¬²îÓÚRM-MEDAµÄĞÔÄÜ}
+  \label{bar}
+\end{figure}
+
+\subsection{¶Ô±ÈÑĞ¾¿}
+´Ó±í~\ref{tab1}¿ÉÒÔ¿´³ö£¬ÔÚ8¸ö²âÊÔÌâÉÏ£¬DES-RM-MEDA¶¼ÒªÓÅÓÚRM-MEDA¡£¶ÔÓÚÆäËüµÄ2¸ö²âÊÔÌâ£¬ÕâÁ½¸öËã·¨µÄĞÔÄÜ±È½Ï½Ó½ü¡£ÖµµÃ×¢ÒâµÄÊÇ£¬ÔÚ²âÊÔÌâF3ÒÔ¼°F10ÉÏ£¬DES-RM-MEDAÔÚĞÔÄÜÉÏµÄÌáÉıÊÇ·Ç³£ÏÔÖøµÄ¡£
+
+Í¼~\ref{igd_com}¿ÉÒÔÓÃÀ´±È½ÏDES-RM-MEDAºÍRM-MEDAÔÚ²âÊÔÌâÉÏµÄÊÕÁ²Ç÷ÊÆ¡£¸ù¾İÍ¼~\ref{igd_com}£¬¶ÔÓÚÕâÁ½¸öËã·¨Ö®¼äµÄ²îÒì×ö½øÒ»²½µÄ±È½Ï¡£
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{DES-RM-MEDAºÍRM-MEDAµÄ¶ÀÁ¢ÔËĞĞ30´ÎIGDÖ¸±ê}
+\label{tab1}
+\begin{tabular}{l|cccc|cccc}\hline
+&\multicolumn{4}{c|}{RM-MEDA}&\multicolumn{4}{c}{DES-RM-MEDA}\\
+&mean&std.&best&worst&mean&std.&best&worst\\\hline
+$F1$	&$3.90e-03$	&$1.39e-04$	&$3.70e-03$	&$4.20e-03$	&$\textbf{3.60e-03}$	&$9.16e-05$	&$\textbf{3.43e-03}$	&$\textbf{3.77e-03}$\\
+
+$F2$	&$3.80e-03$	&$1.43e-04$	&$3.50e-03$	&$4.10e-03$	&$\textbf{3.60e-03}$	&$1.01e-04$	&$\textbf{3.35e-03}$	&$\textbf{3.82e-03}$\\
+
+$F3$	&$7.20e-03$	&$3.90e-03$	&$\textbf{3.60e-03}$	&$1.55e-02$	&$\textbf{4.90e-03}$	&$8.09e-04$	&$3.90e-03$	&$\textbf{7.31e-03}$\\
+
+$F4$	&$5.03e-02$	&$1.30e-03$	&$4.82e-02$	&$5.35e-02$	&$\textbf{4.62e-03}$	&$9.32-04$	&$\textbf{4.44e-02}$	&$\textbf{4.85e-02}$\\
+
+$F5$	&$5.30e-03$	&$3.00e-03$	&$4.40e-03$	&$2.12e-02$	&$\textbf{4.60e-03}$	&$1.49e-04$	&$\textbf{4.33e-03}$	&$\textbf{4.96e-03}$\\
+
+$F6$	&$8.30e-03$	&$2.10e-03$	&$5.70e-03$	&$1.50e-02$	&$\textbf{5.60e-03}$	&$9.04e-04$ &$\textbf{4.52e-03}$	&$\textbf{8.30e-03}$\\
+
+$F7$	&$\textbf{1.60e-01}$	&$2.35e-01$	&$7.96e-02$	&$1.03e+00$	&$1.73e-01$	 	        &$2.28e-01$ &$\textbf{3.20e-02}$  &$\textbf{1.02e+00}$\\
+
+$F8$	&$6.59e-02$	&$3.50e-03$	&$6.05e-02$	&$7.69e-02$	&$\textbf{6.10e-02}$	 &$2.03e-03$	&$\textbf{5.67e-02}$	&$\textbf{6.39e-02}$\\
+
+$F9$	&$\textbf{8.00e-03}$	&$2.80e-03$	&$5.80e-03$	&$\textbf{1.48e-02}$	&$8.40e-03$	 &$3.20e-03$	&$\textbf{5.51e-03}$	&$2.12e-02$\\
+
+$F10$ &$1.25e+02$	&$2.35e+01$	&$2.27e+01$	&$1.44e+02$	&$\textbf{1.76e+00}$	 &$1.29e+01$	&$\textbf{4.73e+00}$	&$\textbf{7.15e+01}$\\
+\hline\hline
+\end{tabular}
+\begin{tablenotes}
+\item[1] ´ÖÌåµÄ±íÊ¾¸üºÃµÄ½á¹û
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}
+
+\begin{figure*}
+\centering
+\graphicspath{{figs/igd/}}
+\subfigure[F1]{\includegraphics[ width=0.26\textwidth]{f1_igd.eps}}
+\subfigure[F2]{\includegraphics[ width=0.26\textwidth]{f2_igd.eps}}
+\subfigure[F3]{\includegraphics[ width=0.26\textwidth]{f3_igd.eps}}
+\subfigure[F4]{\includegraphics[ width=0.26\textwidth]{f4_igd.eps}}
+\subfigure[F5]{\includegraphics[ width=0.26\textwidth]{f5_igd.eps}}
+\subfigure[F6]{\includegraphics[ width=0.26\textwidth]{f6_igd.eps}}
+\subfigure[F7]{\includegraphics[ width=0.26\textwidth]{f7_igd.eps}}
+\subfigure[F8]{\includegraphics[ width=0.26\textwidth]{f8_igd.eps}}
+\subfigure[F9]{\includegraphics[ width=0.26\textwidth]{f9_igd.eps}}
+\subfigure[F10]{\includegraphics[ width=0.26\textwidth]{f10_igd.eps}}
+\caption{IGDÖ¸±ê¾ùÖµÇ÷ÊÆÍ¼¡£ÊµÏß±íÊ¾DES-RM-MEDA£¬ĞéÏß±íÊ¾RM-MEDA¡£}
+ \label{igd_com}
 \end{figure*}
 
 \section{»ùÓÚ²ÉÑù²ßÂÔ¶ÔÓÚÈ«¾Öµ¥Ä¿±êÓÅ»¯ÎÊÌâµÄÑĞ¾¿}

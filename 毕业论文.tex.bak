@@ -687,17 +687,54 @@ RM-MEDA╨мDES-RM-MEDA╤╪йгй╧сцMatllab╫Ьпп╠ЮЁлй╣ож╡╒грйгтзм╛р╩л╗╪фкЦ╩ЗиоткппЁлпР║ёт
 
 \begin{itemize}
   \item \emph{ЁУй╪╩╞жжх╨}ё╨уБа╫╦ЖкЦ╥╗жп╣дЁУй╪жжх╨йгкФ╩ЗиЗЁи╣д║ё
-  \item \emph{жжх╨╢Сп║}ё╨╤тсз╡Бйт╪╞ё╗$F3$, $F7$, $F9$ё╘ц©р╩╢З╣джжх╨╢Сп║иХжцЁи100ё╛╤тсзфДкШ╣д╡БйтлБё╛ц©р╩╢Зжжх╨╢Сп║иХжцн╙200.
+  \item \emph{жжх╨╢Сп║}ё╨╤тсз╡Бйт╪╞ё╗$F3$, $F7$, $F9$ё╘ц©р╩╢З╣джжх╨╢Сп║иХжцЁи100ё╛╤тсзфДкЭ╣д╡БйтлБё╛ц©р╩╢Зжжх╨╢Сп║иХжцн╙200.
   \item \emph{╬Ж╡ъоРа©╣д╢Сп║}: ╬Ж╡ъоРа©╣д╢Сп║тзуБа╫╦ЖкЦ╥╗╤╪иХжцЁи30║ё
   \item \emph{╬шюЮйЩа©}ё╨╬шюЮ╣дйЩа©иХжцЁи5║ё
   \item\emph{кУ╥ерРвс$F$}ё╨кУ╥ерРвс $F$иХжцн╙0.4║ё
   \item\emph{ткпп╢нйЩ}ё╨╤тсзкЦ╥╗жпц©р╩╦Ж╡БйтлБ╫╚╣╔╤юткпп30╢н║ё
-  \item\emph{╣Э╢З╢нйЩ}ё╨╤тсз╡БйтлБё╗$F1$, $F2$, $F5$, $F6$ё╘╣Э╢З╢нйЩиХжцн╙100ё╛╤тсз╡БйтлБ$F4$╨м$F8$иХжцн╙200ё╛фДкЭ╣диХжцн╙1000║ё
+  \item\emph{╣Э╢З╢нйЩ}ё╨╤тсз╡БйтлБё╗$F1$, $F2$, $F5$, $F6$ё╘╣Э╢З╢нйЩиХжцн╙100ё╛╤тсз╡БйтлБ$F4$╨м$F8$иХжцн╙200ё╛фДкЭ╣диХжцн╙1000║ёp
 \end{itemize}
 
+\subsection{RM-MEDAкУ╥ерРвс╣дс╟оЛ}
+н╙акяп╬©кУ╥ерРвс╤тсзRM-MEDAптдэ╣дс╟оЛё╛тз╠╬уб╫зжпё╛╢с0╣╫0.5ж╝╪Дрт0.05н╙╪Д╦ТиХжц10╦ЖкУ╥ерРвсё╛╡╒╠х╫оRM-MEDAтзуБп╘кУ╥ерРвсвВсцоб╣дптдэ╠х╫о║ём╪~\ref{scale-rm-meda}йгRM-MEDAтз╡╩м╛кУ╥ерРвс╣двВсцобё╛IGDж╦╠Й╣доДоъм╪║ё
 
+\begin{figure*}[htbp]
+\centering
+\graphicspath{{figs/box/}}
+\subfigure[F1]{\includegraphics[ width=0.26\textwidth]{box_f1.eps}}
+\subfigure[F2]{\includegraphics[ width=0.26\textwidth]{box_f2.eps}}
+\subfigure[F3]{\includegraphics[ width=0.26\textwidth]{box_f3.eps}}
+\subfigure[F4]{\includegraphics[ width=0.26\textwidth]{box_f4.eps}}
+\subfigure[F5]{\includegraphics[ width=0.26\textwidth]{box_f5.eps}}
+\subfigure[F6]{\includegraphics[ width=0.26\textwidth]{box_f6.eps}}
+\subfigure[F7]{\includegraphics[ width=0.26\textwidth]{box_f7.eps}}
+\subfigure[F8]{\includegraphics[ width=0.26\textwidth]{box_f8.eps}}
+\subfigure[F9]{\includegraphics[ width=0.26\textwidth]{box_f9.eps}}
+\subfigure[F10]{\includegraphics[ width=0.26\textwidth]{box_f10.eps}}
+\caption{╡╩м╛кУ╥ерРвсобё╛RM-MEDA╣дIGDж╦╠Й╣доДоъм╪}
+ \label{scale-rm-meda}
+\end{figure*}
 
+╢суБ╦ЖоДоъм╪жпё╛хГ╧Ш╡╩иХжцкУ╥ерРвсё╛дгц╢RM-MEDA╠МожтР╡╩йг╨э╨ц║ёр╩╟Цю╢к╣ё╛кУ╥ерРвсиХжц╣дт╫╢Сё╛тРRM-MEDA╠Мож╣цр╡╦Э╪ссепЦ║ё╣╚╤тсзиХжц╫о╢С╣дкУ╥ерРвср╡©идэ╩АтЛЁиптдэ╣д╡╩нх╤╗ё╛╠ххГм╪~\ref{scale-rm-meda}(g)╨м(h)║ёвэ╣дю╢к╣ё╛хГ╧Штзй╣╪ЫжпиХжцр╩╦ЖвН╪я╣дкУ╥ерРвс╩╧йг╠х╫ою╖дя╣д║ё
 
+\subsection{кУ╥ерРвсF╣дцТ╦ппт}
+н╙акяИж╓DES-RM-MEDAжпкУ╥ерРвсF╣дцТ╦пптё╛тз╠╬╫зжпё╛╫╚FиХжцн╙╢с0╣╫1ж╝╪Дё╛╢с╤Ью╢╠х╫отз╡╩м╛кУ╥ерРвсFвВсцобё╛DES-RM-MEDA╣дптдэ╠Мож║ё
+
+\begin{figure*}
+\centering
+\graphicspath{{figs/figure/}}
+\subfigure[]{\includegraphics[ width=0.32\textwidth]{f1_f5.eps}}
+\subfigure[]{\includegraphics[ width=0.32\textwidth]{f6_f9.eps}}
+\subfigure[]{\includegraphics[ width=0.32\textwidth]{f10.eps}}
+\caption{╡╩м╛кУ╥ерРвсобё╛DES-RM-MEDA╣дптдэ╠х╫о}
+ \label{sensity}
+\end{figure*}
+
+╢см╪~\ref{sensity}©ирт©╢ЁЖё╛кУ╥ерРвсF╣дбЁ╟Тпт╩╧йг╠х╫осепЦ╣д║ё╤тсз╢С╤ЮйЩ╡БйтлБё╛ЁЩакF7ё╛DES-RM-MEDA╣дптдэ╠Мож╩Ы╠╬ио╤╪йг╥гЁёф╫╩╛╣д║ём╛й╠ё╛╫╚╡╩м╛кУ╥ерРвсобDES-RM-MEDA╨мRM-MEDA╫Ьппак╤т╠х║ё
+
+╣╠кУ╥ерРвсиХжцн╙0.2║╒0.5рт╪╟0.7╣дгИ©Жобё╛DES-RM-MEDA╠хRM-MEDAтз9╦Ж╡БйтлБио╤╪╠Мож╣ц╦Э╨ц║ётзкУ╥ерРвсиХжцн╙0.1║╒0.4║╒0.6║╒рт╪╟0.9╣дй╠╨Рё╛RM-MEDAтз8╦Ж╡БйтлБио╠Мож╡╩хГDES-RM-MEDA║ётз╫╚кУ╥ерРвсиХжцн╙фДкЭ╡нйЩ╣дгИ©Жобё╛DES-RM-MEDA╣дIGDж╦╠Йр╙сесзRM-MEDAтз7╦Ж╡БйтлБио║ё
+
+╤тсз╡БйтлБF1║╒F2║╒F3║╒F4рт╪╟F5ё╛DES-RM-MEDAтзй╧сцхнр╩кУ╥ерРвсиХжцгИ©Жобё╛фДптдэ╠Мож╤╪р╙сесзRM-MEDA║ёЁЩак╫╚кУ╥ерРвсиХжцн╙0.1ё╛тз╡БйтлБF6иоё╛DES-RM-MEDA╤╪╠хRM-MEDAр╙╠Мож╣ц╦Э╨ц║ё╤тсзF7║╒F8║╒F9ё╛DES-RM-MEDA╣дсейфтУц╩спуБц╢╤Ю║ё╤тсз╡БйтлБF10ё╛©ирт©╢ЁЖRM-MEDA╨мDES-RM-MEDAж╝╪Д╣д╡Н╬Ю╩╧йг╠х╫оцВот╣д║ёвш╨ою╢к╣ё╛кУ╥ерРвс╣дбЁ╟Тпт╩╧йг╠х╫о╨ц╣дё╛м╛й╠╤тсзкЦ╥╗птдэ╣длАиЩр╡спвежьр╙╣дрБрЕ║ё
 
 \section{╩Ысз╡ияЫ╡ъбт╤тсзх╚╬ж╣╔д©╠Йсе╩╞нйлБ╣дяп╬©}
 \subsection{╣╔д©╠Йсе╩╞нйлБ}
