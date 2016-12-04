@@ -142,4 +142,9 @@ E.~Zitzler, L.~Thiele, M.~Laumanns, C.~M. Fonseca, and V.~G. Da~Fonseca,
   review,'' \emph{Evolutionary Computation, IEEE Transactions on}, vol.~7,
   no.~2, pp. 117--132, 2003.
 
+\bibitem{EDALS}
+A.~Zhou, J.~Sun, and Q.~Zhang, ``An estimation of distribution algorithm with
+  cheap and expensive local search,'' \emph{Evolutionary Computation, IEEE
+  Transactions on}, vol.~19, no.~6, pp. 807--822, 2015.
+
 \end{thebibliography}

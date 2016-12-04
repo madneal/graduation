@@ -824,6 +824,133 @@ DE-EIGÊÇÒ»ÖÖ»ùÓÚÌØÕ÷ÏòÁ¿µÄ²î·Ö½ø»¯Ëã·¨~\cite{DEEIG}£¬ÆäÖ÷Òª¹±Ï×ÊÇÔÚÒ»¸öÐý×ªµÄ×ø±
 \subsubsection{ÐÂµÄ½»²æ²ßÂÔ}
 DE-EIG×îÖ÷ÒªµÄ¹±Ï×¾ÍÊÇÌá³öÒ»ÖÖÔÚÐý×ªµÄ×ø±ê¿Õ¼äÖÐ¶ÔÖÖÈº¸öÌå½øÐÐ½»²æ²Ù×÷¡£ÕâÑù¿ÉÒÔÓÐÐ§µØÒýµ¼ÖÖÈºÏòÈº¾Ó×îÓÐÑÝ»¯£¬Í¬Ê±Ò²²»»áÊ§È¥²î·Ö½ø»¯µÄËÑË÷ÄÜÁ¦¡£ÔÚ¶þÏîÊ½½»²æ²Ù×÷ÖÐ£¬CR¿ØÖÆÖÖÈº¸öÌåÖÐ±äÁ¿±ä»¯µÄÊýÁ¿¡£µ±CR=1µÄÊ±ºò£¬¾­µäµÄ²î·Ö½ø»¯µÄÐÔÄÜ¾ÍºÍ×ø±ê¿Õ¼äÃ»ÓÐ¹ØÏµÁË~\cite{des2011}¡£Ïà·´£¬Èç¹ûCRµÄÖµÐ¡ÓÚ1µÄÊ±ºò£¬²î·Ö½ø»¯µÄÐÔÄÜ¾ÍºÍ×ø±ê¿Õ¼äµÄÐý×ªÓÐ×Å½ôÃÜµÄÁªÏµ¡£
 
+\subsubsection{DE-EIGËã·¨¿ò¼Ü}
+\begin{algorithm}
+\label{alg3}
+\caption{DE-EIG}
+³õÊ¼»¯ÖÖÈº$Pop(t)=\{x_1, x_2, x_3, \cdots, x_N\}$ ($N$ÊÇÖÖÈº´óÐ¡)
+
+\While{not terminate}
+{
+$v_{i,G}=x_{r1,G}+F\cdot(x_{r2,G}-x_{r3,G})$
+
+	\eIf{$rand()<p$}
+	{
+		\eIf{$rand()\leq{CR}$}
+		{
+		$u_{i,G}=v_{i,G}$
+		}
+		{	
+		$u_{i,G}=x_{i,G}$
+		}
+	}
+	{
+	     ÇóµÃ$x_{i,G}$µÄÌØÕ÷ÏòÁ¿¾ØÕó$E$£¬Áî$E'$ÎªÌØÕ÷ÏòÁ¿¾ØÕóµÄÄæ¾ØÕó¡£p
+
+		$x'_{i,G}=E'\cdot{x_{i,G}}$
+
+		$v'_{i,G}=E'\cdot{v_{i,G}}$
+
+		\eIf{$rand()\leq{CR}$}
+		{
+			$u'_{i,G}=v'_{i,G}$
+		}
+		{
+			$u'_{i,G}=x'_{i,G}$
+		}
+		$u_{i,G}=E\cdot{u'_{i,G}}$
+	}
+		\eIf{$f(u_{i,G})\leq{f(x_{i,G})}$}
+		{
+			$x_{i,G+1}=u_{i,G}$
+		}
+		{
+			$x_{i,G+1}=x_{i,G}$
+		}	
+$ t = t + 1$
+}
+\end{algorithm}
+
+\subsection{DE/EDAËã·¨}
+²î·Ö½ø»¯ÊÇÒ»ÖÖ·Ç³£³É¹¦µÄÓÃÓÚ½â¾öÈ«¾ÖÁ¬ÐøÎÊÌâÓÅ»¯µÄËã·¨¡£ËüÖ÷ÒªÊÇÀûÓÃµ±Ç°ÖÖÈºÖÐµÄ¾àÀëºÍ·½ÏòÐÅÏ¢À´Ö¸µ¼Î´À´µÄËÑË÷¡£·Ö²¼¹À¼ÆËã·¨ÔòÊÇÍ¨¹ý´Ó½¨Á¢µÄ¸ÅÂÊÄ£ÐÍÖÐ²ÉÑùÀ´²úÉúÐÂµÄÖÖÈº¸öÌå¡£DE/EDA¾ÍÊÇ½«²î·Ö½ø»¯ºÍ·Ö²¼¹À¼ÆËã·¨½áºÏÆðÀ´£¬ÓÃÓÚ½â¾öÈ«¾ÖÁ¬¶ÁÎÊÌâÓÅ»¯¡£Í¨¹ýÀûÓÃ·Ö²¼¹À¼ÆËã·¨¿ÉÒÔÌáÈ¡ÖÖÈºÈ«¾ÖÐÅÏ¢ºÍ²î·Ö½ø»¯¿ÉÒÔÌáÈ¡ÖÖÈº²î·ÖÐÅÏ¢µÄÓÅµã£¬DE/EDAÊÇÒ»ÖÖ·Ç³£¾ßÓÐÑÐ¾¿Ç°¾°µÄËã·¨¡£±¾ÕÂ½Ú½«»á»ùÓÚDE/EDAÕâÒ»Ëã·¨¿ò¼Ü×÷½øÒ»²½µÄÑÐ¾¿¡£
+
+\begin{algorithm}
+\label{alg4}
+\caption{DE/EDA}
+ Generate population $Pop(t)$ randomly consists of N solutions $x_1, x_2, \cdots, x_N$ from the feasible search space.
+\While{not terminate}
+{
+    Construct the probabilistic model:
+
+    $p_k(x)=\prod_{i=1}^{n}\mathcal{N}(x_i; \mu_{i}, \sigma_{i})$
+
+     For all $j=1, 2, \cdots, n$, produce a trial solution $u=(u_1, u_2, \cdots, u_n)$
+
+		\eIf{$rand()<CRP$}
+		{
+			$u_j=\frac{(x_i)_j+(x_d)_j}{2}+F\cdot[(x_d)_j-(x_i)_j+(x_b)_j-(x_c)_j]$
+		}
+		{
+			$u_j$ is sampled according to $\mathcal{N}(x_i; \mu_{i}, \sigma_{i})$
+		}	
+        where $CRP$ is the controlling parameter.
+
+        \eIf{$f(u)<f(x_i)$}
+        {
+        $x_i^{t+1}=u$
+        }
+        {
+        $x_i^{t+1}=x_i^t$
+        }
+        $t=t+1$
+}
+\end{algorithm}
+
+\subsection{¸´ÔÓµÄ¾Ö²¿ËÑË÷}
+¸´ÔÓµÄ¾Ö²¿ËÑË÷£¨expensive local search£©ÊÇEDA/LS~\cite{EDALS}ÖÐÒ»ÖÖ½øÒ»²½ÓÅ»¯ÖÖÈºÑÝ»¯µÄ²ßÂÔ¡£
+
+\subsection{EDA/DE-EIGËã·¨}
+»ùÓÚDE/EDA¿ò¼Ü£¬½«DE-EIGËã·¨ÒýÈëµ½Ö®ÖÐ£¬À´½øÒ»²½¸ÄÉÆ·Ö²¼¹À¼ÆËã·¨µÄ²ÉÑù»·½Ú¡£Í¬Ê±ÎªÁË±£³ÖÖÖÈºµÄ¶àÑùÐÔ£¬Í¨¹ýÒ»¸öËæ»ú²ÎÊýÀ´¿ØÖÆÖÖÈºÊÇÍ¨¹ý¸ÅÂÊÄ£ÐÍ²ÉÑù²úÉúÒà»òÊÇÍ¨¹ýDE-EIGÀ´²úÉú¡£ÕâÑù£¬¿ÉÒÔÔö¼ÓÖÖÈºµÄ¶àÑùÐÔ£¬Í¬Ê±Ò²¿ÉÒÔÌá¸ß²î·Ö½ø»¯µÄËÑË÷ÄÜÁ¦¡£Í¬Ê±£¬expensive local searchÒ²½«»á±»ÓÃÓÚ½øÒ»²½ÌáÉýËã·¨Çó½âµÄÐÔÄÜ¡£
+
+\begin{algorithm}
+\label{eda/de-eig}
+\caption{EDA/DE-EIG}
+Initial the population $Pop(t)=\{x_1, x_2, x_3, \cdots, x_N\}$ ($N$ is the size of the population)
+
+\While{not terminate}
+{
+    Construct the probabilistic model:
+
+    $p(x)=\prod_{i=1}^{n}\mathcal{N}(x_i; \mu_{i}, \sigma_{i})$
+
+    Generate a trial solution $u_{i, G}$ as follows:
+
+    \eIf{$rand()<CRP$}
+    {
+        $u_{i, G}$ is produced by DE-EIG.
+    }
+    {
+        $u_{i, G}$ is sampled from the probabilistic model $p(x)$.
+    }
+
+    \eIf{$f(u_{i,G})<f(x_{i,G})$}
+    {
+        $x_{i,G+1}=u_{i,G}$
+    }
+    {
+        $x_{i,G+1}=x_{i,G}$
+    }
+    \If{Converage($\theta, G, G_e$)}
+    {
+        Operate the expensive local search.
+    }
+
+    $t=t+1$
+}
+\end{algorithm}
+
+\subsection{ÊµÑé·ÖÎö}
+
 
 \newpage
 \section{×Ü½áÓëÕ¹Íû}
@@ -837,6 +964,7 @@ DE-EIG×îÖ÷ÒªµÄ¹±Ï×¾ÍÊÇÌá³öÒ»ÖÖÔÚÐý×ªµÄ×ø±ê¿Õ¼äÖÐ¶ÔÖÖÈº¸öÌå½øÐÐ½»²æ²Ù×÷¡£ÕâÑù¿ÉÒÔ
 \renewcommand{\refname}{\hei ²Î¿¼ÎÄÏ×}
 \bibliography{gecco2016}
 
+\newpage
 \section{¸½Â¼}
 
 \hspace*{\fill}\mbox{\Large\textbf{ÖÂ\quad\,Ð»}}\hspace*{\fill}
