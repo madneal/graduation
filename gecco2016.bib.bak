@@ -130,6 +130,19 @@
   Timestamp                = {2015.11.18}
 }
 
+@Article{nsga-ii,
+  Title                    = {A fast and elitist multiobjective genetic algorithm:{ NSGA-II}},
+  Author                   = {Deb, Kalyanmoy and Pratap, Amrit and Agarwal, Sameer and Meyarivan, TAMT},
+  Journal                  = {Evolutionary Computation, IEEE Transactions on},
+  Year                     = {2002},
+  Number                   = {2},
+  Pages                    = {182--197},
+  Volume                   = {6},
+
+  Owner                    = {neal},
+  Timestamp                = {2015.11.18}
+}
+
 @Article{DEBBO,
   Title                    = {{DE/BBO}: a hybrid differential evolution with biogeography-based optimization for global numerical optimization},
   Author                   = {Gong, Wenyin and Cai, Zhihua and Ling, Charles X},
@@ -174,6 +187,19 @@
 
   Owner                    = {neal},
   Timestamp                = {2016.07.30}
+}
+
+@Article{lpca,
+  Title                    = {Dimension Reduction by Local Principal Component Analysis},
+  Author                   = {Kambhatla, N and Leen, T},
+  Journal                  = {Neural Computation},
+  Year                     = {1997},
+  Number                   = {7},
+  Pages                    = {1493-1516},
+  Volume                   = {9},
+
+  Owner                    = {neal},
+  Timestamp                = {2016.12.04}
 }
 
 @Book{eda2002,
@@ -234,6 +260,16 @@
 
   Owner                    = {neal},
   Timestamp                = {2016.01.10}
+}
+
+@Article{desa2009,
+  Title                    = {Differential evolution algorithm with strategy adaptation for global numerical optimization},
+  Author                   = {Qin, A Kai and Huang, Vicky Ling and Suganthan, Ponnuthurai N},
+  Journal                  = {IEEE transactions on Evolutionary Computation},
+  Year                     = {2009},
+
+  Owner                    = {neal},
+  Timestamp                = {2016.07.30}
 }
 
 @Article{ODE,
@@ -461,6 +497,19 @@
 
   Owner                    = {neal},
   Timestamp                = {2016.01.12}
+}
+
+@Article{igd,
+  Title                    = {Performance assessment of multiobjective optimizers: an analysis and review},
+  Author                   = {Zitzler, Eckart and Thiele, Lothar and Laumanns, Marco and Fonseca, Carlos M and Da Fonseca, Viviane Grunert},
+  Journal                  = {Evolutionary Computation, IEEE Transactions on},
+  Year                     = {2003},
+  Number                   = {2},
+  Pages                    = {117--132},
+  Volume                   = {7},
+
+  Owner                    = {neal},
+  Timestamp                = {2015.11.07}
 }
 
 @Book{eda2006,

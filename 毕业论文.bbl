@@ -122,4 +122,24 @@ J.~Zhang and A.~C. Sanderson, ``{JADE}: adaptive differential evolution with
   optional external archive,'' \emph{Evolutionary Computation, IEEE
   Transactions on}, vol.~13, no.~5, pp. 945--958, 2009.
 
+\bibitem{code2011}
+Y.~Wang, Z.~Cai, and Q.~Zhang, ``Differential evolution with composite trial
+  vector generation strategies and control parameters,'' \emph{Evolutionary
+  Computation, IEEE Transactions on}, vol.~15, no.~1, pp. 55--66, 2011.
+
+\bibitem{lpca}
+N.~Kambhatla and T.~Leen, ``Dimension reduction by local principal component
+  analysis,'' \emph{Neural Computation}, vol.~9, no.~7, pp. 1493--1516, 1997.
+
+\bibitem{nsga-ii}
+K.~Deb, A.~Pratap, S.~Agarwal, and T.~Meyarivan, ``A fast and elitist
+  multiobjective genetic algorithm:{ NSGA-II},'' \emph{Evolutionary
+  Computation, IEEE Transactions on}, vol.~6, no.~2, pp. 182--197, 2002.
+
+\bibitem{igd}
+E.~Zitzler, L.~Thiele, M.~Laumanns, C.~M. Fonseca, and V.~G. Da~Fonseca,
+  ``Performance assessment of multiobjective optimizers: an analysis and
+  review,'' \emph{Evolutionary Computation, IEEE Transactions on}, vol.~7,
+  no.~2, pp. 117--132, 2003.
+
 \end{thebibliography}
