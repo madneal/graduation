@@ -147,4 +147,9 @@ A.~Zhou, J.~Sun, and Q.~Zhang, ``An estimation of distribution algorithm with
   cheap and expensive local search,'' \emph{Evolutionary Computation, IEEE
   Transactions on}, vol.~19, no.~6, pp. 807--822, 2015.
 
+\bibitem{YYL}
+X.~Yao, Y.~Liu, and G.~Lin, ``Evolutionary programming made faster,''
+  \emph{Evolutionary Computation, IEEE Transactions on}, vol.~3, no.~2, pp.
+  82--102, 1999.
+
 \end{thebibliography}

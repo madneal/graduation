@@ -166,8 +166,7 @@
 
 \begin{center}
 \begin{tabular}{cc}
-  {\large\hei院\hfill\hei系：}&{\large\hei 计\hfill\hei算\hfill\hei机\hfill\hei科\hfill\hei学\hfill\hei与\hfill\hei 软\hfill\hei件\hfill\hei工\hfill\hei程\hfill\hei学\hfill\hei院\hfill\hei计\hfill\hei算\hfill\hei机
-  \hfill \hei系}\\
+  {\large\hei院\hfill\hei系：}&{\large\hei 计\hfill\hei算\hfill\hei机\hfill\hei科\hfill\hei学\hfill\hei与\hfill\hei 软\hfill\hei件\hfill\hei工\hfill\hei程\hfill\hei学\hfill\hei院}\\
       \cline{2-2}\\
       {\large\hei专\hfill\hei业：}&{\large\hei计算机科学与技术}\\
       \cline{2-2}\\
@@ -204,7 +203,7 @@
 %  {\Huge\mdseries{Bifurcations of heterodimensional cycles with one positive orbit flip and one weak inclination flip}}\par
   \vfill
    \begin{tabular}{ll}
-      {\large  Department：}&{\large Computer Science}\\
+      {\large  Department：}&{\large School of Computer Science and Software Engineering}\\
       \cline{2-2}\\
       {\large  Major：}&{\large Computer Science and Technology}\\
       \cline{2-2}\\
@@ -811,7 +810,7 @@ $F10$ &$1.25e+02$	&$2.35e+01$	&$2.27e+01$	&$1.44e+02$	&$\textbf{1.76e+00}$	 &$1.
 \subsection{本章小结}
 在本章节我们提出了基于差分进化的采样策略，即在隐空间中产生新的种群。基本的思路是将父代种群映射到隐空间中，然后在隐空间中利用一种新型的变异策略来进行编译操作从而产生新的个体，接着将这些个体映射到原始的空间来产生子代种群。基于差分进化的采样策略被用于改进RM-MEDA的采样环节。初步的研究表明，通过差分进化的采样策略比拉丁方设计能够有效地改进RM-MEDA的采样。
 
-这一章节的基本研究表明在隐空间中的采样还是相当具有潜力的，因为其维度大大小于决策空间的维度，从而能够更好地利用种群的统计信息。同时，对于基于差分进化的采样策略依然还有别的工作需要完成，包括：(a)尝试在隐空间中采用别的采样策略。 (b) 可以将基于差分进化的采样策略和别的多目标演化算法想结合。
+这一章节的基本研究表明在隐空间中的采样还是相当具有潜力的，因为其维度大大小于决策空间的维度，从而能够更好地利用种群的统计信息。同时，对于基于差分进化的采样策略依然还有别的工作需要完成，包括：(a)尝试在隐空间中采用别的采样策略。 (b) 可以将基于差分进化的采样策略和别的多目标演化算法相结合。
 
 \section{基于采样策略对于全局单目标优化问题的研究}
 
@@ -819,7 +818,148 @@ $F10$ &$1.25e+02$	&$2.35e+01$	&$2.27e+01$	&$1.44e+02$	&$\textbf{1.76e+00}$	 &$1.
 
 \subsection{单目标优化问题}
 
+\subsection{基于特征向量的差分进化}
+DE-EIG是一种基于特征向量的差分进化算法~\cite{DEEIG}，其主要贡献是在一个旋转的坐标空间对于个体进行交叉操作，这样可以利用旋转空间中种群的协方差矩阵的特征向量信息。为了避免失去种群的多样性，通过在原始的坐标空间中产生子代种群或者在旋转的坐标空间中产生子代种群的概率是随机的。通过设置合理的参数来控制种群是在原始的坐标空间中产生亦或是在旋转后的坐标空间中产生，这样既可以增加种群的多样性，也可以避免过早收敛。
 
+\subsubsection{新的交叉策略}
+DE-EIG最主要的贡献就是提出一种在旋转的坐标空间中对种群个体进行交叉操作。这样可以有效地引导种群向群居最有演化，同时也不会失去差分进化的搜索能力。在二项式交叉操作中，CR控制种群个体中变量变化的数量。当CR=1的时候，经典的差分进化的性能就和坐标空间没有关系了~\cite{des2011}。相反，如果CR的值小于1的时候，差分进化的性能就和坐标空间的旋转有着紧密的联系。
+
+\subsubsection{DE-EIG算法框架}
+\begin{algorithm}
+\label{alg3}
+\caption{DE-EIG}
+初始化种群$Pop(t)=\{x_1, x_2, x_3, \cdots, x_N\}$ ($N$是种群大小)
+
+\While{not terminate}
+{
+$v_{i,G}=x_{r1,G}+F\cdot(x_{r2,G}-x_{r3,G})$
+
+	\eIf{$rand()<p$}
+	{
+		\eIf{$rand()\leq{CR}$}
+		{
+		$u_{i,G}=v_{i,G}$
+		}
+		{	
+		$u_{i,G}=x_{i,G}$
+		}
+	}
+	{
+	     求得$x_{i,G}$的特征向量矩阵$E$，令$E'$为特征向量矩阵的逆矩阵。p
+
+		$x'_{i,G}=E'\cdot{x_{i,G}}$
+
+		$v'_{i,G}=E'\cdot{v_{i,G}}$
+
+		\eIf{$rand()\leq{CR}$}
+		{
+			$u'_{i,G}=v'_{i,G}$
+		}
+		{
+			$u'_{i,G}=x'_{i,G}$
+		}
+		$u_{i,G}=E\cdot{u'_{i,G}}$
+	}
+		\eIf{$f(u_{i,G})\leq{f(x_{i,G})}$}
+		{
+			$x_{i,G+1}=u_{i,G}$
+		}
+		{
+			$x_{i,G+1}=x_{i,G}$
+		}	
+$ t = t + 1$
+}
+\end{algorithm}
+
+\subsection{DE/EDA算法}
+差分进化是一种非常成功的用于解决全局连续问题优化的算法。它主要是利用当前种群中的距离和方向信息来指导未来的搜索。分布估计算法则是通过从建立的概率模型中采样来产生新的种群个体。DE/EDA就是将差分进化和分布估计算法结合起来，用于解决全局连读问题优化。通过利用分布估计算法可以提取种群全局信息和差分进化可以提取种群差分信息的优点，DE/EDA是一种非常具有研究前景的算法。本章节将会基于DE/EDA这一算法框架作进一步的研究。
+
+\begin{algorithm}
+\label{alg4}
+\caption{DE/EDA}
+ Generate population $Pop(t)$ randomly consists of N solutions $x_1, x_2, \cdots, x_N$ from the feasible search space.
+\While{not terminate}
+{
+    Construct the probabilistic model:
+
+    $p_k(x)=\prod_{i=1}^{n}\mathcal{N}(x_i; \mu_{i}, \sigma_{i})$
+
+     For all $j=1, 2, \cdots, n$, produce a trial solution $u=(u_1, u_2, \cdots, u_n)$
+
+		\eIf{$rand()<CRP$}
+		{
+			$u_j=\frac{(x_i)_j+(x_d)_j}{2}+F\cdot[(x_d)_j-(x_i)_j+(x_b)_j-(x_c)_j]$
+		}
+		{
+			$u_j$ is sampled according to $\mathcal{N}(x_i; \mu_{i}, \sigma_{i})$
+		}	
+        where $CRP$ is the controlling parameter.
+
+        \eIf{$f(u)<f(x_i)$}
+        {
+        $x_i^{t+1}=u$
+        }
+        {
+        $x_i^{t+1}=x_i^t$
+        }
+        $t=t+1$
+}
+\end{algorithm}
+
+\subsection{复杂的局部搜索}
+复杂的局部搜索（expensive local search）是EDA/LS~\cite{EDALS}中一种进一步优化种群演化的策略。
+
+\subsection{EDA/DE-EIG算法}
+基于DE/EDA框架，将DE-EIG算法引入到之中，来进一步改善分布估计算法的采样环节。同时为了保持种群的多样性，通过一个随机参数来控制种群是通过概率模型采样产生亦或是通过DE-EIG来产生。这样，可以增加种群的多样性，同时也可以提高差分进化的搜索能力。同时，expensive local search也将会被用于进一步提升算法求解的性能。
+
+\begin{algorithm}
+\label{eda/de-eig}
+\caption{EDA/DE-EIG}
+初始化种群$Pop(t)=\{x_1, x_2, x_3, \cdots, x_N\}$ ($N$是种群的大小)
+
+\While{not terminate}
+{
+    构建概率模型：
+
+    $p(x)=\prod_{i=1}^{n}\mathcal{N}(x_i; \mu_{i}, \sigma_{i})$
+
+    Generate a trial solution $u_{i, G}$ as follows:
+
+    \eIf{$rand()<CRP$}
+    {
+        根据DE-EIG得到$u_{i, G}$
+    }
+    {
+        根据概率模型$p(x)$采样得到$u_{i, G}$
+    }
+
+    \eIf{$f(u_{i,G})<f(x_{i,G})$}
+    {
+        $x_{i,G+1}=u_{i,G}$
+    }
+    {
+        $x_{i,G+1}=x_{i,G}$
+    }
+    \If{Converage($\theta, G, G_e$)}
+    {
+        执行expensive local search.
+    }
+
+    $t=t+1$
+}
+\end{algorithm}
+
+\subsection{实验分析}
+在本章节，我们将EDA/DE-EIG和JADE~\cite{JADE}和~\cite{DEEDA}相比较。JADE的源代码是从其作者手中获得，DE/EDA是由我们自己实现的。本章节还会介绍后面的测试题以及算法的参数设置。对于算法性能的比较会做一个综合全面的分析。
+
+\subsubsection{比较算法}
+JADE是一种自适应的差分进化算法，它通过使用一种新型的变异策略"DE/current-to\emph{p}best"以及额外的空间来更新控制参数。JADE 和多个一流算法比较，都比较具有优势。DE/EDA是一种混合算法，结合了差分进化和分布估计算法的思想。这两个算法将会和EDA/DE-EIG在同样的测试题上进行比较。
+
+\subsubsection{测试集}
+所有的算法都会根据其在YYL测试集~\cite{YYL}中的前13个测试集上的性能进行比较。所有测试集的全局最优解都是0。所有的测试集可以被分为4类：f1-f5是单峰函数；f6是阶梯函数；f7是具有白噪音的函数；f8-f13是具有局部最优解的多模函数。因此，这些测试集能够全面地反映算法的性能。
+
+\subsubsection{参数设置}
+为了
 
 
 \newpage
@@ -834,6 +974,7 @@ $F10$ &$1.25e+02$	&$2.35e+01$	&$2.27e+01$	&$1.44e+02$	&$\textbf{1.76e+00}$	 &$1.
 \renewcommand{\refname}{\hei 参考文献}
 \bibliography{gecco2016}
 
+\newpage
 \section{附录}
 
 \hspace*{\fill}\mbox{\Large\textbf{致\quad\,谢}}\hspace*{\fill}
