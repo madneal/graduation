@@ -1,0 +1,1078 @@
+\def\CTeXPreproc{Created by ctex v0.2.14, don't edit!}\def\ChineseScale{1200}
+\input tdw
+\documentclass [a4paper,12pt,oneside,CJK] {article}
+
+\usepackage{CJK,CJKnumb}
+\usepackage{bbm}
+\usepackage{tipa}
+\usepackage{stmaryrd}
+\usepackage{latexsym,bm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[dvips]{graphics}
+\usepackage{mathrsfs,tikz,epstopdf}
+\usepackage{CJK,CJKnumb}
+\usepackage{color}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{cases}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{graphicx,amssymb,lineno,epsfig,subfigure}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{caption}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{xspace}
+\usepackage{setspace}
+\usepackage{subeqnarray}
+\usepackage{mathrsfs}
+\usepackage{extarrows}
+\usepackage{dsfont}
+\usepackage{bm}
+\usepackage{listings}
+\usepackage{threeparttable}
+\usepackage{cite}
+\usepackage[ruled, lined,linesnumbered]{algorithm2e}
+\bibliographystyle{IEEEtran}
+
+
+\newcommand{\song}{\CJKfamily{song}}
+\newcommand{\fs}{\CJKfamily{fs}}
+\newcommand{\kai}{\CJKfamily{kai}}
+\newcommand{\hei}{\CJKfamily{hei}}
+\newcommand{\li}{\CJKfamily{li}}
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont}
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{14pt}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{12.6pt}\selectfont}
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\N}{\ensuremath{\mathbb{N}}}
+\newcommand{\ud}[1]{\underset{\raisebox{4pt}{\line(20,0){18}}}{\dim}_{#1}}
+\newcommand{\od}[1]{\overset{\line(-1,0){18}}{\dim}_{#1}}
+\newcommand{\olim}[1]{\overset{\line(-1,0){18}}{\lim\limits}_{#1}}
+\newcommand{\ulim}[1]{\underset{\raisebox{4pt}{\line(20,0){18}}}{\lim\limits}_{#1}}
+\newcommand{\h}[2]{\mathcal {H}_{#1}^{#2}}
+\newcommand{\p}[2]{\mathcal {P}_{#1}^{#2}}
+\newcommand{\de}{\delta}
+\newcommand{\ep}{\epsilon}
+\newcommand{\f}{\infty}
+\newcommand{\T}{\mathbb{T}}
+\newcommand{\e}{\mathrm{e}}
+\newcommand{\hot}{\mathrm{h.o.t.}}
+\newcommand{\q}{\mathbf{q}}
+\newcommand{\bi}{\mathbf{i}}
+\newcommand{\om}{\omega}
+\newcommand{\Om}{\Omega}
+\newcommand{\bs}{\mathscr{S}}
+\newcommand{\ra}{\rightarrow}
+\newcommand{\ta}{\theta}
+\newcommand{\Gq}{\Gamma(\Om,\q_{d-1})}
+\newcommand{\Gql}{\Gamma(\Om,\q_{l})}
+\newcommand{\Oq}{\Om(\q_{d-1})}
+\newcommand{\Oql}{\Om(\q_{l})}
+\newcommand{\bp}{\mathbbm{p}}
+\newcommand{\ba}{\mathscr{A}}
+\newcommand{\bg}{\bigwedge}
+\newcommand{\bt}{\mathcal {T}}
+\newcommand{\tu}{\tilde \mu}
+\newcommand{\ga}{\Gamma}
+\newcommand{\si}{\sigma}
+\newcommand{\Ha}[2]{\mathcal {H}_{#1}^{#2}}
+\newcommand{\Pa}[2]{\mathcal {P}_{#1}^{#2}}
+\newcommand{\A}{\alpha}
+\newcommand{\tw}{\tilde t}
+\newcommand{\G}{\Gamma}
+\newcommand{\La}{\Lambda}
+\newcommand{\la}{\lambda}
+\newcommand{\tm}{\tilde\mu}
+%%%%%%===== 页面设置 =====
+\setlength{\tabcolsep}{4pt}
+\setlength{\textwidth}{16.5cm}  % 正文宽度
+\setlength{\textheight}{24cm}   % 正文高度
+\setlength{\hoffset}{-1.5cm}       % 左边距 = \hoffset + 1 英寸
+\setlength{\voffset}{-2cm}       % 顶端距离 = \voffset + 1 英寸
+\setlength{\parskip}{3pt plus1pt minus1pt}  % 段落之间的竖直距离
+\renewcommand{\baselinestretch}{1.5}    % 定义行距
+
+%%%%%%===== 自定义命令 =====
+\numberwithin{equation}{section}
+\newcommand{\C}{\mathbb{C}}
+
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+\CJKindent\CJKtilde
+
+%%%%%%===== 标题名称中文化 =====
+\renewcommand\abstractname{\hei~摘\quad 要}
+\renewcommand\refname{\hei~参考文献}
+\renewcommand\figurename{\hei~图}
+\renewcommand\tablename{\hei~表}
+\newtheorem{dingyi}{\hei~定义~}[section]
+\newtheorem{dingli}{\hei~定理~}[section]
+\newtheorem{yinli}{\hei~引理~}[section]
+\newtheorem{tuilun}[dingli]{\hei~推论~}
+\newtheorem{mingti}[dingli]{\hei~命题~}
+\newtheorem{zhu}{\hei 注~}[section]
+%\renewcommand{\listalgorithmcfname}{List of Algorithms}
+%\renewcommand{\algorithmcfname}{Algorithm}
+%\renewcommand\algorithmcfname{算法}
+
+\begin{titlepage}
+\makebox[0pt][r]{2017}~届研究生硕士学位论文
+\\分类号:~~\underline{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}\hspace{149pt}
+学校代码:~~\underline{ 10269     }
+\\密~~~~级:~~\underline{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}\hspace{149pt}
+学~~~~~~~~号:~~\underline{  51141201039      }
+
+\vspace{1.3cm}
+
+\begin{center}
+ \includegraphics[width=0.15\textwidth]{ecnu.png}\includegraphics[width=0.75\textwidth]{ECNU_Name_black.png}
+\end{center}
+%\centerline{\chuhao{\li 华~~东~~师~~范~~ 大~~ 学}}
+\centerline{\LARGE\textbf{ East~~China~~Normal~~University}}
+\vspace{0.1cm}
+\centerline{\LARGE{\hei 硕士学位论文}}
+\vspace{0.1cm}
+\centerline{\LARGE\textbf{ MASTER'S~~~~DISSERTATION}}
+\vspace{1cm}
+
+\centerline{\LARGE{\hei  论文题目:~~\underline{演化算法中基于差分进化的采样策略 }}}
+
+\vspace{0.15cm}
+\centerline{\LARGE{\hei  ~~~~~~~~~~~~~~~~~~~~~\underline{} }}
+
+
+\vspace{0.8cm}
+
+\begin{center}
+\begin{tabular}{cc}
+  {\large\hei 院\hfill\hei 系：}&{\large\hei 计\hfill\hei 算\hfill\hei 机\hfill\hei 科\hfill\hei 学\hfill\hei 与\hfill\hei 软\hfill\hei 件\hfill\hei 工\hfill\hei 程\hfill\hei 学\hfill\hei 院}\\
+      \cline{2-2}\\
+      {\large\hei 专\hfill\hei 业：}&{\large\hei 计算机科学与技术}\\
+      \cline{2-2}\\
+      {\large\hei 研~~~\hei 究~~~\hei 方~~\hei 向：}&{\large\hei 演化计算}\\
+      \cline{2-2}\\
+      {\large\hei 指~~~\hei 导~~~\hei 教~~\hei 师：}&{\large\hei 周爱民 ~~~   \hei 副教授}
+      \\
+      \cline{2-2}\\
+      {\large\hei 学~\hei 位~\hei 申~\hei 请~\hei 人：}&{\large\hei 董兵}
+      \\
+      \cline{2-2}
+\end{tabular}
+\end{center}
+\vfill \centerline{\large 2017~年~6~月~6~日}
+\end{titlepage}
+
+\newpage
+\thispagestyle{empty}
+ Dissertation for\hfill Student ID: 51141201039
+
+ Master degree, 2017\hfill University Code: 10269
+  \vfill
+
+\begin{center}
+\Huge\bf\Huge{East China Normal University} \vspace{\fill}
+\end{center}
+
+  \centerline{\sanhao\textbf{ Title:~~\underline{The sampling strategy based on differential evolution } }}
+  \vspace{0.15cm}
+\centerline{\sanhao\textbf{ ~~~~~~~~~~\underline{in evolutionary algorithms } }}
+
+
+  \begin{center}
+%  {\Huge\mdseries{Bifurcations of heterodimensional cycles with one positive orbit flip and one weak inclination flip}}\par
+  \vfill
+   \begin{tabular}{ll}
+      {\large  Department：}&{\large School of Computer Science and Software Engineering}\\
+      \cline{2-2}\\
+      {\large  Major：}&{\large Computer Science and Technology}\\
+      \cline{2-2}\\
+      {\large  Research direction：}&{\large Evolutionary Computation}\\
+      \cline{2-2}\\
+      {\large  Supervisor：}&{\large A. Prof. Aimin Zhou}\\
+      \cline{2-2}\\
+      {\large  Candidate：}&{\large Bing Dong}\\
+      \cline{2-2}
+    \end{tabular}
+   \vfill
+   {\large June，2017 $\cdot$ Shanghai}
+  \end{center}
+\vfill
+%%-------------------------独创性声明-------------------------------------------------------------------------------------
+\newpage
+\thispagestyle{empty}
+\centerline{\LARGE\hei 华东师范大学学位论文原创性声明}
+
+\vspace{1cm}
+郑重声明:~本人呈交的学位论文《演化计算中基于差分进化的采样策略》, 是在华东师范大学攻读硕士~/~ 博士~(~ 请勾选~)~ 学位期间,
+在导师的指导下进行的研究工作及取得的研究成果.~ 除文中已经注明引用的内容外,~ 本论文不包含其他个人已经发表或撰写过的研究成果.~
+对本文的研究做出重要贡献的个人和集体,~均已在文中作了明确说明并表示谢意.~
+\par
+\vspace{0.4cm}  \bf {作者签名: \rule[-4pt]{2cm}{1pt}\hspace{80pt}
+日期: \qquad 年\qquad 月\qquad 日}\par \vspace{1cm} \normalfont
+
+\vspace{1cm}
+\centerline{\LARGE\hei 华东师范大学学位论文著作权使用声明}
+
+\vspace{0.5cm}
+《演化计算中基于差分进化的采样策略》系本人在华东师范大学攻读学位期间在导师指导下完成的硕士/博士（请勾选）学位论文,~ 本论文的著作权归本人所有.~本人同意华东师范大学根据相关规定保留和使用此学位论文,~ 并向主管部门和学校指定的相关机构送交学位论文的印刷版和电子版;~ 允许学位论文进入华东师范大学图书馆及数据库被查阅、借阅;~ 同意学校将学位论文加入全国博士、硕士学位论文共建单位数据库进行检索,~ 将学位论文的标题和摘要汇编出版,~ 采用影印、缩印或者其它方式合理复制学位论文.~
+
+本学位论文属于~(~请勾选~)
+
+(~~)~1.~经华东师范大学相关部门审查核定的~"~ 内部~"~ 或~"~ 涉密~"~ 学位论文~*~, 于\hspace{0.6cm} 年\hspace{0.3cm} 月\hspace{0.3cm} 日解密, 解密后适用上述授权.
+
+(~~)~2.~不保密, 适用上述授权.
+\par
+\vspace{0.4cm} \hspace*{\fill}  \bf 导师签名:
+\rule[-4pt]{2cm}{1pt}\hspace{100pt} 本人签名: \rule[-4pt]{2cm}{1pt}
+
+%\par
+%\vspace{0.4cm} \hspace*{\fill} 日期: \qquad 年 \qquad 月\qquad 日}
+\vspace{0.4cm}
+\hspace{\fill}{年\hspace{1cm}月\hspace{1cm} 日}
+
+\vspace{0.4cm}
+\noindent
+\scriptsize *~``~涉密~''~学位论文应是已经华东师范大学学位评定委员会办公室或保密委员会审定过的学位论文~(~ 需附获批的
+《华东师范大学研究生申请学位论文~``~ 涉密~''~ 审批表》方为有效~),~ 未经上述部门审定的学位论文均为公开学位论文.
+此声明栏不填写的,~默认为公开学位论文,~均适用上述授权.~
+
+
+%------------------------------答辩委员会-----------------------------------------------------------------------
+\newpage
+\normalsize
+\thispagestyle{empty}\vspace*{3cm}
+\begin{center}
+\begin{tabular}{llllll}
+ \Large 董兵 &{\Large{\hei  硕士学位论文答辩委员会成员名单}}\\ \cline{1-1}\\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular*}{13.2cm}{|p{2cm}|p{2cm}|p{6cm}|p{1.5cm}|}
+   \hline
+   \rule[-0.35cm]{0pt}{1cm}{\Large\textbf{\hfill 姓\hfill 名}}\hfill\mbox{}&
+   \mbox{}\hfill{\Large \textbf{职\hfill称}}\hfill\mbox{}&
+   \mbox{}\hfill{\Large\textbf{ 单\hfill 位}}\hfill\mbox{}&\mbox{}\hfill{\Large\textbf{ 备\hfill 注}}\hfill\mbox{}\\
+   \hline
+ \rule[-0.35cm]{0pt}{1cm}
+ \large  \hfill  \hfill  \hfill\hfill&\mbox{}\hfill\large 教 \hfill 授 \hfill \mbox{}&
+   \mbox{}\large\hfill \hfill 华东师范大学 \hfill\hfill\mbox{}&
+   \mbox{}\large\hfill 主 \hfill 席 \hfill\mbox{\Large\textbf {}}\\
+   \hline
+   \rule[-0.35cm]{0pt}{1cm}
+ \large  \hfill  \hfill  \hfill\hfill&\mbox{}\hfill\large 教 \hfill 授 \hfill \mbox{}&
+   \mbox{}\large\hfill \hfill 华东师范大学 \hfill\hfill\mbox{}&
+   \mbox{}\large\hfill  \hfill  \hfill\mbox{\Large\textbf {}}\\
+   \hline
+   \rule[-0.35cm]{0pt}{1cm}
+ \large  \hfill   \hfill  \hfill  \hfill\hfill&\mbox{}\hfill\large 副 \hfill 教 \hfill 授 \hfill \mbox{}&
+   \mbox{}\large\hfill \hfill 华东师范大学 \hfill\hfill\mbox{}&
+   \mbox{}\large\hfill  \hfill  \hfill\mbox{\Large\textbf {}}\\
+   \hline
+\end{tabular*}
+\end{center}
+
+
+
+
+\newpage
+\pagenumbering{roman}
+
+\section*{\hspace*{\fill}\Huge {演化算法中基于差分进化的采样策略}\hspace*{\fill}}
+%\\\hspace*{\fill}\Huge {自适应加权均值滤波算法} \hspace*{\fill}}
+\subsection*{\hspace*{\fill}\huge{中\quad 文\quad 摘\quad 要} \hspace*{\fill}}
+\vspace*{5mm} \normalfont
+本文研究的是对于演化算法中采样策略的改进工作。演化计算是一种受生物进化启发的基于种群的启发式的优化算法。演化算法适用于解决各种问题，因为它并不需要复杂的假设条件。演化计算已经被广泛应用于工程、生物学、经济学、基因工程以及社会科学等。
+
+分布估计算法是一种新型的演化算法。不同于传统的演化算法，分布估计算法中没有杂交变异操作。分布估计算法中主要由三个主要的步骤组成，即：建模，采样，选择。采样对于分布估计算法来说是至关重要的环节，它关系到能否产生更为优异的的子代种群。优异的子代种群对于最终求得最优解有着重大意义。
+
+差分进化自从~1995 年被提出之后就受到研究者的广泛关注。差分进化是一种简单但却十分强大的随机优化算法，得益于它的诸多优点，它已经被广泛应用于各个领域。由于差分进化的易于实现，它被用于与其他的演化算法进行结合，并且已经多数学者提出了基于差分进化的混合算法。本文将差分进化的思想引入到分布估计算法的采样中，提高算法性能和运行效率。
+
+本文将基于差分进化的采样策略和分布估计算法相结合，并且研究其在解决多目标以及单目标问题上的性能表现。实现结果表明，这一研究对于提高分布估计算法性能有着重大意义。
+\\[2mm]
+
+\bfseries{ 关键词:}\normalfont\quad\ ~分布估计算法,~ 差分进化,~ 演化算法,~特征向量
+
+\newpage
+\title{{Differential Evolution Sampling Strategy in Evolution Algorithms}}
+
+\thispagestyle{plain}
+\section*{\hspace*{\fill}\Large{Differential Evolution Sampling Strategy }\hspace*{\fill}
+\\\hspace*{\fill}\Large{in Evolution Algorithms} \hspace*{\fill}}
+\subsection*{\hspace*{\fill}ABSTRACT \hspace*{\fill}}
+\vspace*{5mm} \normalfont \quad This paper mainly studies the differential evolution sampling strategy in evolutionary algorithms. Evolution algorithm is a kind of algorithm inspired by biological evolution. Evolutionary algorithms are utilized to solve diverse problems. As it does not need any complex assumption conditions. Evolutionary algorithms have been widely applied to engineer, biology, economy, gene engineer and social science.
+
+Estimation of distribution algorithm is a novel evolutionary algorithm. Unlike traditional evolutionary algorithm, there is no crossover and mutation in EDA. EDA mainly consists of three steps, namely, modeling, sampling and selection. Sampling is crucial to EDA. Since it is significant to generate promising offspring generation, which will be useful to obtain the final solutions.
+
+Differential evolution has attracted many researchers since proposed in 1995. Differential evolution is a simple but powerful random optimization algorithm. Due to the advantages of differential evolution, it has been widely applied to different areas. As it is easy to implement differential evolution, and it can combine with other evolutionary algorithm. Hence lots of researcher have proposed a number of hybrid algorithms based on differential evolution. This paper mainly study the sampling in EDA based on differential evolution.
+
+This paper combine differential evolution sampling strategy with EDA. Moreover, we will study its performance on single object and multi-objective problems. And the experimental results have shown that it is significant to improve the performance of EDA.
+
+
+\vspace*{3mm}
+
+\bfseries{Key words:}\normalfont \quad ~estimation of distribution algorithm,~differential evolution,~evolutionary algorithm,~eigenvector
+
+
+\newpage
+\thispagestyle{plain}
+\section*{\hspace*{\fill}\huge{目\,录}\hspace*{\fill}}
+\vspace*{10mm}
+
+\noindent\textbf{\large{中文摘要}\hfill\rmfamily{i} }\\[4mm]
+\textbf{\large{英文摘要}\hfill \rmfamily{ii}}\\[4mm]
+
+\textbf{\large{1 绪论}\hfill \rmfamily{1}}\par
+\textbf{\large{1.1 研究的目的和意义}$\dotfill 2$}\par
+\textbf{\large{1.2 本文所做的工作和内容安排}$\dotfill 3$}\\[4mm]
+
+\textbf{\large{2 理论基础}\hfill \rmfamily{4}}\par
+\textbf{\large{2.1 多目标优化问题}$\dotfill 4$}\par
+\textbf{\large{2.2 单目标优化问题}$\dotfill 9$}\par
+\textbf{\large{2.3 分布估计算法}$\dotfill 11$}\par
+\textbf{\large{2.4 差分进化}$\dotfill 13$}
+\\[4mm]
+
+\textbf{\large{3 基于采样策略对于连续多目标优化问题的研究}\hfill \rmfamily{12}}\par
+\textbf{\large{3.1 连续多目标优化问题}$\dotfill 12$}\par
+\textbf{\large{3.2 RM-MEDA 算法}$\dotfill 13$}\par
+\textbf{\large{3.3 基于差分进化的采样策略}$\dotfill 13$}\par
+\textbf{\large{3.4 算法框架}$\dotfill 14$}\par
+\textbf{\large{3.5 实验分析}$\dotfill 14$}\\[4mm]
+
+\textbf{\large{4 基于差分进化的分布估计算法}\hfill \rmfamily{16}}\par
+\textbf{\large{4.1 差分进化和分布估计算法的研究}$\dotfill 16$}\par
+\textbf{\large{4.2 基于差分进化采样的分布估计算法}$\dotfill 19$}\par
+\textbf{\large{4.3 实验框架}$\dotfill 20$}\par
+\textbf{\large{4.2 实验结果分析}$\dotfill 18$}\\[4mm]
+
+\textbf{\large{5 总结与展望}\hfill \rmfamily{25}}\par
+\textbf{\large{5.1 本文工作总结}$\dotfill 25$}\par
+\textbf{\large{5.2 工作展望}$\dotfill 25$}\\[4mm]
+
+\textbf{\large{参考文献}$\dotfill 27$}\par
+
+\textbf{\large{致\quad 谢}$\dotfill 31$}\par
+
+\newpage
+\pagenumbering{arabic} \pagestyle{fancy} \lhead{\bf\song
+华东师范大学硕士论文} \rhead{\song\leftmark} \cfoot{\thepage}
+
+\section{绪论}
+演化算法是隶属于演化计算的一种人工智能算法，是一种基于基因种群的启发式的优化算法。演化算法被广泛地应用于解决优化问题，包括单目标以及多目标优化问题~\cite{ea2013}。演化算法受~1859 年达尔文提出的物种起源的启发，吸取其中的生物进化和自然选择的思想。现如今演化算法已经得到了众多研究学者的关注，演化算法已经分化成多个分支：遗传算法~\cite{nsga}，生物地理学优化~\cite{bbo2008}，遗传编程~\cite{gp1998}，演化编程~\cite{ep1996}，差分进化~\cite{DE1} 等等。演化算法被广泛地应用于工程实践和学术研究中。
+
+\subsection{研究目的和意义}
+分布估计算法是一种新兴的演化算法，它通过建立在概率模型中采样来产生新的种群个体，通过提取当前优秀中取得概率模型来指导下一步的搜索~\cite{eda2002}~\cite{edasurvey2002}。不同于传统的演化算法，在分布估计算法中不存在变异和交叉，通过使用一个精确地概率分布模型来提取统计信息。子代种群解集将会通过从建立的概率分布模型中采样产生，并且产生的解集会部分或者全部地取代父代中区解集。分布估计算法通过分布概率模型能够更好地进行全局搜索，提取全局统计信息。分布估计算法主要由三个步骤组成，即：建模，采样，选择。其中，采样环节是本文的重点，采样对于分布估计算法具有重大意义，提升采样的性能可以大大地提高算法的性能，更有可能产生更为优质的子代种群解集~\cite{des}。
+
+差分进化算法是一种有效并且简单的演化算法~\cite{DE1,DE2}。差分进化算法通过利用种群中的距离和方向信息来指导搜索的过程。差分进化算法通过提取种群中的差分信息来指导下一步搜素并且可以加快解集收敛的速度。得益于这一点，受到差分进化算法思想的启发，我们提出基于差分进化的采样策略（Differential Evolution based Sampling, DES)。DES 对于提高种群的多样性，加速种群解集收敛都有着重大的意义。
+
+
+\subsection{本文所做的工作和内容安排}
+
+针对分布估计算法的采样，差分进化的思想被引入到采样策略中，用于提高分布估计算法的性能。我们针对单目标和多目标优化问题，来验证~DES 对于提高演化算法性能的意义。在多目标优化问题上，DES 被用于改进基于平滑模型的分布估计算法（A Regularity Model-based Estimation of Distribution Algorithm, RM-MEDA)~\cite{RM-MEDA} 中的采样策略，提高算法性能。在单目标优化问题上，基于差分进化和分布估计算法的混合算法（DE/DEA）~\cite{deeda}，通过改进~DE/EDA 中的差分进化算法，并且同时提出一种基于特征向量的改进的差分进化和分布估计算法的混合算法（EDA/DE-EIG），研究其对于提高分布估计算法对于解决单目标优化问题上算法性能和速度提升的意义。
+
+论文内容安排如下：
+
+第一章 ~~~绪论，介绍演化算法以及本文的研究目的和论文安排。
+
+第二章 ~~~理论基础，介绍分布估计算法和差分进化的基本概念以及相应的算法框架。
+
+第三章 ~~~提出基于差分进化的采样策略以及相应的算法框架。
+
+第四章 ~~~将基于差分进化的采样策略应用到多目标优化问题上面，并给出相应的算法框架和实验结果分析。
+
+第五章 ~~~将基于差分进化的采样策略应用到单目标优化问题上，并给出相应的算法框架和试验结果分析。
+
+第六章 ~~~论文总结和展望。
+
+\newpage
+\section{理论基础}
+本章主要介绍演化算法中对于多目标优化问题以及单目标优化问题的相关定义，同时分别简要地介绍分布估计算法和差分进化算法的理论知识和算法框架。
+\subsection{多目标优化问题}
+在科学研究和工程应用中，在对于设计和策略的解决方案中往往涉及到对于对个目标的优化问题，这就是本文中所说的多目标优化问题（Multiobjective Optimization, MOP）。拿一个我们日常生活中买车的例子，如图所示，在买车的时候我们既要考虑到价格同时也要考虑到舒适性，这就可以理解成一种多目标优化问题。
+
+为了不失一般性，在本文中，在本文中我们假设每个问题都是最小化问题，则~MOP 可以由以下数学公式表达：
+\begin{equation}
+\begin{array}{rl}
+\mbox{min} & F(x) = (f_1(x), \cdots, f_m(x))\\
+\mbox{s.t} & x \in \Omega
+\end{array}
+\label{mop}
+\end{equation}
+
+其中，$x=(x_1, \cdots, x_n)^T\in R^n$ 是决策变量向量，$\Omega=\Pi_{i=1}^{n}[a_i, b_i] \subset R^n$ 表示可能的搜索空间区域，$f_i: R^n \rightarrow R, i=1, \cdots, m$ 是一个连续的目标函数，$F(x)$ 则是相应的目标函数向量。
+
+在~MOP 中，多个目标相互之间往往是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都能够达到全局最优解，但是存在一组~Pareto 最优解~\cite{moead}。 对于此，做出以下定义：令~$a,b\in{R^n}$，当~$a_i\le{b_i}\land{a\neq{b}}$，且~$i=1,\cdots,n$，则称~$a$ 支配~$b$。向量~$x^*\in\Omega$ 即是~\ref{mop}\emph{Pareto 最优解}, 如果不存在~$x\in\Omega$ 使得~$F(X)$ 支配~$F(x^*)$。$F(x^*)$ 被称为~Pareto 最优目标向量。所有的~Pareto 最优解的集合就是~Pareto 最优解集（PS），对应的最优向量的集合则成为~Pareto 前端（PF）。
+
+\subsection{单目标优化问题}
+本文研究的单目标优化问题针对的是连续空间的全局优化问题，一般即是求得最小值或者最大值。全局优化问题是应用数学和数值分析的一个分支，用于解决在一定条件下求得一个或者一组函数的最优解~\cite{global2000}。同样，对于全局优化问题在本文中做出以下定义：
+\begin{equation}
+\label{min}
+\begin{split}
+  &min f(x)\\
+  &s.t. x\in[a_i,b_i]^n
+\end{split}
+\end{equation}
+其中~$x=(x_1, x_2, \cdots, x_n)^T\in{R^n}$ 是决策变量向量，$[a_i, b_i]^n$ 是搜索空间区域，$f:R^n\to{R}$ 则是目标函数。
+\subsection{分布估计算法}
+分布估计算法（Estimation of Distribution Algorithm, EDA），也被称为基于概率模型的遗传算法（Probabilistic Model-based Genetic Algorithm, PMGA），是一种通过建模和采样来搜索最优解的随机优化方法~\cite{eda2002}。分布估计算法虽然属于演化算法，但是和传统的演化算法却有着较大的不同之处。传统的算法通过变量之间隐含的分布关系来产生新的子代种群，然而分布估计算法是通过概率模型建立的精确地分布来产生新的种群~\cite{eda2006}。
+
+\subsubsection{算法框架}
+分布估计算法主要由三个步骤组成：建模，采样和选择。传统的分布估计算法的算法框架如~Algorithm 1 所示。
+\begin{algorithm}
+\label{alg1}
+\caption{分布估计算法}
+\textbf{初始化}: 建立随机初试种群~$Pop(t)$，$t$ 是相应的种群代数。
+
+\While{not terminate}
+{
+
+\textbf{建模}：根据种群~$Pop(t)$ 中的统计信息建立概率模型~$p(x)$。
+
+\textbf{采样}：通过从建立的概率模型~$p(x)$ 中采样产生一个新的解集~$Q$。
+
+\textbf{选择}：根据某个条件从~$Q\cup{Pop(t)}$ 中挑选后代组建下一代种群~$Pop(t+1)$。
+
+$t=t+1$
+}
+\end{algorithm}
+
+
+\subsection{差分进化}
+差分进化（Differential Evolution, DE）自从由~Storn 于~1995 年提出，就得到了广大学者的关注并且发展迅速~\cite{DE1}。自从~20 是~90 年代以来，差分进化算法就在多数科学工程领域得到广泛的应用~\cite{des2011}。究其原因，可以总结如下：
+\begin{itemize}
+\item 与传统的演化算法相比，差分进化更简单也更容易实施。算法的代码往往只需要几行代码即可，因此它可以很好地应用于其他的领域。尽管粒子群优化算法（Particle Swarm Optimization, PSO）的代码也比较简单，但是差分进化算法在大多数问题上的表现都比粒子群优化算法要更加优秀~\cite{deo2008,den2009}。
+\item 另一方面，差分进化中的控制参数和其他的演化算法相比，控制参数更少。在经典的差分进化中，一般只有控制参数~Cr， 缩放因子~F 以及种群大小~NP 三个参数。对于~F 和~Cr 的自适应规则的研究，在不给算法带来额外的负担的条件下，对于算法性能的提升意义重大~\cite{sde2006,desa2009}。
+\end{itemize}
+
+差分进化是一个基于种群的启发式优化算法。和其他的演化算法类似，差分进化也包含三个基本的操作：变异，交叉以及选择。差分进化通过变异操作产生变异向量，然后通过交叉操作产生交叉向量，最后在交叉向量和种群中选择个体进入下一代种群中。
+
+\subsubsection{算法框架}
+
+\begin{algorithm}
+\caption{差分进化}
+\label{alg1}	
+随机初始种群~$P_0$：$P_0=\{x_{1,D}, x_{2,D}, x_{3,D}, \cdots, x_{N,D}\}$
+
+     \While{not terminate}
+     {
+
+	$v_{i,G}=x_{r1,G}+F\cdot(x_{r2,G}+x_{r3,G})$
+
+
+		\eIf{$rand_j(0,1)\leq{CR}$ or $j= j_{rand}$}
+		{
+			$u_{i,j,G}=v_{i,j,G}$
+		}
+		{
+			$u_{i,j,G}=x_{i,j,G}$
+		}
+
+
+		\eIf{$f(u_{i,G})\leq{f(x_{i,G})}$}
+		{
+			$x_{i,G+1}=u_{i,G}$
+		}
+		{
+			$x_{i,G+1}=x_{i,G}$
+		}	
+   }
+\end{algorithm}
+
+其中~$F$ 是缩放因子，$CR$ 是交叉概率因子。$v_{i,G}$ 是变异向量，$u_{i,G}$ 是试验向量，$x_{i,G+1}$ 是目标向量。$r1$，$r2$ 和~$r3$ 是从~$[1,N]$ 中挑选出来的整数，且它们也不同于~$i$。
+
+\subsubsection{差分变异策略}
+\begin{enumerate}
+\item DE/rand/1 策略
+\begin{equation}
+v_{i,G}=x_{r1,G}+F\cdot(x_{r2,G}+x_{r3,G})
+\end{equation}
+\item DE/best/1 策略
+\begin{equation}
+v_{i,G}=x_{best,G}+F\cdot(x_{r1,G}+x_{r2,G})
+\end{equation}
+\item DE/rand/2 策略
+\begin{equation}
+v_{i,G}=x_{r1,G}+F\cdot(x_{r2,G}-x_{r3,G})+F\cdot(x_{r4,G}-x_{r5,G})
+\end{equation}
+\item DE/best/2 策略
+\begin{equation}
+v_{i,G}=x_{best,G}+F\cdot(x_{r1,G}-x_{r2,G})+F\cdot(x_{r3,G}-x_{r4,G})
+\end{equation}
+\item DE/current-to-best/1
+\begin{equation}
+v_{i,G}=x_{r1,G}+F\cdot(x_{best,G}-x_{i,G})+F\cdot(x_{r1,G}-x_{r2,G})
+\end{equation}
+\item DE/current-to0rand/1
+\begin{equation}
+u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
+\end{equation}
+\end{enumerate}
+其中~$x_{best,G}$ 是指当前种群中的最优个体，$x_{i,G}$ 为目标向量（父代种群个体），$u_{i,G}$ 是父代种群个体对应的变异向量。不同的策略往往针对不同类型的问题更为有效，一般来说，DE/rand/1 是最常用的策略。
+
+\subsubsection{主要的差分进化算法}
+差分进化算法自从提出之后，就受到了工业界以及学术界的广泛关注，各种各样基于差分进化的算法都涌现出来。下面就演化计算中广泛流行的几种差分进算法进行介绍。
+
+JADE~\cite{JADE} 是一种新型的差分进化算法，在~JADE 中提出了一种新的变异策略"DE/current-to-\emph{p}best"，它通过使用一种自适应的方式来进行种群的更新，从而提高算法的自适应性。对于种群中的每一个目标向量，JADE 都会对~F 和~CR 进行更新，同时这些信息也将用于更新~F 和~CR，从而作用于新的种群。
+
+CoDE(Composite DE)~\cite{code2011} 算法通过结合三个不同的后代产生策略和三个常用的参数设置，后代产生策略和参数设置会随机组合在一起来产生新的解集。这个算法虽然比较简单，但却十分有效，在~CEC2005 所有的测试题上经过运算，和其他差分进化算法相比都有着不小的提高。
+
+\section{基于采样策略对于连续多目标优化问题的研究}
+在本章中，我们基于~RM-MEDA 算法提出了一种基于差分进化的采样策略来解决连续多目标问题。通过采取差分进化中的变异策略，将种群在隐空间中进行转化，从而产生新的种群。
+
+3.1 节给出了连续多目标问题的相关背景知识，3.2 节主要介绍~RM-MEDA 算法框架以及相应的背景知识，3.3 节详细介绍基于差分进化的采样策略，3.4 节主要讲述通过基于差分进化的采样策略来改进~RM-MEDA 算法，3.5 节是实验结果的分析。
+
+\subsection{连续多目标问题}
+在第二章中，已经介绍过多目标问题的相关定义。多目标问题在很多工程领域都普遍存在，通常来说，多目标问题中的各个目标之间往往都是相互冲突的在一般条件下，根据~Karush-Kuhn-Tucker 可以推导出：连续多目标问题在决策空间中的~Pareto set 是一个连续分段的（m-1）维的流形体（m 是目标数）。对于一个成功的多目标演化算法（multiobjective estimation of distribution algorithm, MOEA）来说，独立的个体应该是在决策空间中分散在~Pareto set 附近，如图~\ref{FIG1} 所示。
+\begin{figure}
+\graphicspath{{figs/figure/}}
+\centering
+  \includegraphics[width=0.5\columnwidth]{ps.png}
+  \caption{连续多目标问题决策空间中个体的分布情况}
+  \label{FIG1}
+\end{figure}
+\subsection{基于采样策略的多目标分布估计算法}
+根据连续多目标问题以上的特性，基于规律模型的多目标分布算法（RM-MEDA）算法被提出用于解决连续多目标问题。其通过在每一次迭代中，通过~Local PCA~\cite{lpca} 在决策空间中的区域建立概率分布模型，然后通过使用拉丁采样得到新的子代种群。RM-MEDA 采用基于非劣排序的方法~\cite{nsga-ii} 来挑选个体来产生新的种群。RM-MEDA 经提出后，就收到了广泛的关注。本小节基于~RM-MEDA 算法，提出了一种基于差分进化的采样策略，用于进一步提升~RM-MEDA 中采样环节。
+
+\subsubsection{RM-MEDA 算法}
+对于连续多目标问题，在决策空间中，种群体中的个体如果越接近~Pareto set，则越容易进行问题的求解。因此，假设种群中的个体为随机向量~$\xi\in{R}^D$ 的观测值，$\xi$ 的中央部分就是~Pareto set。并且因为在连续多目标问题中，Pareto set 是一个~m-1 维的流体，那么~$\xi$ 则可以由公式~\ref{model} 表示：
+\begin{equation}\label{model}
+  \xi=\zeta+\epsilon
+\end{equation}
+
+$\zeta$ 相当于是均匀分布在~m-1 维流体附近的个体，$\epsilon$ 是均值为~0 的~n 维的噪音向量。
+
+RM-MEDA 算法是基于分布估计算法的框架，主要也是包括建模、采样、选择三个环节。算法~\ref{rm-meda} 则是~RM-MEDA 的主要的算法框架。
+
+\begin{algorithm}
+\caption{RM-MEDA 算法框架}
+\label{rm-meda}
+初始化一个随机种群~$Pop(0)$，并且设置~$t=0$。
+
+ \While {没有达到停机条件}
+ {
+    \textbf{建模}：建立一个概率模型~$\xi$ 来表示在随机种群~$Pop(t)$ 中的个体。
+
+    \textbf{采样}：通过上述的概率模型进行采样得到新的解集~$Q$。
+
+    \textbf{选择}：从~$Q\bigcup{Pop(t)}$ 中挑选出~$N$ 个个体来组成一个新的种群~$Pop(t+1)$。
+
+    $t=t+1$
+ }
+
+返回最终的种群解集~$Pop(t)$。
+\end{algorithm}
+
+\subsubsection{RM-MEDA 中存在的问题和解决方法}
+在~RM-MEDA 中，通过使用~Local PCA 将种群分成~k 个聚类。如图~\ref{pareto} 所示，在每一个聚类之中，$N^k$ 用来表示聚类中的~Pareto set，而~$M^k$ 则用来覆盖每个聚类中的~Pareto set。 为了能够覆盖聚类中的~Pareto set，RM-MEDA 通过设置一个缩放比例用来覆盖聚类中的~Pareto set。但是这个缩放比例依赖于问题，，这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不禁相同。如果缩放比例设置过大，则对于实际的~Pareto set 则显得多余；如果设置的缩放比例过小，又不足以覆盖实际的~Pareto set。 因此，如何设置一个合适的~Pareto set 也成为了一个比较困难的问题。
+
+\begin{figure}
+\graphicspath{{figs/figure/}}
+\centering
+  \includegraphics[width=0.5\columnwidth]{pareto.png}
+  \caption{通过缩放比例来覆盖~Pareto setp}
+  \label{pareto}
+\end{figure}
+
+\subsubsection{基于差分进化的采样策略}
+为了避免在~RM-MEDA 中通过设置缩放比例来进行采样，我们提出了一种新型的基于差分进化的采样策略。通过改进~rand-1-bin 变异策略，这个变异策略的公式如~\ref{mutation} 所示：
+
+\begin{equation}
+\label{DE}
+  X=X_{r_1}+rand\cdot(X_{r_2}-X_{r_3})+F\cdot(X_{r_2}-X_{r_3})
+\end{equation}
+
+其中~$X_{r_1}$, $X_{r_2}$, $X_{r_3}$ 是种群中的随机个体，$r_1, r_2, r_3$ 则是从~1 到~NP(NP 是种群的大小) 之间选择的三个互不相同的整数。F 是变异策略中的缩放因子，rand 是~0 到~1 之间符合均匀分布的随机数。
+
+\begin{figure}
+\graphicspath{{figs/figure/}}
+\centering
+  \includegraphics[width=0.5\columnwidth]{mutation.png}
+  \caption{通过缩放比例来覆盖~Pareto setp}
+  \label{mutation}
+\end{figure}
+
+图~\ref{mutation} 诠释了在二维空间中这个变异策略是如何实现的。向量~$rand\cdot(X_{r_2}-X_{r_3})+F\cdot(X_{r_2}-X_{r_3})$ 对于增加种群的多样性具有重要意义。
+
+对于种群中的每一个聚类中，DES 将决策空间中的个体转化到隐空间中，通过上述变异策略产生新的个体，再将个体转换到正常的决策空间中。通过在隐空间中执行变异策略，可以有效地提取种群中的统计信息。DES 的算法框架如~\ref{des} 所示：
+
+\begin{algorithm}[htbp]
+\caption{DES}
+\label{des}
+对于每个给定的聚类求得相应的协方差矩阵~$C$ 并进行分解操作：
+$$
+C=EDE^T
+$$
+$E$ 是协方差矩阵~$C$ 的特征向量矩阵，$D$ 是由特征值组成的对角矩阵。
+
+对于聚类中每一个个体~$x$，将其映射到隐空间中：
+$$
+y=x \cdot R.
+$$
+$R$ 是特征向量矩阵~$E$ 中前~$(m-1)$ 个主要成分。
+
+在隐空间中对于种群个体进行变异操作：
+$$
+y^\prime=y_{r_1}+rand\cdot{(y_{r_2}-y_{r_3}})+F\cdot(y_{r_2}-y_{r_3})
+$$
+
+将~$y^\prime$ 映射到原始的决策空间
+$$
+x^\prime=y^\prime\cdot{R^T}.
+$$
+
+返回产生的新的个体
+$$
+x^{\prime\prime}=x^\prime+\varepsilon^\prime
+$$
+where $\varepsilon^\prime$ is the Gaussian noise subjects to the distribution $\mathcal{N}(0,\sigma_\tau{I})$ ($\tau\in\{1, 2, \cdots, K\}$ is a randomly generated integer).
+\end{algorithm}
+
+将~DES 引入到~RM-MEDA 算法中来采样，那么~DES-RM-MEDA 算法框架如算法~\ref{des-rm-meda} 所示。
+
+\begin{algorithm}
+\caption{DES-RM-MEDA}
+\label{des-rm-meda}
+Initialize a population $Pop(0)$, and set $t=0$.
+
+ \While {not terminate}
+ {
+    \textbf{Modeling}: Build the probabilistic model $\delta$ in order to model the distribution of the solutions in $Pop(t)$.
+
+    \textbf{Reproduction}: Partition the population into different clusters $C_i$ according to the probabilistic model. For each cluster, use DES to generate a set of candidate solutions $Q_i$. Set $Q=\cup_i Q_i$.
+
+    \textbf{Selection}: Select $N$ solutions from $Q\bigcup{Pop(t)}$ to construct a new population $Pop(t+1)$.
+
+    $t=t+1$
+ }
+
+Return the solutions in $Pop(t)$.
+\end{algorithm}
+
+\subsection{实验分析}
+
+\subsubsection{实验设置}
+本章节主要针对~ZZJ 中的~10 个测试题做实验比较。
+
+本章节主要采用~IGD(inverted generational distance) 指标~\cite{igd} 来比较算法的性能。令~$P^*$ 为~Pareto front 周围的目标向量空间中均匀分布的一组点。假设~P 是~Pareto front 的估计，那么~$P$ 到~$P^*$ 之间的~IGD 指标定义如下：
+\begin{equation}\label{igd}
+  IGD(P^*,P)=\frac{\sum_{v\in{P^*}}d(v,P)}{P^*}
+\end{equation}
+
+其中,$d(v,P)$ 是~$v$ 到~$P$ 中任意一点的最小欧氏距离。如果~$P^*$ 足够大到可以表示~Pareto front，那么~$IGD(P^*,P)$ 就可以用来测量~$P$ 的多样性和收敛性。$IGD(P^*,P)$ 的值越小，则~$P$ 距离~$P^*$ 越近。
+
+RM-MEDA 和~DES-RM-MEDA 都是使用~Matllab 进行编程实现并且是在同一台计算机上运行程序。在这篇论文中的试验参数如下：
+
+\begin{itemize}
+  \item \emph{初始化种群}：这两个算法中的初始种群是随机生成的。
+  \item \emph{种群大小}：对于测试集（$F3$, $F7$, $F9$）每一代的种群大小设置成~100，对于其它的测试题，每一代种群大小设置为~200.
+  \item \emph{决策向量的大小}: 决策向量的大小在这两个算法都设置成~30。
+  \item \emph{聚类数量}：聚类的数量设置成~5。
+  \item\emph{缩放因子~$F$}：缩放因子 ~$F$ 设置为~0.4。
+  \item\emph{运行次数}：对于算法中每一个测试题将单独运行~30 次。
+  \item\emph{迭代次数}：对于测试题（$F1$, $F2$, $F5$, $F6$）迭代次数设置为~100，对于测试题~$F4$ 和~$F8$ 设置为~200，其它的设置为~1000。p
+\end{itemize}
+
+\subsection{RM-MEDA 缩放因子的影响}
+为了研究缩放因子对于~RM-MEDA 性能的影响，在本章节中，从~0 到~0.5 之间以~0.05 为间隔设置~10 个缩放因子，并比较~RM-MEDA 在这些缩放因子作用下的性能比较。图~\ref{scale-rm-meda} 是~RM-MEDA 在不同缩放因子的作用下，IGD 指标的箱线图。
+
+\begin{figure*}[htbp]
+\centering
+\graphicspath{{figs/box/}}
+\subfigure[F1]{\includegraphics[ width=0.26\textwidth]{box_f1.eps}}
+\subfigure[F2]{\includegraphics[ width=0.26\textwidth]{box_f2.eps}}
+\subfigure[F3]{\includegraphics[ width=0.26\textwidth]{box_f3.eps}}
+\subfigure[F4]{\includegraphics[ width=0.26\textwidth]{box_f4.eps}}
+\subfigure[F5]{\includegraphics[ width=0.26\textwidth]{box_f5.eps}}
+\subfigure[F6]{\includegraphics[ width=0.26\textwidth]{box_f6.eps}}
+\subfigure[F7]{\includegraphics[ width=0.26\textwidth]{box_f7.eps}}
+\subfigure[F8]{\includegraphics[ width=0.26\textwidth]{box_f8.eps}}
+\subfigure[F9]{\includegraphics[ width=0.26\textwidth]{box_f9.eps}}
+\subfigure[F10]{\includegraphics[ width=0.26\textwidth]{box_f10.eps}}
+\caption{不同缩放因子下，RM-MEDA 的~IGD 指标的箱线图}
+ \label{scale-rm-meda}
+\end{figure*}
+
+从这个箱线图中，如果不设置缩放因子，那么~RM-MEDA 表现则不是很好。一般来说，缩放因子设置的越大，则~RM-MEDA 表现得也更加优秀。但对于设置较大的缩放因子也可能会造成性能的不稳定，比如图~\ref{scale-rm-meda}(g) 和~(h)。总的来说，如果在实践中设置一个最佳的缩放因子还是比较困难的。
+
+\subsection{缩放因子~F 的敏感性}
+为了验证~DES-RM-MEDA 中缩放因子~F 的敏感性，在本节中，将~F 设置为从~0 到~1 之间，从而来比较在不同缩放因子~F 作用下，DES-RM-MEDA 的性能表现。
+
+\begin{figure*}
+\centering
+\graphicspath{{figs/figure/}}
+\subfigure[]{\includegraphics[ width=0.32\textwidth]{f1_f5.eps}}
+\subfigure[]{\includegraphics[ width=0.32\textwidth]{f6_f9.eps}}
+\subfigure[]{\includegraphics[ width=0.32\textwidth]{f10.eps}}
+\caption{不同缩放因子下，DES-RM-MEDA 的性能比较}
+ \label{sensity}
+\end{figure*}
+
+从图~\ref{sensity} 可以看出，缩放因子~F 的鲁棒性还是比较优秀的。对于大多数测试题，除了~F7，DES-RM-MEDA 的性能表现基本上都是非常平滑的。同时，将不同缩放因子下~DES-RM-MEDA 和~RM-MEDA 进行了对比。
+
+当缩放因子设置为~0.2、0.5 以及~0.7 的情况下，DES-RM-MEDA 比~RM-MEDA 在~9 个测试题上都表现得更好。在缩放因子设置为~0.1、0.4、0.6、以及~0.9 的时候，RM-MEDA 在~8 个测试题上表现不如~DES-RM-MEDA。在将缩放因子设置为其它参数的情况下，DES-RM-MEDA 的~IGD 指标要优于~RM-MEDA 在~7 个测试题上。
+
+对于测试题~F1、F2、F3、F4 以及~F5，DES-RM-MEDA 在使用任一缩放因子设置情况下，其性能表现都要优于~RM-MEDA。除了将缩放因子设置为~0.1，在测试题~F6 上，DES-RM-MEDA 都比~RM-MEDA 要表现得更好。对于~F7、F8、F9，DES-RM-MEDA 的优势怎没有这么多。对于测试题~F10，可以看出~RM-MEDA 和~DES-RM-MEDA 之间的差距还是比较明显的。综合来说，缩放因子的鲁棒性还是比较好的，同时对于算法性能的提升也有着重要的意义。
+
+为了进一步比较~DES-RM-MEDA 在不同的缩放因子下的性能表现，我们将使用魏可可送两样本检验法（Wilcoxon's rank sum tes）来对于~RM-MEDA 和~DES-RM-MEDA 之间的性能进行比较。层叠柱状图~\ref{bar} 可以表明在不同缩放因子下，DES-RM-MEDA 的表现还是比较优异的。
+
+\begin{figure}
+  \centering
+  \graphicspath{{figs/figure/}}
+  \includegraphics[width=0.4\textwidth]{f_performance.eps}
+  \caption{"$+$", "$\approx$", 以及 "$-$" 分别表示~DES-RM-MEDA 的性能要优于，相似于，差于~RM-MEDA 的性能}
+  \label{bar}
+\end{figure}
+
+\subsection{对比研究}
+从表~\ref{tab1} 可以看出，在~8 个测试题上，DES-RM-MEDA 都要优于~RM-MEDA。对于其它的~2 个测试题，这两个算法的性能比较接近。值得注意的是，在测试题~F3 以及~F10 上，DES-RM-MEDA 在性能上的提升是非常显著的。
+
+
+图~\ref{igd_com} 可以用来比较~DES-RM-MEDA 和~RM-MEDA 在测试题上的收敛趋势。从图~\ref{igd_com} 可以看出，对于大多数测试题，DES-RM-MEDA 收敛的更快更好。这表示~DES 对于~RM-MEDA 采样的意义还是相当重要的。下面，对于实验结果进行深入的比较分析：
+\begin{enumerate}
+  \item 对于具有两个目标的测试题，DES-RM-MEDA 具有非常亮眼的表现。对于简单的测试题，比如~F1 和~F2，以及困难的测试题，比如~F3 和~F10，无论是在收敛速度还是最终的收敛值，DES-RM-MEDA 都取得更好地表现。F9 是一个相对比较简单的测试题，这两算法这个测试题上的表现近似。只有对于测试题~F7，DES-RM-MEDA 在前面的表现都不错，但是在后面的代数里面表现的不是足够稳定。
+  \item 对于具有三个目标的测试题，包括~F4 和~F8。在这两个测试题上，DES-RM-MEDA 的收敛速度更快，最终的收敛水平也要略优于~RM-MEDA。
+\end{enumerate}
+
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{DES-RM-MEDA 和~RM-MEDA 的独立运行~30 次~IGD 指标}
+\label{tab1}
+\begin{tabular}{l|cccc|cccc}\hline
+&\multicolumn{4}{c|}{RM-MEDA}&\multicolumn{4}{c}{DES-RM-MEDA}\\
+&mean&std.&best&worst&mean&std.&best&worst\\\hline
+$F1$	&$3.90e-03$	&$1.39e-04$	&$3.70e-03$	&$4.20e-03$	&$\textbf{3.60e-03}$	&$9.16e-05$	&$\textbf{3.43e-03}$	&$\textbf{3.77e-03}$\\
+
+$F2$	&$3.80e-03$	&$1.43e-04$	&$3.50e-03$	&$4.10e-03$	&$\textbf{3.60e-03}$	&$1.01e-04$	&$\textbf{3.35e-03}$	&$\textbf{3.82e-03}$\\
+
+$F3$	&$7.20e-03$	&$3.90e-03$	&$\textbf{3.60e-03}$	&$1.55e-02$	&$\textbf{4.90e-03}$	&$8.09e-04$	&$3.90e-03$	&$\textbf{7.31e-03}$\\
+
+$F4$	&$5.03e-02$	&$1.30e-03$	&$4.82e-02$	&$5.35e-02$	&$\textbf{4.62e-03}$	&$9.32-04$	&$\textbf{4.44e-02}$	&$\textbf{4.85e-02}$\\
+
+$F5$	&$5.30e-03$	&$3.00e-03$	&$4.40e-03$	&$2.12e-02$	&$\textbf{4.60e-03}$	&$1.49e-04$	&$\textbf{4.33e-03}$	&$\textbf{4.96e-03}$\\
+
+$F6$	&$8.30e-03$	&$2.10e-03$	&$5.70e-03$	&$1.50e-02$	&$\textbf{5.60e-03}$	&$9.04e-04$ &$\textbf{4.52e-03}$	&$\textbf{8.30e-03}$\\
+
+$F7$	&$\textbf{1.60e-01}$	&$2.35e-01$	&$7.96e-02$	&$1.03e+00$	&$1.73e-01$	 	        &$2.28e-01$ &$\textbf{3.20e-02}$  &$\textbf{1.02e+00}$\\
+
+$F8$	&$6.59e-02$	&$3.50e-03$	&$6.05e-02$	&$7.69e-02$	&$\textbf{6.10e-02}$	 &$2.03e-03$	&$\textbf{5.67e-02}$	&$\textbf{6.39e-02}$\\
+
+$F9$	&$\textbf{8.00e-03}$	&$2.80e-03$	&$5.80e-03$	&$\textbf{1.48e-02}$	&$8.40e-03$	 &$3.20e-03$	&$\textbf{5.51e-03}$	&$2.12e-02$\\
+
+$F10$ &$1.25e+02$	&$2.35e+01$	&$2.27e+01$	&$1.44e+02$	&$\textbf{1.76e+00}$	 &$1.29e+01$	&$\textbf{4.73e+00}$	&$\textbf{7.15e+01}$\\
+\hline\hline
+\end{tabular}
+\begin{tablenotes}
+\item[1] 粗体的表示更好的结果
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}
+
+\begin{figure*}
+\centering
+\graphicspath{{figs/igd/}}
+\subfigure[F1]{\includegraphics[ width=0.26\textwidth]{f1_igd.eps}}
+\subfigure[F2]{\includegraphics[ width=0.26\textwidth]{f2_igd.eps}}
+\subfigure[F3]{\includegraphics[ width=0.26\textwidth]{f3_igd.eps}}
+\subfigure[F4]{\includegraphics[ width=0.26\textwidth]{f4_igd.eps}}
+\subfigure[F5]{\includegraphics[ width=0.26\textwidth]{f5_igd.eps}}
+\subfigure[F6]{\includegraphics[ width=0.26\textwidth]{f6_igd.eps}}
+\subfigure[F7]{\includegraphics[ width=0.26\textwidth]{f7_igd.eps}}
+\subfigure[F8]{\includegraphics[ width=0.26\textwidth]{f8_igd.eps}}
+\subfigure[F9]{\includegraphics[ width=0.26\textwidth]{f9_igd.eps}}
+\subfigure[F10]{\includegraphics[ width=0.26\textwidth]{f10_igd.eps}}
+\caption{IGD 指标均值趋势图。实线表示~DES-RM-MEDA，虚线表示~RM-MEDA。}
+ \label{igd_com}
+\end{figure*}
+
+\subsection{本章小结}
+在本章节我们提出了基于差分进化的采样策略，即在隐空间中产生新的种群。基本的思路是将父代种群映射到隐空间中，然后在隐空间中利用一种新型的变异策略来进行编译操作从而产生新的个体，接着将这些个体映射到原始的空间来产生子代种群。基于差分进化的采样策略被用于改进~RM-MEDA 的采样环节。初步的研究表明，通过差分进化的采样策略比拉丁方设计能够有效地改进~RM-MEDA 的采样。
+
+这一章节的基本研究表明在隐空间中的采样还是相当具有潜力的，因为其维度大大小于决策空间的维度，从而能够更好地利用种群的统计信息。同时，对于基于差分进化的采样策略依然还有别的工作需要完成，包括：(a) 尝试在隐空间中采用别的采样策略。 (b) 可以将基于差分进化的采样策略和别的多目标演化算法相结合。
+
+\section{基于采样策略对于全局单目标优化问题的研究}
+
+在本章中，对于全局单目标优化问题，在基于~DE/EDA 算法框架的基础上，我们引入了~DE-EIG 算法，从而提出~EDA/DE-EIG 算法。通过利用~DE-EIG 来提高~EDA 在单目标优化问题上的采样性能。实验表明，EDA/DE-EIG 对于全局单目标优化问题具有较大潜力。
+
+\subsection{单目标优化问题}
+
+\subsection{基于特征向量的差分进化}
+DE-EIG 是一种基于特征向量的差分进化算法~\cite{DEEIG}，其主要贡献是在一个旋转的坐标空间对于个体进行交叉操作，这样可以利用旋转空间中种群的协方差矩阵的特征向量信息。为了避免失去种群的多样性，通过在原始的坐标空间中产生子代种群或者在旋转的坐标空间中产生子代种群的概率是随机的。通过设置合理的参数来控制种群是在原始的坐标空间中产生亦或是在旋转后的坐标空间中产生，这样既可以增加种群的多样性，也可以避免过早收敛。
+
+\subsubsection{新的交叉策略}
+DE-EIG 最主要的贡献就是提出一种在旋转的坐标空间中对种群个体进行交叉操作。这样可以有效地引导种群向群居最有演化，同时也不会失去差分进化的搜索能力。在二项式交叉操作中，CR 控制种群个体中变量变化的数量。当~CR=1 的时候，经典的差分进化的性能就和坐标空间没有关系了~\cite{des2011}。相反，如果~CR 的值小于~1 的时候，差分进化的性能就和坐标空间的旋转有着紧密的联系。
+
+\subsubsection{DE-EIG 算法框架}
+\begin{algorithm}
+\label{alg3}
+\caption{DE-EIG}
+初始化种群~$Pop(t)=\{x_1, x_2, x_3, \cdots, x_N\}$ ($N$ 是种群大小)
+
+\While{not terminate}
+{
+$v_{i,G}=x_{r1,G}+F\cdot(x_{r2,G}-x_{r3,G})$
+
+	\eIf{$rand()<p$}
+	{
+		\eIf{$rand()\leq{CR}$}
+		{
+		$u_{i,G}=v_{i,G}$
+		}
+		{	
+		$u_{i,G}=x_{i,G}$
+		}
+	}
+	{
+	     求得~$x_{i,G}$ 的特征向量矩阵~$E$，令~$E'$ 为特征向量矩阵的逆矩阵。p
+
+		$x'_{i,G}=E'\cdot{x_{i,G}}$
+
+		$v'_{i,G}=E'\cdot{v_{i,G}}$
+
+		\eIf{$rand()\leq{CR}$}
+		{
+			$u'_{i,G}=v'_{i,G}$
+		}
+		{
+			$u'_{i,G}=x'_{i,G}$
+		}
+		$u_{i,G}=E\cdot{u'_{i,G}}$
+	}
+		\eIf{$f(u_{i,G})\leq{f(x_{i,G})}$}
+		{
+			$x_{i,G+1}=u_{i,G}$
+		}
+		{
+			$x_{i,G+1}=x_{i,G}$
+		}	
+$ t = t + 1$
+}
+\end{algorithm}
+
+\subsection{DE/EDA 算法}
+差分进化是一种非常成功的用于解决全局连续问题优化的算法。它主要是利用当前种群中的距离和方向信息来指导未来的搜索。分布估计算法则是通过从建立的概率模型中采样来产生新的种群个体。DE/EDA 就是将差分进化和分布估计算法结合起来，用于解决全局连读问题优化。通过利用分布估计算法可以提取种群全局信息和差分进化可以提取种群差分信息的优点，DE/EDA 是一种非常具有研究前景的算法。本章节将会基于~DE/EDA 这一算法框架作进一步的研究。
+
+\begin{algorithm}
+\label{alg4}
+\caption{DE/EDA}
+ Generate population $Pop(t)$ randomly consists of N solutions $x_1, x_2, \cdots, x_N$ from the feasible search space.
+\While{not terminate}
+{
+    Construct the probabilistic model:
+
+    $p_k(x)=\prod_{i=1}^{n}\mathcal{N}(x_i; \mu_{i}, \sigma_{i})$
+
+     For all $j=1, 2, \cdots, n$, produce a trial solution $u=(u_1, u_2, \cdots, u_n)$
+
+		\eIf{$rand()<CRP$}
+		{
+			$u_j=\frac{(x_i)_j+(x_d)_j}{2}+F\cdot[(x_d)_j-(x_i)_j+(x_b)_j-(x_c)_j]$
+		}
+		{
+			$u_j$ is sampled according to $\mathcal{N}(x_i; \mu_{i}, \sigma_{i})$
+		}	
+        where $CRP$ is the controlling parameter.
+
+        \eIf{$f(u)<f(x_i)$}
+        {
+        $x_i^{t+1}=u$
+        }
+        {
+        $x_i^{t+1}=x_i^t$
+        }
+        $t=t+1$
+}
+\end{algorithm}
+
+\subsection{复杂的局部搜索}
+复杂的局部搜索（expensive local search）是~EDA/LS~\cite{EDALS} 中一种进一步优化种群演化的策略。
+
+\subsection{EDA/DE-EIG 算法}
+基于~DE/EDA 框架，将~DE-EIG 算法引入到之中，来进一步改善分布估计算法的采样环节。同时为了保持种群的多样性，通过一个随机参数来控制种群是通过概率模型采样产生亦或是通过~DE-EIG 来产生。这样，可以增加种群的多样性，同时也可以提高差分进化的搜索能力。同时，expensive local search 也将会被用于进一步提升算法求解的性能。
+
+\begin{algorithm}
+\label{eda/de-eig}
+\caption{EDA/DE-EIG}
+初始化种群~$Pop(t)=\{x_1, x_2, x_3, \cdots, x_N\}$ ($N$ 是种群的大小)
+
+\While{not terminate}
+{
+    构建概率模型：
+
+    $p(x)=\prod_{i=1}^{n}\mathcal{N}(x_i; \mu_{i}, \sigma_{i})$
+
+    Generate a trial solution $u_{i, G}$ as follows:
+
+    \eIf{$rand()<CRP$}
+    {
+        根据~DE-EIG 得到~$u_{i, G}$
+    }
+    {
+        根据概率模型~$p(x)$ 采样得到~$u_{i, G}$
+    }
+
+    \eIf{$f(u_{i,G})<f(x_{i,G})$}
+    {
+        $x_{i,G+1}=u_{i,G}$
+    }
+    {
+        $x_{i,G+1}=x_{i,G}$
+    }
+    \If{Converage($\theta, G, G_e$)}
+    {
+        执行~expensive local search.
+    }
+
+    $t=t+1$
+}
+\end{algorithm}
+
+\subsection{实验分析}
+在本章节，我们将~EDA/DE-EIG 和~JADE~\cite{JADE} 和~\cite{DEEDA} 相比较。JADE 的源代码是从其作者手中获得，DE/EDA 是由我们自己实现的。本章节还会介绍后面的测试题以及算法的参数设置。对于算法性能的比较会做一个综合全面的分析。
+
+\subsubsection{比较算法}
+JADE 是一种自适应的差分进化算法，它通过使用一种新型的变异策略"DE/current-to\emph{p}best" 以及额外的空间来更新控制参数。JADE 和多个一流算法比较，都比较具有优势。DE/EDA 是一种混合算法，结合了差分进化和分布估计算法的思想。这两个算法将会和~EDA/DE-EIG 在同样的测试题上进行比较。
+
+\subsubsection{测试集}
+所有的算法都会根据其在~YYL 测试集~\cite{YYL} 中的前~13 个测试集上的性能进行比较。所有测试集的全局最优解都是~0。所有的测试集可以被分为~4 类：f1-f5 是单峰函数；f6 是阶梯函数；f7 是具有白噪音的函数；f8-f13 是具有局部最优解的多模函数。因此，这些测试集能够全面地反映算法的性能。
+
+\subsubsection{参数设置}
+为了公平地比较这几个算法的性能，参数设置将会根据其相应论文里面的参数。所有的算法都是通过~Matlab 来实现的，并且是在同一台计算机上运行。试验参数设置如下：
+\begin{enumerate}
+  \item 测试集中所有种群维度都设置为~30. 所有算法都会在每一个测试题上独立运行~50 次，体积条件是~450000 函数评估。
+  \item JADE：参数设置为：$N=150, p=0.05, c=0.1, F=0.5$ and $CR=0.9$
+  \item DE/EDA: $N=150, F=0.5$ and $CRP=0.9$。
+  \item EDA/DE-EIG: The $CRP$ is 0.5; $F$ is set to be 0.5; $CR$ is set to be 0.6; the parameter $p$ to control the probability to operate crossover two coordinate systems is 0.5; the convergence threshold $\theta=0.1$; the size of the population $N$ is 150. For the parameter setting of expensive local search, it is same as that in ~\cite{EDALS}.
+\end{enumerate}
+
+\subsubsection{实验结果和分析}
+表~\ref{eda-de-eig-tab} 统计了各个算法的最终结果的均值和标准差。通过利用威尔克松统计实验来计较~EDA/DE-EIG 和其他算法。"+"，"-" 以及"$\sim$" 分别表示其他算法的最终解大于，小于以及近似于~EDA/DE-EIG 的最终解。
+
+从表~\ref{eda-de-eig-tab} 可以看出，EDA/DE-EIG 在和其它两个算法比较具有不错的表现。EDA/DE-EIG 在~9 个测试题上取得了最好的表现，除了~f5，f7，f8 和~f9。接着对~EDA/DE-EIG 和其它两个算法分别做进一步的比较。对于~DE/EDA，EDA/DE-EIG 具有相当不俗的表现。EDA/DE-EIG 在~7 个测试机上都要优于~DE/EDA。EDA/DE-EIG 在测试集上的提升是非常显著的，值得注意的是，这两个算法之间的性能差异还是比较显著的。
+
+将~EDA/DE-EIG 和~JADE 相比较，EDA/DE-EIG 在~5 个测试集上取得了更好的结果。这两个算法在测试集~f6，f10，f12 以及~f13 上都取得了最好的结果。总而言之，EDA/DE-EIG 的性能表现还是比较具有竞争力的。值得注意的是，在~f1-f4 以及~f11 这~5 个测试题上，EDA/DE-EIG 都具有显著的性能提升。对于测试集~f7，f8 以及~f9，EDA/DE-EIG 可能是受到差分进化的局部最优地影响。在这些测试题上的提升，EDA/DE-EIF 值得更加深入的研究。
+
+同时，为了从一个更加客观的角度来比较最终的结果，威尔克松统计分析被用来比较这几个算法。对于~JADE，EDA/DE-EIG 在~3 个测试题上要优于~JADE；这两个算法在~6 个测试集上取得了近似的结果；在~4 个测试题上，JADE 的最终结果更好。在与~DE/EDA 相比，EDA/DE-EIG 有着不小的提升。同时，对于~JADE，这两个算法从统计上来说在~13 个测试题上有着近似的表现。这表明~DE-EIG 的确取得了有意义的效果。这证明~EDA/DE-EIG 的性能表现还是具有潜力的同时也需要进一步的提升研究。
+
+为了进一步诠释~EDA/DE-EIG 和其他两个算法之间的性能比较，图~\ref{eda-deeig-fig1} 是这三个算法结果的趋势图。因为在测试集~f6 上，JADE 和~EDA/DE-EIG 都收敛得非常早，为了更好地站线结果，在本章节就不做在~f6 上的趋势图比较。在~13 个测试题中，EDA/DE-EIG 在~8 个测试题上取得了最好的结果。EDA/DE-EIG 在收敛速度和最终的收敛结果上都取得了较好的结果。对于某些测试集，这个比较还是比较显著的，包括~f1，f2，f3，f4 和~f11。对于~DE/EDA 而言，在~11 个测试题上，ED/EDA 都表现得更差，除了测试题~f7 和~f8。与~JADE 相比较，对于测试集~f1-f4，EDA/DE-EIG 在收敛速度和最终收敛结果都是领先的。对于测试集~f5,JADE 最终结果更好，但是~EDA/DE-EIG 具有更好地收敛趋势并且更早地收敛。对于测试集~f7，f8 和~f9 上，EDA/DE-EIG 的表现不佳。在测试题~f10，f12 和~f13 上，EDA/DE-EIG 具有一个更好地收敛速度。总之，EDA/DE-EIG 在与~DE/EDA 相比还是具有比较明显的优势。同时，和~JADE 相比较，EDA/DE-EIG 的表现还是具有相当的竞争力。
+
+\subsection{本章小结}
+DE/EDA 是一种对于全局优化的具有很大潜力的方法，它结合了全局和局部的信息。在本章节中，通过引进一种提升的差分进化算法，DE-EIG。DE-EIG 有利于更好地利用种群的统计信息并且加速收敛。实验结果表明，在和~JADE 和~DE/EDA 比较的过程中，EDA/DE-EIG 还是比较具有优势的。
+
+当然，本章节的研究是非常基础的还有需要提升的地方。第一，EDA/DE-EIG 的算法结构值得进一步的优化；第二，值得探究在~DE-EIG 和~EDA 算法资源的分配，这是一个有意思的话题。
+
+\begin{table*}
+\centering
+\caption{Statistical results ($mean\pm{std}$) for the three algorithms on instances $f1-f13$.}
+\label{eda-de-eig-tab}
+\begin{threeparttable}
+\begin{tabular}{l|cccc}\hline\hline
+%\multicolumn{}{c}{}\\
+instances&EDA/DE-EIG&JADE&DE/EDA\\\hline
+$f1$	&$\textbf{1.54e-159}\pm\textbf{5.11e-159}$	                                &$3.90e-127\pm2.74e-126{(+)}$	                                 &$1.39e-59\pm2.58e-59(+)$	\\
+        \\
+$f2$	&$\textbf{1.02e-75}\pm\textbf{7.46e-76}$	                                &$2.60e-35\pm1.64e-34(+)$	                                        &$5.15e-28\pm4.68e-28(+)$	\\
+        \\
+$f3$	&$\textbf{4.01e-35}\pm\textbf{8.47e-35}$	                                &$7.79e-35\pm2.51e-34(\sim)$	                                         &$1.23e-12\pm1.20e-12(+)$	\\
+        \\
+$f4$	&$\textbf{5.01e-20}\pm\textbf{3.06e-19}$	                                &$3.15e-14\pm6.42e-14(+)$	                                         &$9.90e-12\pm2.69e-11(+)$	\\
+        \\
+$f5$	&$1.46e-29\pm2.62e-29$	&$\textbf{3.85e-30}\pm\textbf{9.58e-30}(-)$	                                        &$3.37e-21\pm8.66e-21(+)$	\\
+        \\
+$f6$	&$\textbf{0.00e+00}\pm\textbf{0.00e+00}$	&$\textbf{0.00e+00}\pm\textbf{0.00e+00}(\sim)$	 	&$\textbf{0.00e+00}\pm\textbf{0.00e+00}(\sim)$	\\
+        \\
+$f7$	&$3.60e-03\pm1.00e-03$	                                &$\textbf{6.01e-04}\pm\textbf{2.23e-04}(-)$	                                         &$2.20e-03\pm5.59e-04(-)$	\\
+        \\
+$f8$	&$2.79e+03\pm5.02e+02$	&$\textbf{4.74e+00}\pm\textbf{2.34e+01}(-)$	                     	&$1.82e+03\pm6.72e+02(-)$	\\
+        \\
+$f9$	&$6.23e+00\pm2.21e+00$	                                &$\textbf{0.00e+00}\pm\textbf{0.00e+00}(-)$	 	&$1.54e+02\pm1.96e+01(+)$\\
+        \\
+$f10$   &$\textbf{4.44e-15}\pm\textbf{0.00e+00}$	&$\textbf{4.44e-15}\pm\textbf{0.00e+00}(\sim)$	 &$\textbf{4.44e-15}\pm\textbf{0.00e+00}(\sim)$	\\
+        \\
+$f11$	&$\textbf{0.00e+00}\pm\textbf{0.00e+00}$	&$1.48e-04\pm1.05e-03(\sim)$	                    	&$2.96e-04\pm1.46e-03(\sim)$	\\
+        \\
+$f12$	&$\textbf{1.57e-32}\pm\textbf{5.53e-48}$	&$\textbf{1.57e-32}\pm\textbf{5.53e-48}(\sim)$	 	&$\textbf{1.57e-32}\pm\textbf{5.53e-48}(\sim)$\\
+        \\
+$f13$   &$\textbf{1.35e-32}\pm\textbf{1.11e-47}$	&$\textbf{1.35e-32}\pm\textbf{1.11e-47}(\sim)$	&$\textbf{1.35e-32}\pm\textbf{1.11e-47}(\sim)$	\\
+ & &$3(+)6(\sim)4(-)$ &$6(+)5(\sim)2(-)$ \\
+
+\hline\hline
+\end{tabular}
+\begin{tablenotes}
+\item[1] The bold ones mean the best.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}
+
+\begin{figure*}
+\centering
+\graphicspath{{figs/eda-de-eig/}}
+\subfigure[$f$1]{\includegraphics[ width=0.3\textwidth]{f1.eps}}
+\subfigure[$f2$]{\includegraphics[ width=0.3\textwidth]{f2.eps}}
+\subfigure[$f3$]{\includegraphics[ width=0.3\textwidth]{f3.eps}}
+\subfigure[$f4$]{\includegraphics[ width=0.3\textwidth]{f4.eps}}
+\subfigure[$f5$]{\includegraphics[ width=0.3\textwidth]{f5.eps}}
+%\subfigure[F6]{\includegraphics[ width=0.3\textwidth]{f6.eps}}
+\subfigure[$f7$]{\includegraphics[ width=0.3\textwidth]{f7.eps}}
+\subfigure[$f8$]{\includegraphics[ width=0.3\textwidth]{f8.eps}}
+\subfigure[$f9$]{\includegraphics[ width=0.3\textwidth]{f9.eps}}
+\subfigure[$f10$]{\includegraphics[ width=0.3\textwidth]{f10.eps}}
+\subfigure[$f11$]{\includegraphics[ width=0.3\textwidth]{f11.eps}}
+\subfigure[$f12$]{\includegraphics[ width=0.3\textwidth]{f12.eps}}
+\subfigure[$f13$]{\includegraphics[ width=0.3\textwidth]{f13.eps}}
+\caption{The mean function value versus on $f1-f13$ except $f6$ of the three algorithms.}
+ \label{eda-deeig-fig1}
+\end{figure*}
+
+\newpage
+\section{总结与展望}
+
+\subsection{本文工作总结}
+
+
+\subsection{工作展望}
+
+\newpage
+\renewcommand{\refname}{\hei 参考文献}
+\bibliography{gecco2016}
+
+\newpage
+\section{附录}
+
+\hspace*{\fill}\mbox{\Large\textbf{致\quad\,谢}}\hspace*{\fill}
+
+白驹过隙，三年的研究生的学习生活转眼来到了尾声。想起当初的事情，依然都历历在目。回想这三年的点点滴滴，不禁感慨万千，既有泪水，也有汗水，当然也有更多的收获。在这三年的研究生生涯之中，自己收获了很多，得到了成长，结识了很多的好朋友，得到了老师们的帮助，使得我最终能够顺利地完成学业。
+
+首先，我最想感谢的是我的导师周爱民老师。我觉得周老师对我的帮助是方方面面，不仅是学习上，学术上方面的内容，同时也包括在工作和生活中的方方面面。周老师教会我如何严谨地进行科学实验，如何写论文，让我在学术研究上成长了很多，我相信这必然是我人生中的一大裨益。另一方面，周老师也给予了我参加应用实践的机会，让我实际地提高了自己的动手编程能力，并且督促我形成良好的编程风格，这为我以后的工作也打下了良好的基础。周老师，也教会了了我在工作中如何和他人保持良好的沟通。周老师对我的帮助太多。
+
+其次，感谢李阳师兄和张晋媛学姐。李阳师兄虽然我们只有短短一年的相处时间，但我觉得师兄给我的帮助却是很大的。不管是在论文写作上的问题，亦或是生活上的一些问题，李阳师兄都给了我很好的建议。那段时间和李阳师兄一起打羽毛球的时光，也让我怀念不已。张晋媛师姐给我的帮助无疑是巨大的。我觉得师姐是我最好的良师益友，在论文写作的过程中，和师姐讨论过很多问题，她给了我很多很有价值的建议。在我遇到困难的时候，她也给了我莫大的鼓励。
+
+感谢所有帮助过我的老师、同学和朋友，感谢所有关心和帮助过我的人。感谢我的家人，没有他们的帮助，我也不会有今天的成绩。感谢华东师范大学，这是我学生生涯的一个终点，但也是我崭新人生的新起来。华东师大，这个美丽的地方，给了我信心应对未来的挑战！
+
+\end{CJK*}
+
+\clearpage
+
+\end{document}
