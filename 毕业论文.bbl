@@ -25,7 +25,7 @@
 D.~Simon, \emph{Evolutionary optimization algorithms}.\hskip 1em plus 0.5em
   minus 0.4em\relax John Wiley \& Sons, 2013.
 
-\bibitem{nsga}
+\bibitem{nsga-ii}
 K.~Deb, A.~Pratap, S.~Agarwal, and T.~Meyarivan, ``A fast and elitist
   multiobjective genetic algorithm:{ NSGA-II},'' \emph{Evolutionary
   Computation, IEEE Transactions on}, vol.~6, no.~2, pp. 182--197, 2002.
@@ -71,7 +71,7 @@ Q.~Zhang, A.~Zhou, and Y.~Jin, ``{RM-MEDA}: A regularity model based
   multiobjective estimation of distribution algorithm,'' \emph{IEEE
   Transactions on Evolutionary Computation}, vol.~12, no.~1, pp. 41--63, 2008.
 
-\bibitem{deeda}
+\bibitem{DEEDA2005}
 J.~Sun, Q.~Zhang, and E.~P. Tsang, ``{DE/EDA}: A new evolutionary algorithm for
   global optimization,'' \emph{Information Sciences}, vol. 169, no.~3, pp.
   249--262, 2005.
@@ -131,16 +131,16 @@ Y.~Wang, Z.~Cai, and Q.~Zhang, ``Differential evolution with composite trial
 N.~Kambhatla and T.~Leen, ``Dimension reduction by local principal component
   analysis,'' \emph{Neural Computation}, vol.~9, no.~7, pp. 1493--1516, 1997.
 
-\bibitem{nsga-ii}
-K.~Deb, A.~Pratap, S.~Agarwal, and T.~Meyarivan, ``A fast and elitist
-  multiobjective genetic algorithm:{ NSGA-II},'' \emph{Evolutionary
-  Computation, IEEE Transactions on}, vol.~6, no.~2, pp. 182--197, 2002.
-
 \bibitem{igd}
 E.~Zitzler, L.~Thiele, M.~Laumanns, C.~M. Fonseca, and V.~G. Da~Fonseca,
   ``Performance assessment of multiobjective optimizers: an analysis and
   review,'' \emph{Evolutionary Computation, IEEE Transactions on}, vol.~7,
   no.~2, pp. 117--132, 2003.
+
+\bibitem{DE-EIG}
+S.-M. Guo and C.-C. Yang, ``Enhancing differential evolution utilizing
+  eigenvector-based crossover operator,'' \emph{Evolutionary Computation, IEEE
+  Transactions on}, vol.~19, no.~1, pp. 31--49, 2015.
 
 \bibitem{EDALS}
 A.~Zhou, J.~Sun, and Q.~Zhang, ``An estimation of distribution algorithm with

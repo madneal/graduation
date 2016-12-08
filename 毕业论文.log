@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  8 DEC 2016 10:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  8 DEC 2016 11:38
 entering extended mode
 **G:/project/graduation/毕业论文.tex
 (G:/project/graduation/毕业论文.tex
@@ -733,11 +733,7 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 LaTeX Warning: Unused global option(s):
     [CJK].
 
-(G:\project\graduation\毕业论文.aux
-
-LaTeX Warning: Label `alg1' multiply defined.
-
-)
+(G:\project\graduation\毕业论文.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
@@ -816,7 +812,8 @@ LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 120.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 120.
- ("F:\Program Files\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd"
+
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 120.
@@ -1015,23 +1012,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
 [4]
 
+LaTeX Warning: Citation `DEEDA2005' on page 1 undefined on input line 393.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [1] [2] [3]
+
+Package caption Warning: \label without proper \caption on input line 444.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `eda' on page 4 undefined on input line 442.
+
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 465.
 
- ("F:\Program Files\CTEX\MiKTeX\tex\latex\base\omscmr.fd"
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 465.
- [4]
-[5]
+ [4] [5]
 Overfull \hbox (19.90898pt too wide) in paragraph at lines 537--538
-[]\T1/cmr/m/n/12 JADE [21]\C19/song/bx/n/12/55 � \C19/song/bx/n/12/61 � \C19/so
+[]\T1/cmr/m/n/12 JADE [20]\C19/song/bx/n/12/55 � \C19/song/bx/n/12/61 � \C19/so
 ng/bx/n/12/64 � \C19/song/bx/n/12/60 # . \C19/song/bx/n/12/40  \C19/song/bx/n/
 12/38  \C19/song/bx/n/12/41 � \C19/song/bx/n/12/46 ? \C19/song/bx/n/12/44 z \C
 19/song/bx/n/12/56 � \C19/song/bx/n/12/41 { \C19/song/m/n/12/26 � \C19/song/bx/
@@ -1519,13 +1525,9 @@ _igd-eps-converted-to.pdf> <G:/project/graduation/figs/igd/f4_igd-eps-converted
 ct/graduation/figs/igd/f6_igd-eps-converted-to.pdf> <G:/project/graduation/figs
 /igd/f7_igd-eps-converted-to.pdf> <G:/project/graduation/figs/igd/f8_igd-eps-co
 nverted-to.pdf> <G:/project/graduation/figs/igd/f9_igd-eps-converted-to.pdf> <G
-:/project/graduation/figs/igd/f10_igd-eps-converted-to.pdf>]
+:/project/graduation/figs/igd/f10_igd-eps-converted-to.pdf>] [16]
 
-LaTeX Warning: Citation `DEEIG' on page 16 undefined on input line 822.
-
-[16]
-
-LaTeX Warning: Citation `DEEDA' on page 17 undefined on input line 953.
+LaTeX Warning: Citation `DEEDA2005' on page 17 undefined on input line 953.
 
 [17] [18] [19] [20] [21]
 Overfull \hbox (25.08286pt too wide) in paragraph at lines 991--1027
@@ -1779,15 +1781,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 19451 strings out of 495354
- 328853 string characters out of 3183074
- 378527 words of memory out of 3000000
- 22037 multiletter control sequences out of 15000+200000
+ 19455 strings out of 495354
+ 328953 string characters out of 3183074
+ 378517 words of memory out of 3000000
+ 22041 multiletter control sequences out of 15000+200000
  103193 words of font info for 343 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,18n,55p,893b,961s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1868,7 +1867,7 @@ frm1000.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1200.
 pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><F:/
 Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><F:/Program 
 Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on 毕业论文.pdf (37 pages, 1053995 bytes).
+Output written on 毕业论文.pdf (37 pages, 1057575 bytes).
 PDF statistics:
  759 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
