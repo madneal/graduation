@@ -303,6 +303,7 @@
 %\\\hspace*{\fill}\Huge {自适应加权均值滤波算法} \hspace*{\fill}}
 \subsection*{\hspace*{\fill}\huge{中\quad 文\quad 摘\quad 要} \hspace*{\fill}}
 \vspace*{5mm} \normalfont
+
 本文研究的是对于演化算法中采样策略的改进工作。演化计算是一种受生物进化启发的基于种群的启发式的优化算法。演化算法适用于解决各种问题，因为它并不需要复杂的假设条件。演化计算已经被广泛应用于工程、生物学、经济学、基因工程以及社会科学等。
 
 分布估计算法是一种新型的演化算法。不同于传统的演化算法，分布估计算法中没有杂交变异操作。分布估计算法中主要由三个主要的步骤组成，即：建模，采样，选择。采样对于分布估计算法来说是至关重要的环节，它关系到能否产生更为优异的的子代种群。优异的子代种群对于最终求得最优解有着重大意义。
@@ -380,6 +381,8 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 华东师范大学硕士论文} \rhead{\song\leftmark} \cfoot{\thepage}
 
 \section{绪论}
+演化计算是用于解决大量优化问题的通用的并且强大的优化框架。通过利用现有的解并且同时在解空间中继续探索，演化计算能够在合理的时间内找到最优解。通过结合现有解的统计信息以及搜索的解空间的属性，演化计算可以有效地解决优化问题。
+
 演化算法是隶属于演化计算的一种人工智能算法，是一种基于基因种群的启发式的优化算法。演化算法被广泛地应用于解决优化问题，包括单目标以及多目标优化问题~\cite{ea2013}。演化算法受1859 年达尔文提出的物种起源的启发，吸取其中的生物进化和自然选择的思想。现如今演化算法已经得到了众多研究学者的关注，演化算法已经分化成多个分支：遗传算法~\cite{nsga-ii}，生物地理学优化~\cite{bbo2008}，遗传编程~\cite{gp1998}，演化编程~\cite{ep1996}，差分进化~\cite{DE1}等等。演化算法被广泛地应用于工程实践和学术研究中。
 
 \subsection{研究目的和意义}
@@ -950,7 +953,7 @@ $ t = t + 1$
 \end{algorithm}
 
 \subsection{实验分析}
-在本章节，我们将EDA/DE-EIG和JADE~\cite{JADE}和~\cite{deeda2005}相比较。JADE的源代码是从其作者手中获得，DE/EDA是由我们自己实现的。本章节还会介绍后面的测试题以及算法的参数设置。对于算法性能的比较会做一个综合全面的分析。
+在本章节，我们将EDA/DE-EIG和JADE~\cite{JADE}和~\cite{DEEDA2005}相比较。JADE的源代码是从其作者手中获得，DE/EDA是由我们自己实现的。本章节还会介绍后面的测试题以及算法的参数设置。对于算法性能的比较会做一个综合全面的分析。
 
 \subsubsection{比较算法}
 JADE是一种自适应的差分进化算法，它通过使用一种新型的变异策略"DE/current-to\emph{p}best"以及额外的空间来更新控制参数。JADE 和多个一流算法比较，都比较具有优势。DE/EDA是一种混合算法，结合了差分进化和分布估计算法的思想。这两个算法将会和EDA/DE-EIG在同样的测试题上进行比较。
@@ -1077,6 +1080,18 @@ $f13$   &$\textbf{1.35e-32}\pm\textbf{1.11e-47}$	&$\textbf{1.35e-32}\pm\textbf{1
 其次，感谢李阳师兄和张晋媛学姐。李阳师兄虽然我们只有短短一年的相处时间，但我觉得师兄给我的帮助却是很大的。不管是在论文写作上的问题，亦或是生活上的一些问题，李阳师兄都给了我很好的建议。那段时间和李阳师兄一起打羽毛球的时光，也让我怀念不已。张晋媛师姐给我的帮助无疑是巨大的。我觉得师姐是我最好的良师益友，在论文写作的过程中，和师姐讨论过很多问题，她给了我很多很有价值的建议。在我遇到困难的时候，她也给了我莫大的鼓励。
 
 感谢所有帮助过我的老师、同学和朋友，感谢所有关心和帮助过我的人。感谢我的家人，没有他们的帮助，我也不会有今天的成绩。感谢华东师范大学，这是我学生生涯的一个终点，但也是我崭新人生的新起来。华东师大，这个美丽的地方，给了我信心应对未来的挑战！
+
+\newpage
+\hspace*{\fill}\mbox{\Large\textbf{在校期间的学术论文和科研项目}}\hspace*{\fill}
+
+[1] B. Dong, A. M. Zhou and G. X. Zhang,  “Sampling in Latent Space for a Multiobjective Estimation of Distribution Algorithm,” IEEE Congress on Evolutionary Computation, 2016
+
+[2] B. Dong, A. M. Zhou and G. X. Zhang, “A Hybrid Estimation of Distribution Algorithm with Differential Evolution for Global Optimization,” IEEE Symposium Series on Computational Intelligence, 2016
+
+[3] 国家重大科学仪器设备开发专项子课题(2012YQ18013201): 拉曼光谱仪软件算法设计
+
+
+
 
 \end{CJK*}
 

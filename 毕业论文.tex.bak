@@ -390,7 +390,7 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 \subsection{本文所做的工作和内容安排}
 
-针对分布估计算法的采样，差分进化的思想被引入到采样策略中，用于提高分布估计算法的性能。我们针对单目标和多目标优化问题，来验证DES对于提高演化算法性能的意义。在多目标优化问题上，DES被用于改进基于平滑模型的分布估计算法（A Regularity Model-based Estimation of Distribution Algorithm, RM-MEDA)~\cite{RM-MEDA}中的采样策略，提高算法性能。在单目标优化问题上，基于差分进化和分布估计算法的混合算法（DE/DEA）~\cite{DEEDA2005}，通过改进DE/EDA 中的差分进化算法，并且同时提出一种基于特征向量的改进的差分进化和分布估计算法的混合算法（EDA/DE-EIG），研究其对于提高分布估计算法对于解决单目标优化问题上算法性能和速度提升的意义。
+针对分布估计算法的采样，差分进化的思想被引入到采样策略中，用于提高分布估计算法的性能。我们针对单目标和多目标优化问题，来验证DES对于提高演化算法性能的意义。在多目标优化问题上，DES被用于改进基于平滑模型的分布估计算法（A Regularity Model-based Estimation of Distribution Algorithm, RM-MEDA)~\cite{RM-MEDA}中的采样策略，提高算法性能。在单目标优化问题上，基于差分进化和分布估计算法的混合算法（DE/DEA)~\cite{DEEDA2005}，通过改进DE/EDA 中的差分进化算法，并且同时提出一种基于特征向量的改进的差分进化和分布估计算法的混合算法（EDA/DE-EIG），研究其对于提高分布估计算法对于解决单目标优化问题上算法性能和速度提升的意义。
 
 论文内容安排如下：
 
@@ -1077,6 +1077,18 @@ $f13$   &$\textbf{1.35e-32}\pm\textbf{1.11e-47}$	&$\textbf{1.35e-32}\pm\textbf{1
 其次，感谢李阳师兄和张晋媛学姐。李阳师兄虽然我们只有短短一年的相处时间，但我觉得师兄给我的帮助却是很大的。不管是在论文写作上的问题，亦或是生活上的一些问题，李阳师兄都给了我很好的建议。那段时间和李阳师兄一起打羽毛球的时光，也让我怀念不已。张晋媛师姐给我的帮助无疑是巨大的。我觉得师姐是我最好的良师益友，在论文写作的过程中，和师姐讨论过很多问题，她给了我很多很有价值的建议。在我遇到困难的时候，她也给了我莫大的鼓励。
 
 感谢所有帮助过我的老师、同学和朋友，感谢所有关心和帮助过我的人。感谢我的家人，没有他们的帮助，我也不会有今天的成绩。感谢华东师范大学，这是我学生生涯的一个终点，但也是我崭新人生的新起来。华东师大，这个美丽的地方，给了我信心应对未来的挑战！
+
+\newpage
+\hspace*{\fill}\mbox{\Large\textbf{在校期间的学术论文和科研项目}}\hspace*{\fill}
+
+[1] B. Dong, A. M. Zhou and G. X. Zhang,  “Sampling in Latent Space for a Multiobjective Estimation of Distribution Algorithm,” IEEE Congress on Evolutionary Computation, 2016
+
+[2] B. Dong, A. M. Zhou and G. X. Zhang, “A Hybrid Estimation of Distribution Algorithm with Differential Evolution for Global Optimization,” IEEE Symposium Series on Computational Intelligence, 2016
+
+[3] 国家重大科学仪器设备开发专项子课题(2012YQ18013201): 拉曼光谱仪软件算法设计
+
+
+
 
 \end{CJK*}
 
