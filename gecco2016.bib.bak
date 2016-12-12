@@ -1,5 +1,16 @@
+% This file was created with JabRef 2.10.
 % Encoding: GBK
 
+
+@Article{ec1997,
+  Title                    = {Handbook of evolutionary computation},
+  Author                   = {B{\"a}ck, Thomas and Fogel, DB and Michalewicz, Z},
+  Journal                  = {Release},
+  Year                     = {1997},
+  Number                   = {1},
+  Pages                    = {B1},
+  Volume                   = {97}
+}
 
 @TechReport{eda1994,
   Title                    = {Population-based incremental learning. a method for integrating genetic search based function optimization and competitive learning},
@@ -129,6 +140,14 @@
   Timestamp                = {2015.11.18}
 }
 
+@Book{ec2006,
+  Title                    = {Evolutionary computation: toward a new philosophy of machine intelligence},
+  Author                   = {Fogel, David B},
+  Publisher                = {John Wiley \& Sons},
+  Year                     = {2006},
+  Volume                   = {1}
+}
+
 @Article{DEBBO,
   Title                    = {{DE/BBO}: a hybrid differential evolution with biogeography-based optimization for global numerical optimization},
   Author                   = {Gong, Wenyin and Cai, Zhihua and Ling, Charles X},
@@ -235,6 +254,19 @@
   Timestamp                = {2016.01.12}
 }
 
+@Article{powell1998,
+  Title                    = {Nonlinear numerical optimization with use of a hybrid Genetic Algorithm incorporating the Modified Powell method},
+  Author                   = {Okamoto, Masahiro and Nonaka, Taisuke and Ochiai, Shuichiro and Tominaga, Daisuke},
+  Journal                  = {Applied Mathematics \& Computation},
+  Year                     = {1998},
+  Number                   = {1},
+  Pages                    = {63-72},
+  Volume                   = {91},
+
+  Owner                    = {neal},
+  Timestamp                = {2016.12.12}
+}
+
 @Article{edasurvey2002,
   Title                    = {A survey of optimization by building and using probabilistic models},
   Author                   = {Pelikan, Martin and Goldberg, David E and Lobo, Fernando G},
@@ -295,6 +327,16 @@
 
   Owner                    = {neal},
   Timestamp                = {2016.07.30}
+}
+
+@Book{eo1995,
+  Title                    = {Evolution and Optimum Seeking: The Sixth Generation},
+  Author                   = {Schwefel, Hans Paul Paul},
+  Publisher                = {John Wiley \& Sons, Inc.},
+  Year                     = {1995},
+
+  Owner                    = {neal},
+  Timestamp                = {2016.12.12}
 }
 
 @Book{ea2013,
@@ -508,22 +550,5 @@
   Timestamp                = {2016.07.30}
 }
 
-@Book{ec2006,
-  title     = {Evolutionary computation: toward a new philosophy of machine intelligence},
-  publisher = {John Wiley \& Sons},
-  year      = {2006},
-  author    = {Fogel, David B},
-  volume    = {1},
-}
+@comment{jabref-meta: databaseType:bibtex;}
 
-@Article{ec1997,
-  author  = {B{\"a}ck, Thomas and Fogel, DB and Michalewicz, Z},
-  title   = {Handbook of evolutionary computation},
-  journal = {Release},
-  year    = {1997},
-  volume  = {97},
-  number  = {1},
-  pages   = {B1},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}

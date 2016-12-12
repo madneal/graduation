@@ -21,6 +21,20 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{ec2006}
+D.~B. Fogel, \emph{Evolutionary computation: toward a new philosophy of machine
+  intelligence}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley \& Sons,
+  2006, vol.~1.
+
+\bibitem{ec1997}
+T.~B{\"a}ck, D.~Fogel, and Z.~Michalewicz, ``Handbook of evolutionary
+  computation,'' \emph{Release}, vol.~97, no.~1, p.~B1, 1997.
+
+\bibitem{eo1995}
+H.~P.~P. Schwefel, \emph{Evolution and Optimum Seeking: The Sixth
+  Generation}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley \& Sons, Inc.,
+  1995.
+
 \bibitem{ea2013}
 D.~Simon, \emph{Evolutionary optimization algorithms}.\hskip 1em plus 0.5em
   minus 0.4em\relax John Wiley \& Sons, 2013.
@@ -146,6 +160,12 @@ S.-M. Guo and C.-C. Yang, ``Enhancing differential evolution utilizing
 A.~Zhou, J.~Sun, and Q.~Zhang, ``An estimation of distribution algorithm with
   cheap and expensive local search,'' \emph{Evolutionary Computation, IEEE
   Transactions on}, vol.~19, no.~6, pp. 807--822, 2015.
+
+\bibitem{powell1998}
+M.~Okamoto, T.~Nonaka, S.~Ochiai, and D.~Tominaga, ``Nonlinear numerical
+  optimization with use of a hybrid genetic algorithm incorporating the
+  modified powell method,'' \emph{Applied Mathematics \& Computation}, vol.~91,
+  no.~1, pp. 63--72, 1998.
 
 \bibitem{YYL}
 X.~Yao, Y.~Liu, and G.~Lin, ``Evolutionary programming made faster,''
