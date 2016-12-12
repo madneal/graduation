@@ -2,6 +2,16 @@
 % Encoding: GBK
 
 
+@InProceedings{groundwater2002,
+  Title                    = {Comparing advanced genetic algorithms and simple genetic algorithms for groundwater management},
+  Author                   = {Arst, Rachel and Minsker, Barbara and Goldberg, David E},
+  Booktitle                = {Proceedings of the American Society of Civil Engineers (ASCE) Environmental \& Water Resources Institute (EWRI) 2002 Water Resources Planning \& Management Conference},
+  Year                     = {2002},
+
+  Owner                    = {neal},
+  Timestamp                = {2016.12.12}
+}
+
 @Article{ec1997,
   Title                    = {Handbook of evolutionary computation},
   Author                   = {B{\"a}ck, Thomas and Fogel, DB and Michalewicz, Z},
@@ -22,18 +32,23 @@
   Timestamp                = {2016.01.10}
 }
 
-@Book{gp1998,
-  Title                    = {Genetic programming: an introduction},
-  Author                   = {Banzhaf, Wolfgang and Nordin, Peter and Keller, Robert E and Francone, Frank D},
+@Article{gp1998,
+  Title                    = {Genetic programming: an introduction: on the automatic evolution of computer programs and its applications},
+  Author                   = {Banzhaf, Wolfgang and Nordin, Peter and Keller, Robert E. and Francone, Frank D.},
+  Journal                  = {Genetic Programming},
   Year                     = {1998},
+  Number                   = {4},
+  Pages                    = {372-380},
+  Volume                   = {19},
 
   Owner                    = {neal},
-  Timestamp                = {2016.07.24}
+  Timestamp                = {2016.12.12}
 }
 
 @InProceedings{des,
   Title                    = {Sampling in latent space for a multiobjective estimation of distribution algorithm},
   Author                   = {Bing Dong, Aimin Zhou and Guixu Zhang},
+  Booktitle                = {2016 IEEE Congress on Evolutionary Computation (CEC)},
   Year                     = {2016},
 
   Owner                    = {neal},
@@ -138,6 +153,16 @@
 
   Owner                    = {neal},
   Timestamp                = {2015.11.18}
+}
+
+@Book{forest2005,
+  Title                    = {Probabilistic Models for Linkage Learning in Forest Management},
+  Author                   = {Ducheyne, Els I. and Baets, B. De and Wulf, R. De},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2005},
+
+  Owner                    = {neal},
+  Timestamp                = {2016.12.12}
 }
 
 @Book{ec2006,
@@ -339,6 +364,19 @@
   Timestamp                = {2016.12.12}
 }
 
+@Article{knapsack2011,
+  Title                    = {Comparative analysis of multiobjective evolutionary algorithms for random and correlated instances of multiobjective d-dimensional knapsack problems},
+  Author                   = {Shah, Ruchit and Reed, Patrick and Shah, Ruchit and Reed, Patrick},
+  Journal                  = {European Journal of Operational Research},
+  Year                     = {2011},
+  Number                   = {3},
+  Pages                    = {466-479},
+  Volume                   = {211},
+
+  Owner                    = {neal},
+  Timestamp                = {2016.12.12}
+}
+
 @Book{ea2013,
   Title                    = {Evolutionary optimization algorithms},
   Author                   = {Simon, Dan},
@@ -446,6 +484,15 @@
 
   Owner                    = {neal},
   Timestamp                = {2016.01.19}
+}
+
+@Book{military2007,
+  Title                    = {Military Antenna Design Using a Simple Genetic Algorithm and hBOA},
+  Author                   = {Yu, Tian Li and Santarelli, Scott and Goldberg, David E},
+  Year                     = {2007},
+
+  Owner                    = {neal},
+  Timestamp                = {2016.12.12}
 }
 
 @Article{JADE,

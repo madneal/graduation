@@ -49,8 +49,10 @@ D.~Simon, ``Biogeography-based optimization,'' \emph{IEEE transactions on
   evolutionary computation}, vol.~12, no.~6, pp. 702--713, 2008.
 
 \bibitem{gp1998}
-W.~Banzhaf, P.~Nordin, R.~E. Keller, and F.~D. Francone, \emph{Genetic
-  programming: an introduction}, 1998.
+W.~Banzhaf, P.~Nordin, R.~E. Keller, and F.~D. Francone, ``Genetic programming:
+  an introduction: on the automatic evolution of computer programs and its
+  applications,'' \emph{Genetic Programming}, vol.~19, no.~4, pp. 372--380,
+  1998.
 
 \bibitem{ep1996}
 X.~Yao and Y.~Liu, ``Fast evolutionary programming.'' in \emph{Evolutionary
@@ -73,7 +75,8 @@ M.~Pelikan, D.~E. Goldberg, and F.~G. Lobo, ``A survey of optimization by
 
 \bibitem{des}
 A.~Z. Bing~Dong and G.~Zhang, ``Sampling in latent space for a multiobjective
-  estimation of distribution algorithm,'' 2016.
+  estimation of distribution algorithm,'' in \emph{2016 IEEE Congress on
+  Evolutionary Computation (CEC)}, 2016.
 
 \bibitem{DE2}
 R.~Storn and K.~Price, ``Differential evolution--a simple and efficient
@@ -104,6 +107,28 @@ R.~Horst, P.~M. Pardalos, and N.~Van~Thoai, \emph{Introduction to global
 \emph{Towards a new evolutionary computation: advances on estimation of
   distribution algorithms}.\hskip 1em plus 0.5em minus 0.4em\relax Springer
   Science \& Business Media, 2006, vol. 192.
+
+\bibitem{military2007}
+T.~L. Yu, S.~Santarelli, and D.~E. Goldberg, \emph{Military Antenna Design
+  Using a Simple Genetic Algorithm and hBOA}, 2007.
+
+\bibitem{knapsack2011}
+R.~Shah, P.~Reed, R.~Shah, and P.~Reed, ``Comparative analysis of
+  multiobjective evolutionary algorithms for random and correlated instances of
+  multiobjective d-dimensional knapsack problems,'' \emph{European Journal of
+  Operational Research}, vol. 211, no.~3, pp. 466--479, 2011.
+
+\bibitem{groundwater2002}
+R.~Arst, B.~Minsker, and D.~E. Goldberg, ``Comparing advanced genetic
+  algorithms and simple genetic algorithms for groundwater management,'' in
+  \emph{Proceedings of the American Society of Civil Engineers (ASCE)
+  Environmental \& Water Resources Institute (EWRI) 2002 Water Resources
+  Planning \& Management Conference}, 2002.
+
+\bibitem{forest2005}
+E.~I. Ducheyne, B.~D. Baets, and R.~D. Wulf, \emph{Probabilistic Models for
+  Linkage Learning in Forest Management}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer Berlin Heidelberg, 2005.
 
 \bibitem{des2011}
 S.~Das and P.~N. Suganthan, ``Differential evolution: a survey of the
