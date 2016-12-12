@@ -466,6 +466,18 @@ $t=t+1$
 \subsubsection{分布估计算法的研究现状}
 分布估计算法自从1994年首次提出后，就得到了广泛地应用于解决各种大型的复杂问题，包括军事天线设计~\cite{military2007}，多目标背包问题~\cite{knapsack2011}，地下水治理~\cite{groundwater2002}，森林管理~\cite{forest2005}等。 值得强调的一点是，在解决相同等级大小和复杂度的问题的时候，分布估计算法往往就是最优的算法。
 
+根据分布估计算法针对的不同问题，可以将分布估计算法分为以下几种类型：
+
+基于离散变量的分布估计算法：对于分布估计算法，模型的种类是比较重要的环节，在此，可以分为，单变量模型，基于树的模型以及以及多元关系模型。
+
+最简单的方法就是假设问题的变量之间是相互独立的。在这种假设下，个体变量的概率分布就和其他变量的没有关系。这种分布估计算法通常被称为单变量分布估计算法，图~\ref{edas}表示这种类型的分布估计算法。从数学意义上来说，单变量模型可以将多个变量的概率进行分解成多个变量概率的乘积：
+\begin{equation}
+\label{decom_eda}
+p(X_1, X_2, \cdots, X_n)=p(X_1)p(X_2),\cdots,p(X_n)
+\end{equation}
+
+$p(X_i)$是变量$X_i$的概率分布，$p(X_1,X_2,\cdots,X_n)$是候选解集$(X_1,X_2,\cdots,X_n)$的概率分布。
+
 
 \subsection{差分进化}
 差分进化（Differential Evolution, DE）自从由Storn于1995年提出，就得到了广大学者的关注并且发展迅速~\cite{DE1}。自从20世纪90年代以来，差分进化算法就在多数科学工程领域得到广泛的应用~\cite{des2011}。究其原因，可以总结如下：
@@ -663,20 +675,20 @@ where $\varepsilon^\prime$ is the Gaussian noise subjects to the distribution $\
 \begin{algorithm}
 \caption{DES-RM-MEDA}
 \label{des-rm-meda}
-Initialize a population $Pop(0)$, and set $t=0$.
+初始化一个随机种群$Pop(t)$，并且设置t为0。
 
  \While {not terminate}
  {
-    \textbf{Modeling}: Build the probabilistic model $\delta$ in order to model the distribution of the solutions in $Pop(t)$.
+    \textbf{建模}：通过建立概率模型$\delta$来描述种群中个体的分布情况。
 
-    \textbf{Reproduction}: Partition the population into different clusters $C_i$ according to the probabilistic model. For each cluster, use DES to generate a set of candidate solutions $Q_i$. Set $Q=\cup_i Q_i$.
+    \textbf{采样}：根据概率模型将种群划分为不同的聚类$C_i$。对于每一个聚类，分别应用DES来产生新的候选集合$Q_i$，最终生成集合$Q=\cup_i Q_i$。
 
-    \textbf{Selection}: Select $N$ solutions from $Q\bigcup{Pop(t)}$ to construct a new population $Pop(t+1)$.
+    \textbf{选择}：从$Q\bigcup{Pop(t)}$中选择$N$个个体来构建新的种群$Pop(t+1)$。
 
     $t=t+1$
  }
 
-Return the solutions in $Pop(t)$.
+返回种群$Pop(t)$的最终解。
 \end{algorithm}
 
 \subsection{实验分析}
@@ -1047,7 +1059,7 @@ $f13$   &$\textbf{1.35e-32}\pm\textbf{1.11e-47}$	&$\textbf{1.35e-32}\pm\textbf{1
 \hline\hline
 \end{tabular}
 \begin{tablenotes}
-\item[1] The bold ones mean the best.
+\item[1] 粗体的表示更好的
 \end{tablenotes}
 \end{threeparttable}
 \end{table*}
