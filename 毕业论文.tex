@@ -471,14 +471,13 @@ $t=t+1$
 基于离散变量的分布估计算法：对于分布估计算法，模型的种类是比较重要的环节，在此，可以分为，单变量模型，树形表示模型以及以及多元关系模型。
 
 \begin{figure*}
-\label{edas}
 \centering
 \graphicspath{{figs/}}
 \subfigure[独立]{\includegraphics[ width=0.3\textwidth]{independent.png}}
 \subfigure[贝叶斯]{\includegraphics[ width=0.3\textwidth]{bayesian.png}}
 \subfigure[马尔科夫]{\includegraphics[ width=0.3\textwidth]{markov.png}}
 \caption{不同分布估计算法的模型图}
- \label{scale-rm-meda}
+\label{edas}
 \end{figure*}
 
 最简单的方法就是假设问题的变量之间是相互独立的。在这种假设下，个体变量的概率分布就和其他变量的没有关系。这种分布估计算法通常被称为单变量分布估计算法，图~\ref{edas}表示这种类型的分布估计算法。从数学意义上来说，单变量模型可以将多个变量的概率进行分解成多个变量概率的乘积：
