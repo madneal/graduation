@@ -104,13 +104,15 @@ R.~Horst, P.~M. Pardalos, and N.~Van~Thoai, \emph{Introduction to global
   Business Media, 2000.
 
 \bibitem{eda2006}
-\emph{Towards a new evolutionary computation: advances on estimation of
-  distribution algorithms}.\hskip 1em plus 0.5em minus 0.4em\relax Springer
-  Science \& Business Media, 2006, vol. 192.
+J.~A. Lozano, \emph{Towards a new evolutionary computation: advances on
+  estimation of distribution algorithms}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer Science \& Business Media, 2006, vol. 192.
 
-\bibitem{military2007}
-T.~L. Yu, S.~Santarelli, and D.~E. Goldberg, \emph{Military Antenna Design
-  Using a Simple Genetic Algorithm and hBOA}, 2007.
+\bibitem{military2006}
+T.-L. Yu, S.~Santarelli, and D.~E. Goldberg, ``Military antenna design using a
+  simple genetic algorithm and hboa,'' in \emph{Scalable Optimization via
+  Probabilistic Modeling}.\hskip 1em plus 0.5em minus 0.4em\relax Springer,
+  2006, pp. 275--289.
 
 \bibitem{knapsack2011}
 R.~Shah, P.~Reed, R.~Shah, and P.~Reed, ``Comparative analysis of
@@ -129,6 +131,12 @@ R.~Arst, B.~Minsker, and D.~E. Goldberg, ``Comparing advanced genetic
 E.~I. Ducheyne, B.~D. Baets, and R.~D. Wulf, \emph{Probabilistic Models for
   Linkage Learning in Forest Management}.\hskip 1em plus 0.5em minus
   0.4em\relax Springer Berlin Heidelberg, 2005.
+
+\bibitem{umda1996}
+H.~M{\"u}hlenbein, J.~Bendisch, and H.-M. Voigt, ``From recombination of genes
+  to the estimation of distributions ii. continuous parameters,'' in
+  \emph{International Conference on Parallel Problem Solving from
+  Nature}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 1996, pp. 188--197.
 
 \bibitem{des2011}
 S.~Das and P.~N. Suganthan, ``Differential evolution: a survey of the
