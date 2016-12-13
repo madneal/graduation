@@ -138,6 +138,26 @@ H.~M{\"u}hlenbein, J.~Bendisch, and H.-M. Voigt, ``From recombination of genes
   \emph{International Conference on Parallel Problem Solving from
   Nature}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 1996, pp. 188--197.
 
+\bibitem{pbil1994}
+S.~Baluja, ``Population-based incremental learning. a method for integrating
+  genetic search based function optimization and competitive learning,'' DTIC
+  Document, Tech. Rep., 1994.
+
+\bibitem{cga1999}
+G.~Harik, E.~Cant{\'u}-Paz, D.~E. Goldberg, and B.~L. Miller, ``The gambler's
+  ruin problem, genetic algorithms, and the sizing of populations,''
+  \emph{Evolutionary Computation}, vol.~7, no.~3, pp. 231--253, 1999.
+
+\bibitem{mimic1997}
+J.~S. De~Bonet, C.~L. Isbell, P.~Viola \emph{et~al.}, ``Mimic: Finding optima
+  by estimating probability densities,'' \emph{Advances in neural information
+  processing systems}, pp. 424--430, 1997.
+
+\bibitem{dt1997}
+S.~Baluja and S.~Davies, ``Using optimal dependency-trees for combinatorial
+  optimization: Learning the structure of the search space.'' DTIC Document,
+  Tech. Rep., 1997.
+
 \bibitem{des2011}
 S.~Das and P.~N. Suganthan, ``Differential evolution: a survey of the
   state-of-the-art,'' \emph{Evolutionary Computation, IEEE Transactions on},

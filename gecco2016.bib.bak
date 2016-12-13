@@ -486,10 +486,13 @@
   Timestamp                = {2016.01.19}
 }
 
-@Book{military2007,
+@Incollection{military2006,
   Title                    = {Military Antenna Design Using a Simple Genetic Algorithm and hBOA},
-  Author                   = {Yu, Tian Li and Santarelli, Scott and Goldberg, David E},
-  Year                     = {2007},
+  Author                   = {Yu, Tian-Li and Santarelli, Scott and Goldberg, David E},
+  Booktitle                = {Scalable Optimization via Probabilistic Modeling},
+  Pages                    = {275-289},
+  Publisher                = {Springer},
+  Year                     = {2006},
 
   Owner                    = {neal},
   Timestamp                = {2016.12.12}
@@ -589,6 +592,7 @@
 
 @Book{eda2006,
   Title                    = {Towards a new evolutionary computation: advances on estimation of distribution algorithms},
+  Author                   = {Lozano, Jose A},
   Publisher                = {Springer Science \& Business Media},
   Year                     = {2006},
   Volume                   = {192},
@@ -597,5 +601,20 @@
   Timestamp                = {2016.07.30}
 }
 
-@comment{jabref-meta: databaseType:bibtex;}
+@Inproceedings{umda1996,
+  title={From recombination of genes to the estimation of distributions II. Continuous parameters},
+  author={M{\"u}hlenbein, Heinz and Bendisch, J{\"u}rgen and Voigt, H-M},
+  booktitle={International Conference on Parallel Problem Solving from Nature},
+  pages={188--197},
+  year={1996},
+  organization={Springer}
+}
 
+@Techreport{pbil1994,
+  title={Population-based incremental learning. a method for integrating genetic search based function optimization and competitive learning},
+  author={Baluja, Shumeet},
+  year={1994},
+  institution={DTIC Document}
+}
+
+@comment{jabref-meta: databaseType:bibtex;}
