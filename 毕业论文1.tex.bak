@@ -447,7 +447,7 @@ high-level noise.
 
 \newpage
 \pagenumbering{arabic} \pagestyle{fancy} \lhead{\bf\song
-华东师范大学硕士论文} \rhead{\song\leftmark1} \cfoot{\thepage}
+华东师范大学硕士论文} \rhead{\song\leftmark} \cfoot{\thepage}
 
 \section{绪论}
 21世纪是一个充满信息的时代，图像作为人类感知世界的视觉基础，是人类获取信息、表达信息和传递信息的重要媒介。

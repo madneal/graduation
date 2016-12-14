@@ -1,6 +1,6 @@
 \def\ChineseScale{1200}
 \input tdw
-\documentclass [a4paper,12pt,oneside,CJK] {article}
+\documentclass [a4paper,12pt,oneside] {article}
 
 \usepackage{CJK,CJKnumb}
 \usepackage{bbm}
@@ -29,10 +29,8 @@
 \usepackage{amsfonts}
 \usepackage{caption}
 \usepackage[T1]{fontenc}
-\usepackage{float}
 \usepackage{graphicx}
 \usepackage{amssymb}
-\usepackage{bm}
 \usepackage{xspace}
 \usepackage{setspace}
 \usepackage{subeqnarray}
@@ -44,7 +42,7 @@
 \usepackage{threeparttable}
 \usepackage{cite}
 \usepackage[ruled, lined,linesnumbered]{algorithm2e}
-\bibliographystyle{IEEEtran}
+
 
 
 \newcommand{\song}{\CJKfamily{song}}
@@ -115,7 +113,7 @@
 %%%%%%===== 自定义命令 =====
 \numberwithin{equation}{section}
 \newcommand{\C}{\mathbb{C}}
-
+\bibliographystyle{IEEEtran}
 
 \begin{document}
 \begin{CJK*}{GBK}{song}
@@ -378,9 +376,10 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 \newpage
 \pagenumbering{arabic} \pagestyle{fancy} \lhead{\bf\song
-华东师范大学硕士论文} \rhead{\song\leftmark} \cfoot{\thepage}
+华东师范大学硕士论文} \rhead{\song\rightmark} \cfoot{\thepage}
 
 \section{绪论}
+
 演化计算~\cite{ec2006, ec1997, eo1995}是用于解决大量优化问题的通用的并且强大的优化框架。通过利用现有的解并且同时在解空间中继续探索，演化计算能够在合理的时间内找到最优解。通过结合现有解的统计信息以及搜索的解空间的属性，演化计算可以有效地解决优化问题。演化计算通过种群个体的演化（即代表对于问题的候选解）的搜索来求解最终解。
 
 演化计算，受自然界进化所启发，也就是对现有的解进行过滤并且产生新的解。个体中的基因相对于问题解中的组成部分。评价函数被用来评价个体对于问题解决的程度。种群中的个体通过在搜索空间中随机采样产生。在演化的过程中，现有的个体通过交叉变异来交换信息并且产生新的子代种群。具有更好适应性的个体更有可能进行交叉变异，它们产生的子代也会更优。通过产生越来越好的解，演化计算最终就有可能找到全局最优解。
@@ -413,6 +412,7 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 \newpage
 \section{理论基础}
+
 本章主要介绍演化算法中对于多目标优化问题以及单目标优化问题的相关定义，同时分别简要地介绍分布估计算法和差分进化算法的理论知识和算法框架。
 \subsection{多目标优化问题}
 在科学研究和工程应用中，在对于设计和策略的解决方案中往往涉及到对于对个目标的优化问题，这就是本文中所说的多目标优化问题（Multiobjective Optimization, MOP）。拿一个我们日常生活中买车的例子，如图所示，在买车的时候我们既要考虑到价格同时也要考虑到舒适性，这就可以理解成一种多目标优化问题。
@@ -491,7 +491,7 @@ $p(X_i)$是变量$X_i$的概率分布，$p(X_1,X_2,\cdots,X_n)$是候选解集$(X_1,X_2,\cdots
 
 对于单变量模型的例子，比如单变量边缘分布算法（UMDA）~\cite{umda1996},用于求解onemax问题。然而大多数的分布估计算法是通过维护一个候选解种群来工作的。增量分布估计算法通过概率模型来替换种群。这个概率模型开始在解空间中服从均匀分布。在每一个迭代之中，都会产生新的解，最好的解或者相对来说比较好的解会被选择进入下一代迭代。这个概率模型就会慢慢地向解的类型变化。通过这种方式，概率模型在不断地改良，并且不需要将大量的种群全部存储起来。基于种群的增量学习（PBIL）~\cite{pbil1994}是一种作用于二进制串的单变量的增量分布估计算法。像UMDA一样，PBIL也是通过概率模型来构建概率向量。为了防止种群过早收敛，会通过一个变异比率参数在每一次迭代中对概率向量进行微调。压缩遗传算法（cGA）~\cite{cga1999}是另外一种增量的单变量增量分布估计算法。和PBIL类似，cGA也是通过使用概率向量来代表整个种群中的解集，使用指定长度的二进制串进行编码。cGA和PBIL最主要的区别就是这两者在每一次迭代中更新概率向量的方法。
 
-单变量模型是基于变量之间是相互独立的，然而很多问题的变量往往是相互联系的。双变量依赖假设是比变量独立假设更为宽松的假设，假设随机变量的依赖性仅存在于两个变量之间。因此接着继续讨论使用树形表示模型的分布估计算法。MIMIC~\cite{mimic1997}是一种通过链分布来描述变量之间关系的分布估计算法。假设问题中n个变量的排列为，$\pi=i_1, i_2\cdots{i_n}$，MIMIC可以将$p(X_1, X_2, \cdots, X_n)$的概率分布分解为：
+单变量模型是基于变量之间是相互独立的，然而很多问题的变量往往是相互联系的。双变量依赖假设是比变量独立假设更为宽松的假设，假设随机变量的依赖性仅存在于两个变量之间。因此接着继续讨论使用树形表示模型的分布估计算法。MIMIC~\cite{mimic1997} 是一种通过链分布来描述变量之间关系的分布估计算法。假设问题中n个变量的排列为，$\pi=i_1, i_2\cdots{i_n}$，MIMIC可以将$p(X_1, X_2, \cdots, X_n)$的概率分布分解为：
 \begin{equation}
 \label{mimic}
 p_{\pi}(X)=p(X_{i_1}|X_{i_2})p(X_{i_2}|X_{i_3})\cdots p(X_{i_{n-1}}|X_{i_n})p(X_{i_n})
@@ -510,7 +510,7 @@ p(X_1, X_2, \cdots, X_n)=\prod{{^n}_{i=1}}p(X_i|\prod{i})
 $\prod_i$表示和$X_i$之间存在一条边的一组变量集合，$p(X_i|\prod_i)$表示在条件$\prod_i$下$X_i$的条件概率。图~\ref{bayesianc}是贝叶斯网络的图例。贝叶斯网络和依赖关系树的主要的区别是在贝叶斯网络中，每一个变量可能依赖于多个变量。
 
 \subsection{差分进化}
-差分进化（Differential Evolution, DE）自从由Storn于1995年提出，就得到了广大学者的关注并且发展迅速~\cite{DE1}。自从20世纪90年代以来，差分进化算法就在多数科学工程领域得到广泛的应用~\cite{des2011}。究其原因，可以总结如下：
+差分进化（Differential Evolution, DE）自从由Storn于1995年提出，就得到了广大学者的关注并且发展迅速~\cite{DE1}。自从20 世纪90年代以来，差分进化算法就在多数科学工程领域得到广泛的应用~\cite{des2011}。究其原因，可以总结如下：
 \begin{itemize}
 \item 与传统的演化算法相比，差分进化更简单也更容易实施。算法的代码往往只需要几行代码即可，因此它可以很好地应用于其他的领域。尽管粒子群优化算法（Particle Swarm Optimization, PSO）的代码也比较简单，但是差分进化算法在大多数问题上的表现都比粒子群优化算法要更加优秀~\cite{deo2008,den2009}。
 \item 另一方面，差分进化中的控制参数和其他的演化算法相比，控制参数更少。在经典的差分进化中，一般只有控制参数Cr， 缩放因子F以及种群大小NP三个参数。对于F和Cr的自适应规则的研究，在不给算法带来额外的负担的条件下，对于算法性能的提升意义重大~\cite{sde2006,desa2009}。
@@ -590,6 +590,7 @@ CoDE(Composite DE)~\cite{code2011}算法通过结合三个不同的后代产生策略和三个常用的
 
 \newpage
 \section{基于采样策略对于连续多目标优化问题的研究}
+
 在本章中，我们基于RM-MEDA算法提出了一种基于差分进化的采样策略来解决连续多目标问题。通过采取差分进化中的变异策略，将种群在隐空间中进行转化，从而产生新的种群。
 
 3.1节给出了连续多目标问题的相关背景知识，3.2节主要介绍RM-MEDA算法框架以及相应的背景知识，3.3节详细介绍基于差分进化的采样策略，3.4节主要讲述通过基于差分进化的采样策略来改进RM-MEDA 算法，3.5节是实验结果的分析。
@@ -1032,7 +1033,7 @@ JADE是一种自适应的差分进化算法，它通过使用一种新型的变异策略"DE/current-to\emph{
   \item 测试集中所有种群维度都设置为30.所有算法都会在每一个测试题上独立运行50次，体积条件是450000函数评估。
   \item JADE：参数设置为：$N=150, p=0.05, c=0.1, F=0.5$ and $CR=0.9$
   \item DE/EDA: $N=150, F=0.5$ and $CRP=0.9$。
-  \item EDA/DE-EIG: $CRP=0.5, F=0.5, CR=0.6, \theta=0.1$；控制坐标旋转的参数$p$设置为0.5；种群的大小$N$设置为150。对于expensive LS的相关参数的设置，与EDA/LS中的参数设置相同。
+  \item EDA/DE-EIG: $CRP=0.5, F=0.5, CR=0.6, \theta=0.1$；控制坐标旋转的参数$p$设置为0.5；种群的大小$N$设置为150。 对于expensive LS的相关参数的设置，与EDA/LS中的参数设置相同。
 \end{enumerate}
 
 \subsubsection{实验结果和分析}
