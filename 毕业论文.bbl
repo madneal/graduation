@@ -158,6 +158,20 @@ S.~Baluja and S.~Davies, ``Using optimal dependency-trees for combinatorial
   optimization: Learning the structure of the search space.'' DTIC Document,
   Tech. Rep., 1997.
 
+\bibitem{dt1968}
+C.~Chow and C.~Liu, ``Approximating discrete probability distributions with
+  dependence trees,'' \emph{IEEE transactions on Information Theory}, vol.~14,
+  no.~3, pp. 462--467, 1968.
+
+\bibitem{bmda1999}
+M.~Pelikan and H.~M{\"u}hlenbein, ``The bivariate marginal distribution
+  algorithm,'' in \emph{Advances in Soft Computing}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 1999, pp. 521--535.
+
+\bibitem{ecga1999}
+G.~Harik, ``Linkage learning via probabilistic modeling in the ecga,''
+  \emph{Urbana}, vol.~51, no.~61, p. 801, 1999.
+
 \bibitem{des2011}
 S.~Das and P.~N. Suganthan, ``Differential evolution: a survey of the
   state-of-the-art,'' \emph{Evolutionary Computation, IEEE Transactions on},

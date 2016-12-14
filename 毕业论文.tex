@@ -407,9 +407,9 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 第四章 ~~~将基于差分进化的采样策略应用到多目标优化问题上面，并给出相应的算法框架和实验结果分析。
 
-第五章 ~~~将基于差分进化的采样策略应用到单目标优化问题上，并给出相应的算法框架和试验结果分析。
+第四章 ~~~将基于差分进化的采样策略应用到单目标优化问题上，并给出相应的算法框架和试验结果分析。
 
-第六章 ~~~论文总结和展望。
+第五章 ~~~论文总结和展望。
 
 \newpage
 \section{理论基础}
@@ -473,9 +473,10 @@ $t=t+1$
 \begin{figure*}
 \centering
 \graphicspath{{figs/}}
-\subfigure[独立]{\includegraphics[ width=0.3\textwidth]{independent.png}}
-\subfigure[贝叶斯]{\includegraphics[ width=0.3\textwidth]{bayesian.png}}
-\subfigure[马尔科夫]{\includegraphics[ width=0.3\textwidth]{markov.png}}
+\subfigure[独立]{\label{independenta}\includegraphics[ width=0.45\textwidth]{independent.png}}
+\subfigure[ECGA]{\label{ecgab}\includegraphics[ width=0.45\textwidth]{ecga.png}}
+\subfigure[贝叶斯]{\label{bayesianc}\includegraphics[ width=0.45\textwidth]{bayesian.png}}
+\subfigure[马尔科夫]{\label{markovd}\includegraphics[ width=0.45\textwidth]{markov.png}}
 \caption{不同分布估计算法的模型图}
 \label{edas}
 \end{figure*}
@@ -498,7 +499,15 @@ p_{\pi}(X)=p(X_{i_1}|X_{i_2})p(X_{i_2}|X_{i_3})\cdots p(X_{i_{n-1}}|X_{i_n})p(X_
 
 $p(X_{i_j}|X_{i_{j+1}})$表示在给定$X_{i+{j+1}}$的条件下，$X_{i_j}$的条件概率。新的解集通过从这个概率模型中采样而产生。采样的过程会将$\pi$中的变量顺序逆置，以$X_{i_n}$开头，$X_{i_1}$结尾。
 
-相对于MIMIC中的链分布模型，Baluja等人于1997年提出使用依赖关系树来进一步提升概率模型的表现力~\cite{dt1997}。在依赖关系树中，每一个父代都可以有多个子代。
+相对于MIMIC中的链分布模型，Baluja等人于1997年提出使用依赖关系树来进一步提升概率模型的表现力~\cite{dt1997}。在依赖关系树中，每一个父代都可以有多个子代。这个分估计算法依靠一个包含所有成对关系概率的概率矩阵来工作。概率模型中的关系树可以最大化相互联系变量之间的交互信息，根据真实分布的相对熵，这个模型被证明是最优的模型~\cite{dt1968}。这个概率矩阵是的初始化是相对应于所有解集的均匀分布。在算法的每一次的迭代中，依赖关系树都会被建立并且产生新的解。接着最好的解会被用来进一步地更新概率矩阵。二变量边缘分布算法（BMDA）使用一组相互独立依赖关系树来建模~\cite{bmda1999}。通过从种群中获得的条件概率信息来建模并且采样。
+
+对于多元变量的问题，依赖关系树模型可能就没有办法很好地描述。拓展压缩遗传算法（ECGA）~\cite{ecga1999}使用一种模型可以将变量划分成独立的聚类，每一个聚类被当做是一个单独的变量。这个模型的建立也是建立在所有问题变量都是独立的假设之上的。在模型建立的每一次迭代中，两个聚类会合并来进一步提升模型的质量。模型的质量是通过最小描述长度（MDL）来度量的。当聚类的合并没有办法提升模型质量的时候，建模过程就会终止。一旦模型的结构建立完成，就会计算出了一个概率表来描述在每个聚类中基于概率关系被挑选的解和采样产生的新解。在ECGA的每一个迭代中，这个建模过程都会被重复，因此在每次迭代中，概率模型都会包含不同的变量聚类。ECGA概率模型的例子如图~\ref{ecgab}所示。很多包含重叠子问题的问题没有办法通过将问题化成独立的聚类。贝叶斯优化算法通过使用贝叶斯网络来对候选解集进行建模。贝叶斯网络是一个无环的图，每一个结点代表一个变量，没一条边代表结点之间的条件依赖关系。一个具有n个结点的贝叶斯网络可以通过使用n个随机变量$X_1, X_2, \cdots, X_n$的联合分布来表示：
+\begin{equation}
+\label{bayesian_equation}
+p(X_1, X_2, \cdots, X_n)=\prod{{^n}_{i=1}}p(X_i|\prod{i})
+\end{equation}
+
+$\prod_i$表示和$X_i$之间存在一条边的一组变量集合，$p(X_i|\prod_i)$表示在条件$\prod_i$下$X_i$的条件概率。图~\ref{bayesianc}是贝叶斯网络的图例。贝叶斯网络和依赖关系树的主要的区别是在贝叶斯网络中，每一个变量可能依赖于多个变量。
 
 \subsection{差分进化}
 差分进化（Differential Evolution, DE）自从由Storn于1995年提出，就得到了广大学者的关注并且发展迅速~\cite{DE1}。自从20世纪90年代以来，差分进化算法就在多数科学工程领域得到广泛的应用~\cite{des2011}。究其原因，可以总结如下：
