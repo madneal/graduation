@@ -617,4 +617,72 @@
   institution={DTIC Document}
 }
 
+@Article{cga1999,
+  title={The gambler's ruin problem, genetic algorithms, and the sizing of populations},
+  author={Harik, George and Cant{\'u}-Paz, Erick and Goldberg, David E and Miller, Brad L},
+  journal={Evolutionary Computation},
+  volume={7},
+  number={3},
+  pages={231--253},
+  year={1999},
+  publisher={MIT Press}
+}
+
+@Article{mimic1997,
+  title={MIMIC: Finding optima by estimating probability densities},
+  author={De Bonet, Jeremy S and Isbell, Charles L and Viola, Paul and others},
+  journal={Advances in neural information processing systems},
+  pages={424--430},
+  year={1997},
+  publisher={MORGAN KAUFMANN PUBLISHERS}
+}
+
+@Techreport{dt1997,
+  title={Using Optimal Dependency-Trees for Combinatorial Optimization: Learning the Structure of the Search Space.},
+  author={Baluja, Shumeet and Davies, Scott},
+  year={1997},
+  institution={DTIC Document}
+}
+
+@Article{dt1968,
+  title={Approximating discrete probability distributions with dependence trees},
+  author={Chow, C and Liu, C},
+  journal={IEEE transactions on Information Theory},
+  volume={14},
+  number={3},
+  pages={462--467},
+  year={1968},
+  publisher={IEEE}
+}
+
+@Incollection{bmda1999,
+  title={The bivariate marginal distribution algorithm},
+  author={Pelikan, Martin and M{\"u}hlenbein, Heinz},
+  booktitle={Advances in Soft Computing},
+  pages={521--535},
+  year={1999},
+  publisher={Springer}
+}
+
+@article{ecga1999,
+  title={Linkage learning via probabilistic modeling in the ECGA},
+  author={Harik, Georges},
+  journal={Urbana},
+  volume={51},
+  number={61},
+  pages={801},
+  year={1999}
+}
+
+@Article{hauschild2011introduction,
+  title={An introduction and survey of estimation of distribution algorithms},
+  author={Hauschild, Mark and Pelikan, Martin},
+  journal={Swarm and Evolutionary Computation},
+  volume={1},
+  number={3},
+  pages={111--128},
+  year={2011},
+  publisher={Elsevier}
+}
+
 @comment{jabref-meta: databaseType:bibtex;}

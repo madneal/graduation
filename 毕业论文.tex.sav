@@ -376,7 +376,7 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 \newpage
 \pagenumbering{arabic} \pagestyle{fancy} 
-\lhead{\bf\song 华东师范大学硕士论文} 
+\lhead{\pbf\song 华东师范大学硕士论文} 
 \rhead{\song\rightmark} \cfoot{\thepage}
 
 \section{绪论}
