@@ -375,8 +375,8 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 \textbf{\large{致\quad 谢}$\dotfill 31$}\par
 
 \newpage
-\pagenumbering{arabic} \pagestyle{fancy} 
-\lhead{\bf\song 华东师范大学硕士论文} 
+\pagenumbering{arabic} \pagestyle{fancy}
+\lhead{\bf\song 华东师范大学硕士论文}
 \rhead{\song\rightmark} \cfoot{\thepage}
 
 \section{绪论}
@@ -508,7 +508,7 @@ $p(X_{i_j}|X_{i_{j+1}})$表示在给定$X_{i+{j+1}}$的条件下，$X_{i_j}$的条件概率。新
 p(X_1, X_2, \cdots, X_n)=\prod{{^n}_{i=1}}p(X_i|\prod{i})
 \end{equation}
 
-$\prod_i$表示和$X_i$之间存在一条边的一组变量集合，$p(X_i|\prod_i)$表示在条件$\prod_i$下$X_i$的条件概率。图~\ref{bayesianc}是贝叶斯网络的图例。贝叶斯网络和依赖关系树的主要的区别是在贝叶斯网络中，每一个变量可能依赖于多个变量。ECGA的概率模型和贝叶斯网络最主要的区别是贝叶斯网络能够获得问题中更复杂的子问题之间的交互信息。BOA中概率模型的简历是从一个没有边的网络开始的。使用一个贪婪算法向网络中添加边
+$\prod_i$表示和$X_i$之间存在一条边的一组变量集合，$p(X_i|\prod_i)$表示在条件$\prod_i$下$X_i$的条件概率。图~\ref{bayesianc}是贝叶斯网络的图例。贝叶斯网络和依赖关系树的主要的区别是在贝叶斯网络中，每一个变量可能依赖于多个变量。ECGA的概率模型和贝叶斯网络最主要的区别是贝叶斯网络能够获得问题中更复杂的子问题之间的交互信息。BOA中概率模型的简历是从一个没有边的网络开始的。使用一个贪婪算法向网络中添加边添加边的依据是BD度量。贝叶斯网络估计算法（EBNA）和
 
 \subsection{差分进化}
 差分进化（Differential Evolution, DE）自从由Storn于1995年提出，就得到了广大学者的关注并且发展迅速~\cite{DE1}。自从20 世纪90年代以来，差分进化算法就在多数科学工程领域得到广泛的应用~\cite{des2011}。究其原因，可以总结如下：

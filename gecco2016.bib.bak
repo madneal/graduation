@@ -674,7 +674,7 @@
   year={1999}
 }
 
-@Article{hauschild2011introduction,
+@Article{edasurvey2011,
   title={An introduction and survey of estimation of distribution algorithms},
   author={Hauschild, Mark and Pelikan, Martin},
   journal={Swarm and Evolutionary Computation},
@@ -683,6 +683,15 @@
   pages={111--128},
   year={2011},
   publisher={Elsevier}
+}
+
+@Inproceedings{ebna1999,
+  title={Global optimization using Bayesian networks},
+  author={Etxeberria, Ramon and Larranaga, Pedro},
+  booktitle={Second Symposium on Artificial Intelligence (CIMAF-99)},
+  pages={332--339},
+  year={1999},
+  organization={Habana, Cuba}
 }
 
 @comment{jabref-meta: databaseType:bibtex;}

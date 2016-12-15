@@ -172,6 +172,31 @@ M.~Pelikan and H.~M{\"u}hlenbein, ``The bivariate marginal distribution
 G.~Harik, ``Linkage learning via probabilistic modeling in the ecga,''
   \emph{Urbana}, vol.~51, no.~61, p. 801, 1999.
 
+\bibitem{ebna1999}
+R.~Etxeberria and P.~Larranaga, ``Global optimization using bayesian
+  networks,'' in \emph{Second Symposium on Artificial Intelligence
+  (CIMAF-99)}.\hskip 1em plus 0.5em minus 0.4em\relax Habana, Cuba, 1999, pp.
+  332--339.
+
+\bibitem{lfda1999}
+H.~Muhlenbein§¯ and T.~Mahnig, ``Convergence theory and applications of the
+  factorized distribution algorithm,'' \emph{Journal of Computing and
+  Information Theory}, vol.~7, no.~1, pp. 19--32, 1999.
+
+\bibitem{edasurvey2011}
+M.~Hauschild and M.~Pelikan, ``An introduction and survey of estimation of
+  distribution algorithms,'' \emph{Swarm and Evolutionary Computation}, vol.~1,
+  no.~3, pp. 111--128, 2011.
+
+\bibitem{pipe1997}
+R.~Salustowicz and J.~Schmidhuber, ``Probabilistic incremental program
+  evolution: Stochastic search through program space,'' in \emph{ECML}, 1997,
+  pp. 213--220.
+
+\bibitem{ecgp2000}
+K.~Sastry and D.~E. Goldberg, ``On extended compact genetic algorithm,''
+  \emph{IlliGAL report}, no. 2000026, 2000.
+
 \bibitem{des2011}
 S.~Das and P.~N. Suganthan, ``Differential evolution: a survey of the
   state-of-the-art,'' \emph{Evolutionary Computation, IEEE Transactions on},
