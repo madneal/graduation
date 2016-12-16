@@ -694,4 +694,48 @@
   organization={Habana, Cuba}
 }
 
+@article{lfda1999,
+  title={Convergence theory and applications of the factorized distribution algorithm},
+  author={Muhlenbein§¯, Heinz and Mahnig, Thilo},
+  journal={Journal of Computing and Information Theory},
+  volume={7},
+  number={1},
+  pages={19--32},
+  year={1999}
+}
+
+@Incollection{hboa2006,
+  title={Hierarchical Bayesian optimization algorithm},
+  author={Pelikan, Martin and Goldberg, David E},
+  booktitle={Scalable optimization via probabilistic modeling},
+  pages={63--90},
+  year={2006},
+  publisher={Springer}
+}
+
+@Inproceedings{pipe1997,
+  title={Probabilistic incremental program evolution: Stochastic search through program space},
+  author={Salustowicz, Rafal and Schmidhuber, J{\"u}rgen},
+  booktitle={ECML},
+  pages={213--220},
+  year={1997}
+}
+
+@Article{ecgp2000,
+  title={On extended compact genetic algorithm},
+  author={Sastry, Kumara and Goldberg, David E},
+  journal={IlliGAL report},
+  number={2000026},
+  year={2000}
+}
+
+@Inproceedings{sggp2001,
+  title={Avoiding the bloat with stochastic grammar-based genetic programming},
+  author={Ratle, Alain and Sebag, Mich{\`e}le},
+  booktitle={International Conference on Artificial Evolution (Evolution Artificielle)},
+  pages={255--266},
+  year={2001},
+  organization={Springer}
+}
+
 @comment{jabref-meta: databaseType:bibtex;}

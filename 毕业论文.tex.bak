@@ -314,7 +314,7 @@
 \bfseries{ 关键词:}\normalfont\quad\ ~分布估计算法,~ 差分进化,~ 演化算法,~特征向量
 
 \newpage
-\title{{Differential Evolution Sampling Strategy in Evolution Algorithms}}
+\title{{Differential Evolution based Sampling Strategy in Evolutionary Algorithms}}
 
 \thispagestyle{plain}
 \section*{\hspace*{\fill}\Large{Differential Evolution Sampling Strategy }\hspace*{\fill}
@@ -514,7 +514,13 @@ $\prod_i$表示和$X_i$之间存在一条边的一组变量集合，$p(X_i|\prod_i)$表示在条件$\pr
 
 基于遗传编程的分布估计算法：在分布估计算法的成功，多数研究者希望在遗传编程（GP）这一领域继续复制这一成功~\cite{edasurvey2011}。在GP领域中，尽管存在着众多挑战，但是分布估计算法还是在GP中得到了成功的应用。
 
-概率增强式编程进化（PIPE）~\cite{pipe1997}使用概率原型树（PPT）来存储概率分布的所有函数和编程树中每个结点的操作。对于PIPE的拓展算法是拓展压缩遗传编程（ECGP）~\cite{ecgp2000}。受ECGA所启发，ECGP将编程树里面的节点分割成独立的聚类，其工作方式和ECGA类似。由于编程空间中复杂性，在候选编程的整个搜索空间中找到准确的问题分解是十分困难的。MOSES通过将搜索空间分割成子编程空间并对这些空间保持维护。接着利用hBOA对每一个子空间来产生新的编程，这样同时也能产生新的子空间。
+概率增强式编程进化（PIPE）~\cite{pipe1997}使用概率原型树（PPT）来存储概率分布的所有函数和编程树中每个结点的操作。对于PIPE的拓展算法是拓展压缩遗传编程（ECGP）~\cite{ecgp2000}。受ECGA所启发，ECGP将编程树里面的节点分割成独立的聚类，其工作方式和ECGA类似。由于编程空间中复杂性，在候选编程的整个搜索空间中找到准确的问题分解是十分困难的。MOSES通过将搜索空间分割成子编程空间并对这些空间保持维护。接着利用hBOA对每一个子空间来产生新的编程，这样同时也能产生新的子空间。为了解决遗传编程的问题，有的分布估计算法通过语法规则来实现。基于语法规则的随机遗传编程（SG-GP）~\cite{sggp2001}从一个指定的与上下文无关的语法规则开始，然后为每一条规则添加默认概率。基于每一个迭代中采样产生的优质解，规则的概率也表现得越来越好。在这个基本算法里面，没有存储位置信息，可以通过跟踪规则的使用来进一步拓展该算法。
+
+基于多目标的分布估计算法：上述介绍的分布估计算法基本上是解决单目标问题的。然而，现实世界中的问题往往是具有多个目标的。一种针对多目标问题的解决方案是根据目标权重将多目标转化为单目标。但是，更好的方式在目标之间找到一个最好的权衡从而构建一个帕累托最优~\cite{mop2001}。简而言之，帕累托最优要比在任意目标上的最优解要更好。因此，分布估计算法被用于在多目标优化问题中寻找多种帕累托最优解。
+
+对于多目标问题，就不可能找到一个解可以使所有的目标达到最优解。最终的目标是找到帕累托最优解集的宽分布。贝叶斯网络多目标优化算法（BMOA）~\cite{bmoa2002}使用一个特别的选择选择算子$\epsilon$-archive来更新帕累托最优解集并且保证种群的多样性。这个选择算子会维护一个最小的解集，这个算子会支配其他产生的解。本质上来说，BMOA是将混合BOA~\cite{mboa2004}和SPEA2~\cite{spea2-2002}结合起来。
+
+MIDEA算法~\cite{mieda2006}是对于多目标优化问题上的IDEA算法框架的进一步拓展。通过使用参数$\delta$来指导搜索过程，通过这一特别的选择算子来保证种群的多样性。接着通过领导者算法对种群进行聚类，从而对于每一个聚类建立一个单变量模型并且采样产生新的解。多目标贝叶斯优化算法（mBOA）~\cite{mboa2002}通过使用NSGA-II选择算子来维持Pareto最优解前沿种群的多样性。这个选择算子会给种群中的每一个解等级和聚集距离。这个等级可以最大化所有的目标，反之聚集距离能够维持Pareto前沿的多样性和广覆盖。如果两个解的等级不同，等级优的进入下一代；如果两个解的等级相同，那么聚集距离则作为选择标准。对于这些被选择的解建立一个贝叶斯网络模型，然后对于模型进行采样产生新的解来构建下一代种群。多目标层次贝叶斯优化算法（mohBOA）~\cite{mhboa2005}通过结合hBOA，NSGA-II和聚类来对hBOA做进一步的拓展。
 
 \subsection{差分进化}
 差分进化（Differential Evolution, DE）自从由Storn于1995年提出，就得到了广大学者的关注并且发展迅速~\cite{DE1}。自从20 世纪90年代以来，差分进化算法就在多数科学工程领域得到广泛的应用~\cite{des2011}。究其原因，可以总结如下：
@@ -644,13 +650,13 @@ RM-MEDA算法是基于分布估计算法的框架，主要也是包括建模、采样、选择三个环节。算法~
 \end{algorithm}
 
 \subsubsection{RM-MEDA中存在的问题和解决方法}
-在RM-MEDA中，通过使用Local PCA将种群分成k个聚类。如图~\ref{pareto}所示，在每一个聚类之中，$N^k$用来表示聚类中的Pareto set，而$M^k$则用来覆盖每个聚类中的Pareto set。 为了能够覆盖聚类中的Pareto set，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto set。但是这个缩放比例依赖于问题，，这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不禁相同。如果缩放比例设置过大，则对于实际的Pareto set则显得多余；如果设置的缩放比例过小，又不足以覆盖实际的Pareto set。 因此，如何设置一个合适的Pareto set也成为了一个比较困难的问题。
+在RM-MEDA中，通过使用Local PCA将种群分成k个聚类。如图~\ref{pareto}所示，在每一个聚类之中，$N^k$用来表示聚类中的Pareto set，而$M^k$则用来覆盖每个聚类中的Pareto set。 为了能够覆盖聚类中的Pareto set，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto set。但是这个缩放比例依赖于问题，，这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不禁相同。如果缩放比例设置过大，则对于实际的Pareto set则显得多余；如果设置的缩放比例过小，又不足以覆盖实际的Pareto set。 因此，如何设置一个合适的缩放比例也成为了一个比较困难的问题。
 
 \begin{figure}
 \graphicspath{{figs/figure/}}
 \centering
   \includegraphics[width=0.5\columnwidth]{pareto.png}
-  \caption{通过缩放比例来覆盖Pareto setp}
+  \caption{通过缩放比例来覆盖Pareto set}
   \label{pareto}
 \end{figure}
 

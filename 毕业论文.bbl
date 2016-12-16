@@ -197,6 +197,50 @@ R.~Salustowicz and J.~Schmidhuber, ``Probabilistic incremental program
 K.~Sastry and D.~E. Goldberg, ``On extended compact genetic algorithm,''
   \emph{IlliGAL report}, no. 2000026, 2000.
 
+\bibitem{sggp2001}
+A.~Ratle and M.~Sebag, ``Avoiding the bloat with stochastic grammar-based
+  genetic programming,'' in \emph{International Conference on Artificial
+  Evolution (Evolution Artificielle)}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Springer, 2001, pp. 255--266.
+
+\bibitem{mop2001}
+K.~Deb, \emph{Multi-objective optimization using evolutionary
+  algorithms}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley \& Sons, 2001,
+  vol.~16.
+
+\bibitem{bmoa2002}
+M.~Laumanns and J.~Ocenasek, ``Bayesian optimization algorithms for
+  multi-objective optimization,'' in \emph{International Conference on Parallel
+  Problem Solving from Nature}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Springer, 2002, pp. 298--307.
+
+\bibitem{mboa2004}
+J.~Ocenasek, S.~Kern, N.~Hansen, and P.~Koumoutsakos, ``A mixed bayesian
+  optimization algorithm with variance adaptation,'' in \emph{International
+  Conference on Parallel Problem Solving from Nature}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Springer, 2004, pp. 352--361.
+
+\bibitem{spea2-2002}
+E.~Ziztler, M.~Laumanns, and L.~Thiele, ``Spea2: Improving the strength pareto
+  evolutionary algorithm for multiobjective optimization,'' \emph{Evolutionary
+  Methods for Design, Optimization, and Control}, pp. 95--100, 2002.
+
+\bibitem{mieda2006}
+P.~A. Bosman and D.~Thierens, ``Multi-objective optimization with the
+  naive$\backslash$ mathbb $\{$M$\}$ id$\backslash$ mathbb $\{$E$\}$ a,'' in
+  \emph{Towards a New Evolutionary Computation}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2006, pp. 123--157.
+
+\bibitem{mboa2002}
+N.~Khan, D.~E. Goldberg, and M.~Pelikan, ``Multi-objective bayesian
+  optimization algorithm,'' \emph{Urbana}, vol.~51, p. 61801, 2002.
+
+\bibitem{mhboa2005}
+M.~Pelikan, K.~Sastry, and D.~E. Goldberg, ``Multiobjective hboa, clustering,
+  and scalability,'' in \emph{Proceedings of the 7th annual conference on
+  Genetic and evolutionary computation}.\hskip 1em plus 0.5em minus 0.4em\relax
+  ACM, 2005, pp. 663--670.
+
 \bibitem{des2011}
 S.~Das and P.~N. Suganthan, ``Differential evolution: a survey of the
   state-of-the-art,'' \emph{Evolutionary Computation, IEEE Transactions on},
