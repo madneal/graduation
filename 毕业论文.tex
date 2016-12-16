@@ -597,7 +597,39 @@ u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
 \subsubsection{差分进化算法的研究现状}
 差分进化算法自从提出之后，就受到了工业界以及学术界的广泛关注，针对差分进化的研究百花齐放。根据差分进化解决的问题类型，可以将差分进化分为以下几种类型,对于下面每种类型的差分进化算法下面也分为多种类型的算法。
 
-{\bf 针对连读单目标优化问题的差分进化算法：}
+{\bf 针对连读单目标优化问题的差分进化算法：}Fan等人在提出了一种三角变异算子来提高差分进化的性能。为了实现这种方法，对于对于每一个目标向量，会在种群中随机选择三个不同的向量。对于第$i$个目标向量$X_{i,G}$而选择的种群个体是$X_{r1,G}$，$X_{r2,G}$和$X_{r3,G}$。三个下标$r1$，$r2$和$r3$是从[1, NP]区间选择的三个互不相同的整数，同时它们也不同于$i$。那么这三个加权系数就可以根据下面的公式生成：
+\begin{equation}
+\label{tm1}
+p^{'}=|f(X_{r1})|+f(X_{r2})|+|f(X_{r3})|
+\end{equation}
+
+\begin{equation}
+\label{tm2}
+p_1=\frac{|f(X_{r1}|}{p^{'}}
+\end{equation}
+
+\begin{equation}
+\label{tm3}
+p_2=\frac{|f(X_{r2}|}{p^{'}}
+\end{equation}
+
+\begin{equation}
+\label{tm4}
+p_3=\frac{|f(X_{r3}|}{p^{'}}
+\end{equation}
+
+令$\Gamma$为0到1之间的三角变异比率，那么三角变异可能会按照以下方式实现：
+
+\begin{equation}
+\label{tm5}
+\begin{aligned}
+&V_{i,G+1}=\frac{X_{r1}+X_{r2}+X_{r3}}{3}+(p_2-p_1)\cdot(X_{r1}-X_{r2})+(p_3-p_2)\cdot(X_{r2}-X_{r_3})\\
+&\qquad \quad +(p_1-P_3)\cdot(X_{r3}-X_{r1})  \qquad \text{如果} \quad rand[0,1] \leq \Gamma \\
+&V_{i,G+1}=X_{r1}+F\cdot(X_{r2}-X_{r3}) \qquad \quad \text{其他}
+\end{aligned}
+\end{equation}
+
+因此，这个方法会在$\Gamma$概率下执行三角变异，在$(1-\Gamma)$概率下执行DE/rand/1变异策略。
 
 {\bf 针对多目标优化问题的差分进化算法：}
 
