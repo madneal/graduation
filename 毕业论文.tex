@@ -601,23 +601,28 @@ u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
 {\bf 针对连读单目标优化问题的差分进化算法：}Fan等人在提出了一种三角变异算子来提高差分进化的性能。为了实现这种方法，对于对于每一个目标向量，会在种群中随机选择三个不同的向量。对于第$i$个目标向量$X_{i,G}$而选择的种群个体是$X_{r1,G}$，$X_{r2,G}$和$X_{r3,G}$。三个下标$r1$，$r2$和$r3$是从[1, NP]区间选择的三个互不相同的整数，同时它们也不同于$i$。那么这三个加权系数就可以根据下面的公式生成：
 \begin{equation}
 \label{tm1}
-p^{'}=|f(X_{r1})|+f(X_{r2})|+|f(X_{r3})|
+\begin{aligned}
+&p^{'}=|f(X_{r1})|+f(X_{r2})|+|f(X_{r3})|\\
+&p_1=\frac{|f(X_{r1}|}{p^{'}}\\
+&p_2=\frac{|f(X_{r2}|}{p^{'}}\\
+&p_3=\frac{|f(X_{r3}|}{p^{'}}
+\end{aligned}
 \end{equation}
 
-\begin{equation}
-\label{tm2}
-p_1=\frac{|f(X_{r1}|}{p^{'}}
-\end{equation}
-
-\begin{equation}
-\label{tm3}
-p_2=\frac{|f(X_{r2}|}{p^{'}}
-\end{equation}
-
-\begin{equation}
-\label{tm4}
-p_3=\frac{|f(X_{r3}|}{p^{'}}
-\end{equation}
+%\begin{equation}
+%\label{tm2}
+%p_1=\frac{|f(X_{r1}|}{p^{'}}
+%\end{equation}
+%
+%\begin{equation}
+%\label{tm3}
+%p_2=\frac{|f(X_{r2}|}{p^{'}}
+%\end{equation}
+%
+%\begin{equation}
+%\label{tm4}
+%p_3=\frac{|f(X_{r3}|}{p^{'}}
+%\end{equation}
 
 令$\Gamma$为0到1之间的三角变异比率，那么三角变异可能会按照以下方式实现：
 
@@ -636,8 +641,25 @@ p_3=\frac{|f(X_{r3}|}{p^{'}}
 
 {\bf 针对约束优化的差分进化算法：}
 
+Price在2006年又提出一种先进的DE/rand/1-wither-or算法~\cite{de2006}。这个算法中，在概率$p_F$下，试验向量全都是突变体，而在概率$1-p_F$下，试验向量全都是重组体。这一新的方法相对于传统的rand/1/bin和target-to-best/1/bin有着较大的竞争力。试验向量的产生方式如下：
 
+\begin{equation}
+\label{de/rand/1/either-or}
+U_{i,G}=\left\{
+\begin{aligned}
+&X_{r1,G}+F\cdot(X_{r2,G}-X_{r3,G}) \quad \text{如果} rand_i(0,1)<p_F \\
+&X_{r0,G}+k\cdot(X_{r1}+X_{r2}-2\cdot X_{r0} \qquad \text{其它}
+\end{aligned}
+\right.
+\end{equation}
 
+参数$k$是对于算术交叉的加权系数，对于它的推荐设置是对于给定的$F$,将其设置为$k=0.5\cdot(F+1)$。参数$p_F$决定了变异和算术交叉的重要性，推荐设置是0.4。根据目标函数的一些特殊属性从而自适应地设置参数$p_F$的值，这也是一个值得研究的话题。
+
+反向差分进化（ODE）~\cite{ode2008}是一种基于反向学习的用于快速全局搜索和优化的算法。这个算法在噪音优化方面得到了重要的应用。通过对利用反向数对传统差分在三个层次上进行进化优化，即，种群初始化，迭代数跳跃和种群最优解局部改善。
+
+大多数的演化算法的运行效率取决于它们在搜索时利用和开发的趋势。为了更好地平衡演化算法中的利用和开发的趋势，Das提出了两种邻域拓扑模型~\cite{nde2009}。根据这一原理，提出了基于全局和局部邻域的差分进化（DEGL），对于DE/target-to-best/1策略做出了不小的改进。
+
+差分进化中试验向量的产生策略多种多样，每一个策略可能只对特定的问题比较有效。Qin等人第一次提出了自适应的差分进化算法SaDE~\cite{sade2005}，根据之前解的产生过程来调整参数从而达到试验向量的产生策略的自适应。在SaDE使用了四个有效地试验向量产生策略，包括：DE/rand/1/bin，DE/rand-to-best/2/bin，DE/rand/2/bin以及DE/current-to-rand/1策略，通过这些策略来构建一个策略候选池。前三个策略使用二项式交叉，最后一个使用算术重组。在SaDE算法中，对于当前种群中的每一个试验向量，会根据之前能够进入下一迭代节的成功比率从而在参数池中选择合适的策略。接着这个策略会被用于目标向量来产生试验向量。更特别的是，在每一次迭代中，四个参数的选择概率的总和为1。最初每个策略的概率都是相同的，然后对着演化过程的推进，会自适应地做出相应的调整。
 
 JADE~\cite{JADE}是一种新型的差分进化算法，在JADE中提出了一种新的变异策略"DE/current-to-\emph{p}best"，它通过使用一种自适应的方式来进行种群的更新，从而提高算法的自适应性。对于种群中的每一个目标向量，JADE都会对F和CR进行更新，同时这些信息也将用于更新F和CR，从而作用于新的种群。
 
@@ -1192,12 +1214,12 @@ $f13$   &${\cellcolor{lightgray}}\textbf{1.35e-32}\pm{\cellcolor{lightgray}}\tex
 \end{itemize}
 
 \newpage
-\section{参考文献}
+
 \renewcommand{\refname}{\hei 参考文献}
 \bibliography{gecco2016}
 
 \newpage
-\section{附录}
+
 
 \hspace*{\fill}\mbox{\Large\textbf{致\quad\,谢}}\hspace*{\fill}
 

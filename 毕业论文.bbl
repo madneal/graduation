@@ -267,6 +267,27 @@ A.~K. Qin, V.~L. Huang, and P.~N. Suganthan, ``Differential evolution algorithm
   with strategy adaptation for global numerical optimization,'' \emph{IEEE
   transactions on Evolutionary Computation}, 2009.
 
+\bibitem{de2006}
+K.~Price, R.~M. Storn, and J.~A. Lampinen, \emph{Differential evolution: a
+  practical approach to global optimization}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer Science \& Business Media, 2006.
+
+\bibitem{ode2008}
+S.~Rahnamayan, H.~R. Tizhoosh, and M.~Salama, ``Opposition-based differential
+  evolution,'' \emph{Evolutionary Computation, IEEE Transactions on}, vol.~12,
+  no.~1, pp. 64--79, 2008.
+
+\bibitem{nde2009}
+S.~Das, A.~Abraham, U.~K. Chakraborty, and A.~Konar, ``Differential evolution
+  using a neighborhood-based mutation operator,'' \emph{IEEE Transactions on
+  Evolutionary Computation}, vol.~13, no.~3, pp. 526--553, 2009.
+
+\bibitem{sade2005}
+A.~K. Qin and P.~N. Suganthan, ``Self-adaptive differential evolution algorithm
+  for numerical optimization,'' in \emph{2005 IEEE congress on evolutionary
+  computation}, vol.~2.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2005, pp.
+  1785--1791.
+
 \bibitem{JADE}
 J.~Zhang and A.~C. Sanderson, ``{JADE}: adaptive differential evolution with
   optional external archive,'' \emph{Evolutionary Computation, IEEE
