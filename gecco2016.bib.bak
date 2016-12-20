@@ -738,4 +738,113 @@
   organization={Springer}
 }
 
+@book{mop2001,
+  title={Multi-objective optimization using evolutionary algorithms},
+  author={Deb, Kalyanmoy},
+  volume={16},
+  year={2001},
+  publisher={John Wiley \& Sons}
+}
+
+@inproceedings{bmoa2002,
+  title={Bayesian optimization algorithms for multi-objective optimization},
+  author={Laumanns, Marco and Ocenasek, Jiri},
+  booktitle={International Conference on Parallel Problem Solving from Nature},
+  pages={298--307},
+  year={2002},
+  organization={Springer}
+}
+
+@inproceedings{mboa2004,
+  title={A mixed bayesian optimization algorithm with variance adaptation},
+  author={Ocenasek, Jiri and Kern, Stefan and Hansen, Nikolaus and Koumoutsakos, Petros},
+  booktitle={International Conference on Parallel Problem Solving from Nature},
+  pages={352--361},
+  year={2004},
+  organization={Springer}
+}
+
+@article{spea2-2002,
+  title={Spea2: Improving the strength pareto evolutionary algorithm for multiobjective optimization},
+  author={Ziztler, Eckart and Laumanns, M and Thiele, Lothar},
+  journal={Evolutionary Methods for Design, Optimization, and Control},
+  pages={95--100},
+  year={2002}
+}
+
+@incollection{mieda2006,
+  title={Multi-objective Optimization with the Naive$\backslash$ mathbb $\{$M$\}$ ID$\backslash$ mathbb $\{$E$\}$ A},
+  author={Bosman, Peter AN and Thierens, Dirk},
+  booktitle={Towards a New Evolutionary Computation},
+  pages={123--157},
+  year={2006},
+  publisher={Springer}
+}
+
+@article{mboa2002,
+  title={Multi-objective Bayesian optimization algorithm},
+  author={Khan, Nazan and Goldberg, David E and Pelikan, Martin},
+  journal={Urbana},
+  volume={51},
+  pages={61801},
+  year={2002}
+}
+
+@inproceedings{mhboa2005,
+  title={Multiobjective hBOA, clustering, and scalability},
+  author={Pelikan, Martin and Sastry, Kumara and Goldberg, David E},
+  booktitle={Proceedings of the 7th annual conference on Genetic and evolutionary computation},
+  pages={663--670},
+  year={2005},
+  organization={ACM}
+}
+
+@book{de2006,
+  title={Differential evolution: a practical approach to global optimization},
+  author={Price, Kenneth and Storn, Rainer M and Lampinen, Jouni A},
+  year={2006},
+  publisher={Springer Science \& Business Media}
+}
+
+@article{ode2008,
+  title={Opposition-based differential evolution},
+  author={Rahnamayan, Shahryar and Tizhoosh, Hamid R and Salama, Magdy MA},
+  journal={IEEE Transactions on Evolutionary computation},
+  volume={12},
+  number={1},
+  pages={64--79},
+  year={2008},
+  publisher={IEEE}
+}
+
+@article{nde2009,
+  title={Differential evolution using a neighborhood-based mutation operator},
+  author={Das, Swagatam and Abraham, Ajith and Chakraborty, Uday K and Konar, Amit},
+  journal={IEEE Transactions on Evolutionary Computation},
+  volume={13},
+  number={3},
+  pages={526--553},
+  year={2009},
+  publisher={IEEE}
+}
+
+@inproceedings{sade2005,
+  title={Self-adaptive differential evolution algorithm for numerical optimization},
+  author={Qin, A Kai and Suganthan, Ponnuthurai N},
+  booktitle={2005 IEEE congress on evolutionary computation},
+  volume={2},
+  pages={1785--1791},
+  year={2005},
+  organization={IEEE}
+}
+
+@inproceedings{psode2001,
+  title={A combined swarm differential evolution algorithm for optimization problems},
+  author={Hendtlass, Tim},
+  booktitle={International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},
+  pages={11--18},
+  year={2001},
+  organization={Springer}
+}
+
 @comment{jabref-meta: databaseType:bibtex;}

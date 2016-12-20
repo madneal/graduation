@@ -298,6 +298,11 @@ Y.~Wang, Z.~Cai, and Q.~Zhang, ``Differential evolution with composite trial
   vector generation strategies and control parameters,'' \emph{Evolutionary
   Computation, IEEE Transactions on}, vol.~15, no.~1, pp. 55--66, 2011.
 
+\bibitem{depso2003}
+W.-J. Zhang, X.-F. Xie \emph{et~al.}, ``Depso: hybrid particle swarm with
+  differential evolution operator,'' in \emph{IEEE International Conference on
+  Systems Man and Cybernetics}, vol.~4, 2003, pp. 3816--3821.
+
 \bibitem{lpca}
 N.~Kambhatla and T.~Leen, ``Dimension reduction by local principal component
   analysis,'' \emph{Neural Computation}, vol.~9, no.~7, pp. 1493--1516, 1997.
