@@ -321,6 +321,16 @@ X.~He and L.~Han, ``A novel binary differential evolution algorithm based on
   Computation}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2007, pp.
   2267--2272.
 
+\bibitem{als2008}
+N.~Noman and H.~Iba, ``Accelerating differential evolution using an adaptive
+  local search,'' \emph{IEEE Transactions on evolutionary Computation},
+  vol.~12, no.~1, pp. 107--125, 2008.
+
+\bibitem{nsde2007}
+Z.~Yang, X.~Yao, and J.~He, ``Making a difference to differential evolution,''
+  in \emph{Advances in metaheuristics for hard optimization}.\hskip 1em plus
+  0.5em minus 0.4em\relax Springer, 2007, pp. 397--414.
+
 \bibitem{code2011}
 Y.~Wang, Z.~Cai, and Q.~Zhang, ``Differential evolution with composite trial
   vector generation strategies and control parameters,'' \emph{Evolutionary
