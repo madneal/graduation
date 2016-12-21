@@ -806,17 +806,6 @@
   publisher={Springer Science \& Business Media}
 }
 
-@article{ode2008,
-  title={Opposition-based differential evolution},
-  author={Rahnamayan, Shahryar and Tizhoosh, Hamid R and Salama, Magdy MA},
-  journal={IEEE Transactions on Evolutionary computation},
-  volume={12},
-  number={1},
-  pages={64--79},
-  year={2008},
-  publisher={IEEE}
-}
-
 @article{nde2009,
   title={Differential evolution using a neighborhood-based mutation operator},
   author={Das, Swagatam and Abraham, Ajith and Chakraborty, Uday K and Konar, Amit},
@@ -893,6 +882,15 @@
   pages={107--125},
   year={2008},
   publisher={IEEE}
+}
+
+@incollection{nsde2007,
+  title={Making a difference to differential evolution},
+  author={Yang, Zhenyu and Yao, Xin and He, Jingsong},
+  booktitle={Advances in metaheuristics for hard optimization},
+  pages={397--414},
+  year={2007},
+  publisher={Springer}
 }
 
 @comment{jabref-meta: databaseType:bibtex;}

@@ -637,10 +637,6 @@ u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
 
 因此，这个方法会在$\Gamma$概率下执行三角变异，在$(1-\Gamma)$概率下执行DE/rand/1变异策略。
 
-{\bf 针对多目标优化问题的差分进化算法：}
-
-{\bf 针对约束优化的差分进化算法：}
-
 Price在2006年又提出一种先进的DE/rand/1-wither-or算法~\cite{de2006}。这个算法中，在概率$p_F$下，试验向量全都是突变体，而在概率$1-p_F$下，试验向量全都是重组体。这一新的方法相对于传统的rand/1/bin和target-to-best/1/bin有着较大的竞争力。试验向量的产生方式如下：
 
 \begin{equation}
@@ -666,12 +662,18 @@ U_{i,G}=\left\{
 \label{nsde}
 V_{i,G}=X_{{r^i}_1,G}+\left\{
 \begin{aligned}
-&d_{i,G}\cdot N(0.5, 0.5) \quad \text{如果} \quad rand_i(0, 1)<0.5
-&d_{i,G}\cdot\delta \quad \text{其他}
+&d_{i,G}\cdot N(0.5, 0.5) \quad \text{如果} \quad rand_i(0, 1)<0.5 \\
+&d_{i,G}\cdot\delta \quad \qquad \qquad \text{其他}
 \end{aligned}
+\right.
 \end{equation}
 
+$d_{i,G}=X_{{r^i}_2,G}-X_{{r^i}_3,G}$，$\delta$表示一个尺度参数$t$为1的柯西随机变量。Yang等人后续又提出了基于协同演化框架的自适应的基于邻域搜索的差分进化，这一算法能够解决大规模不可分问题（达到1000维以上）。
 
+
+{\bf 针对多目标优化问题的差分进化算法：}得益于差分进化的简单但却强大的特点，差分进化同时也得到了多目标研究学者的广泛关注。
+
+{\bf 针对约束优化的差分进化算法：}
 
 
 
