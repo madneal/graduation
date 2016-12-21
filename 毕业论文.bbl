@@ -337,10 +337,37 @@ C.-S. Chang, D.~Xu, and H.~Quek, ``Pareto-optimal set based multiobjective
   \emph{IEE Proceedings-Electric Power Applications}, vol. 146, no.~5, pp.
   577--583, 1999.
 
-\bibitem{code2011}
-Y.~Wang, Z.~Cai, and Q.~Zhang, ``Differential evolution with composite trial
-  vector generation strategies and control parameters,'' \emph{Evolutionary
-  Computation, IEEE Transactions on}, vol.~15, no.~1, pp. 55--66, 2011.
+\bibitem{gde2004}
+S.~Kukkonen and J.~Lampinen, ``An extension of generalized differential
+  evolution for multi-objective optimization with constraints,'' in
+  \emph{International Conference on Parallel Problem Solving from
+  Nature}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2004, pp. 752--761.
+
+\bibitem{mode2005}
+F.~Xue, A.~C. Sanderson, and R.~J. Graves, ``Modeling and convergence analysis
+  of a continuous multi-objective differential evolution algorithm,'' in
+  \emph{2005 IEEE Congress on Evolutionary Computation}, vol.~1.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 2005, pp. 228--235.
+
+\bibitem{demo2005}
+T.~Robi{\v{c}} and B.~Filipi{\v{c}}, ``Demo: Differential evolution for
+  multiobjective optimization,'' in \emph{International Conference on
+  Evolutionary Multi-Criterion Optimization}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2005, pp. 520--533.
+
+\bibitem{nsde2004}
+
+
+\bibitem{demo2003}
+B.~Babu and M.~M.~L. Jehan, ``Differential evolution for multi-objective
+  optimization,'' in \emph{Evolutionary Computation, 2003. CEC'03. The 2003
+  Congress on}, vol.~4.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2003, pp.
+  2696--2703.
+
+\bibitem{moea-d-de2009}
+H.~Li and Q.~Zhang, ``Multiobjective optimization problems with complicated
+  pareto sets, moea/d and nsga-ii,'' \emph{IEEE Transactions on Evolutionary
+  Computation}, vol.~13, no.~2, pp. 284--302, 2009.
 
 \bibitem{lpca}
 N.~Kambhatla and T.~Leen, ``Dimension reduction by local principal component
