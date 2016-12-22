@@ -337,6 +337,11 @@ C.-S. Chang, D.~Xu, and H.~Quek, ``Pareto-optimal set based multiobjective
   \emph{IEE Proceedings-Electric Power Applications}, vol. 146, no.~5, pp.
   577--583, 1999.
 
+\bibitem{pde2002}
+H.~A. Abbass and R.~Sarker, ``The pareto differential evolution algorithm,''
+  \emph{International Journal on Artificial Intelligence Tools}, vol.~11,
+  no.~04, pp. 531--552, 2002.
+
 \bibitem{gde2004}
 S.~Kukkonen and J.~Lampinen, ``An extension of generalized differential
   evolution for multi-objective optimization with constraints,'' in
@@ -356,7 +361,10 @@ T.~Robi{\v{c}} and B.~Filipi{\v{c}}, ``Demo: Differential evolution for
   0.4em\relax Springer, 2005, pp. 520--533.
 
 \bibitem{nsde2004}
-
+A.~W. Iorio and X.~Li, ``Solving rotated multi-objective optimization problems
+  using differential evolution,'' in \emph{Australasian Joint Conference on
+  Artificial Intelligence}.\hskip 1em plus 0.5em minus 0.4em\relax Springer,
+  2004, pp. 861--872.
 
 \bibitem{demo2003}
 B.~Babu and M.~M.~L. Jehan, ``Differential evolution for multi-objective
