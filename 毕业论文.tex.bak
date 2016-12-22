@@ -41,11 +41,12 @@
 \usepackage{listings}
 \usepackage{threeparttable}
 \usepackage{cite}
+%\usepackage{algorithm2e}
 \usepackage[ruled, lined,linesnumbered]{algorithm2e}
 \usepackage{colortbl}
 
-
-
+%
+%\renewcommand{\algorithmcfname}{}
 \newcommand{\song}{\CJKfamily{song}}
 \newcommand{\fs}{\CJKfamily{fs}}
 \newcommand{\kai}{\CJKfamily{kai}}
@@ -121,6 +122,7 @@
 \CJKindent\CJKtilde
 
 %%%%%%===== 标题名称中文化 =====
+\renewcommand{\algorithmcfname}{算法} %改变caption中的algorithm为算法
 \renewcommand\abstractname{\hei~摘\quad 要}
 \renewcommand\refname{\hei~参考文献}
 \renewcommand\figurename{\hei~图}
@@ -204,13 +206,13 @@
    \begin{tabular}{ll}
       {\large  Department：}&{\large School of Computer Science and Software Engineering}\\
       \cline{2-2}\\
-      {\large  Major：}&{\large Computer Science and Technology}\\
+      {\large  Major：}&{\large ~~~~~~~~~~~~~~~~~Computer Science and Technology}\\
       \cline{2-2}\\
-      {\large  Research direction：}&{\large Evolutionary Computation}\\
+      {\large  Research direction：}&{\large ~~~~~~~~~~~~~~~~~~~~~~Evolutionary Computation}\\
       \cline{2-2}\\
-      {\large  Supervisor：}&{\large A. Prof. Aimin Zhou}\\
+      {\large  Supervisor：}&{\large ~~~~~~~~~~~~~~~~~~~~~~A. Prof. Aimin Zhou}\\
       \cline{2-2}\\
-      {\large  Candidate：}&{\large Bing Dong}\\
+      {\large  Candidate：}&{\large ~~~~~~~~~~~~~~~~~~~~~~~~Bing Dong}\\
       \cline{2-2}
     \end{tabular}
    \vfill
@@ -447,9 +449,10 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 \subsubsection{算法框架}
 分布估计算法主要由三个步骤组成：建模，采样和选择。传统的分布估计算法的算法框架如算法~\ref{eda}所示。
 \begin{algorithm}
+%\SetAlgorithmName{算法}
 \caption{分布估计算法}
 \label{eda}
-\textbf{初始化}: 建立随机初试种群$Pop(t)$，$t$ 是相应的种群代数。
+\textbf{初始化}: 建立随机初始种群$Pop(t)$，$t$ 是相应的种群代数。
 
 \While{not terminate}
 {
@@ -535,7 +538,7 @@ MIDEA算法~\cite{mieda2006}是对于多目标优化问题上的IDEA算法框架的进一步拓展。通过
 
 \begin{algorithm}
 \caption{差分进化}
-\label{alg1}	
+\label{de}	
 随机初始种群$P_0$：$P_0=\{x_{1,D}, x_{2,D}, x_{3,D}, \cdots, x_{N,D}\}$
 
      \While{not terminate}
@@ -562,6 +565,8 @@ MIDEA算法~\cite{mieda2006}是对于多目标优化问题上的IDEA算法框架的进一步拓展。通过
 		}	
    }
 \end{algorithm}
+
+差分进化主要由三步组成，包括：变异，交叉和选择，经典的差分进化的算法框架如算法~\ref{de}所示。
 
 其中$F$是缩放因子，$CR$是交叉概率因子。$v_{i,G}$是变异向量，$u_{i,G}$是试验向量，$x_{i,G+1}$是目标向量。$r1$，$r2$和$r3$是从$[1,N]$中挑选出来的整数，且它们也不同于$i$。
 
@@ -759,6 +764,17 @@ LPCA通过最小化以下误差函数的最小值来将种群划分聚类：
 
 其中$A^{m-1}_j$是聚类个体的$(m-1)$维主子空间仿射，$d(x,A^{m-1}_j)$是$\overline{x}$和它在$A^{m-1}_j$上投影的欧式距离。
 
+图~\cite{lpca}形象地表示了LPCA划分聚类的过程。开始的时候，种群中的个体随机地分布，通过LPCA对种群中的个体进行聚类划分，直到每个聚类中的个体不会在发生变化，聚类划分就完成了。
+
+\begin{figure}
+\graphicspath{{figs/}}
+\centering
+  \includegraphics[width=0.8\columnwidth]{lpca.png}
+  \caption{LPCA划分聚类过程}
+  \label{lpca}
+\end{figure}
+
+
 
 \subsubsection{RM-MEDA中存在的问题和解决方法}
 在RM-MEDA中，通过使用Local PCA将种群分成k个聚类。如图~\ref{pareto}所示，在每一个聚类之中，$N^k$用来表示聚类中的Pareto set，而$M^k$则用来覆盖每个聚类中的Pareto set。 为了能够覆盖聚类中的Pareto set，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto set。但是这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不禁相同。如果缩放比例设置过大，则对于实际的Pareto set则显得多余；如果设置的缩放比例过小，又不足以覆盖实际的Pareto set。 因此，如何设置一个合适的缩放比例也成为了一个比较困难的问题。
@@ -826,7 +842,7 @@ $$
 $\varepsilon^\prime$是一个服从分布$\mathcal{N}(0,\sigma_\tau{I})$的高斯噪音（$\tau\in\{1, 2, \cdots, K\}$是一个随机产生的整数）
 \end{algorithm}
 
-将DES引入到RM-MEDA算法中来采样，那么DES-RM-MEDA算法框架如算法~\ref{des-rm-meda}所示。
+将DES引入到RM-MEDA算法中来采样，那么DES-RM-MEDA算法框架如算法~\ref{des-rm-meda}所示。在建模环节，还是基于连续多目标问题的特性，利用LPCA将种群中的个体划分为不同的聚类。同时，为了增加种群的多样性，使用基于差分进化的采样策略，在新型的隐空间中对于每个聚类中的个体进行变异操作，从而产生新的个体。这样保证收敛的同时，通过差分进化的样策略的变异算子来提高种群的多样性。
 
 \begin{algorithm}
 \caption{DES-RM-MEDA}
@@ -844,7 +860,6 @@ $\varepsilon^\prime$是一个服从分布$\mathcal{N}(0,\sigma_\tau{I})$的高斯噪音（$\t
     $t=t+1$
  }
 
-返回种群$Pop(t)$的最终解。
 \end{algorithm}
 
 \subsection{实验分析}
