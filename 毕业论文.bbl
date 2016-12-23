@@ -310,7 +310,7 @@ A.~Bisuias, S.~Dasgupta, and S.~D.~A. Abrahaml, ``A synergy of differential
   \emph{Neural Network World}, vol.~6, no.~07, pp. 607--626, 2007.
 
 \bibitem{deaco2008}
-X.~Zhang, H.~Duan, and J.~Jin, ``Deaco: Hybrid ant colony optimization with
+X.~Zhang, H.~Duan, and J.~Jin, ``{DEACO}: Hybrid ant colony optimization with
   differential evolution,'' in \emph{2008 IEEE Congress on Evolutionary
   Computation (IEEE World Congress on Computational Intelligence)}.\hskip 1em
   plus 0.5em minus 0.4em\relax IEEE, 2008, pp. 921--927.
@@ -355,7 +355,7 @@ F.~Xue, A.~C. Sanderson, and R.~J. Graves, ``Modeling and convergence analysis
   0.5em minus 0.4em\relax IEEE, 2005, pp. 228--235.
 
 \bibitem{demo2005}
-T.~Robi{\v{c}} and B.~Filipi{\v{c}}, ``Demo: Differential evolution for
+T.~Robi{\v{c}} and B.~Filipi{\v{c}}, ``{DEMO}: Differential evolution for
   multiobjective optimization,'' in \emph{International Conference on
   Evolutionary Multi-Criterion Optimization}.\hskip 1em plus 0.5em minus
   0.4em\relax Springer, 2005, pp. 520--533.
