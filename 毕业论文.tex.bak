@@ -167,7 +167,7 @@
 
 \begin{center}
 \begin{tabular}{cc}
-  {\large\heiÔº\hfill\heiÏµ£º}&{\large\hei ¼Æ\hfill\heiËã\hfill\hei»ú\hfill\hei¿Æ\hfill\heiÑ§\hfill\heiÓë\hfill\hei Èí\hfill\hei¼þ\hfill\hei¹¤\hfill\hei³Ì\hfill\heiÑ§\hfill\heiÔº}\\
+  {\large\heiÔº\hfill\heiÏµ£º}&{\large\hei ¼Æ\hfill\heiËã\hfill\hei»ú\hfill\hei¿Æ\hfill\heiÑ§\hfill\heiÓë\hfill\hei Èí\hfill\hei¼þ\hfill\hei ¹¤\hfill\hei³Ì\hfill\heiÑ§\hfill\hei Ôº}\\
       \cline{2-2}\\
       {\large\hei×¨\hfill\heiÒµ£º}&{\large\hei¼ÆËã»ú¿ÆÑ§Óë¼¼Êõ}\\
       \cline{2-2}\\
@@ -390,9 +390,9 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 ÑÝ»¯Ëã·¨ÊÇÁ¥ÊôÓÚÑÝ»¯¼ÆËãµÄÒ»ÖÖÈË¹¤ÖÇÄÜËã·¨£¬ÊÇÒ»ÖÖ»ùÓÚ»ùÒòÖÖÈºµÄÆô·¢Ê½µÄÓÅ»¯Ëã·¨¡£ÑÝ»¯Ëã·¨±»¹ã·ºµØÓ¦ÓÃÓÚ½â¾öÓÅ»¯ÎÊÌâ£¬°üÀ¨µ¥Ä¿±êÒÔ¼°¶àÄ¿±êÓÅ»¯ÎÊÌâ~\cite{ea2013}¡£ÑÝ»¯Ëã·¨ÊÜ1859 Äê´ï¶ûÎÄÌá³öµÄÎïÖÖÆðÔ´µÄÆô·¢£¬ÎüÈ¡ÆäÖÐµÄÉúÎï½ø»¯ºÍ×ÔÈ»Ñ¡ÔñµÄË¼Ïë¡£ÏÖÈç½ñÑÝ»¯Ëã·¨ÒÑ¾­µÃµ½ÁËÖÚ¶àÑÐ¾¿Ñ§ÕßµÄ¹Ø×¢£¬ÑÝ»¯Ëã·¨ÒÑ¾­·Ö»¯³É¶à¸ö·ÖÖ§£ºÒÅ´«Ëã·¨~\cite{nsga-ii}£¬ÉúÎïµØÀíÑ§ÓÅ»¯~\cite{bbo2008}£¬ÒÅ´«±à³Ì~\cite{gp1998}£¬ÑÝ»¯±à³Ì~\cite{ep1996}£¬²î·Ö½ø»¯~\cite{DE1}µÈµÈ¡£ÑÝ»¯Ëã·¨±»¹ã·ºµØÓ¦ÓÃÓÚ¹¤³ÌÊµ¼ùºÍÑ§ÊõÑÐ¾¿ÖÐ¡£
 
 \subsection{ÑÐ¾¿Ä¿µÄºÍÒâÒå}
-·Ö²¼¹À¼ÆËã·¨ÊÇÒ»ÖÖÐÂÐËµÄÑÝ»¯Ëã·¨£¬ËüÍ¨¹ý½¨Á¢ÔÚ¸ÅÂÊÄ£ÐÍÖÐ²ÉÑùÀ´²úÉúÐÂµÄÖÖÈº¸öÌå£¬Í¨¹ýÌáÈ¡µ±Ç°ÓÅÐãÖÐÈ¡µÃ¸ÅÂÊÄ£ÐÍÀ´Ö¸µ¼ÏÂÒ»²½µÄËÑË÷~\cite{eda2002}~\cite{edasurvey2002}¡£²»Í¬ÓÚ´«Í³µÄÑÝ»¯Ëã·¨£¬ÔÚ·Ö²¼¹À¼ÆËã·¨ÖÐ²»´æÔÚ±äÒìºÍ½»²æ£¬Í¨¹ýÊ¹ÓÃÒ»¸ö¾«È·µØ¸ÅÂÊ·Ö²¼Ä£ÐÍÀ´ÌáÈ¡Í³¼ÆÐÅÏ¢¡£×Ó´úÖÖÈº½â¼¯½«»áÍ¨¹ý´Ó½¨Á¢µÄ¸ÅÂÊ·Ö²¼Ä£ÐÍÖÐ²ÉÑù²úÉú£¬²¢ÇÒ²úÉúµÄ½â¼¯»á²¿·Ö»òÕßÈ«²¿µØÈ¡´ú¸¸´úÖÐÇø½â¼¯¡£·Ö²¼¹À¼ÆËã·¨Í¨¹ý·Ö²¼¸ÅÂÊÄ£ÐÍÄÜ¹»¸üºÃµØ½øÐÐÈ«¾ÖËÑË÷£¬ÌáÈ¡È«¾ÖÍ³¼ÆÐÅÏ¢¡£·Ö²¼¹À¼ÆËã·¨Ö÷ÒªÓÉÈý¸ö²½Öè×é³É£¬¼´£º½¨Ä££¬²ÉÑù£¬Ñ¡Ôñ¡£ÆäÖÐ£¬²ÉÑù»·½ÚÊÇ±¾ÎÄµÄÖØµã£¬²ÉÑù¶ÔÓÚ·Ö²¼¹À¼ÆËã·¨¾ßÓÐÖØ´óÒâÒå£¬ÌáÉý²ÉÑùµÄÐÔÄÜ¿ÉÒÔ´ó´óµØÌá¸ßËã·¨µÄÐÔÄÜ£¬¸üÓÐ¿ÉÄÜ²úÉú¸üÎªÓÅÖÊµÄ×Ó´úÖÖÈº½â¼¯~\cite{des}¡£
+·Ö²¼¹À¼ÆËã·¨ÊÇÒ»ÖÖÐÂÐËµÄÑÝ»¯Ëã·¨£¬ËüÍ¨¹ý½¨Á¢Ò»¸ö¸ÅÂÊÄ£ÐÍ£¬È»ºóÍ¨¹ýÔÚÕâ¸ö¸ÅÂÊÄ£ÐÍÖÐ²ÉÑùÀ´²úÉúÐÂµÄÖÖÈº¸öÌå£¬Í¨¹ýÌáÈ¡µ±Ç°¾«Ó¢ÖÐµÄÍ³¼ÆÐÅÏ¢À´½øÒ»²½µØ¸üÐÂ¸ÅÂÊÄ£ÐÍÀ´Ö¸µ¼ÏÂÒ»²½µÄËÑË÷~\cite{eda2002}~\cite{edasurvey2002}¡£²»Í¬ÓÚ´«Í³µÄÑÝ»¯Ëã·¨£¬ÔÚ·Ö²¼¹À¼ÆËã·¨ÖÐ²»´æÔÚ±äÒìºÍ½»²æ£¬Í¨¹ýÊ¹ÓÃÒ»¸ö¾«È·µÄ¸ÅÂÊÄ£ÐÍÀ´ÌáÈ¡ÖÖÈºµÄÍ³¼ÆÐÅÏ¢¡£×Ó´úÖÖÈº½â¼¯½«»áÍ¨¹ý´Ó½¨Á¢µÄ¸ÅÂÊÄ£ÐÍÖÐ²ÉÑù²úÉú£¬²¢ÇÒ²úÉúµÄ½â¼¯»á²¿·Ö»òÕßÈ«²¿µØÈ¡´ú¸¸´úÖÐÇø½â¼¯¡£·Ö²¼¹À¼ÆËã·¨Í¨¹ý¸ÅÂÊÄ£ÐÍÄÜ¹»¸üºÃµØ½øÐÐÈ«¾ÖËÑË÷£¬ÌáÈ¡È«¾ÖÍ³¼ÆÐÅÏ¢¡£·Ö²¼¹À¼ÆËã·¨Ö÷ÒªÓÉÈý¸ö²½Öè×é³É£¬¼´£º½¨Ä££¬²ÉÑù£¬Ñ¡Ôñ¡£²ÉÑùÊ±·Ö²¼¹À¼ÆËã·¨µÄÖØÒª»·½Ú£¬±¾ÎÄÖ÷ÒªÕë¶Ô·Ö²¼¹É¼ÆËãÖÐµÄ²ÉÑù£¬ÌáÉý²ÉÑùµÄÐÔÄÜ¿ÉÒÔ´ó´óµØÌá¸ßËã·¨µÄÐÔÄÜ£¬¸üÓÐ¿ÉÄÜ²úÉú¸üÎªÓÅÖÊµÄ×Ó´úÖÖÈº½â¼¯~\cite{des}¡£
 
-²î·Ö½ø»¯Ëã·¨ÊÇÒ»ÖÖÓÐÐ§²¢ÇÒ¼òµ¥µÄÑÝ»¯Ëã·¨~\cite{DE1,DE2}¡£²î·Ö½ø»¯Ëã·¨Í¨¹ýÀûÓÃÖÖÈºÖÐµÄ¾àÀëºÍ·½ÏòÐÅÏ¢À´Ö¸µ¼ËÑË÷µÄ¹ý³Ì¡£²î·Ö½ø»¯Ëã·¨Í¨¹ýÌáÈ¡ÖÖÈºÖÐµÄ²î·ÖÐÅÏ¢À´Ö¸µ¼ÏÂÒ»²½ËÑËØ²¢ÇÒ¿ÉÒÔ¼Ó¿ì½â¼¯ÊÕÁ²µÄËÙ¶È¡£µÃÒæÓÚÕâÒ»µã£¬ÊÜµ½²î·Ö½ø»¯Ëã·¨Ë¼ÏëµÄÆô·¢£¬ÎÒÃÇÌá³ö»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ£¨Differential Evolution based Sampling, DES)¡£DES¶ÔÓÚÌá¸ßÖÖÈºµÄ¶àÑùÐÔ£¬¼ÓËÙÖÖÈº½â¼¯ÊÕÁ²¶¼ÓÐ×ÅÖØ´óµÄÒâÒå¡£
+²î·Ö½ø»¯Ëã·¨ÊÇÒ»ÖÖÓÐÐ§²¢ÇÒ¼òµ¥µÄÑÝ»¯Ëã·¨~\cite{DE1,DE2}¡£²î·Ö½ø»¯Ëã·¨Í¨¹ýÀûÓÃÖÖÈºÖÐµÄ¾àÀëºÍ·½ÏòÐÅÏ¢À´Ö¸µ¼ËÑË÷µÄ¹ý³Ì¡£²î·Ö½ø»¯Ëã·¨Í¨¹ýÌáÈ¡ÖÖÈºÖÐµÄ²î·ÖÐÅÏ¢À´Ö¸µ¼ÏÂÒ»²½ËÑËØ²¢ÇÒ¿ÉÒÔ¼Ó¿ì½â¼¯ÊÕÁ²µÄËÙ¶È¡£µÃÒæÓÚÕâÒ»µã£¬ÊÜµ½²î·Ö½ø»¯Ëã·¨Ë¼ÏëµÄÆô·¢£¬ÎÒÃÇÌá³ö»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ£¨Differential Evolution based Sampling, DES)¡£Í¨¹ýÀûÓÃ·Ö²¼¹À¼ÆËã·¨ÖÐ¸ÅÂÊÄ£ÐÍ²»¶ÏÊÕ¼¯ÖÖÈºÖÐµÄÍ³¼ÆÐÅÏ¢£¬²»¶ÏµØ¸üÐÂ¸ÅÂÊÄ£ÐÍ£¬Ö¸µ¼ËÑË÷µÄ½øÐÐ£¬Í¬Ê±ÀûÓÃ»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ£¬Ìá¸ßÖÖÈºµÄ¶àÑùÐÔ£¬ÔÚ±£Ö¤ÖÖÈºµÄ¶àÑùµÄÍ¬Ê±£¬Ò²¼ÓËÙÁË×îÖÕ½á¹ûµÄÊÕÁ²£¬´Ó¶ø½øÒ»²½Ìá¸ßËã·¨µÄÐÔÄÜ¡£
 
 
 \subsection{±¾ÎÄËù×öµÄ¹¤×÷ºÍÄÚÈÝ°²ÅÅ}
@@ -416,9 +416,10 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 \newpage
 \section{ÀíÂÛ»ù´¡}
 
-±¾ÕÂÖ÷Òª½éÉÜÑÝ»¯Ëã·¨ÖÐ¶ÔÓÚ¶àÄ¿±êÓÅ»¯ÎÊÌâÒÔ¼°µ¥Ä¿±êÓÅ»¯ÎÊÌâµÄÏà¹Ø¶¨Òå£¬Í¬Ê±·Ö±ð¼òÒªµØ½éÉÜ·Ö²¼¹À¼ÆËã·¨ºÍ²î·Ö½ø»¯Ëã·¨µÄÀíÂÛÖªÊ¶ºÍËã·¨¿ò¼Ü¡£
+±¾ÕÂÊ×ÏÈ½éÉÜÁËÑÝ»¯Ëã·¨ÖÐµÄ¶àÄ¿±êÓÅ»¯ÎÊÌâÒÔ¼°µ¥Ä¿±êÓÅ»¯ÎÊÌâ£¬²¢¸ø³öÁËÏà¹Ø¶¨Òå¡£½Ó×Å·Ö±ð¼òÒªµØ½éÉÜ·Ö²¼¹À¼ÆËã·¨ºÍ²î·Ö½ø»¯Ëã·¨µÄÀíÂÛÖªÊ¶ºÍËã·¨¿ò¼Ü£¬²¢¾Í²î·Ö½ø»¯ºÍ·Ö²¼¹À¼ÆËã·¨µÄÑÐ¾¿ÏÖ×´×öÁË»ù´¡ÐÔµØ½éÉÜ¡£
+
 \subsection{¶àÄ¿±êÓÅ»¯ÎÊÌâ}
-ÔÚ¿ÆÑ§ÑÐ¾¿ºÍ¹¤³ÌÓ¦ÓÃÖÐ£¬ÔÚ¶ÔÓÚÉè¼ÆºÍ²ßÂÔµÄ½â¾ö·½°¸ÖÐÍùÍùÉæ¼°µ½¶ÔÓÚ¶Ô¸öÄ¿±êµÄÓÅ»¯ÎÊÌâ£¬Õâ¾ÍÊÇ±¾ÎÄÖÐËùËµµÄ¶àÄ¿±êÓÅ»¯ÎÊÌâ£¨Multiobjective Optimization, MOP£©¡£ÄÃÒ»¸öÎÒÃÇÈÕ³£Éú»îÖÐÂò³µµÄÀý×Ó£¬ÈçÍ¼ËùÊ¾£¬ÔÚÂò³µµÄÊ±ºòÎÒÃÇ¼ÈÒª¿¼ÂÇµ½¼Û¸ñÍ¬Ê±Ò²Òª¿¼ÂÇµ½°²È«£¬Õâ¾Í¿ÉÒÔÀí½â³ÉÒ»ÖÖ¶àÄ¿±êÓÅ»¯ÎÊÌâ¡£
+ÔÚ¿ÆÑ§ÑÐ¾¿ºÍ¹¤³ÌÓ¦ÓÃÖÐ£¬ÔÚ¶ÔÓÚÉè¼ÆºÍ²ßÂÔµÄ½â¾ö·½°¸ÖÐÍùÍùÉæ¼°µ½¶ÔÓÚ¶à¸öÄ¿±êµÄÓÅ»¯ÎÊÌâ£¬Õâ¾ÍÊÇ±¾ÎÄÖÐËùËµµÄ¶àÄ¿±êÓÅ»¯ÎÊÌâ£¨Multiobjective Optimization, MOP£©¡£ÄÃÒ»¸öÎÒÃÇÈÕ³£Éú»îÖÐÂò³µµÄÀý×Ó£¬ÈçÍ¼~\ref{car}ËùÊ¾£¬ÔÚÂò³µµÄÊ±ºòÎÒÃÇ¼ÈÒª¿¼ÂÇµ½¼Û¸ñÍ¬Ê±Ò²Òª¿¼ÂÇµ½°²È«£¬Õâ¿ÉÒÔÀí½â³ÉÎªÒ»ÖÖ¶àÄ¿±êÓÅ»¯ÎÊÌâ¡£
 
 \begin{figure}[h]
 \graphicspath{{figs/}}
@@ -429,7 +430,7 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 \end{figure}
 
 
-ÎªÁË²»Ê§Ò»°ãÐÔ£¬ÔÚ±¾ÎÄÖÐ£¬ÔÚ±¾ÎÄÖÐÎÒÃÇ¼ÙÉèÃ¿¸öÎÊÌâ¶¼ÊÇ×îÐ¡»¯ÎÊÌâ£¬ÔòMOP¿ÉÒÔÓÉÒÔÏÂÊýÑ§¹«Ê½±í´ï£º
+ÎªÁË²»Ê§Ò»°ãÐÔ£¬ÔÚ±¾ÎÄÖÐ£¬ÔÚ±¾ÎÄÖÐÎÒÃÇ¼ÙÉè¶àÄ¿±êÓÅ»¯ÎÊÌâÖÐµÄÃ¿¸öÎÊÌâ¶¼ÊÇ×îÐ¡»¯ÎÊÌâ£¬Ôò¶àÄ¿±êÓÅ»¯ÎÊÌâ¿ÉÒÔÓÉÒÔÏÂÊýÑ§¹«Ê½±í´ï£º
 \begin{equation}
 \begin{array}{rl}
 \mbox{min} & F(x) = (f_1(x), \cdots, f_m(x))\\
@@ -440,10 +441,10 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 ÆäÖÐ£¬$x=(x_1, \cdots, x_n)^T\in R^n$ ÊÇ¾ö²ß±äÁ¿ÏòÁ¿£¬$\Omega=\Pi_{i=1}^{n}[a_i, b_i] \subset R^n$ ±íÊ¾¿ÉÄÜµÄËÑË÷¿Õ¼äÇøÓò£¬$f_i: R^n \rightarrow R, i=1, \cdots, m$ ÊÇÒ»¸öÁ¬ÐøµÄÄ¿±êº¯Êý£¬$F(x)$ÔòÊÇÏàÓ¦µÄÄ¿±êº¯ÊýÏòÁ¿¡£
 
-ÔÚMOPÖÐ£¬¶à¸öÄ¿±êÏà»¥Ö®¼äÍùÍùÊÇ³åÍ»µÄ£¬´Ó¶øµ¼ÖÂÎÞ·¨ÔÚÂú×ãËùÓÐÔ¼ÊøÌõ¼þÏÂÊ¹µÃËùÓÐÄ¿±êº¯Êý¶¼ÄÜ¹»´ïµ½È«¾Ö×îÓÅ½â£¬µ«ÊÇ´æÔÚÒ»×éPareto×îÓÅ½â~\cite{moead}¡£ ¶ÔÓÚ´Ë£¬×ö³öÒÔÏÂ¶¨Òå£ºÁî$a,b\in{R^n}$£¬µ±$a_i\le{b_i}\land{a\neq{b}}$£¬ÇÒ$i=1,\cdots,n$£¬Ôò³Æ$a$ Ö§Åä$b$¡£ÏòÁ¿$x^*\in\Omega$¼´ÊÇ~\ref{mop}\emph{Pareto×îÓÅ½â},Èç¹û²»´æÔÚ$x\in\Omega$Ê¹µÃ$F(X)$Ö§Åä$F(x^*)$¡£$F(x^*)$±»³ÆÎªPareto×îÓÅÄ¿±êÏòÁ¿¡£ËùÓÐµÄPareto×îÓÅ½âµÄ¼¯ºÏ¾ÍÊÇPareto×îÓÅ½â¼¯£¨PS£©£¬¶ÔÓ¦µÄ×îÓÅÏòÁ¿µÄ¼¯ºÏÔò³ÉÎªParetoÇ°¶Ë£¨PF£©¡£
+ÔÚ¶àÄ¿±êÓÅ»¯ÎÊÌâÖÐ£¬¶à¸öÄ¿±êÏà»¥Ö®¼äÍùÍùÊÇ³åÍ»µÄ£¬´Ó¶øµ¼ÖÂÎÞ·¨ÔÚÂú×ãËùÓÐÔ¼ÊøÌõ¼þÏÂÊ¹µÃËùÓÐÄ¿±êº¯Êý¶¼ÄÜ¹»´ïµ½È«¾Ö×îÓÅ½â£¬µ«ÊÇ´æÔÚÒ»×éPareto×îÓÅ½â~\cite{moead}¡£ ¶ÔÓÚ´Ë£¬×ö³öÒÔÏÂ¶¨Òå£ºÁî$a,b\in{R^n}$£¬µ±$a_i\le{b_i}\land{a\neq{b}}$£¬ÇÒ$i=1,\cdots,n$£¬Ôò³Æ$a$ Ö§Åä$b$¡£ÏòÁ¿$x^*\in\Omega$¼´ÊÇ~\ref{mop}\emph{Pareto×îÓÅ½â},Èç¹û²»´æÔÚ$x\in\Omega$Ê¹µÃ$F(X)$Ö§Åä$F(x^*)$¡£$F(x^*)$±»³ÆÎªPareto×îÓÅÄ¿±êÏòÁ¿¡£ËùÓÐµÄPareto ×îÓÅ½âµÄ¼¯ºÏ¾ÍÊÇPareto×îÓÅ½â¼¯£¨PS£©£¬¶ÔÓ¦µÄ×îÓÅÏòÁ¿µÄ¼¯ºÏÔò³ÉÎªParetoÇ°¶Ë£¨PF£©¡£
 
 \subsection{µ¥Ä¿±êÓÅ»¯ÎÊÌâ}
-±¾ÎÄÑÐ¾¿µÄµ¥Ä¿±êÓÅ»¯ÎÊÌâÕë¶ÔµÄÊÇÁ¬Ðø¿Õ¼äµÄÈ«¾ÖÓÅ»¯ÎÊÌâ£¬Ò»°ã¼´ÊÇÇóµÃ×îÐ¡Öµ»òÕß×î´óÖµ¡£È«¾ÖÓÅ»¯ÎÊÌâÊÇÓ¦ÓÃÊýÑ§ºÍÊýÖµ·ÖÎöµÄÒ»¸ö·ÖÖ§£¬ÓÃÓÚ½â¾öÔÚÒ»¶¨Ìõ¼þÏÂÇóµÃÒ»¸ö»òÕßÒ»×éº¯ÊýµÄ×îÓÅ½â~\cite{global2000}¡£Í¬Ñù£¬¶ÔÓÚÈ«¾ÖÓÅ»¯ÎÊÌâÔÚ±¾ÎÄÖÐ×ö³öÒÔÏÂ¶¨Òå£º
+µ¥Ä¿±êÓÅ»¯ÎÊÌâ»ù´¡³öÏÖÔÚ¿ÆÑ§ºÍ¹¤³ÌÓ¦ÓÃµÄ¸÷¸öÁìÓòÖÐ¡£µ¥Ä¿±êÓÅ»¯ÎÊÌâµÄÄ¿±êº¯ÊýÒ»°ãÊÇ·ÇÍ¹º¯Êý²¢ÇÒÔÚ¿ÉÐÐÇøÓòÄÚ¾ßÓÐºÜ¶àµÄ¾Ö²¿¼«Ð¡Öµ»òÕß¼«´óÖµ¡£±¾ÎÄÑÐ¾¿µÄµ¥Ä¿±êÓÅ»¯ÎÊÌâÕë¶ÔµÄÊÇÁ¬Ðø¿Õ¼äµÄÈ«¾ÖÓÅ»¯ÎÊÌâ£¬Ò»°ã¼´ÊÇÇóÄ¿±êº¯ÊýµÄ×îÐ¡Öµ»òÕß×î´óÖµ¡£È«¾ÖÓÅ»¯ÎÊÌâÊÇÓ¦ÓÃÊýÑ§ºÍÊýÖµ·ÖÎöµÄÒ»¸ö·ÖÖ§£¬ÓÃÓÚ½â¾öÔÚÒ»¶¨Ìõ¼þÏÂÇóµÃÒ»¸ö»òÕßÒ»×éº¯ÊýµÄ×îÓÅ½â~\cite{global2000}¡£ Í¬Ñù£¬¶ÔÓÚÈ«¾ÖÓÅ»¯ÎÊÌâÔÚ±¾ÎÄÖÐ×ö³öÒÔÏÂ¶¨Òå£º
 \begin{equation}
 \label{min}
 \begin{split}
@@ -452,8 +453,9 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 \end{split}
 \end{equation}
 ÆäÖÐ$x=(x_1, x_2, \cdots, x_n)^T\in{R^n}$ ÊÇ¾ö²ß±äÁ¿ÏòÁ¿£¬$[a_i, b_i]^n$ÊÇËÑË÷¿Õ¼äÇøÓò£¬$f:R^n\to{R}$ ÔòÊÇÄ¿±êº¯Êý¡£
+
 \subsection{·Ö²¼¹À¼ÆËã·¨}
-·Ö²¼¹À¼ÆËã·¨£¨Estimation of Distribution Algorithm, EDA£©£¬Ò²±»³ÆÎª»ùÓÚ¸ÅÂÊÄ£ÐÍµÄÒÅ´«Ëã·¨£¨Probabilistic Model-based Genetic Algorithm, PMGA£©£¬ÊÇÒ»ÖÖÍ¨¹ý½¨Ä£ºÍ²ÉÑùÀ´ËÑË÷×îÓÅ½âµÄËæ»úÓÅ»¯·½·¨~\cite{eda2002}¡£·Ö²¼¹À¼ÆËã·¨ËäÈ»ÊôÓÚÑÝ»¯Ëã·¨£¬µ«ÊÇºÍ´«Í³µÄÑÝ»¯Ëã·¨È´ÓÐ×Å½Ï´óµÄ²»Í¬Ö®´¦¡£´«Í³µÄËã·¨Í¨¹ý±äÁ¿Ö®¼äÒþº¬µÄ·Ö²¼¹ØÏµÀ´²úÉúÐÂµÄ×Ó´úÖÖÈº£¬È»¶ø·Ö²¼¹À¼ÆËã·¨ÊÇÍ¨¹ý¸ÅÂÊÄ£ÐÍ½¨Á¢µÄ¾«È·µØ·Ö²¼À´²úÉúÐÂµÄÖÖÈº~\cite{eda2006}¡£
+·Ö²¼¹À¼ÆËã·¨£¨Estimation of Distribution Algorithm, EDA£©£¬Ò²±»³ÆÎª»ùÓÚ¸ÅÂÊÄ£ÐÍµÄÒÅ´«Ëã·¨£¨Probabilistic Model-based Genetic Algorithm, PMGA£©£¬ÊÇÒ»ÖÖÍ¨¹ý½¨Ä£ºÍ²ÉÑùÀ´ËÑË÷×îÓÅ½âµÄËæ»úÓÅ»¯·½·¨~\cite{eda2002}¡£·Ö²¼¹À¼ÆËã·¨ËäÈ»ÊôÓÚÑÝ»¯Ëã·¨£¬µ«ÊÇºÍ´«Í³µÄÑÝ»¯Ëã·¨È´ÓÐ×Å½Ï´óµÄ²»Í¬Ö®´¦¡£´«Í³µÄËã·¨Í¨¹ý±äÁ¿Ö®¼äÒþº¬µÄ·Ö²¼¹ØÏµÀ´²úÉúÐÂµÄ×Ó´úÖÖÈº£¬È»¶ø·Ö²¼¹À¼ÆËã·¨ÊÇÍ¨¹ý¸ÅÂÊÄ£ÐÍ½¨Á¢µÄ¾«È·µÄ·Ö²¼¹ØÏµÀ´²úÉúÐÂµÄÖÖÈº~\cite{eda2006}¡£
 
 \subsubsection{Ëã·¨¿ò¼Ü}
 ·Ö²¼¹À¼ÆËã·¨Ö÷ÒªÓÉÈý¸ö²½Öè×é³É£º½¨Ä££¬²ÉÑùºÍÑ¡Ôñ¡£´«Í³µÄ·Ö²¼¹À¼ÆËã·¨µÄËã·¨¿ò¼ÜÈçËã·¨~\ref{eda}ËùÊ¾¡£
@@ -483,8 +485,6 @@ $t=t+1$
 
 »ùÓÚÀëÉ¢±äÁ¿µÄ·Ö²¼¹À¼ÆËã·¨£º¶ÔÓÚ·Ö²¼¹À¼ÆËã·¨£¬Ä£ÐÍµÄÖÖÀàÊÇ±È½ÏÖØÒªµÄ»·½Ú£¬ÔÚ´Ë£¬¿ÉÒÔ·ÖÎª£¬µ¥±äÁ¿Ä£ÐÍ£¬Ê÷ÐÎ±íÊ¾Ä£ÐÍÒÔ¼°ÒÔ¼°¶àÔª¹ØÏµÄ£ÐÍ¡£
 
-
-
 ×î¼òµ¥µÄ·½·¨¾ÍÊÇ¼ÙÉèÎÊÌâµÄ±äÁ¿Ö®¼äÊÇÏà»¥¶ÀÁ¢µÄ¡£ÔÚÕâÖÖ¼ÙÉèÏÂ£¬¸öÌå±äÁ¿µÄ¸ÅÂÊ·Ö²¼¾ÍºÍÆäËû±äÁ¿µÄÃ»ÓÐ¹ØÏµ¡£ÕâÖÖ·Ö²¼¹À¼ÆËã·¨Í¨³£±»³ÆÎªµ¥±äÁ¿·Ö²¼¹À¼ÆËã·¨£¬Í¼~\ref{edas}±íÊ¾ÕâÖÖÀàÐÍµÄ·Ö²¼¹À¼ÆËã·¨¡£´ÓÊýÑ§ÒâÒåÉÏÀ´Ëµ£¬µ¥±äÁ¿Ä£ÐÍ¿ÉÒÔ½«¶à¸ö±äÁ¿µÄ¸ÅÂÊ½øÐÐ·Ö½â³É¶à¸ö±äÁ¿¸ÅÂÊµÄ³Ë»ý£º
 \begin{equation}
 \label{decom_eda}
@@ -512,7 +512,7 @@ $p(X_i)$ÊÇ±äÁ¿$X_i$µÄ¸ÅÂÊ·Ö²¼£¬$p(X_1,X_2,\cdots,X_n)$ÊÇºòÑ¡½â¼¯$(X_1,X_2,\cdots
 p_{\pi}(X)=p(X_{i_1}|X_{i_2})p(X_{i_2}|X_{i_3})\cdots p(X_{i_{n-1}}|X_{i_n})p(X_{i_n})
 \end{equation}
 
-$p(X_{i_j}|X_{i_{j+1}})$±íÊ¾ÔÚ¸ø¶¨$X_{i+{j+1}}$µÄÌõ¼þÏÂ£¬$X_{i_j}$µÄÌõ¼þ¸ÅÂÊ¡£ÐÂµÄ½â¼¯Í¨¹ý´ÓÕâ¸ö¸ÅÂÊÄ£ÐÍÖÐ²ÉÑù¶ø²úÉú¡£²ÉÑùµÄ¹ý³Ì»á½«$\pi$ÖÐµÄ±äÁ¿Ë³ÐòÄæÖÃ£¬ÒÔ$X_{i_n}$¿ªÍ·£¬$X_{i_1}$½áÎ²¡£
+$p(X_{i_j}|X_{i_{j+1}})$±íÊ¾ÔÚ¸ø¶¨$X_{i+{j+1}}$µÄÌõ¼þÏÂ£¬$X_{i_j}$µÄÌõ¼þ¸ÅÂÊ¡£ÐÂµÄ½â¼¯Í¨¹ý´ÓÕâ¸ö¸ÅÂÊÄ£ÐÍÖÐ²ÉÑù¶ø²úÉú¡£²ÉÑùµÄ¹ý³Ì»á½«$\pi$ÖÐµÄ±äÁ¿Ë³ÐòÄæÖÃ£¬ÒÔ$X_{i_n}$¿ªÍ·£¬$X_{i_1}$ ½áÎ²¡£
 
 Ïà¶ÔÓÚMIMICÖÐµÄÁ´·Ö²¼Ä£ÐÍ£¬BalujaµÈÈËÓÚ1997ÄêÌá³öÊ¹ÓÃÒÀÀµ¹ØÏµÊ÷À´½øÒ»²½ÌáÉý¸ÅÂÊÄ£ÐÍµÄ±íÏÖÁ¦~\cite{dt1997}¡£ÔÚÒÀÀµ¹ØÏµÊ÷ÖÐ£¬Ã¿Ò»¸ö¸¸´ú¶¼¿ÉÒÔÓÐ¶à¸ö×Ó´ú¡£Õâ¸ö·Ö¹À¼ÆËã·¨ÒÀ¿¿Ò»¸ö°üº¬ËùÓÐ³É¶Ô¹ØÏµ¸ÅÂÊµÄ¸ÅÂÊ¾ØÕóÀ´¹¤×÷¡£¸ÅÂÊÄ£ÐÍÖÐµÄ¹ØÏµÊ÷¿ÉÒÔ×î´ó»¯Ïà»¥ÁªÏµ±äÁ¿Ö®¼äµÄ½»»¥ÐÅÏ¢£¬¸ù¾ÝÕæÊµ·Ö²¼µÄÏà¶ÔìØ£¬Õâ¸öÄ£ÐÍ±»Ö¤Ã÷ÊÇ×îÓÅµÄÄ£ÐÍ~\cite{dt1968}¡£Õâ¸ö¸ÅÂÊ¾ØÕóÊÇµÄ³õÊ¼»¯ÊÇÏà¶ÔÓ¦ÓÚËùÓÐ½â¼¯µÄ¾ùÔÈ·Ö²¼¡£ÔÚËã·¨µÄÃ¿Ò»´ÎµÄµü´úÖÐ£¬ÒÀÀµ¹ØÏµÊ÷¶¼»á±»½¨Á¢²¢ÇÒ²úÉúÐÂµÄ½â¡£½Ó×Å×îºÃµÄ½â»á±»ÓÃÀ´½øÒ»²½µØ¸üÐÂ¸ÅÂÊ¾ØÕó¡£¶þ±äÁ¿±ßÔµ·Ö²¼Ëã·¨£¨BMDA£©Ê¹ÓÃÒ»×éÏà»¥¶ÀÁ¢ÒÀÀµ¹ØÏµÊ÷À´½¨Ä£~\cite{bmda1999}¡£ Í¨¹ý´ÓÖÖÈºÖÐ»ñµÃµÄÌõ¼þ¸ÅÂÊÐÅÏ¢À´½¨Ä£²¢ÇÒ²ÉÑù¡£
 
@@ -528,7 +528,7 @@ $\prod_i$±íÊ¾ºÍ$X_i$Ö®¼ä´æÔÚÒ»Ìõ±ßµÄÒ»×é±äÁ¿¼¯ºÏ£¬$p(X_i|\prod_i)$±íÊ¾ÔÚÌõ¼þ$\pr
 
 »ùÓÚÒÅ´«±à³ÌµÄ·Ö²¼¹À¼ÆËã·¨£ºÔÚ·Ö²¼¹À¼ÆËã·¨µÄ³É¹¦£¬¶àÊýÑÐ¾¿ÕßÏ£ÍûÔÚÒÅ´«±à³Ì£¨GP£©ÕâÒ»ÁìÓò¼ÌÐø¸´ÖÆÕâÒ»³É¹¦~\cite{edasurvey2011}¡£ÔÚGPÁìÓòÖÐ£¬¾¡¹Ü´æÔÚ×ÅÖÚ¶àÌôÕ½£¬µ«ÊÇ·Ö²¼¹À¼ÆËã·¨»¹ÊÇÔÚGPÖÐµÃµ½ÁË³É¹¦µÄÓ¦ÓÃ¡£
 
-¸ÅÂÊÔöÇ¿Ê½±à³Ì½ø»¯£¨PIPE£©~\cite{pipe1997}Ê¹ÓÃ¸ÅÂÊÔ­ÐÍÊ÷£¨PPT£©À´´æ´¢¸ÅÂÊ·Ö²¼µÄËùÓÐº¯ÊýºÍ±à³ÌÊ÷ÖÐÃ¿¸ö½áµãµÄ²Ù×÷¡£¶ÔÓÚPIPEµÄÍØÕ¹Ëã·¨ÊÇÍØÕ¹Ñ¹ËõÒÅ´«±à³Ì£¨ECGP£©~\cite{ecgp2000}¡£ÊÜECGAËùÆô·¢£¬ECGP½«±à³ÌÊ÷ÀïÃæµÄ½Úµã·Ö¸î³É¶ÀÁ¢µÄ¾ÛÀà£¬Æä¹¤×÷·½Ê½ºÍECGAÀàËÆ¡£ÓÉÓÚ±à³Ì¿Õ¼äÖÐ¸´ÔÓÐÔ£¬ÔÚºòÑ¡±à³ÌµÄÕû¸öËÑË÷¿Õ¼äÖÐÕÒµ½×¼È·µÄÎÊÌâ·Ö½âÊÇÊ®·ÖÀ§ÄÑµÄ¡£MOSESÍ¨¹ý½«ËÑË÷¿Õ¼ä·Ö¸î³É×Ó±à³Ì¿Õ¼ä²¢¶ÔÕâÐ©¿Õ¼ä±£³ÖÎ¬»¤¡£½Ó×ÅÀûÓÃhBOA ¶ÔÃ¿Ò»¸ö×Ó¿Õ¼äÀ´²úÉúÐÂµÄ±à³Ì£¬ÕâÑùÍ¬Ê±Ò²ÄÜ²úÉúÐÂµÄ×Ó¿Õ¼ä¡£ÎªÁË½â¾öÒÅ´«±à³ÌµÄÎÊÌâ£¬ÓÐµÄ·Ö²¼¹À¼ÆËã·¨Í¨¹ýÓï·¨¹æÔòÀ´ÊµÏÖ¡£»ùÓÚÓï·¨¹æÔòµÄËæ»úÒÅ´«±à³Ì£¨SG-GP£©~\cite{sggp2001}´ÓÒ»¸öÖ¸¶¨µÄÓëÉÏÏÂÎÄÎÞ¹ØµÄÓï·¨¹æÔò¿ªÊ¼£¬È»ºóÎªÃ¿Ò»Ìõ¹æÔòÌí¼ÓÄ¬ÈÏ¸ÅÂÊ¡£»ùÓÚÃ¿Ò»¸öµü´úÖÐ²ÉÑù²úÉúµÄÓÅÖÊ½â£¬¹æÔòµÄ¸ÅÂÊÒ²±íÏÖµÃÔ½À´Ô½ºÃ¡£ÔÚÕâ¸ö»ù±¾Ëã·¨ÀïÃæ£¬Ã»ÓÐ´æ´¢Î»ÖÃÐÅÏ¢£¬¿ÉÒÔÍ¨¹ý¸ú×Ù¹æÔòµÄÊ¹ÓÃÀ´½øÒ»²½ÍØÕ¹¸ÃËã·¨¡£
+¸ÅÂÊÔöÇ¿Ê½±à³Ì½ø»¯£¨PIPE£©~\cite{pipe1997}Ê¹ÓÃ¸ÅÂÊÔ­ÐÍÊ÷£¨PPT£©À´´æ´¢¸ÅÂÊ·Ö²¼µÄËùÓÐº¯ÊýºÍ±à³ÌÊ÷ÖÐÃ¿¸ö½áµãµÄ²Ù×÷¡£¶ÔÓÚPIPEµÄÍØÕ¹Ëã·¨ÊÇÍØÕ¹Ñ¹ËõÒÅ´«±à³Ì£¨ECGP£©~\cite{ecgp2000}¡£ÊÜECGA ËùÆô·¢£¬ECGP½«±à³ÌÊ÷ÀïÃæµÄ½Úµã·Ö¸î³É¶ÀÁ¢µÄ¾ÛÀà£¬Æä¹¤×÷·½Ê½ºÍECGAÀàËÆ¡£ÓÉÓÚ±à³Ì¿Õ¼äÖÐ¸´ÔÓÐÔ£¬ÔÚºòÑ¡±à³ÌµÄÕû¸öËÑË÷¿Õ¼äÖÐÕÒµ½×¼È·µÄÎÊÌâ·Ö½âÊÇÊ®·ÖÀ§ÄÑµÄ¡£MOSESÍ¨¹ý½«ËÑË÷¿Õ¼ä·Ö¸î³É×Ó±à³Ì¿Õ¼ä²¢¶ÔÕâÐ©¿Õ¼ä±£³ÖÎ¬»¤¡£½Ó×ÅÀûÓÃhBOA ¶ÔÃ¿Ò»¸ö×Ó¿Õ¼äÀ´²úÉúÐÂµÄ±à³Ì£¬ÕâÑùÍ¬Ê±Ò²ÄÜ²úÉúÐÂµÄ×Ó¿Õ¼ä¡£ÎªÁË½â¾öÒÅ´«±à³ÌµÄÎÊÌâ£¬ÓÐµÄ·Ö²¼¹À¼ÆËã·¨Í¨¹ýÓï·¨¹æÔòÀ´ÊµÏÖ¡£»ùÓÚÓï·¨¹æÔòµÄËæ»úÒÅ´«±à³Ì£¨SG-GP£©~\cite{sggp2001}´ÓÒ»¸öÖ¸¶¨µÄÓëÉÏÏÂÎÄÎÞ¹ØµÄÓï·¨¹æÔò¿ªÊ¼£¬È»ºóÎªÃ¿Ò»Ìõ¹æÔòÌí¼ÓÄ¬ÈÏ¸ÅÂÊ¡£»ùÓÚÃ¿Ò»¸öµü´úÖÐ²ÉÑù²úÉúµÄÓÅÖÊ½â£¬¹æÔòµÄ¸ÅÂÊÒ²±íÏÖµÃÔ½À´Ô½ºÃ¡£ÔÚÕâ¸ö»ù±¾Ëã·¨ÀïÃæ£¬Ã»ÓÐ´æ´¢Î»ÖÃÐÅÏ¢£¬¿ÉÒÔÍ¨¹ý¸ú×Ù¹æÔòµÄÊ¹ÓÃÀ´½øÒ»²½ÍØÕ¹¸ÃËã·¨¡£
 
 »ùÓÚ¶àÄ¿±êµÄ·Ö²¼¹À¼ÆËã·¨£ºÉÏÊö½éÉÜµÄ·Ö²¼¹À¼ÆËã·¨»ù±¾ÉÏÊÇ½â¾öµ¥Ä¿±êÎÊÌâµÄ¡£È»¶ø£¬ÏÖÊµÊÀ½çÖÐµÄÎÊÌâÍùÍùÊÇ¾ßÓÐ¶à¸öÄ¿±êµÄ¡£Ò»ÖÖÕë¶Ô¶àÄ¿±êÎÊÌâµÄ½â¾ö·½°¸ÊÇ¸ù¾ÝÄ¿±êÈ¨ÖØ½«¶àÄ¿±ê×ª»¯Îªµ¥Ä¿±ê¡£µ«ÊÇ£¬¸üºÃµÄ·½Ê½ÔÚÄ¿±êÖ®¼äÕÒµ½Ò»¸ö×îºÃµÄÈ¨ºâ´Ó¶ø¹¹½¨Ò»¸öÅÁÀÛÍÐ×îÓÅ~\cite{mop2001}¡£¼ò¶øÑÔÖ®£¬ÅÁÀÛÍÐ×îÓÅÒª±ÈÔÚÈÎÒâÄ¿±êÉÏµÄ×îÓÅ½âÒª¸üºÃ¡£Òò´Ë£¬·Ö²¼¹À¼ÆËã·¨±»ÓÃÓÚÔÚ¶àÄ¿±êÓÅ»¯ÎÊÌâÖÐÑ°ÕÒ¶àÖÖÅÁÀÛÍÐ×îÓÅ½â¡£
 
@@ -610,7 +610,7 @@ u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
 \end{equation}
 \end{enumerate}
 
-ÆäÖÐ$x_{best,G}$ÊÇÖ¸µ±Ç°ÖÖÈºÖÐµÄ×îÓÅ¸öÌå£¬$x_{i,G}$ÎªÄ¿±êÏòÁ¿£¨¸¸´úÖÖÈº¸öÌå£©£¬$u_{i,G}$ ÊÇ¸¸´úÖÖÈº¸öÌå¶ÔÓ¦µÄ±äÒìÏòÁ¿¡£²»Í¬µÄ²ßÂÔÍùÍùÕë¶Ô²»Í¬ÀàÐÍµÄÎÊÌâ¸üÎªÓÐÐ§£¬Ò»°ãÀ´Ëµ£¬DE/rand/1ÊÇ×î³£ÓÃµÄ²ßÂÔ¡£
+ÆäÖÐ$x_{best,G}$ÊÇÖ¸µ±Ç°ÖÖÈºÖÐµÄ×îÓÅ¸öÌå£¬$x_{i,G}$ÎªÄ¿±êÏòÁ¿£¨¸¸´úÖÖÈº¸öÌå£©£¬$u_{i,G}$ ÊÇ¸¸´úÖÖÈº¸öÌå¶ÔÓ¦µÄ±äÒìÏòÁ¿¡£²»Í¬µÄ²ßÂÔÍùÍùÕë¶Ô²»Í¬ÀàÐÍµÄÎÊÌâ¸üÎªÓÐÐ§£¬Ò»°ãÀ´Ëµ£¬DE/rand/1 ÊÇ×î³£ÓÃµÄ²ßÂÔ¡£
 
 ²î·Ö½ø»¯ÀûÓÃ½»²æËã×ÓÀ´½áºÏ±äÒìÏòÁ¿$v_{i,G}$ºÍÄ¿±êÏòÁ¿$x_{i,G}$À´²úÉúÊÔÑéÏòÁ¿$u_{i,G}$¡£$CR$ÊÇ½»²æ¿ØÖÆ²ÎÊý£¬$j_{rand}$ÊÇ1µ½$D$Ö®¼äµÄËæ»úÕûÊý£¬ÎªÁËÊ¹ÊÔÑéÏòÁ¿ÖÁÉÙÔÚÒ»¸öÎ¬¶ÈÉÏÓëÄ¿±êÏòÁ¿²»Í¬¡£$rand_j(0,1)$ÊÇÒ»¸ö0µ½1Ö®¼ä·þ´Ó¾ùÔÈ·Ö²¼µÄËæ»úÊý¡£
 
@@ -619,7 +619,7 @@ u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
 \subsubsection{²î·Ö½ø»¯Ëã·¨µÄÑÐ¾¿ÏÖ×´}
 ²î·Ö½ø»¯Ëã·¨×Ô´ÓÌá³öÖ®ºó£¬¾ÍÊÜµ½ÁË¹¤Òµ½çÒÔ¼°Ñ§Êõ½çµÄ¹ã·º¹Ø×¢£¬Õë¶Ô²î·Ö½ø»¯µÄÑÐ¾¿°Ù»¨Æë·Å¡£¸ù¾Ý²î·Ö½ø»¯½â¾öµÄÎÊÌâÀàÐÍ£¬¿ÉÒÔ½«²î·Ö½ø»¯·ÖÎªÒÔÏÂ¼¸ÖÖÀàÐÍ,¶ÔÓÚÏÂÃæÃ¿ÖÖÀàÐÍµÄ²î·Ö½ø»¯Ëã·¨ÏÂÃæÒ²·ÖÎª¶àÖÖÀàÐÍµÄËã·¨¡£
 
-{\bf Õë¶ÔÁ¬¶Áµ¥Ä¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯Ëã·¨£º}FanµÈÈËÔÚÌá³öÁËÒ»ÖÖÈý½Ç±äÒìËã×ÓÀ´Ìá¸ß²î·Ö½ø»¯µÄÐÔÄÜ¡£ÎªÁËÊµÏÖÕâÖÖ·½·¨£¬¶ÔÓÚ¶ÔÓÚÃ¿Ò»¸öÄ¿±êÏòÁ¿£¬»áÔÚÖÖÈºÖÐËæ»úÑ¡ÔñÈý¸ö²»Í¬µÄÏòÁ¿¡£¶ÔÓÚµÚ$i$¸öÄ¿±êÏòÁ¿$X_{i,G}$¶øÑ¡ÔñµÄÖÖÈº¸öÌåÊÇ$X_{r1,G}$£¬$X_{r2,G}$ºÍ$X_{r3,G}$¡£Èý¸öÏÂ±ê$r1$£¬$r2$ºÍ$r3$ÊÇ´Ó[1, NP]Çø¼äÑ¡ÔñµÄÈý¸ö»¥²»ÏàÍ¬µÄÕûÊý£¬Í¬Ê±ËüÃÇÒ²²»Í¬ÓÚ$i$¡£ÄÇÃ´ÕâÈý¸ö¼ÓÈ¨ÏµÊý¾Í¿ÉÒÔ¸ù¾ÝÏÂÃæµÄ¹«Ê½Éú³É£º
+{\bf Õë¶ÔÁ¬¶Áµ¥Ä¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯Ëã·¨£º}FanµÈÈËÔÚÌá³öÁËÒ»ÖÖÈý½Ç±äÒìËã×ÓÀ´Ìá¸ß²î·Ö½ø»¯µÄÐÔÄÜ¡£ÎªÁËÊµÏÖÕâÖÖ·½·¨£¬¶ÔÓÚ¶ÔÓÚÃ¿Ò»¸öÄ¿±êÏòÁ¿£¬»áÔÚÖÖÈºÖÐËæ»úÑ¡ÔñÈý¸ö²»Í¬µÄÏòÁ¿¡£¶ÔÓÚµÚ$i$¸öÄ¿±êÏòÁ¿$X_{i,G}$¶øÑ¡ÔñµÄÖÖÈº¸öÌåÊÇ$X_{r1,G}$£¬$X_{r2,G}$ºÍ$X_{r3,G}$¡£Èý¸öÏÂ±ê$r1$£¬$r2$ºÍ$r3$ ÊÇ´Ó[1, NP]Çø¼äÑ¡ÔñµÄÈý¸ö»¥²»ÏàÍ¬µÄÕûÊý£¬Í¬Ê±ËüÃÇÒ²²»Í¬ÓÚ$i$¡£ÄÇÃ´ÕâÈý¸ö¼ÓÈ¨ÏµÊý¾Í¿ÉÒÔ¸ù¾ÝÏÂÃæµÄ¹«Ê½Éú³É£º
 \begin{equation}
 \label{tm1}
 \begin{aligned}
@@ -649,16 +649,18 @@ u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
 
 \begin{equation}
 \label{tm5}
+V_{i,G+1}=\left\{
 \begin{aligned}
-&V_{i,G+1}=\frac{X_{r1}+X_{r2}+X_{r3}}{3}+(p_2-p_1)\cdot(X_{r1}-X_{r2})+(p_3-p_2)\cdot(X_{r2}-X_{r_3})\\
-&\qquad \quad +(p_1-P_3)\cdot(X_{r3}-X_{r1})  \qquad \text{Èç¹û} \quad rand[0,1] \leq \Gamma \\
-&V_{i,G+1}=X_{r1}+F\cdot(X_{r2}-X_{r3}) \qquad \quad \text{ÆäËû}
+&\frac{X_{r1}+X_{r2}+X_{r3}}{3}+(p_2-p_1)\cdot(X_{r1}-X_{r2})+(p_3-p_2)\cdot(X_{r2}-X_{r_3})\\
+&+(p_1-P_3)\cdot(X_{r3}-X_{r1})  \qquad \text{Èç¹û} \quad rand[0,1] \leq \Gamma \\
+&X_{r1}+F\cdot(X_{r2}-X_{r3}) \qquad \qquad \text{ÆäËû}
 \end{aligned}
+\right.
 \end{equation}
 
 Òò´Ë£¬Õâ¸ö·½·¨»áÔÚ$\Gamma$¸ÅÂÊÏÂÖ´ÐÐÈý½Ç±äÒì£¬ÔÚ$(1-\Gamma)$¸ÅÂÊÏÂÖ´ÐÐDE/rand/1±äÒì²ßÂÔ¡£
 
-PriceÔÚ2006ÄêÓÖÌá³öÒ»ÖÖÏÈ½øµÄDE/rand/1-wither-orËã·¨~\cite{de2006}¡£Õâ¸öËã·¨ÖÐ£¬ÔÚ¸ÅÂÊ$p_F$ÏÂ£¬ÊÔÑéÏòÁ¿È«¶¼ÊÇÍ»±äÌå£¬¶øÔÚ¸ÅÂÊ$1-p_F$ÏÂ£¬ÊÔÑéÏòÁ¿È«¶¼ÊÇÖØ×éÌå¡£ÕâÒ»ÐÂµÄ·½·¨Ïà¶ÔÓÚ´«Í³µÄrand/1/binºÍtarget-to-best/1/binÓÐ×Å½Ï´óµÄ¾ºÕùÁ¦¡£ÊÔÑéÏòÁ¿µÄ²úÉú·½Ê½ÈçÏÂ£º
+PriceÔÚ2006ÄêÓÖÌá³öÒ»ÖÖÏÈ½øµÄDE/rand/1-either-orËã·¨~\cite{de2006}¡£Õâ¸öËã·¨ÖÐ£¬ÔÚ¸ÅÂÊ$p_F$ÏÂ£¬ÊÔÑéÏòÁ¿È«¶¼ÊÇÍ»±äÌå£¬¶øÔÚ¸ÅÂÊ$1-p_F$ÏÂ£¬ÊÔÑéÏòÁ¿È«¶¼ÊÇÖØ×éÌå¡£ÕâÒ»ÐÂµÄ·½·¨Ïà¶ÔÓÚ´«Í³µÄrand/1/binºÍtarget-to-best/1/binÓÐ×Å½Ï´óµÄ¾ºÕùÁ¦¡£ÊÔÑéÏòÁ¿µÄ²úÉú·½Ê½ÈçÏÂ£º
 
 \begin{equation}
 \label{de/rand/1/either-or}
@@ -676,7 +678,7 @@ U_{i,G}=\left\{
 
 ´ó¶àÊýµÄÑÝ»¯Ëã·¨µÄÔËÐÐÐ§ÂÊÈ¡¾öÓÚËüÃÇÔÚËÑË÷Ê±ÀûÓÃºÍ¿ª·¢µÄÇ÷ÊÆ¡£ÎªÁË¸üºÃµØÆ½ºâÑÝ»¯Ëã·¨ÖÐµÄÀûÓÃºÍ¿ª·¢µÄÇ÷ÊÆ£¬DasÌá³öÁËÁ½ÖÖÁÚÓòÍØÆËÄ£ÐÍ~\cite{nde2009}¡£¸ù¾ÝÕâÒ»Ô­Àí£¬Ìá³öÁË»ùÓÚÈ«¾ÖºÍ¾Ö²¿ÁÚÓòµÄ²î·Ö½ø»¯£¨DEGL£©£¬¶ÔÓÚDE/target-to-best/1²ßÂÔ×ö³öÁË²»Ð¡µÄ¸Ä½ø¡£
 
-²î·Ö½ø»¯ÖÐÊÔÑéÏòÁ¿µÄ²úÉú²ßÂÔ¶àÖÖ¶àÑù£¬Ã¿Ò»¸ö²ßÂÔ¿ÉÄÜÖ»¶ÔÌØ¶¨µÄÎÊÌâ±È½ÏÓÐÐ§¡£QinµÈÈËµÚÒ»´ÎÌá³öÁË×ÔÊÊÓ¦µÄ²î·Ö½ø»¯Ëã·¨SaDE~\cite{sade2005}£¬¸ù¾ÝÖ®Ç°½âµÄ²úÉú¹ý³ÌÀ´µ÷Õû²ÎÊý´Ó¶ø´ïµ½ÊÔÑéÏòÁ¿µÄ²úÉú²ßÂÔµÄ×ÔÊÊÓ¦¡£ÔÚSaDEÊ¹ÓÃÁËËÄ¸öÓÐÐ§µØÊÔÑéÏòÁ¿²úÉú²ßÂÔ£¬°üÀ¨£ºDE/rand/1/bin£¬DE/rand-to-best/2/bin£¬DE/rand/2/binÒÔ¼°DE/current-to-rand/1²ßÂÔ£¬Í¨¹ýÕâÐ©²ßÂÔÀ´¹¹½¨Ò»¸ö²ßÂÔºòÑ¡³Ø¡£Ç°Èý¸ö²ßÂÔÊ¹ÓÃ¶þÏîÊ½½»²æ£¬×îºóÒ»¸öÊ¹ÓÃËãÊõÖØ×é¡£ÔÚSaDEËã·¨ÖÐ£¬¶ÔÓÚµ±Ç°ÖÖÈºÖÐµÄÃ¿Ò»¸öÊÔÑéÏòÁ¿£¬»á¸ù¾ÝÖ®Ç°ÄÜ¹»½øÈëÏÂÒ»µü´ú½ÚµÄ³É¹¦±ÈÂÊ´Ó¶øÔÚ²ÎÊý³ØÖÐÑ¡ÔñºÏÊÊµÄ²ßÂÔ¡£½Ó×ÅÕâ¸ö²ßÂÔ»á±»ÓÃÓÚÄ¿±êÏòÁ¿À´²úÉúÊÔÑéÏòÁ¿¡£¸üÌØ±ðµÄÊÇ£¬ÔÚÃ¿Ò»´Îµü´úÖÐ£¬ËÄ¸ö²ÎÊýµÄÑ¡Ôñ¸ÅÂÊµÄ×ÜºÍÎª1¡£×î³õÃ¿¸ö²ßÂÔµÄ¸ÅÂÊ¶¼ÊÇÏàÍ¬µÄ£¬È»ºó¶Ô×ÅÑÝ»¯¹ý³ÌµÄÍÆ½ø£¬»á×ÔÊÊÓ¦µØ×ö³öÏàÓ¦µÄµ÷Õû¡£JADE~\cite{JADE}ÊÇÒ»ÖÖÐÂÐÍµÄ²î·Ö½ø»¯Ëã·¨£¬ÔÚJADEÖÐÌá³öÁËÒ»ÖÖÐÂµÄ±äÒì²ßÂÔ"DE/current-to-\emph{p}best"£¬ËüÍ¨¹ýÊ¹ÓÃÒ»ÖÖ×ÔÊÊÓ¦µÄ·½Ê½À´½øÐÐÖÖÈºµÄ¸üÐÂ£¬´Ó¶øÌá¸ßËã·¨µÄ×ÔÊÊÓ¦ÐÔ¡£¶ÔÓÚÖÖÈºÖÐµÄÃ¿Ò»¸öÄ¿±êÏòÁ¿£¬JADE¶¼»á¶ÔFºÍCR½øÐÐ¸üÐÂ£¬Í¬Ê±ÕâÐ©ÐÅÏ¢Ò²½«ÓÃÓÚ¸üÐÂFºÍCR£¬´Ó¶ø×÷ÓÃÓÚÐÂµÄÖÖÈº¡£
+²î·Ö½ø»¯ÖÐÊÔÑéÏòÁ¿µÄ²úÉú²ßÂÔ¶àÖÖ¶àÑù£¬Ã¿Ò»¸ö²ßÂÔ¿ÉÄÜÖ»¶ÔÌØ¶¨µÄÎÊÌâ±È½ÏÓÐÐ§¡£QinµÈÈËµÚÒ»´ÎÌá³öÁË×ÔÊÊÓ¦µÄ²î·Ö½ø»¯Ëã·¨SaDE~\cite{sade2005}£¬¸ù¾ÝÖ®Ç°½âµÄ²úÉú¹ý³ÌÀ´µ÷Õû²ÎÊý´Ó¶ø´ïµ½ÊÔÑéÏòÁ¿µÄ²úÉú²ßÂÔµÄ×ÔÊÊÓ¦¡£ÔÚSaDEÊ¹ÓÃÁËËÄ¸öÓÐÐ§µØÊÔÑéÏòÁ¿²úÉú²ßÂÔ£¬°üÀ¨£ºDE/rand/1/bin£¬DE/rand-to-best/2/bin£¬DE/rand/2/binÒÔ¼°DE/current-to-rand/1²ßÂÔ£¬Í¨¹ýÕâÐ©²ßÂÔÀ´¹¹½¨Ò»¸ö²ßÂÔºòÑ¡³Ø¡£Ç°Èý¸ö²ßÂÔÊ¹ÓÃ¶þÏîÊ½½»²æ£¬×îºóÒ»¸öÊ¹ÓÃËãÊõÖØ×é¡£ÔÚSaDEËã·¨ÖÐ£¬¶ÔÓÚµ±Ç°ÖÖÈºÖÐµÄÃ¿Ò»¸öÊÔÑéÏòÁ¿£¬»á¸ù¾ÝÖ®Ç°ÄÜ¹»½øÈëÏÂÒ»µü´ú½ÚµÄ³É¹¦±ÈÂÊ´Ó¶øÔÚ²ÎÊý³ØÖÐÑ¡ÔñºÏÊÊµÄ²ßÂÔ¡£½Ó×ÅÕâ¸ö²ßÂÔ»á±»ÓÃÓÚÄ¿±êÏòÁ¿À´²úÉúÊÔÑéÏòÁ¿¡£¸üÌØ±ðµÄÊÇ£¬ÔÚÃ¿Ò»´Îµü´úÖÐ£¬ËÄ¸ö²ÎÊýµÄÑ¡Ôñ¸ÅÂÊµÄ×ÜºÍÎª1¡£×î³õÃ¿¸ö²ßÂÔµÄ¸ÅÂÊ¶¼ÊÇÏàÍ¬µÄ£¬È»ºó¶Ô×ÅÑÝ»¯¹ý³ÌµÄÍÆ½ø£¬»á×ÔÊÊÓ¦µØ×ö³öÏàÓ¦µÄµ÷Õû¡£JADE~\cite{JADE}ÊÇÒ»ÖÖÐÂÐÍµÄ²î·Ö½ø»¯Ëã·¨£¬ÔÚJADEÖÐÌá³öÁËÒ»ÖÖÐÂµÄ±äÒì²ßÂÔ"DE/current-to-\emph{p}best"£¬ËüÍ¨¹ýÊ¹ÓÃÒ»ÖÖ×ÔÊÊÓ¦µÄ·½Ê½À´½øÐÐÖÖÈºµÄ¸üÐÂ£¬´Ó¶øÌá¸ßËã·¨µÄ×ÔÊÊÓ¦ÐÔ¡£¶ÔÓÚÖÖÈºÖÐµÄÃ¿Ò»¸öÄ¿±êÏòÁ¿£¬JADE¶¼»á¶ÔFºÍCR ½øÐÐ¸üÐÂ£¬Í¬Ê±ÕâÐ©ÐÅÏ¢Ò²½«ÓÃÓÚ¸üÐÂFºÍCR£¬´Ó¶ø×÷ÓÃÓÚÐÂµÄÖÖÈº¡£
 
 Ïà¶ÔÓÚ¹²Í¨Æô·¢Ê½Ëã·¨£¬»ìºÏ¼¼ÊõÊÇ½«Á½¸ö»òÕß¶à¸öËã·¨µÄÌØµã½áºÏÆðÀ´¹¹½¨Ò»¸öÐÂµÄ»ìºÏËã·¨£¬Õâ¸ö»ìºÏËã·¨±ÈÔ­Ê¼ÈÎÒâËã·¨ÔÚ½â¾öÌØ±ðµÄÓ¦ÓÃ»òÕßÏàÓ¦µÄ²âÊÔ¼¯ÉÏ±íÏÖµÃ¸ü¼Ñ¡£Ò»°ãÀ´Ëµ£¬²î·Ö½ø»¯µÄ»ìºÏËã·¨°üÀ¨½«²î·Ö½ø»¯ºÍÈ«¾ÖÓÅ»¯Ëã·¨Ïà½áºÏÒÔ¼°½«²î·Ö½ø»¯ºÍ¾Ö²¿ËÑË÷·½·¨Á½¸öÖÖÀà¡£Á£×ÓÈºËã·¨£¨PSO£©×î³õµÄÌá³öÊÇÄ£·ÂÈËÀàµÄÉç½»ÐÐÎª£¬ÏÖÔÚÒÑ¾­±»¹ã·ºµØÓ¦ÓÃÓÚÈ«¾ÖËÑË÷ºÍÓÅ»¯¡£HendtlassµÚÒ»´Î½«²î·Ö½ø»¯ºÍÁ£×ÓÈºÓÅ»¯Ëã·¨½áºÏÆðÀ´£¬Ìá³öÒ»¸ö»ìºÏÓÅ»¯Æ÷~\cite{psode2001}¡£ ÔÚÕâ¸öÓÅ»¯Æ÷ÖÐ£¬Ö»ÓÐºó´úµÄÊÊÓ¦¶È¸üºÃµÄÊ±ºòÁ£×ÓµÄÎ»ÖÃ²Å»á·¢Éú¸Ä±ä¡£²î·Ö½ø»¯Ö»»áÔÚÌØ¶¨µÄ¼ä¸ôµÄµü´úÖÐ²Å»á¶ÔÁ£×ÓÈºËã·¨Æð×÷ÓÃ¡£ZangµÈÈËÌá³öÁËÁíÍâÒ»ÖÖÁ÷ÐÐµÄÁ£×ÓÈº²î·Ö½ø»¯»ìºÏËã·¨£¨DEPSO£©~\cite{depso2003}¡£ÔÚÕâ¸öËã·¨ÖÐ£¬Á£×ÓÈºËã·¨ºÍ²î·Ö½ø»¯·Ö±ð×÷ÓÃÓÚÆæÊýµü´úºÍÅ¼Êýµü´úÖÐ¡£DEPSOÏà¶ÔÓÚÔ­Ê¼µÄËã·¨ÔÚÄ³Ð©Ô¼ÊøÓÅ»¯ÎÊÌâÉÏÄÜ¹»´ïµ½¸üºÃµÄÊÕÁ²¡£¶ÔÓÚÁ£×ÓÈºËã·¨ºÍ²î·Ö½ø»¯£¬»¹ÓÐ¸ü¶àµÄÑÐ¾¿£¬ÔÚ´Ë¾Í²»Ò»Ò»ÐðÊö¡£²î·Ö½ø»¯»¹ÓëÆäËûµÄÈ«¾ÖÓÅ»¯Ëã·¨Ïà½áºÏ£¬±ÈÈç£º¾úÈºÓÅ»¯Ëã·¨£¨BFOA£©~\cite{bfoa2007}£¬ÒÏÈºÓÅ»¯Ëã·¨£¨DEACO£©~\cite{deaco2008}£¬ÒÔ¼°ÈË¹¤ÃâÒßÏµÍ³£¨AIS£©~\cite{deais2007}µÈ¡£¾Ö²¿ËÑË÷Ëã·¨ÊÇÔÚ½â¿Õ¼äÖÐºòÑ¡½âµÄÐ¡·¶Î§ÄÚËÑË÷£¬Ö±µ½ÕÒµ½¾Ö²¿×îÓÅ½â»òÕß´ïµ½ÏÞÖÆÊ±¼ä¡£Ò»°ãÔÚ¾Ö²¿ËÑË÷Ëã·¨ÖÐ£¬Ã¿Ò»¸öºòÑ¡½â¶¼ÓÐ¶à¸öÁÚÓò½â£»ÏòÄÄÒ»¸öÁÚÓò½âÒÆ¶¯È¡¾öÓÚµ±Ç°½âÁÚÓòÖÐµÄ½â¼¯µÄÐÅÏ¢¡£NomanµÈÈËÌá³öÁËÒ»¸ö»ùÓÚ×ÔÊÊÓ¦¾Ö²¿ËÑË÷Ëã×ÓµÄ½»²æËã×Ó´Ó¶øÀ´½øÒ»²½Ìá¸ß´«Í³²î·Ö½ø»¯µÄÐÔÄÜ~\cite{als2008}¡£YangµÈÈËÌá³öµÄ»ùÓÚÁÚÓòËÑË÷µÄ²î·Ö½ø»¯£¨NSDE£©~\cite{nsde2007}±»ÈÏÎªÊÇ¶ÔÓÚÑÝ»¯±à³ÌÐ­ÖúµÄÖ÷Òª²ßÂÔÖ®Ò»¡£NSDEÍ¨¹ýÏòÃ¿¸öÄ¿±êÏòÁ¿µÄ³É·ÖÌí¼ÓÒ»¸ö·þ´ÓÕýÌ¬·Ö²¼µÄËæ»úÊýÀ´Ö´ÐÐ±äÒì²Ù×÷£º
 \begin{equation}
@@ -691,12 +693,13 @@ V_{i,G}=X_{{r^i}_1,G}+\left\{
 
 $d_{i,G}=X_{{r^i}_2,G}-X_{{r^i}_3,G}$£¬$\delta$±íÊ¾Ò»¸ö³ß¶È²ÎÊý$t$Îª1µÄ¿ÂÎ÷Ëæ»ú±äÁ¿¡£YangµÈÈËºóÐøÓÖÌá³öÁË»ùÓÚÐ­Í¬ÑÝ»¯¿ò¼ÜµÄ×ÔÊÊÓ¦µÄ»ùÓÚÁÚÓòËÑË÷µÄ²î·Ö½ø»¯£¬ÕâÒ»Ëã·¨ÄÜ¹»½â¾ö´ó¹æÄ£²»¿É·ÖÎÊÌâ£¨´ïµ½1000Î¬ÒÔÉÏ£©¡£
 
+{\bf Õë¶ÔÔ¼ÊøÓÅ»¯µÄ²î·Ö½ø»¯Ëã·¨£º}ÏÖÊµÉú»îÖÐÓÅ»¯ÎÊÌâ²»½öÉæ¼°ÕÒµ½×îÓÅ½â£¬Í¬Ê±ÐèÒªÂú×ãÒ»¸ö»òÕß¶à¸öÔ¼ÊøÌõ¼þ¡£±ß½çÏÞÖÆÔÚÏÖÊµÊÀ½çÖÐÊÇ·Ç³£³£¼ûµÄ£¬ÒòÎª²ÎÊýÊÇºÍÎïÀíÔªËØ»òÕß¾ßÓÐ¾ßÓÐ×ÔÈ»ÏÞÖÆÓÐ¹Ø¡£ÎªÁË´¦ÀíÕâÐ©±ß½çÏÞÖÆ£¬Í¨¹ýÀûÓÃ³Í·£·½·¨À´¸ù¾ÝÄ¿±êº¯ÊýµÄÏà¹Ø±ê×¼´Ó¶øÔÚÓÐÏÞµÄÇøÓòÄÚÑ°ÕÒ×îÓÅ½â¡£²î·Ö½ø»¯Ö÷ÒªÍ¨¹ýËÄÖÖ³Í·£·½·¨À´´¦ÀíÎ¥·´±ß½çÏÞÖÆ£¬°üÀ¨£º1£©×©Ç½³Í·££ºÈç¹ûÏòÁ¿µÄÈÎºÎ²ÎÊý²Ý¹ûÊÂÏÈ¶¨ÒåµÄÉÏÏÞ»òÕßÏÂÏÞ£¬ÄÇÃ´Ä¿±êº¯ÊýÖµÔò»á±äµÃ×ã¹»´ó´Ó¶ø±£Ö¤¸öÌå²»»á±»Ñ¡Ôñ£»2£©×ÔÊÊÓ¦³Í·££ººÍ×©Ç½³Í·£ÀàËÆ£¬²»¹ý¸öÌåÄ¿±êº¯ÊýµÄÔö³¤·ù¶ÈÈ¡¾öÓÚÏòÁ¿³¬¹ý±ß½çµÄ³Ì¶È£»3£©Ëæ»úÖØÐÂ³õÊ¼»¯£ºµ±²ÎÊý³¬¹ý½çÏÞµÄÊ±ºò£¬´Ó¿ÉÐÐÇø¼äÄÚÖØÐÂÌôÑ¡Ò»¸öÖµ£»4£©
 
-{\bf Õë¶Ô¶àÄ¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯Ëã·¨£º}µÃÒæÓÚ²î·Ö½ø»¯µÄ¼òµ¥µ«È´Ç¿´óµÄÌØµã£¬²î·Ö½ø»¯Í¬Ê±Ò²µÃµ½ÁË¶àÄ¿±êÑÐ¾¿Ñ§ÕßµÄ¹ã·º¹Ø×¢¡£ ChangµÈÈËµÚÒ»´Î½«²î·Ö½ø»¯ÍØÕ¹ÓÃÓÚ½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ~\cite{demo1999}¡£AbbasºÍSarkarÌá³öÁËÅÁÀÛÍÐ²î·Ö½ø»¯Ëã·¨£¨PDE£©Í¨¹ýÁ¬Ðø±äÁ¿À´½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ~\cite{pde2002}£¬²¢ÇÒÕâ¸öËã·¨ÔÚºÍÆäËü¶àÄ¿±êÓÅ»¯Ëã·¨Ïà±È¾ßÓÐºÜ´óµÄ¾ºÕùÁ¦¡£KukkonenºÍLampinenÍ¨¹ý½«DE/rand/a/bin½øÐÐÍØÕ¹ÓÃÓÚ½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ£¬Ìá³ö¹ãÒå²î·Ö½ø»¯£¨GDE£©~\cite{gde2004}¡£½Ó×Å£¬ËûÃÇÒ²Ìá³öÁËÒ»ÏµÁÐµÄ¸Ä½øËã·¨¡£XueµÈÈËÌá³öÁËÒ»¸ö¶àÄ¿±ê²î·Ö½ø»¯~\cite{mode2005}£¨MODE£©£¬ÀûÓÃ×îºÃµÄ¸öÌåÀ´²úÉúºó´ú¡£Í¨¹ý»ùÓÚParetoµÄ·½·¨À´ÌôÑ¡×îºÃµÄ¸öÌå¡£Í¬Ê±£¬»¹Ê¹ÓÃÁË$(\mu+\lambda)$Ñ¡ÔñËã×Ó£¬Pareto ·Ö¼¶ÒÔ¼°¾Û¼¯¾àÀëÀ´²úÉúÐÂ½â²¢Î¬³ÖÆäÁ¼ºÃµÄ·Ö²¼¡£RobicºÍFilipicÌá³öÁËÒ»ÖÖÁíÍâÒ»ÖÖ¶ÔÓÚ¶àÄ¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯DEMO~\cite{demo2005}£¬Õâ¸öËã·¨½áºÏ²î·Ö½ø»¯µÄÓÅµãÒÔ¼°»ùÓÚPareto·Ö¼¶ºÍ¾Û¼¯¾àÀëÅÅÐòµÄ»úÖÆ¡£DEMO½öÎ¬³ÖÒ»¸öÖÖÈº²¢ÇÒµ±²úÉúÐÂ½âµÄÊ±ºòÕâ¸öÖÖÈº»á±»½øÐÐÍØÕ¹¡£ÕâÄÜ¹»È·±£ÖÖÈºÏòPareto front¿ìËÙÊÕÁ²£¬È»¶ø·ÇÁÓÅÅÐòºÍ¾Û¼¯¾àÀëµÄÊ¹ÓÃÔì³ÉÁË½â¼¯µÄ¾ùÔÈÀ©Èö¡£IorioµÈÈËÌá³ö·ÇÁÓÅÅÐò²î·Ö½ø»¯Ëã·¨£¨NSDE£©~\cite{nsde2004}£¬Õâ¸öËã·¨ÊÇ»ùÓÚNSGA-II×ö³öÁËÒ»Ð©¸Ä¶¯¡£ÕâÁ½¸öËã·¨µÄÖ÷ÒªÇø±ðÊ±²úÉúÐÂµÄ¸öÌåµÄ·½Ê½¡£NSGA-IIÊ¹ÓÃÊµÊý±àÂë½»²æËã×ÓºÍ±äÒìËã×Ó£¬¶øNSDEÔòÊÇÊ¹ÓÃ²î·Ö½ø»¯ÖÐµÄ½»²æËã×ÓºÍ±äÒìËã×Ó¡£NSDEÔÚ½â¾öÐý×ªµÄ¶àÄ¿±êÓÅ»¯ÎÊÌâÉÏÒªÓÅÓÚNSGA-II¡£
+{\bf Õë¶Ô¶àÄ¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯Ëã·¨£º}µÃÒæÓÚ²î·Ö½ø»¯µÄ¼òµ¥µ«È´Ç¿´óµÄÌØµã£¬²î·Ö½ø»¯Í¬Ê±Ò²µÃµ½ÁË¶àÄ¿±êÑÐ¾¿Ñ§ÕßµÄ¹ã·º¹Ø×¢¡£ ChangµÈÈËµÚÒ»´Î½«²î·Ö½ø»¯ÍØÕ¹ÓÃÓÚ½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ~\cite{demo1999}¡£AbbasºÍSarkarÌá³öÁËÅÁÀÛÍÐ²î·Ö½ø»¯Ëã·¨£¨PDE£©Í¨¹ýÁ¬Ðø±äÁ¿À´½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ~\cite{pde2002}£¬²¢ÇÒÕâ¸öËã·¨ÔÚºÍÆäËü¶àÄ¿±êÓÅ»¯Ëã·¨Ïà±È¾ßÓÐºÜ´óµÄ¾ºÕùÁ¦¡£KukkonenºÍLampinenÍ¨¹ý½«DE/rand/a/bin½øÐÐÍØÕ¹ÓÃÓÚ½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ£¬Ìá³ö¹ãÒå²î·Ö½ø»¯£¨GDE£©~\cite{gde2004}¡£½Ó×Å£¬ËûÃÇÒ²Ìá³öÁËÒ»ÏµÁÐµÄ¸Ä½øËã·¨¡£XueµÈÈËÌá³öÁËÒ»¸ö¶àÄ¿±ê²î·Ö½ø»¯~\cite{mode2005}£¨MODE£©£¬ÀûÓÃ×îºÃµÄ¸öÌåÀ´²úÉúºó´ú¡£Í¨¹ý»ùÓÚParetoµÄ·½·¨À´ÌôÑ¡×îºÃµÄ¸öÌå¡£Í¬Ê±£¬»¹Ê¹ÓÃÁË$(\mu+\lambda)$Ñ¡ÔñËã×Ó£¬Pareto ·Ö¼¶ÒÔ¼°¾Û¼¯¾àÀëÀ´²úÉúÐÂ½â²¢Î¬³ÖÆäÁ¼ºÃµÄ·Ö²¼¡£RobicºÍFilipicÌá³öÁËÒ»ÖÖÁíÍâÒ»ÖÖ¶ÔÓÚ¶àÄ¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯DEMO~\cite{demo2005}£¬Õâ¸öËã·¨½áºÏ²î·Ö½ø»¯µÄÓÅµãÒÔ¼°»ùÓÚPareto·Ö¼¶ºÍ¾Û¼¯¾àÀëÅÅÐòµÄ»úÖÆ¡£DEMO½öÎ¬³ÖÒ»¸öÖÖÈº²¢ÇÒµ±²úÉúÐÂ½âµÄÊ±ºòÕâ¸öÖÖÈº»á±»½øÐÐÍØÕ¹¡£ÕâÄÜ¹»È·±£ÖÖÈºÏòPareto front ¿ìËÙÊÕÁ²£¬È»¶ø·ÇÁÓÅÅÐòºÍ¾Û¼¯¾àÀëµÄÊ¹ÓÃÔì³ÉÁË½â¼¯µÄ¾ùÔÈÀ©Èö¡£IorioµÈÈËÌá³ö·ÇÁÓÅÅÐò²î·Ö½ø»¯Ëã·¨£¨NSDE£©~\cite{nsde2004}£¬Õâ¸öËã·¨ÊÇ»ùÓÚNSGA-II×ö³öÁËÒ»Ð©¸Ä¶¯¡£ÕâÁ½¸öËã·¨µÄÖ÷ÒªÇø±ðÊ±²úÉúÐÂµÄ¸öÌåµÄ·½Ê½¡£NSGA-IIÊ¹ÓÃÊµÊý±àÂë½»²æËã×ÓºÍ±äÒìËã×Ó£¬¶øNSDEÔòÊÇÊ¹ÓÃ²î·Ö½ø»¯ÖÐµÄ½»²æËã×ÓºÍ±äÒìËã×Ó¡£NSDEÔÚ½â¾öÐý×ªµÄ¶àÄ¿±êÓÅ»¯ÎÊÌâÉÏÒªÓÅÓÚNSGA-II¡£
 
 ÓÐÒ»Ð©ÑÐ¾¿ÕßÒ²Ò»´¦²ÉÓÃ·ÇParetoµÄ·½·¨À´½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ¡£BabuµÈÈËÌá³öÒ»¸ö½áºÏÁ½ÖÖº¯ÊýµÄ¶àÄ¿±ê²î·Ö½ø»¯Ëã·¨~\cite{demo2003}¡£Õâ¸öËã·¨Í¨¹ý½áºÏÁ½ÖÖº¯ÊýÀ´¹¹½¨ÐÂµÄ»úÖÆÀ´½â¾öË«Ä¿±êÎÊÌâ£¬ÕâÁ½ÖÖº¯Êý°üÀ¨Ô¼Êøº¯ÊýºÍ¾Û¼¯º¯Êý¡£LiµÈÈËÌá³ö»ùÓÚ·Ö½âµÄ¶àÄ¿±ê²î·Ö½ø»¯Ëã·¨£¨MOEA/D-DE£©~\cite{moea-d-de2009}ÓÃÓÚ½â¾öÁ¬Ðø¶àÄ¿±êÎÊÌâ¡£ÖµµÃ×¢ÒâµÄÊÇ£¬MOEA/DÊÇÒ»¸öµÃµ½¹ã·ºÓ¦ÓÃµÄ¶àÄ¿±êÓÅ»¯Ëã·¨£¬¸Ã·½·¨µÃµ½ÑÐ¾¿ÕßµÄ¹ã·ºÓ¦ÓÃ¡£ÔÚMOEA/D-DEÖ®ÖÐ£¬DE/rand/1/bin±¶ÓÃÓÚ²úÉúÐÂµÄÊµÑéÏòÁ¿£¬²¢ÇÒËùÓÐ×ÓÎÊÌâµÄÁÚÓò¹ØÏµÒ²»á±»¶¨Òå´Ó¶øÕâÐ©×ÓÎÊÌâ¾ßÓÐÏàËÆµÄ×îÓÅ½â¡£
 
-%{\bf Õë¶ÔÔ¼ÊøÓÅ»¯µÄ²î·Ö½ø»¯Ëã·¨£º}
+
 %
 %
 %
@@ -720,10 +723,10 @@ $d_{i,G}=X_{{r^i}_2,G}-X_{{r^i}_3,G}$£¬$\delta$±íÊ¾Ò»¸ö³ß¶È²ÎÊý$t$Îª1µÄ¿ÂÎ÷Ëæ»ú±
 \end{figure}
 
 \subsection{»ùÓÚ²ÉÑù²ßÂÔµÄ¶àÄ¿±ê·Ö²¼¹À¼ÆËã·¨}
-¸ù¾ÝÁ¬Ðø¶àÄ¿±êÎÊÌâÒÔÉÏµÄÌØÐÔ£¬»ùÓÚ¹æÂÉÄ£ÐÍµÄ¶àÄ¿±ê·Ö²¼Ëã·¨£¨RM-MEDA£©Ëã·¨±»Ìá³öÓÃÓÚ½â¾öÁ¬Ðø¶àÄ¿±êÎÊÌâ¡£ÆäÍ¨¹ýÔÚÃ¿Ò»´Îµü´úÖÐ£¬Í¨¹ýLocal PCA~\cite{lpca}ÔÚ¾ö²ß¿Õ¼äÖÐµÄÇøÓò½¨Á¢¸ÅÂÊ·Ö²¼Ä£ÐÍ£¬È»ºóÍ¨¹ýÊ¹ÓÃÀ­¶¡²ÉÑùµÃµ½ÐÂµÄ×Ó´úÖÖÈº¡£RM-MEDA ²ÉÓÃ»ùÓÚ·ÇÁÓÅÅÐòµÄ·½·¨~\cite{nsga-ii}À´ÌôÑ¡¸öÌåÀ´²úÉúÐÂµÄÖÖÈº¡£RM-MEDA ¾­Ìá³öºó£¬¾ÍÊÕµ½ÁË¹ã·ºµÄ¹Ø×¢¡£±¾Ð¡½Ú»ùÓÚRM-MEDAËã·¨£¬Ìá³öÁËÒ»ÖÖ»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ£¬ÓÃÓÚ½øÒ»²½ÌáÉýRM-MEDA ÖÐ²ÉÑù»·½Ú¡£
+¸ù¾ÝÁ¬Ðø¶àÄ¿±êÎÊÌâÒÔÉÏµÄÌØÐÔ£¬»ùÓÚ¹æÂÉÄ£ÐÍµÄ¶àÄ¿±ê·Ö²¼Ëã·¨£¨RM-MEDA£©Ëã·¨±»Ìá³öÓÃÓÚ½â¾öÁ¬Ðø¶àÄ¿±êÎÊÌâ¡£ÆäÍ¨¹ýÔÚÃ¿Ò»´Îµü´úÖÐ£¬Í¨¹ý¾Ö²¿Ö÷³É·Ö·ÖÎö£¨LPCA£©~\cite{lpca}ÔÚ¾ö²ß¿Õ¼äÖÐµÄÇøÓò½¨Á¢¸ÅÂÊ·Ö²¼Ä£ÐÍ£¬È»ºóÍ¨¹ýÊ¹ÓÃÀ­¶¡ÊµÑéÉè¼Æ²ÉÑùµÃµ½ÐÂµÄ×Ó´úÖÖÈº¡£RM-MEDA ²ÉÓÃ»ùÓÚ·ÇÁÓÅÅÐòµÄ·½·¨~\cite{nsga-ii} À´ÌôÑ¡¸öÌåÀ´²úÉúÐÂµÄÖÖÈº¡£RM-MEDA ¾­Ìá³öºó£¬¾ÍÊÕµ½ÁË¹ã·ºµÄ¹Ø×¢¡£±¾Ð¡½Ú»ùÓÚRM-MEDAËã·¨£¬Ìá³öÁËÒ»ÖÖ»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ£¬ÓÃÓÚ½øÒ»²½ÌáÉýRM-MEDA ÖÐ²ÉÑù»·½Ú¡£
 
 \subsubsection{RM-MEDAËã·¨}
-¶ÔÓÚÁ¬Ðø¶àÄ¿±êÎÊÌâ£¬ÔÚ¾ö²ß¿Õ¼äÖÐ£¬ÖÖÈºÌåÖÐµÄ¸öÌåÈç¹ûÔ½½Ó½üPareto set£¬ÔòÔ½ÈÝÒ×½øÐÐÎÊÌâµÄÇó½â¡£Òò´Ë£¬¼ÙÉèÖÖÈºÖÐµÄ¸öÌåÎªËæ»úÏòÁ¿$\xi\in{R}^D$µÄ¹Û²âÖµ£¬$\xi$µÄÖÐÑë²¿·Ö¾ÍÊÇPareto set¡£²¢ÇÒÒòÎªÔÚÁ¬Ðø¶àÄ¿±êÎÊÌâÖÐ£¬Pareto setÊÇÒ»¸öm-1Î¬µÄÁ÷Ìå£¬ÄÇÃ´$\xi$ Ôò¿ÉÒÔÓÉ¹«Ê½~\ref{model}±íÊ¾£º
+¶ÔÓÚÁ¬Ðø¶àÄ¿±êÎÊÌâ£¬ÔÚ¾ö²ß¿Õ¼äÖÐ£¬ÖÖÈºÌåÖÐµÄ¸öÌåÈç¹ûÔ½½Ó½üPareto set£¬ÔòÔ½ÈÝÒ×½øÐÐÎÊÌâµÄÇó½â¡£Òò´Ë£¬¼ÙÉèÖÖÈºÖÐµÄ¸öÌåÎªËæ»úÏòÁ¿$\xi\in{R}^D$ µÄ¹Û²âÖµ£¬$\xi$µÄÖÐÑë²¿·Ö¾ÍÊÇPareto set¡£ ²¢ÇÒÒòÎªÔÚÁ¬Ðø¶àÄ¿±êÎÊÌâÖÐ£¬Pareto setÊÇÒ»¸öm-1Î¬µÄÁ÷Ìå£¬ÄÇÃ´$\xi$ Ôò¿ÉÒÔÓÉ¹«Ê½~\ref{model}±íÊ¾£º
 \begin{equation}\label{model}
   \xi=\zeta+\epsilon
 \end{equation}
@@ -750,7 +753,7 @@ RM-MEDAËã·¨ÊÇ»ùÓÚ·Ö²¼¹À¼ÆËã·¨µÄ¿ò¼Ü£¬Ö÷ÒªÒ²ÊÇ°üÀ¨½¨Ä£¡¢²ÉÑù¡¢Ñ¡ÔñÈý¸ö»·½Ú¡£Ëã·¨~
 
 \end{algorithm}
 
-½¨Ä£ÊÇ·Ö²¼¹À¼ÆËã·¨ÖÐ¹Ø¼ü»·½Ú£¬ÔÚRM-MEDAÖÐ£¬ÈçºÎÕÒµ½ÖÖÈºÖÐµÄ¸öÌåÔÚ¾ö²ß¿Õ¼äÖÐµÄÖÐÐÄÇúÏß»òÇúÃæÊÇ½¨Ä£µÄ¹Ø¼ü¡£ÔÚ´Ë¼ÙÉè$\xi$ÓÉ$k$¸öÁ÷Ìå$M^1,\cdots,M^k$ ×é³É£¬Ã¿Ò»¸öÁ÷ÌåÊÇÒ»¸ö³¬¾ØÐÎ¡£Ò»°ãÀ´Ëµ£¬¶ÔÓÚË«Ä¿±ê£¬Ã¿Ò»¸öÁ÷Ìå$M^j$ÊÇÒ»¸öÏß¶Î£¬¶ÔÓÚÈý¸öÄ¿±ê£¬Ã¿Ò»¸öÁ÷Ìå$M^j$ÊÇÒ»¸ö¶þÎ¬¾ØÐÎ¡£½¨Ä£µÄÖØµã¾ÍÊÇ¹À¼ÆÁ÷Ìå$M^j$ÒÔ¼°Á÷ÌåµÄÖ÷Òª×é³É²¿·Ö$\zeta$¡£ÎªÁË¸üºÃµØÃèÊöÕâÐ©Á÷Ìå£¬Í¨¹ýLPCA½«ÖÖÈº»®·ÖÎª$k$¸ö¾ÛÀà£º$C_1,\cdots,\C_k$¡£ Áî$S$Îª$R^n$ µÄÓÐÏÞ×Ó¼¯£¬Ôò¶¨Òå×Ó¼¯$C$µÄ¾ùÖµÎª£º
+½¨Ä£ÊÇ·Ö²¼¹À¼ÆËã·¨ÖÐ¹Ø¼ü»·½Ú£¬ÔÚRM-MEDAÖÐ£¬ÈçºÎÕÒµ½ÖÖÈºÖÐµÄ¸öÌåÔÚ¾ö²ß¿Õ¼äÖÐµÄÖÐÐÄÇúÏß»òÇúÃæÊÇ½¨Ä£µÄ¹Ø¼ü¡£ÔÚ´Ë¼ÙÉè$\xi$ÓÉ$k$¸öÁ÷Ìå$M^1,\cdots,M^k$ ×é³É£¬Ã¿Ò»¸öÁ÷ÌåÊÇÒ»¸ö³¬¾ØÐÎ¡£Ò»°ãÀ´Ëµ£¬¶ÔÓÚË«Ä¿±ê£¬Ã¿Ò»¸öÁ÷Ìå$M^j$ÊÇÒ»¸öÏß¶Î£¬¶ÔÓÚÈý¸öÄ¿±ê£¬Ã¿Ò»¸öÁ÷Ìå$M^j$ÊÇÒ»¸ö¶þÎ¬¾ØÐÎ¡£½¨Ä£µÄÖØµã¾ÍÊÇ¹À¼ÆÁ÷Ìå$M^j$ÒÔ¼°Á÷ÌåµÄÖ÷Òª×é³É²¿·Ö$\zeta$¡£ÎªÁË¸üºÃµØÃèÊöÕâÐ©Á÷Ìå£¬Í¨¹ýLPCA ½«ÖÖÈº»®·ÖÎª$k$¸ö¾ÛÀà£º$C_1,\cdots,\C_k$¡£ Áî$S$Îª$R^n$ µÄÓÐÏÞ×Ó¼¯£¬Ôò¶¨Òå×Ó¼¯$C$µÄ¾ùÖµÎª£º
 \begin{equation}
 \label{C}
 \overline{x}=\frac{1}{|C|}\sum_{x\in{C}}x
@@ -818,7 +821,7 @@ LPCAÍ¨¹ý×îÐ¡»¯ÒÔÏÂÎó²îº¯ÊýµÄ×îÐ¡ÖµÀ´½«ÖÖÈº»®·Ö¾ÛÀà£º
 \graphicspath{{figs/figure/}}
 \centering
   \includegraphics[width=0.5\columnwidth]{mutation.png}
-  \caption{Í¨¹ýËõ·Å±ÈÀýÀ´¸²¸ÇPareto setp}
+  \caption{Í¨¹ýËõ·Å±ÈÀýÀ´¸²¸ÇPareto set}
   \label{mutation}
 \end{figure}
 
@@ -944,7 +947,7 @@ RM-MEDAºÍDES-RM-MEDA¶¼ÊÇÊ¹ÓÃMatllab½øÐÐ±à³ÌÊµÏÖ²¢ÇÒÊÇÔÚÍ¬Ò»Ì¨¼ÆËã»úÉÏÔËÐÐ³ÌÐò¡£Ô
 
 ¶ÔÓÚ²âÊÔÌâF1¡¢F2¡¢F3¡¢F4ÒÔ¼°F5£¬DES-RM-MEDAÔÚÊ¹ÓÃÈÎÒ»Ëõ·ÅÒò×ÓÉèÖÃÇé¿öÏÂ£¬ÆäÐÔÄÜ±íÏÖ¶¼ÒªÓÅÓÚRM-MEDA¡£³ýÁË½«Ëõ·ÅÒò×ÓÉèÖÃÎª0.1£¬ÔÚ²âÊÔÌâF6ÉÏ£¬DES-RM-MEDA¶¼±ÈRM-MEDAÒª±íÏÖµÃ¸üºÃ¡£¶ÔÓÚF7¡¢F8¡¢F9£¬DES-RM-MEDAµÄÓÅÊÆÔõÃ»ÓÐÕâÃ´¶à¡£¶ÔÓÚ²âÊÔÌâF10£¬¿ÉÒÔ¿´³öRM-MEDAºÍDES-RM-MEDAÖ®¼äµÄ²î¾à»¹ÊÇ±È½ÏÃ÷ÏÔµÄ¡£×ÛºÏÀ´Ëµ£¬Ëõ·ÅÒò×ÓµÄÂ³°ôÐÔ»¹ÊÇ±È½ÏºÃµÄ£¬Í¬Ê±¶ÔÓÚËã·¨ÐÔÄÜµÄÌáÉýÒ²ÓÐ×ÅÖØÒªµÄÒâÒå¡£
 
-ÎªÁË½øÒ»²½±È½ÏDES-RM-MEDAÔÚ²»Í¬µÄËõ·ÅÒò×ÓÏÂµÄÐÔÄÜ±íÏÖ£¬ÎÒÃÇ½«Ê¹ÓÃÍþ¶û¿Æ¿ËÉ­·ûºÅÖÈ¼ìÑé£¨Wilcoxon's rank sum tes£©À´¶ÔÓÚRM-MEDAºÍDES-RM-MEDAÖ®¼äµÄÐÔÄÜ½øÐÐ±È½Ï¡£²ãµþÖù×´Í¼~\ref{bar}¿ÉÒÔ±íÃ÷ÔÚ²»Í¬Ëõ·ÅÒò×ÓÏÂ£¬DES-RM-MEDAµÄ±íÏÖ»¹ÊÇ±È½ÏÓÅÒìµÄ¡£
+ÎªÁË½øÒ»²½±È½ÏDES-RM-MEDAÔÚ²»Í¬µÄËõ·ÅÒò×ÓÏÂµÄÐÔÄÜ±íÏÖ£¬ÎÒÃÇ½«Ê¹ÓÃÍþ¶û¿Æ¿ËÉ­·ûºÅÖÈ¼ìÑé£¨Wilcoxon's rank sum test£©À´¶ÔÓÚRM-MEDAºÍDES-RM-MEDA Ö®¼äµÄÐÔÄÜ½øÐÐ±È½Ï¡£²ãµþÖù×´Í¼~\ref{bar} ¿ÉÒÔ±íÃ÷ÔÚ²»Í¬Ëõ·ÅÒò×ÓÏÂ£¬DES-RM-MEDAµÄ±íÏÖ»¹ÊÇ±È½ÏÓÅÒìµÄ¡£
 
 \begin{figure}
   \centering
@@ -955,8 +958,7 @@ RM-MEDAºÍDES-RM-MEDA¶¼ÊÇÊ¹ÓÃMatllab½øÐÐ±à³ÌÊµÏÖ²¢ÇÒÊÇÔÚÍ¬Ò»Ì¨¼ÆËã»úÉÏÔËÐÐ³ÌÐò¡£Ô
 \end{figure}
 
 \subsubsection{¶Ô±ÈÑÐ¾¿}
-´Ó±í~\ref{tab1}¿ÉÒÔ¿´³ö£¬ÔÚ8¸ö²âÊÔÌâÉÏ£¬DES-RM-MEDA¶¼ÒªÓÅÓÚRM-MEDA¡£¶ÔÓÚÆäËüµÄ2¸ö²âÊÔÌâ£¬ÕâÁ½¸öËã·¨µÄÐÔÄÜ±È½Ï½Ó½ü¡£ÖµµÃ×¢ÒâµÄÊÇ£¬ÔÚ²âÊÔÌâF3ÒÔ¼°F10ÉÏ£¬DES-RM-MEDAÔÚÐÔÄÜÉÏµÄÌáÉýÊÇ·Ç³£ÏÔÖøµÄ¡£
-
+´Ó±í~\ref{tab1}¿ÉÒÔ¿´³ö£¬ÔÚ8¸ö²âÊÔÌâÉÏ£¬DES-RM-MEDA¶¼ÒªÓÅÓÚRM-MEDA¡£¶ÔÓÚÆäËüµÄ2¸ö²âÊÔÌâ£¬ÕâÁ½¸öËã·¨µÄÐÔÄÜ±È½Ï½Ó½ü¡£ÖµµÃ×¢ÒâµÄÊÇ£¬ÔÚ²âÊÔÌâF3 ÒÔ¼°F10ÉÏ£¬DES-RM-MEDAÔÚÐÔÄÜÉÏµÄÌáÉýÊÇ·Ç³£ÏÔÖøµÄ¡£
 
 Í¼~\ref{igd_com}¿ÉÒÔÓÃÀ´±È½ÏDES-RM-MEDAºÍRM-MEDAÔÚ²âÊÔÌâÉÏµÄÊÕÁ²Ç÷ÊÆ¡£´ÓÍ¼~\ref{igd_com}¿ÉÒÔ¿´³ö£¬¶ÔÓÚ´ó¶àÊý²âÊÔÌâ£¬DES-RM-MEDAÊÕÁ²µÄ¸ü¿ì¸üºÃ¡£Õâ±íÊ¾DES¶ÔÓÚRM-MEDA²ÉÑùµÄÒâÒå»¹ÊÇÏàµ±ÖØÒªµÄ¡£ÏÂÃæ£¬¶ÔÓÚÊµÑé½á¹û½øÐÐÉîÈëµÄ±È½Ï·ÖÎö£º
 \begin{enumerate}
@@ -1017,9 +1019,9 @@ $F10$ &$1.25e+02$	&$2.35e+01$	&$2.27e+01$	&$1.44e+02$	&${\cellcolor{lightgray}}\
 \end{figure*}
 
 \subsection{±¾ÕÂÐ¡½á}
-ÔÚ±¾ÕÂ½ÚÎÒÃÇÌá³öÁË»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ£¬¼´ÔÚÒþ¿Õ¼äÖÐ²úÉúÐÂµÄÖÖÈº¡£»ù±¾µÄË¼Â·ÊÇ½«¸¸´úÖÖÈºÓ³Éäµ½Òþ¿Õ¼äÖÐ£¬È»ºóÔÚÒþ¿Õ¼äÖÐÀûÓÃÒ»ÖÖÐÂÐÍµÄ±äÒì²ßÂÔÀ´½øÐÐ±àÒë²Ù×÷´Ó¶ø²úÉúÐÂµÄ¸öÌå£¬½Ó×Å½«ÕâÐ©¸öÌåÓ³Éäµ½Ô­Ê¼µÄ¿Õ¼äÀ´²úÉú×Ó´úÖÖÈº¡£»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ±»ÓÃÓÚ¸Ä½øRM-MEDAµÄ²ÉÑù»·½Ú¡£³õ²½µÄÑÐ¾¿±íÃ÷£¬Í¨¹ý²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ±ÈÀ­¶¡·½Éè¼ÆÄÜ¹»ÓÐÐ§µØ¸Ä½øRM-MEDAµÄ²ÉÑù¡£
+ÔÚ±¾ÕÂ½ÚÎÒÃÇÌá³öÁË»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ£¬¼´ÔÚÒþ¿Õ¼äÖÐ²úÉúÐÂµÄÖÖÈº¡£»ù±¾µÄË¼Â·ÊÇ½«¸¸´úÖÖÈºÓ³Éäµ½Òþ¿Õ¼äÖÐ£¬È»ºóÔÚÒþ¿Õ¼äÖÐÀûÓÃÒ»ÖÖÐÂÐÍµÄ±äÒì²ßÂÔÀ´½øÐÐ±äÒì²Ù×÷´Ó¶ø²úÉúÐÂµÄ¸öÌå£¬½Ó×Å½«ÕâÐ©¸öÌåÓ³Éäµ½Ô­Ê¼µÄ¿Õ¼äÀ´²úÉú×Ó´úÖÖÈº¡£»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ±»ÓÃÓÚ¸Ä½øRM-MEDAµÄ²ÉÑù»·½Ú¡£ÔÚÊµÑé»·½ÚÖÐ£¬Í¨¹ýÉèÖÃ²»Í¬µÄËõ·Å±ÈÀýÀ´ÑÐ¾¿RM-MEDAÔÚ²»Í¬Ëõ·Å±ÈÀýÏÂµÄÐÔÄÜ±íÏÖ¡£½Ó×ÅÍ¨¹ý×ÛºÏµÄÊµÑé¶Ô±È£¬½«DES-RM-MEDAºÍRM-MEDA½øÐÐÁËÏêÏ¸È«ÃæµØ×ÛºÏ¶Ô±È£¬´Ó¶øËµÃ÷»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ¶ÔÓÚÌá¸ßRM-MEDAËã·¨ÐÔÄÜµÄÖØÒªÒâÒå¡£
 
-ÕâÒ»ÕÂ½ÚµÄ»ù±¾ÑÐ¾¿±íÃ÷ÔÚÒþ¿Õ¼äÖÐµÄ²ÉÑù»¹ÊÇÏàµ±¾ßÓÐÇ±Á¦µÄ£¬ÒòÎªÆäÎ¬¶È´ó´óÐ¡ÓÚ¾ö²ß¿Õ¼äµÄÎ¬¶È£¬´Ó¶øÄÜ¹»¸üºÃµØÀûÓÃÖÖÈºµÄÍ³¼ÆÐÅÏ¢¡£Í¬Ê±£¬¶ÔÓÚ»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔÒÀÈ»»¹ÓÐ±ðµÄ¹¤×÷ÐèÒªÍê³É£¬°üÀ¨£º(a)³¢ÊÔÔÚÒþ¿Õ¼äÖÐ²ÉÓÃ±ðµÄ²ÉÑù²ßÂÔ¡£ (b) ¿ÉÒÔ½«»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔºÍ±ðµÄ¶àÄ¿±êÑÝ»¯Ëã·¨Ïà½áºÏ¡£
+ÕâÒ»ÕÂ½ÚµÄ»ù±¾ÑÐ¾¿±íÃ÷ÔÚÒþ¿Õ¼äÖÐµÄ²ÉÑù»¹ÊÇÏàµ±¾ßÓÐÇ±Á¦µÄ£¬ÒòÎªÆäÎ¬¶È´óÐ¡ÓÚ¾ö²ß¿Õ¼äµÄÎ¬¶È£¬´Ó¶øÄÜ¹»¸üºÃµØÀûÓÃÖÖÈºµÄÍ³¼ÆÐÅÏ¢¡£Í¬Ê±£¬¶ÔÓÚ»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔÒÀÈ»»¹ÓÐ±ðµÄ¹¤×÷ÐèÒªÍê³É£¬°üÀ¨£º(a)³¢ÊÔÔÚÒþ¿Õ¼äÖÐ²ÉÓÃ±ðµÄ²ÉÑù²ßÂÔ¡£ (b) ¿ÉÒÔ½«»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔºÍ±ðµÄ¶àÄ¿±êÑÝ»¯Ëã·¨Ïà½áºÏ¡£
 
 \newpage
 \section{»ùÓÚ²ÉÑù²ßÂÔ¶ÔÓÚÈ«¾Öµ¥Ä¿±êÓÅ»¯ÎÊÌâµÄÑÐ¾¿}
@@ -1087,7 +1089,7 @@ $ t = t + 1$
 ²ÎÊý$p$ÊÇÓÃÀ´DE-EIGÊÇÔÚÔ­Ê¼×ø±ê¿Õ¼ä»òÕßÐý×ªµÄ×ø±ê¿Õ¼ä×ö½»²æ²Ù×÷¡£$rand()$ÊÇ·þ´Ó¾ùÔÈ·Ö²¼µÄ0µ½1Ö®¼äµÄÐ¡Êý¡£Í¨¹ý×ª»¯ÖÖÈºµÄ×ø±ê¿Õ¼ä£¬¿ÉÒÔ±ÜÃâÖÖÈºÍ³¼ÆÐÅÏ¢µÄ¶ªÊ§£¬¼ÓËÙÖÖÈºµÄÊÕÁ²¡£
 
 \subsubsection{DE/EDAËã·¨}
-²î·Ö½ø»¯ÊÇÒ»ÖÖ·Ç³£³É¹¦µÄÓÃÓÚ½â¾öÈ«¾ÖÁ¬ÐøÎÊÌâÓÅ»¯µÄËã·¨¡£ËüÖ÷ÒªÊÇÀûÓÃµ±Ç°ÖÖÈºÖÐµÄ¾àÀëºÍ·½ÏòÐÅÏ¢À´Ö¸µ¼Î´À´µÄËÑË÷¡£·Ö²¼¹À¼ÆËã·¨ÔòÊÇÍ¨¹ý´Ó½¨Á¢µÄ¸ÅÂÊÄ£ÐÍÖÐ²ÉÑùÀ´²úÉúÐÂµÄÖÖÈº¸öÌå¡£DE/EDA¾ÍÊÇ½«²î·Ö½ø»¯ºÍ·Ö²¼¹À¼ÆËã·¨½áºÏÆðÀ´£¬ÓÃÓÚ½â¾öÈ«¾ÖÁ¬¶ÁÎÊÌâÓÅ»¯¡£Í¨¹ýÀûÓÃ·Ö²¼¹À¼ÆËã·¨¿ÉÒÔÌáÈ¡ÖÖÈºÈ«¾ÖÐÅÏ¢ºÍ²î·Ö½ø»¯¿ÉÒÔÌáÈ¡ÖÖÈº²î·ÖÐÅÏ¢µÄÓÅµã£¬DE/EDA ÊÇÒ»ÖÖ·Ç³£¾ßÓÐÑÐ¾¿Ç°¾°µÄËã·¨¡£±¾ÕÂ½Ú½«»á»ùÓÚDE/EDAÕâÒ»Ëã·¨¿ò¼Ü×÷½øÒ»²½µÄÑÐ¾¿¡£
+²î·Ö½ø»¯ÊÇÒ»ÖÖ·Ç³£³É¹¦µÄÓÃÓÚ½â¾öÈ«¾ÖÁ¬ÐøÎÊÌâÓÅ»¯µÄËã·¨¡£ËüÖ÷ÒªÊÇÀûÓÃµ±Ç°ÖÖÈºÖÐµÄ¾àÀëºÍ·½ÏòÐÅÏ¢À´Ö¸µ¼Î´À´µÄËÑË÷¡£·Ö²¼¹À¼ÆËã·¨ÔòÊÇÍ¨¹ý´Ó½¨Á¢µÄ¸ÅÂÊÄ£ÐÍÖÐ²ÉÑùÀ´²úÉúÐÂµÄÖÖÈº¸öÌå¡£DE/EDA ¾ÍÊÇ½«²î·Ö½ø»¯ºÍ·Ö²¼¹À¼ÆËã·¨½áºÏÆðÀ´£¬ÓÃÓÚ½â¾öÈ«¾ÖÁ¬¶ÁÎÊÌâÓÅ»¯¡£Í¨¹ýÀûÓÃ·Ö²¼¹À¼ÆËã·¨¿ÉÒÔÌáÈ¡ÖÖÈºÈ«¾ÖÐÅÏ¢ºÍ²î·Ö½ø»¯¿ÉÒÔÌáÈ¡ÖÖÈº²î·ÖÐÅÏ¢µÄÓÅµã£¬DE/EDA ÊÇÒ»ÖÖ·Ç³£¾ßÓÐÑÐ¾¿Ç°¾°µÄËã·¨¡£±¾ÕÂ½Ú½«»á»ùÓÚDE/EDAÕâÒ»Ëã·¨¿ò¼Ü×÷½øÒ»²½µÄÑÐ¾¿¡£
 
 \begin{algorithm}
 \label{alg4}
@@ -1141,7 +1143,7 @@ $ t = t + 1$
 Ò»µ©ÖÖÈº±»ÈÏÎªÊÇÊÕÁ²µÄ£¬¾ÍÊÇÓÃ¸Ä½øµÄ±«Íþ¶û·½·¨~\cite{powell1998}À´½øÒ»²½ÓÅ»¯¡£±«Íþ¶û·½·¨ÊÇÒ»ÖÖ»ùÓÚÖÃÐÅÓòµÄÓÅ»¯·½·¨¡£Ëü²»Ê¹ÓÃÈÎºÎµÄÌÝ¶ÈÐÅÏ¢£¬Í¨¹ý¹À¼Æº£Èû¾ØÕóÀ´¶¨Î»¾Ö²¿×îÓÅ½â¡£
 
 \subsubsection{EDA/DE-EIGËã·¨}
-»ùÓÚDE/EDA¿ò¼Ü£¬½«DE-EIGËã·¨ÒýÈëµ½Ö®ÖÐ£¬À´½øÒ»²½¸ÄÉÆ·Ö²¼¹À¼ÆËã·¨µÄ²ÉÑù»·½Ú¡£Í¬Ê±ÎªÁË±£³ÖÖÖÈºµÄ¶àÑùÐÔ£¬Í¨¹ýÒ»¸öËæ»ú²ÎÊýÀ´¿ØÖÆÖÖÈºÊÇÍ¨¹ý¸ÅÂÊÄ£ÐÍ²ÉÑù²úÉúÒà»òÊÇÍ¨¹ýDE-EIGÀ´²úÉú¡£ÕâÑù£¬¿ÉÒÔÔö¼ÓÖÖÈºµÄ¶àÑùÐÔ£¬Í¬Ê±Ò²¿ÉÒÔÌá¸ß²î·Ö½ø»¯µÄËÑË÷ÄÜÁ¦¡£Í¬Ê±£¬expensive local searchÒ²½«»á±»ÓÃÓÚ½øÒ»²½ÌáÉýËã·¨Çó½âµÄÐÔÄÜ¡£
+»ùÓÚDE/EDA¿ò¼Ü£¬½«DE-EIGËã·¨ÒýÈëµ½Ö®ÖÐ£¬À´½øÒ»²½¸ÄÉÆ·Ö²¼¹À¼ÆËã·¨µÄ²ÉÑù»·½Ú¡£Í¬Ê±ÎªÁË±£³ÖÖÖÈºµÄ¶àÑùÐÔ£¬Í¨¹ýÒ»¸öËæ»ú²ÎÊýÀ´¿ØÖÆÖÖÈºÊÇÍ¨¹ý¸ÅÂÊÄ£ÐÍ²ÉÑù²úÉúÒà»òÊÇÍ¨¹ýDE-EIGÀ´²úÉú¡£ÕâÑù£¬¿ÉÒÔÔö¼ÓÖÖÈºµÄ¶àÑùÐÔ£¬Í¬Ê±Ò²¿ÉÒÔÌá¸ß²î·Ö½ø»¯µÄËÑË÷ÄÜÁ¦¡£Í¬Ê±£¬expensive local search Ò²½«»á±»ÓÃÓÚ½øÒ»²½ÌáÉýËã·¨Çó½âµÄÐÔÄÜ¡£
 
 \begin{algorithm}
 \label{eda/de-eig}
@@ -1171,7 +1173,7 @@ $ t = t + 1$
     {
         $x_{i,G+1}=x_{i,G}$
     }
-    \If{Converage($\theta, G, G_e$)}
+    \If{Coverage($\theta, G, G_e$)}
     {
         Ö´ÐÐexpensive LS
     }
@@ -1199,29 +1201,15 @@ JADEÊÇÒ»ÖÖ×ÔÊÊÓ¦µÄ²î·Ö½ø»¯Ëã·¨£¬ËüÍ¨¹ýÊ¹ÓÃÒ»ÖÖÐÂÐÍµÄ±äÒì²ßÂÔ"DE/current-to\emph{
 \end{enumerate}
 
 \subsubsection{ÊµÑé½á¹ûºÍ·ÖÎö}
-±í~\ref{eda-de-eig-tab}Í³¼ÆÁË¸÷¸öËã·¨µÄ×îÖÕ½á¹ûµÄ¾ùÖµºÍ±ê×¼²î¡£Í¨¹ýÀûÓÃÍþ¶û¿ËËÉÍ³¼ÆÊµÑéÀ´¼Æ½ÏEDA/DE-EIGºÍÆäËûËã·¨¡£"+"£¬"-"ÒÔ¼°"$\sim$"·Ö±ð±íÊ¾ÆäËûËã·¨µÄ×îÖÕ½â´óÓÚ£¬Ð¡ÓÚÒÔ¼°½üËÆÓÚEDA/DE-EIGµÄ×îÖÕ½â¡£
 
-´Ó±í~\ref{eda-de-eig-tab}¿ÉÒÔ¿´³ö£¬EDA/DE-EIGÔÚºÍÆäËüÁ½¸öËã·¨±È½Ï¾ßÓÐ²»´íµÄ±íÏÖ¡£EDA/DE-EIGÔÚ9¸ö²âÊÔÌâÉÏÈ¡µÃÁË×îºÃµÄ±íÏÖ£¬³ýÁËf5£¬f7£¬f8ºÍf9¡£ ½Ó×Å¶ÔEDA/DE-EIGºÍÆäËüÁ½¸öËã·¨·Ö±ð×ö½øÒ»²½µÄ±È½Ï¡£¶ÔÓÚDE/EDA£¬EDA/DE-EIG¾ßÓÐÏàµ±²»Ë×µÄ±íÏÖ¡£EDA/DE-EIG ÔÚ7¸ö²âÊÔ»úÉÏ¶¼ÒªÓÅÓÚDE/EDA¡£EDA/DE-EIG ÔÚ²âÊÔ¼¯ÉÏµÄÌáÉýÊÇ·Ç³£ÏÔÖøµÄ£¬ÖµµÃ×¢ÒâµÄÊÇ£¬ÕâÁ½¸öËã·¨Ö®¼äµÄÐÔÄÜ²îÒì»¹ÊÇ±È½ÏÏÔÖøµÄ¡£
-
-½«EDA/DE-EIGºÍJADEÏà±È½Ï£¬EDA/DE-EIGÔÚ5¸ö²âÊÔ¼¯ÉÏÈ¡µÃÁË¸üºÃµÄ½á¹û¡£ÕâÁ½¸öËã·¨ÔÚ²âÊÔ¼¯f6£¬f10£¬f12ÒÔ¼°f13ÉÏ¶¼È¡µÃÁË×îºÃµÄ½á¹û¡£×Ü¶øÑÔÖ®£¬EDA/DE-EIGµÄÐÔÄÜ±íÏÖ»¹ÊÇ±È½Ï¾ßÓÐ¾ºÕùÁ¦µÄ¡£ÖµµÃ×¢ÒâµÄÊÇ£¬ÔÚf1-f4ÒÔ¼°f11Õâ5¸ö²âÊÔÌâÉÏ£¬EDA/DE-EIG ¶¼¾ßÓÐÏÔÖøµÄÐÔÄÜÌáÉý¡£¶ÔÓÚ²âÊÔ¼¯f7£¬f8ÒÔ¼°f9£¬EDA/DE-EIG¿ÉÄÜÊÇÊÜµ½²î·Ö½ø»¯µÄ¾Ö²¿×îÓÅµØÓ°Ïì¡£ÔÚÕâÐ©²âÊÔÌâÉÏµÄÌáÉý£¬EDA/DE-EIFÖµµÃ¸ü¼ÓÉîÈëµÄÑÐ¾¿¡£
-
-Í¬Ê±£¬ÎªÁË´ÓÒ»¸ö¸ü¼Ó¿Í¹ÛµÄ½Ç¶ÈÀ´±È½Ï×îÖÕµÄ½á¹û£¬Íþ¶û¿ËËÉÍ³¼Æ·ÖÎö±»ÓÃÀ´±È½ÏÕâ¼¸¸öËã·¨¡£¶ÔÓÚJADE£¬EDA/DE-EIGÔÚ3¸ö²âÊÔÌâÉÏÒªÓÅÓÚJADE£»ÕâÁ½¸öËã·¨ÔÚ6¸ö²âÊÔ¼¯ÉÏÈ¡µÃÁË½üËÆµÄ½á¹û£»ÔÚ4¸ö²âÊÔÌâÉÏ£¬JADEµÄ×îÖÕ½á¹û¸üºÃ¡£ÔÚÓëDE/EDAÏà±È£¬EDA/DE-EIGÓÐ×Å²»Ð¡µÄÌáÉý¡£Í¬Ê±£¬¶ÔÓÚJADE£¬ÕâÁ½¸öËã·¨´ÓÍ³¼ÆÉÏÀ´ËµÔÚ13¸ö²âÊÔÌâÉÏÓÐ×Å½üËÆµÄ±íÏÖ¡£Õâ±íÃ÷DE-EIGµÄÈ·È¡µÃÁËÓÐÒâÒåµÄÐ§¹û¡£ÕâÖ¤Ã÷EDA/DE-EIGµÄÐÔÄÜ±íÏÖ»¹ÊÇ¾ßÓÐÇ±Á¦µÄÍ¬Ê±Ò²ÐèÒª½øÒ»²½µÄÌáÉýÑÐ¾¿¡£
-
-ÎªÁË½øÒ»²½Ú¹ÊÍEDA/DE-EIGºÍÆäËûÁ½¸öËã·¨Ö®¼äµÄÐÔÄÜ±È½Ï£¬Í¼~\ref{eda-deeig-fig1}ÊÇÕâÈý¸öËã·¨½á¹ûµÄÇ÷ÊÆÍ¼¡£ÒòÎªÔÚ²âÊÔ¼¯f6ÉÏ£¬JADEºÍEDA/DE-EIG¶¼ÊÕÁ²µÃ·Ç³£Ôç£¬ÎªÁË¸üºÃµØÕ¾Ïß½á¹û£¬ÔÚ±¾ÕÂ½Ú¾Í²»×öÔÚf6ÉÏµÄÇ÷ÊÆÍ¼±È½Ï¡£ÔÚ13¸ö²âÊÔÌâÖÐ£¬EDA/DE-EIGÔÚ8¸ö²âÊÔÌâÉÏÈ¡µÃÁË×îºÃµÄ½á¹û¡£EDA/DE-EIGÔÚÊÕÁ²ËÙ¶ÈºÍ×îÖÕµÄÊÕÁ²½á¹ûÉÏ¶¼È¡µÃÁË½ÏºÃµÄ½á¹û¡£¶ÔÓÚÄ³Ð©²âÊÔ¼¯£¬Õâ¸ö±È½Ï»¹ÊÇ±È½ÏÏÔÖøµÄ£¬°üÀ¨f1£¬f2£¬f3£¬f4ºÍf11¡£¶ÔÓÚDE/EDA¶øÑÔ£¬ÔÚ11¸ö²âÊÔÌâÉÏ£¬ED/EDA¶¼±íÏÖµÃ¸ü²î£¬³ýÁË²âÊÔÌâf7ºÍf8¡£ÓëJADEÏà±È½Ï£¬¶ÔÓÚ²âÊÔ¼¯f1-f4£¬EDA/DE-EIGÔÚÊÕÁ²ËÙ¶ÈºÍ×îÖÕÊÕÁ²½á¹û¶¼ÊÇÁìÏÈµÄ¡£¶ÔÓÚ²âÊÔ¼¯f5,JADE×îÖÕ½á¹û¸üºÃ£¬µ«ÊÇEDA/DE-EIG¾ßÓÐ¸üºÃµØÊÕÁ²Ç÷ÊÆ²¢ÇÒ¸üÔçµØÊÕÁ²¡£¶ÔÓÚ²âÊÔ¼¯f7£¬f8ºÍf9ÉÏ£¬EDA/DE-EIGµÄ±íÏÖ²»¼Ñ¡£ÔÚ²âÊÔÌâf10£¬f12ºÍf13ÉÏ£¬EDA/DE-EIG¾ßÓÐÒ»¸ö¸üºÃµØÊÕÁ²ËÙ¶È¡£×ÜÖ®£¬EDA/DE-EIGÔÚÓëDE/EDAÏà±È»¹ÊÇ¾ßÓÐ±È½ÏÃ÷ÏÔµÄÓÅÊÆ¡£Í¬Ê±£¬ºÍJADEÏà±È½Ï£¬EDA/DE-EIG µÄ±íÏÖ»¹ÊÇ¾ßÓÐÏàµ±µÄ¾ºÕùÁ¦¡£
-
-\subsection{±¾ÕÂÐ¡½á}
-DE/EDAÊÇÒ»ÖÖ¶ÔÓÚÈ«¾ÖÓÅ»¯µÄ¾ßÓÐºÜ´óÇ±Á¦µÄ·½·¨£¬Ëü½áºÏÁËÈ«¾ÖºÍ¾Ö²¿µÄÐÅÏ¢¡£ÔÚ±¾ÕÂ½ÚÖÐ£¬Í¨¹ýÒý½øÒ»ÖÖÌáÉýµÄ²î·Ö½ø»¯Ëã·¨£¬DE-EIG¡£DE-EIGÓÐÀûÓÚ¸üºÃµØÀûÓÃÖÖÈºµÄÍ³¼ÆÐÅÏ¢²¢ÇÒ¼ÓËÙÊÕÁ²¡£ÊµÑé½á¹û±íÃ÷£¬ÔÚºÍJADEºÍDE/EDA±È½ÏµÄ¹ý³ÌÖÐ£¬EDA/DE-EIG»¹ÊÇ±È½Ï¾ßÓÐÓÅÊÆµÄ¡£
-
-µ±È»£¬±¾ÕÂ½ÚµÄÑÐ¾¿ÊÇ·Ç³£»ù´¡µÄ»¹ÓÐÐèÒªÌáÉýµÄµØ·½¡£µÚÒ»£¬EDA/DE-EIGµÄËã·¨½á¹¹ÖµµÃ½øÒ»²½µÄÓÅ»¯£»µÚ¶þ£¬ÖµµÃÌ½¾¿ÔÚDE-EIG ºÍEDAËã·¨×ÊÔ´µÄ·ÖÅä£¬ÕâÊÇÒ»¸öÓÐÒâË¼µÄ»°Ìâ¡£
-
-\begin{table*}
+\begin{table*}[h]
 \centering
-\caption{Statistical results ($mean\pm{std}$) for the three algorithms on instances $f1-f13$.}
+\caption{Èý¸öËã·¨ÔÚ²âÊÔÌâ$f1-f13$ÉÏ¶ÔÓÚ£¨Æ½¾ùÖµ$\pm$±ê×¼²î£©µÄÍ³¼Æ½á¹û}
 \label{eda-de-eig-tab}
 \begin{threeparttable}
 \begin{tabular}{l|cccc}\hline\hline
 %\multicolumn{}{c}{}\\
-instances&EDA/DE-EIG&JADE&DE/EDA\\\hline
+&EDA/DE-EIG&JADE&DE/EDA\\\hline
 $f1$	&${\cellcolor{lightgray}}\textbf{1.54e-159}\pm{\cellcolor{lightgray}}\textbf{5.11e-159}$	                                &$3.90e-127\pm2.74e-126{(+)}$	                                 &$1.39e-59\pm2.58e-59(+)$	\\
         \\
 $f2$	&${\cellcolor{lightgray}}\textbf{1.02e-75}\pm{\cellcolor{lightgray}}\textbf{7.46e-76}$	                                &$2.60e-35\pm1.64e-34(+)$	                                        &$5.15e-28\pm4.68e-28(+)$	\\
@@ -1256,6 +1244,9 @@ $f13$   &${\cellcolor{lightgray}}\textbf{1.35e-32}\pm{\cellcolor{lightgray}}\tex
 \end{tablenotes}
 \end{threeparttable}
 \end{table*}
+±í~\ref{eda-de-eig-tab}Í³¼ÆÁË¸÷¸öËã·¨µÄ×îÖÕ½á¹ûµÄ¾ùÖµºÍ±ê×¼²î¡£Í¨¹ýÀûÓÃÍþ¶û¿ËËÉÍ³¼ÆÊµÑéÀ´¼Æ½ÏEDA/DE-EIGºÍÆäËûËã·¨¡£"+"£¬"-"ÒÔ¼°"$\sim$"·Ö±ð±íÊ¾ÆäËûËã·¨µÄ×îÖÕ½â´óÓÚ£¬Ð¡ÓÚÒÔ¼°½üËÆÓÚEDA/DE-EIGµÄ×îÖÕ½â¡£
+
+´Ó±í~\ref{eda-de-eig-tab}¿ÉÒÔ¿´³ö£¬EDA/DE-EIGÔÚºÍÆäËüÁ½¸öËã·¨±È½Ï¾ßÓÐ²»´íµÄ±íÏÖ¡£EDA/DE-EIGÔÚ9¸ö²âÊÔÌâÉÏÈ¡µÃÁË×îºÃµÄ±íÏÖ£¬³ýÁËf5£¬f7£¬f8ºÍf9¡£ ½Ó×Å¶ÔEDA/DE-EIGºÍÆäËüÁ½¸öËã·¨·Ö±ð×ö½øÒ»²½µÄ±È½Ï¡£¶ÔÓÚDE/EDA£¬EDA/DE-EIG¾ßÓÐÏàµ±²»Ë×µÄ±íÏÖ¡£EDA/DE-EIG ÔÚ7¸ö²âÊÔ»úÉÏ¶¼ÒªÓÅÓÚDE/EDA¡£EDA/DE-EIG ÔÚ²âÊÔ¼¯ÉÏµÄÌáÉýÊÇ·Ç³£ÏÔÖøµÄ£¬ÖµµÃ×¢ÒâµÄÊÇ£¬ÕâÁ½¸öËã·¨Ö®¼äµÄÐÔÄÜ²îÒì»¹ÊÇ±È½ÏÏÔÖøµÄ¡£
 
 \begin{figure*}
 \centering
@@ -1273,9 +1264,23 @@ $f13$   &${\cellcolor{lightgray}}\textbf{1.35e-32}\pm{\cellcolor{lightgray}}\tex
 \subfigure[$f11$]{\includegraphics[ width=0.3\textwidth]{f11.eps}}
 \subfigure[$f12$]{\includegraphics[ width=0.3\textwidth]{f12.eps}}
 \subfigure[$f13$]{\includegraphics[ width=0.3\textwidth]{f13.eps}}
-\caption{The mean function value versus on $f1-f13$ except $f6$ of the three algorithms.}
+\caption{Èý¸öËã·¨ÔÚ$f1-f13$ÖÐ³ýÁË$f6$12¸ö²âÊÔ¼¯ÉÏÄ¿±êº¯ÊýÆ½¾ùÖµµÄÕÛÏßÍ¼}
  \label{eda-deeig-fig1}
 \end{figure*}
+
+½«EDA/DE-EIGºÍJADEÏà±È½Ï£¬EDA/DE-EIGÔÚ5¸ö²âÊÔ¼¯ÉÏÈ¡µÃÁË¸üºÃµÄ½á¹û¡£ÕâÁ½¸öËã·¨ÔÚ²âÊÔ¼¯f6£¬f10£¬f12ÒÔ¼°f13ÉÏ¶¼È¡µÃÁË×îºÃµÄ½á¹û¡£×Ü¶øÑÔÖ®£¬EDA/DE-EIGµÄÐÔÄÜ±íÏÖ»¹ÊÇ±È½Ï¾ßÓÐ¾ºÕùÁ¦µÄ¡£ÖµµÃ×¢ÒâµÄÊÇ£¬ÔÚf1-f4ÒÔ¼°f11Õâ5¸ö²âÊÔÌâÉÏ£¬EDA/DE-EIG ¶¼¾ßÓÐÏÔÖøµÄÐÔÄÜÌáÉý¡£¶ÔÓÚ²âÊÔ¼¯f7£¬f8ÒÔ¼°f9£¬EDA/DE-EIG¿ÉÄÜÊÇÊÜµ½²î·Ö½ø»¯µÄ¾Ö²¿×îÓÅµØÓ°Ïì¡£ÔÚÕâÐ©²âÊÔÌâÉÏµÄÌáÉý£¬EDA/DE-EIFÖµµÃ¸ü¼ÓÉîÈëµÄÑÐ¾¿¡£
+
+Í¬Ê±£¬ÎªÁË´ÓÒ»¸ö¸ü¼Ó¿Í¹ÛµÄ½Ç¶ÈÀ´±È½Ï×îÖÕµÄ½á¹û£¬Íþ¶û¿ËËÉÍ³¼Æ·ÖÎö±»ÓÃÀ´±È½ÏÕâ¼¸¸öËã·¨¡£¶ÔÓÚJADE£¬EDA/DE-EIGÔÚ3¸ö²âÊÔÌâÉÏÒªÓÅÓÚJADE£»ÕâÁ½¸öËã·¨ÔÚ6¸ö²âÊÔ¼¯ÉÏÈ¡µÃÁË½üËÆµÄ½á¹û£»ÔÚ4¸ö²âÊÔÌâÉÏ£¬JADEµÄ×îÖÕ½á¹û¸üºÃ¡£ÔÚÓëDE/EDAÏà±È£¬EDA/DE-EIGÓÐ×Å²»Ð¡µÄÌáÉý¡£Í¬Ê±£¬¶ÔÓÚJADE£¬ÕâÁ½¸öËã·¨´ÓÍ³¼ÆÉÏÀ´ËµÔÚ13¸ö²âÊÔÌâÉÏÓÐ×Å½üËÆµÄ±íÏÖ¡£Õâ±íÃ÷DE-EIGµÄÈ·È¡µÃÁËÓÐÒâÒåµÄÐ§¹û¡£ÕâÖ¤Ã÷EDA/DE-EIGµÄÐÔÄÜ±íÏÖ»¹ÊÇ¾ßÓÐÇ±Á¦µÄÍ¬Ê±Ò²ÐèÒª½øÒ»²½µÄÌáÉýÑÐ¾¿¡£
+
+ÎªÁË½øÒ»²½Ú¹ÊÍEDA/DE-EIGºÍÆäËûÁ½¸öËã·¨Ö®¼äµÄÐÔÄÜ±È½Ï£¬Í¼~\ref{eda-deeig-fig1}ÊÇÕâÈý¸öËã·¨½á¹ûµÄÇ÷ÊÆÍ¼¡£ÒòÎªÔÚ²âÊÔ¼¯f6ÉÏ£¬JADEºÍEDA/DE-EIG¶¼ÊÕÁ²µÃ·Ç³£Ôç£¬ÎªÁË¸üºÃµØÕ¾Ïß½á¹û£¬ÔÚ±¾ÕÂ½Ú¾Í²»×öÔÚf6ÉÏµÄÇ÷ÊÆÍ¼±È½Ï¡£ÔÚ13¸ö²âÊÔÌâÖÐ£¬EDA/DE-EIGÔÚ8¸ö²âÊÔÌâÉÏÈ¡µÃÁË×îºÃµÄ½á¹û¡£EDA/DE-EIGÔÚÊÕÁ²ËÙ¶ÈºÍ×îÖÕµÄÊÕÁ²½á¹ûÉÏ¶¼È¡µÃÁË½ÏºÃµÄ½á¹û¡£¶ÔÓÚÄ³Ð©²âÊÔ¼¯£¬Õâ¸ö±È½Ï»¹ÊÇ±È½ÏÏÔÖøµÄ£¬°üÀ¨f1£¬f2£¬f3£¬f4ºÍf11¡£¶ÔÓÚDE/EDA¶øÑÔ£¬ÔÚ11¸ö²âÊÔÌâÉÏ£¬ED/EDA¶¼±íÏÖµÃ¸ü²î£¬³ýÁË²âÊÔÌâf7ºÍf8¡£ÓëJADEÏà±È½Ï£¬¶ÔÓÚ²âÊÔ¼¯f1-f4£¬EDA/DE-EIGÔÚÊÕÁ²ËÙ¶ÈºÍ×îÖÕÊÕÁ²½á¹û¶¼ÊÇÁìÏÈµÄ¡£¶ÔÓÚ²âÊÔ¼¯f5,JADE×îÖÕ½á¹û¸üºÃ£¬µ«ÊÇEDA/DE-EIG¾ßÓÐ¸üºÃµØÊÕÁ²Ç÷ÊÆ²¢ÇÒ¸üÔçµØÊÕÁ²¡£¶ÔÓÚ²âÊÔ¼¯f7£¬f8ºÍf9ÉÏ£¬EDA/DE-EIGµÄ±íÏÖ²»¼Ñ¡£ÔÚ²âÊÔÌâf10£¬f12ºÍf13ÉÏ£¬EDA/DE-EIG ¾ßÓÐÒ»¸ö¸üºÃµØÊÕÁ²ËÙ¶È¡£×ÜÖ®£¬EDA/DE-EIGÔÚÓëDE/EDAÏà±È»¹ÊÇ¾ßÓÐ±È½ÏÃ÷ÏÔµÄÓÅÊÆ¡£Í¬Ê±£¬ºÍJADEÏà±È½Ï£¬EDA/DE-EIG µÄ±íÏÖ»¹ÊÇ¾ßÓÐÏàµ±µÄ¾ºÕùÁ¦¡£
+
+\subsection{±¾ÕÂÐ¡½á}
+DE/EDAÊÇÒ»ÖÖ¶ÔÓÚÈ«¾ÖÓÅ»¯µÄ¾ßÓÐºÜ´óÇ±Á¦µÄ·½·¨£¬Ëü½áºÏÁËÈ«¾ÖºÍ¾Ö²¿µÄÐÅÏ¢¡£ÔÚ±¾ÕÂ½ÚÖÐ£¬Í¨¹ýÒý½øÒ»ÖÖÌáÉýµÄ²î·Ö½ø»¯Ëã·¨£¬DE-EIG¡£DE-EIGÓÐÀûÓÚ¸üºÃµØÀûÓÃÖÖÈºµÄÍ³¼ÆÐÅÏ¢²¢ÇÒ¼ÓËÙÊÕÁ²¡£ÊµÑé½á¹û±íÃ÷£¬ÔÚºÍJADEºÍDE/EDA±È½ÏµÄ¹ý³ÌÖÐ£¬EDA/DE-EIG»¹ÊÇ±È½Ï¾ßÓÐÓÅÊÆµÄ¡£
+
+µ±È»£¬±¾ÕÂ½ÚµÄÑÐ¾¿ÊÇ·Ç³£»ù´¡µÄ»¹ÓÐÐèÒªÌáÉýµÄµØ·½¡£µÚÒ»£¬EDA/DE-EIGµÄËã·¨½á¹¹ÖµµÃ½øÒ»²½µÄÓÅ»¯£»µÚ¶þ£¬ÖµµÃÌ½¾¿ÔÚDE-EIG ºÍEDAËã·¨×ÊÔ´µÄ·ÖÅä£¬ÕâÊÇÒ»¸öÓÐÒâË¼µÄ»°Ìâ¡£
+
+
+
 
 \newpage
 \section{×Ü½áÓëÕ¹Íû}

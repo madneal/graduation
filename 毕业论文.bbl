@@ -331,6 +331,43 @@ Z.~Yang, X.~Yao, and J.~He, ``Making a difference to differential evolution,''
   in \emph{Advances in metaheuristics for hard optimization}.\hskip 1em plus
   0.5em minus 0.4em\relax Springer, 2007, pp. 397--414.
 
+\bibitem{ade1996}
+R.~Storn, ``On the usage of differential evolution for function optimization,''
+  in \emph{Fuzzy Information Processing Society, 1996. NAFIPS., 1996 Biennial
+  Conference of the North American}.\hskip 1em plus 0.5em minus 0.4em\relax
+  IEEE, 1996, pp. 519--523.
+
+\bibitem{mde1999}
+J.~Lampinen and I.~Zelinka, ``Mixed integer-discrete-continuous optimization by
+  differential evolution,'' in \emph{Proceedings of the 5th International
+  Conference on Soft Computing}, 1999, pp. 77--81.
+
+\bibitem{cade1999}
+R.~Storn, ``System design by constraint adaptation and differential
+  evolution,'' \emph{IEEE Transactions on Evolutionary Computation}, vol.~3,
+  no.~1, pp. 22--34, 1999.
+
+\bibitem{dezhang2008}
+M.~Zhang, W.~Luo, and X.~Wang, ``Differential evolution with dynamic stochastic
+  selection for constrained optimization,'' \emph{Information Sciences}, vol.
+  178, no.~15, pp. 3043--3074, 2008.
+
+\bibitem{cde2002}
+J.~Lampinen, ``A constraint handling approach for the differential evolution
+  algorithm,'' in \emph{Proceedings of the congress on evolutionary
+  computation}, vol.~2.\hskip 1em plus 0.5em minus 0.4em\relax IEEE Computer
+  Society Washington, DC, 2002, pp. 1468--1473.
+
+\bibitem{cde2006}
+S.~Kukkonen and J.~Lampinen, ``Constrained real-parameter optimization with
+  generalized differential evolution,'' in \emph{2006 IEEE International
+  Conference on Evolutionary Computation}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2006, pp. 207--214.
+
+\bibitem{controlde2006}
+J.~Brest and M.~S. Mau{\v{c}}ec, ``Control parameters in self-adaptive
+  differential evolution,'' 2006.
+
 \bibitem{demo1999}
 C.-S. Chang, D.~Xu, and H.~Quek, ``Pareto-optimal set based multiobjective
   tuning of fuzzy automatic train operation for mass transit system,''
