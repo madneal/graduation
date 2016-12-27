@@ -41,12 +41,12 @@ D.~Simon, \emph{Evolutionary optimization algorithms}.\hskip 1em plus 0.5em
 
 \bibitem{nsga-ii}
 K.~Deb, A.~Pratap, S.~Agarwal, and T.~Meyarivan, ``A fast and elitist
-  multiobjective genetic algorithm:{ NSGA-II},'' \emph{Evolutionary
-  Computation, IEEE Transactions on}, vol.~6, no.~2, pp. 182--197, 2002.
+  multiobjective genetic algorithm:{ NSGA-II},'' \emph{IEEE Transactions on
+  Evolutionary Computation}, vol.~6, no.~2, pp. 182--197, 2002.
 
 \bibitem{bbo2008}
-D.~Simon, ``Biogeography-based optimization,'' \emph{IEEE transactions on
-  evolutionary computation}, vol.~12, no.~6, pp. 702--713, 2008.
+D.~Simon, ``Biogeography-based optimization,'' \emph{IEEE Transactions on
+  Evolutionary Computation}, vol.~12, no.~6, pp. 702--713, 2008.
 
 \bibitem{gp1998}
 W.~Banzhaf, P.~Nordin, R.~E. Keller, and F.~D. Francone, ``Genetic programming:
@@ -95,7 +95,7 @@ J.~Sun, Q.~Zhang, and E.~P. Tsang, ``{DE/EDA}: A new evolutionary algorithm for
 
 \bibitem{moead}
 Q.~Zhang and H.~Li, ``{MOEA/D}: A multiobjective evolutionary algorithm based
-  on decomposition,'' \emph{Evolutionary Computation, IEEE Transactions on},
+  on decomposition,'' \emph{IEEE Transactions on Evolutionary Computation},
   vol.~11, no.~6, pp. 712--731, 2007.
 
 \bibitem{global2000}
@@ -243,7 +243,7 @@ M.~Pelikan, K.~Sastry, and D.~E. Goldberg, ``Multiobjective hboa, clustering,
 
 \bibitem{des2011}
 S.~Das and P.~N. Suganthan, ``Differential evolution: a survey of the
-  state-of-the-art,'' \emph{Evolutionary Computation, IEEE Transactions on},
+  state-of-the-art,'' \emph{IEEE Transactions on Evolutionary Computation},
   vol.~15, no.~1, pp. 4--31, 2011.
 
 \bibitem{deo2008}
@@ -265,7 +265,7 @@ J.~Brest, S.~Greiner, B.~Boskovic, M.~Mernik, and V.~Zumer, ``Self-adapting
 \bibitem{desa2009}
 A.~K. Qin, V.~L. Huang, and P.~N. Suganthan, ``Differential evolution algorithm
   with strategy adaptation for global numerical optimization,'' \emph{IEEE
-  transactions on Evolutionary Computation}, 2009.
+  Transactions on Evolutionary Computation}, 2009.
 
 \bibitem{de2006}
 K.~Price, R.~M. Storn, and J.~A. Lampinen, \emph{Differential evolution: a
@@ -274,7 +274,7 @@ K.~Price, R.~M. Storn, and J.~A. Lampinen, \emph{Differential evolution: a
 
 \bibitem{ode2008}
 S.~Rahnamayan, H.~R. Tizhoosh, and M.~Salama, ``Opposition-based differential
-  evolution,'' \emph{Evolutionary Computation, IEEE Transactions on}, vol.~12,
+  evolution,'' \emph{IEEE Transactions on Evolutionary Computation}, vol.~12,
   no.~1, pp. 64--79, 2008.
 
 \bibitem{nde2009}
@@ -290,8 +290,8 @@ A.~K. Qin and P.~N. Suganthan, ``Self-adaptive differential evolution algorithm
 
 \bibitem{JADE}
 J.~Zhang and A.~C. Sanderson, ``{JADE}: adaptive differential evolution with
-  optional external archive,'' \emph{Evolutionary Computation, IEEE
-  Transactions on}, vol.~13, no.~5, pp. 945--958, 2009.
+  optional external archive,'' \emph{IEEE Transactions on Evolutionary
+  Computation}, vol.~13, no.~5, pp. 945--958, 2009.
 
 \bibitem{psode2001}
 T.~Hendtlass, ``A combined swarm differential evolution algorithm for
@@ -300,7 +300,7 @@ T.~Hendtlass, ``A combined swarm differential evolution algorithm for
   plus 0.5em minus 0.4em\relax Springer, 2001, pp. 11--18.
 
 \bibitem{depso2003}
-W.-J. Zhang, X.-F. Xie \emph{et~al.}, ``Depso: hybrid particle swarm with
+W.-J. Zhang, X.-F. Xie \emph{et~al.}, ``{DEPSO}: hybrid particle swarm with
   differential evolution operator,'' in \emph{IEEE International Conference on
   Systems Man and Cybernetics}, vol.~4, 2003, pp. 3816--3821.
 
@@ -421,18 +421,18 @@ N.~Kambhatla and T.~Leen, ``Dimension reduction by local principal component
 \bibitem{igd}
 E.~Zitzler, L.~Thiele, M.~Laumanns, C.~M. Fonseca, and V.~G. Da~Fonseca,
   ``Performance assessment of multiobjective optimizers: an analysis and
-  review,'' \emph{Evolutionary Computation, IEEE Transactions on}, vol.~7,
+  review,'' \emph{IEEE Transactions on Evolutionary Computation}, vol.~7,
   no.~2, pp. 117--132, 2003.
 
 \bibitem{DE-EIG}
 S.-M. Guo and C.-C. Yang, ``Enhancing differential evolution utilizing
-  eigenvector-based crossover operator,'' \emph{Evolutionary Computation, IEEE
-  Transactions on}, vol.~19, no.~1, pp. 31--49, 2015.
+  eigenvector-based crossover operator,'' \emph{IEEE Transactions on
+  Evolutionary Computation}, vol.~19, no.~1, pp. 31--49, 2015.
 
 \bibitem{EDALS}
 A.~Zhou, J.~Sun, and Q.~Zhang, ``An estimation of distribution algorithm with
-  cheap and expensive local search,'' \emph{Evolutionary Computation, IEEE
-  Transactions on}, vol.~19, no.~6, pp. 807--822, 2015.
+  cheap and expensive local search,'' \emph{IEEE Transactions on Evolutionary
+  Computation}, vol.~19, no.~6, pp. 807--822, 2015.
 
 \bibitem{powell1998}
 M.~Okamoto, T.~Nonaka, S.~Ochiai, and D.~Tominaga, ``Nonlinear numerical
@@ -442,7 +442,7 @@ M.~Okamoto, T.~Nonaka, S.~Ochiai, and D.~Tominaga, ``Nonlinear numerical
 
 \bibitem{YYL}
 X.~Yao, Y.~Liu, and G.~Lin, ``Evolutionary programming made faster,''
-  \emph{Evolutionary Computation, IEEE Transactions on}, vol.~3, no.~2, pp.
+  \emph{IEEE Transactions on Evolutionary Computation}, vol.~3, no.~2, pp.
   82--102, 1999.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  26 DEC 2016 21:59
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  27 DEC 2016 21:30
 entering extended mode
 **C:/Users/neal1/project/graduation/毕业论文.tex
 (C:/Users/neal1/project/graduation/毕业论文.tex
@@ -709,11 +709,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \everycr=\toks42
 \minrowclearance=\skip82
 )
-(C:\Users\neal1\project\graduation\毕业论文.aux
-
-LaTeX Warning: Label `4.2' multiply defined.
-
-)
+(C:\Users\neal1\project\graduation\毕业论文.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
@@ -792,12 +788,12 @@ LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 120.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 120.
- (C:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
+
+(C:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 120.
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 (C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count148
@@ -1540,11 +1536,7 @@ t/graduation/figs/igd/f7_igd-eps-converted-to.pdf> <C:/Users/neal1/project/grad
 uation/figs/igd/f8_igd-eps-converted-to.pdf> <C:/Users/neal1/project/graduation
 /figs/igd/f9_igd-eps-converted-to.pdf> <C:/Users/neal1/project/graduation/figs/
 igd/f10_igd-eps-converted-to.pdf>]
-[26] [27] [28] [29]
-
-LaTeX Warning: Reference `4.4' on page 30 undefined on input line 1195.
-
-[30] [31] [32]
+[26] [27] [28] [29] [30] [31] [32]
 Package epstopdf Info: Source file: <figs/eda-de-eig/f1.eps>
 (epstopdf)                    date: 2016-12-26 02:46:20
 (epstopdf)                    size: 19149 bytes
@@ -1792,18 +1784,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 19841 strings out of 495354
- 330372 string characters out of 3183858
- 381911 words of memory out of 3000000
- 22411 multiletter control sequences out of 15000+200000
+ 19840 strings out of 495354
+ 330359 string characters out of 3183858
+ 381883 words of memory out of 3000000
+ 22410 multiletter control sequences out of 15000+200000
  109144 words of font info for 363 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,18n,55p,1518b,963s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1873,7 +1859,7 @@ m1000.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/CTEX/MiK
 TeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public
 /cm-super/sfrm2074.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb
 >
-Output written on 毕业论文.pdf (55 pages, 1404456 bytes).
+Output written on 毕业论文.pdf (55 pages, 1408447 bytes).
 PDF statistics:
  844 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
