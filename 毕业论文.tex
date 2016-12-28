@@ -61,7 +61,7 @@
 \newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
 \newcommand{\xiaosihao}{\fontsize{12pt}{14pt}\selectfont}
 \newcommand{\wuhao}{\fontsize{10.5pt}{12.6pt}\selectfont}
-\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+%\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
 
 \newcommand{\R}{\ensuremath{\mathbb{R}}}
 \newcommand{\N}{\ensuremath{\mathbb{N}}}
@@ -377,9 +377,12 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 \textbf{\large{ÖÂ\quad Ð»}$\dotfill 46$}\par
 
 \newpage
-\pagenumbering{arabic} \pagestyle{fancy}
+\pagenumbering{arabic} 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE]{\leftmark}
 \lhead{\bf\song »ª¶«Ê¦·¶´óÑ§Ë¶Ê¿ÂÛÎÄ}
-\rhead{\song\leftmark} \cfoot{\thepage}
+\rhead{\song\rightmark} \cfoot{\thepage}
 
 \section{Ð÷ÂÛ}
 
@@ -409,17 +412,15 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 ÂÛÎÄÄÚÈÝ°²ÅÅÈçÏÂ£º
 
-µÚÒ»ÕÂ ~~~Ð÷ÂÛ£¬½éÉÜÑÝ»¯Ëã·¨ÒÔ¼°±¾ÎÄµÄÑÐ¾¿Ä¿µÄºÍÂÛÎÄ°²ÅÅ¡£
+µÚÒ»ÕÂ ~~~Ð÷ÂÛ£¬½éÉÜÑÝ»¯Ëã·¨ÒÔ¼°±¾ÎÄµÄÑÐ¾¿Ä¿µÄºÍÂÛÎÄÄÚÈÝ°²ÅÅ¡£
 
-µÚ¶þÕÂ ~~~ÀíÂÛ»ù´¡£¬½éÉÜ·Ö²¼¹À¼ÆËã·¨ºÍ²î·Ö½ø»¯µÄ»ù±¾¸ÅÄîÒÔ¼°ÏàÓ¦µÄËã·¨¿ò¼Ü¡£
+µÚ¶þÕÂ ~~~ÑÐ¾¿±³¾°£¬½éÉÜÁËÑÝ»¯Ëã·¨ÖÐ¶àÄ¿±êÓÅ»¯ºÍµ¥Ä¿±êÓÅ»¯ÎÊÌâ£¬²¢ÇÒ½éÉÜÁË·Ö²¼¹À¼ÆËã·¨ºÍ²î·Ö½ø»¯µÄÏà¹Ø¸ÅÄîºÍµ±Ç°µÄÑÐ¾¿ÏÖ×´¡£
 
-µÚÈýÕÂ ~~~Ìá³ö»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔÒÔ¼°ÏàÓ¦µÄËã·¨¿ò¼Ü¡£
+µÚÈýÕÂ ~~~¶ÔÓÚÁ¬Ðø¶àÄ¿±êÓÅ»¯ÎÊÌâµÄÑÐ¾¿£¬Ìá³öÒ»ÖÖ»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔ£¬Í¨¹ýÕâÖÖÐÂÐÍµÄ²ÉÑù²ßÂÔÈ¥¸Ä½øRM-MEDAµÄ²ÉÑù»·½Ú£¬¾ßÌåÃèÊöÁËÏà¹ØµÄÑÐ¾¿±³¾°ºÍËã·¨¿ò¼ÜºÍ¾ßÌåÊµÏÖ¡£×îºó£¬Í¨¹ý×ÛºÏµÄÊµÑé¶Ô±ÈÀ´·ÖÎö»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔµÄÖØÒªÒâÒå¡£
 
-µÚËÄÕÂ ~~~½«»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔÓ¦ÓÃµ½¶àÄ¿±êÓÅ»¯ÎÊÌâÉÏÃæ£¬²¢¸ø³öÏàÓ¦µÄËã·¨¿ò¼ÜºÍÊµÑé½á¹û·ÖÎö¡£
+µÚËÄÕÂ ~~~¶ÔÓÚÈ«¾Öµ¥Ä¿±êÓÅ»¯ÎÊÌâµÄÑÐ¾¿£¬»ùÓÚDE/EDAËã·¨¿ò¼Ü£¬Òý½ø»ùÓÚÌØÕ÷ÏòÁ¿µÄ²î·Ö½ø»¯Ëã·¨£¬²¢ÇÒÍ¨¹ý½áºÏexpensive LSÀ´½øÒ»²½Ìá¸ßËã·¨ÐÔÄÜ£¬×îÖÕÌá³ö»ùÓÚ²î·Ö½ø»¯²ÉÑù²ßÂÔµÄµ¥Ä¿±ê·Ö²¼¹À¼ÆËã·¨EDA/DE-EIG¡£Í¨¹ýºÍJADE£¬DE/EDAµÄ×ÛºÏÊµÑé·ÖÎö¶Ô±È£¬¿ÉÒÔ¶ÔÓÚ»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔÔÚ½â¾öµ¥Ä¿±êÓÅ»¯ÎÊÌâµÄ×÷ÓÃºÍÒâÒå¡£
 
-µÚËÄÕÂ ~~~½«»ùÓÚ²î·Ö½ø»¯µÄ²ÉÑù²ßÂÔÓ¦ÓÃµ½µ¥Ä¿±êÓÅ»¯ÎÊÌâÉÏ£¬²¢¸ø³öÏàÓ¦µÄËã·¨¿ò¼ÜºÍÊÔÑé½á¹û·ÖÎö¡£
-
-µÚÎåÕÂ ~~~ÂÛÎÄ×Ü½áºÍÕ¹Íû¡£
+µÚÎåÕÂ ~~~¶Ô±¾ÎÄ½øÐÐÈ«ÃæµØ×Ü½á£¬²¢ÇÒ¸ù¾ÝÄ¿Ç°¹¤×÷µÄ²»×ãÖ®´¦Ìá³öÎ´À´µÄÕ¹Íû¡£
 
 \newpage
 \section{ÑÐ¾¿±³¾°}
@@ -449,7 +450,7 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 ÆäÖÐ£¬$x=(x_1, \cdots, x_n)^T\in R^n$ ÊÇ¾ö²ß±äÁ¿ÏòÁ¿£¬$\Omega=\Pi_{i=1}^{n}[a_i, b_i] \subset R^n$ ±íÊ¾¿ÉÄÜµÄËÑË÷¿Õ¼äÇøÓò£¬$f_i: R^n \rightarrow R, i=1, \cdots, m$ ÊÇÒ»¸öÁ¬ÐøµÄÄ¿±êº¯Êý£¬$F(x)$ÔòÊÇÏàÓ¦µÄÄ¿±êº¯ÊýÏòÁ¿¡£
 
-ÔÚ¶àÄ¿±êÓÅ»¯ÎÊÌâÖÐ£¬¶à¸öÄ¿±êÏà»¥Ö®¼äÍùÍùÊÇ³åÍ»µÄ£¬´Ó¶øµ¼ÖÂÎÞ·¨ÔÚÂú×ãËùÓÐÔ¼ÊøÌõ¼þÏÂÊ¹µÃËùÓÐÄ¿±êº¯Êý¶¼ÄÜ¹»´ïµ½È«¾Ö×îÓÅ½â£¬µ«ÊÇ´æÔÚÒ»×éPareto×îÓÅ½â~\cite{moead}¡£ ¶ÔÓÚ´Ë£¬×ö³öÒÔÏÂ¶¨Òå£ºÁî$a,b\in{R^n}$£¬µ±$a_i\le{b_i}\land{a\neq{b}}$£¬ÇÒ$i=1,\cdots,n$£¬Ôò³Æ$a$ Ö§Åä$b$¡£ÏòÁ¿$x^*\in\Omega$¼´ÊÇ~\ref{mop}\emph{Pareto×îÓÅ½â},Èç¹û²»´æÔÚ$x\in\Omega$Ê¹µÃ$F(X)$ Ö§Åä$F(x^*)$¡£$F(x^*)$±»³ÆÎªPareto×îÓÅÄ¿±êÏòÁ¿¡£ËùÓÐµÄPareto ×îÓÅ½âµÄ¼¯ºÏ¾ÍÊÇPareto×îÓÅ½â¼¯£¨PS£©£¬¶ÔÓ¦µÄ×îÓÅÏòÁ¿µÄ¼¯ºÏÔò³ÉÎªParetoÇ°¶Ë£¨PF£©¡£
+ÔÚ¶àÄ¿±êÓÅ»¯ÎÊÌâÖÐ£¬¶à¸öÄ¿±êÏà»¥Ö®¼äÍùÍùÊÇ³åÍ»µÄ£¬´Ó¶øµ¼ÖÂÎÞ·¨ÔÚÂú×ãËùÓÐÔ¼ÊøÌõ¼þÏÂÊ¹µÃËùÓÐÄ¿±êº¯Êý¶¼ÄÜ¹»´ïµ½È«¾Ö×îÓÅ½â£¬µ«ÊÇ´æÔÚÒ»×éPareto×îÓÅ½â~\cite{moead}¡£ ¶ÔÓÚ´Ë£¬×ö³öÒÔÏÂ¶¨Òå£ºÁî$a,b\in{R^n}$£¬µ±$a_i\le{b_i}\land{a\neq{b}}$£¬ÇÒ$i=1,\cdots,n$£¬Ôò³Æ$a$ Ö§Åä$b$¡£ÏòÁ¿$x^*\in\Omega$ ¼´ÊÇ¹«Ê½~\ref{mop}\emph{Pareto×îÓÅ½â}£¬Èç¹û²»´æÔÚ$x\in\Omega$Ê¹µÃ$F(X)$ Ö§Åä$F(x^*)$¡£$F(x^*)$±»³ÆÎªPareto×îÓÅÄ¿±êÏòÁ¿¡£ËùÓÐµÄPareto ×îÓÅ½âµÄ¼¯ºÏ¾ÍÊÇPareto×îÓÅ½â¼¯£¨PS£©£¬¶ÔÓ¦µÄ×îÓÅÏòÁ¿µÄ¼¯ºÏÔò³ÉÎªParetoÇ°¶Ë£¨PF£©¡£
 
 \subsection{µ¥Ä¿±êÓÅ»¯ÎÊÌâ}
 µ¥Ä¿±êÓÅ»¯ÎÊÌâ»ù´¡³öÏÖÔÚ¿ÆÑ§ºÍ¹¤³ÌÓ¦ÓÃµÄ¸÷¸öÁìÓòÖÐ¡£µ¥Ä¿±êÓÅ»¯ÎÊÌâµÄÄ¿±êº¯ÊýÒ»°ãÊÇ·ÇÍ¹º¯Êý²¢ÇÒÔÚ¿ÉÐÐÇøÓòÄÚ¾ßÓÐºÜ¶àµÄ¾Ö²¿¼«Ð¡Öµ»òÕß¼«´óÖµ¡£±¾ÎÄÑÐ¾¿µÄµ¥Ä¿±êÓÅ»¯ÎÊÌâÕë¶ÔµÄÊÇÁ¬Ðø¿Õ¼äµÄÈ«¾ÖÓÅ»¯ÎÊÌâ£¬Ò»°ã¼´ÊÇÇóÄ¿±êº¯ÊýµÄ×îÐ¡Öµ»òÕß×î´óÖµ¡£È«¾ÖÓÅ»¯ÎÊÌâÊÇÓ¦ÓÃÊýÑ§ºÍÊýÖµ·ÖÎöµÄÒ»¸ö·ÖÖ§£¬ÓÃÓÚ½â¾öÔÚÒ»¶¨Ìõ¼þÏÂÇóµÃÒ»¸ö»òÕßÒ»×éº¯ÊýµÄ×îÓÅ½â~\cite{global2000}¡£ Í¬Ñù£¬¶ÔÓÚÈ«¾ÖÓÅ»¯ÎÊÌâÔÚ±¾ÎÄÖÐ×ö³öÒÔÏÂ¶¨Òå£º
@@ -705,7 +706,7 @@ $d_{i,G}=X_{{r^i}_2,G}-X_{{r^i}_3,G}$£¬$\delta$±íÊ¾Ò»¸ö³ß¶È²ÎÊý$t$Îª1µÄ¿ÂÎ÷Ëæ»ú±
 
 StornÊ×´Î½«²î·Ö½ø»¯¼ÓÒÔÍØÕ¹ÓÃÀ´´¦Àí·ÇµÈÊ½Ô¼ÊøÓÅ»¯ÎÊÌâ£¬ËûÌá³öÁËÒ»ÖÖ¶à³É·Ö²î·Ö½ø»¯Ëã·¨CADE~\cite{cade1999}¶ÔÃ¿Ò»¸ö¸öÌå²úÉú$M$¸ö¶ù×Ó£¬½Ó×ÅÔÚ$M+1$¸ö¸öÌåÖÐÖ»»áÓÐÒ»¸ö¸öÌå»á´æ»îµ½ÏÂÒ»´ú¡£ZhangµÈÈË½«¶¯Ì¬Ëæ»ú·Ö¼¶ºÍ¶à³É·Ö²î·Ö½ø»¯¿ò¼ÜÏà½áºÏ~\cite{dezhang2008}£¬Õâ¸öËã·¨ÔÚCEC 2006 µÄÔ¼ÊøÓÅ»¯ÖÐµÄ22¸ö²âÊÔ¼¯ÉÏ¶¼È¡µÃÁËºÃµÄ±íÏÖ¡£
 
-LampinenÍ¨¹ýÊ¹ÓÃÔÚÔ¼Êø¿Õ¼äÖÐµÄÅÁÀÛÍÐÓÅÊÆÀ´½«²î·Ö½ø»¯´¦ÀíÔ¼ÊøÎÊÌâ~\cite{cde2002}¡£Kukkonen ºÍLampinenÌá³öÒ»ÖÖ¹ãÒå»ùÓÚ²î·Ö½ø»¯µÄËã·¨À´½â¾ö¶àÄ¿±êÔ¼ÊøÓÅ»¯ÎÊÌâ~\cite{cde2006}¡£ÁíÍâÒ»Ð©ÑÐ¾¿ÕßÒ²½«²î·Ö½ø»¯ÖÐµÄ²ÎÊý¿ØÖÆ×÷ÎªÔ¼ÊøÓÅ»¯¡£BrestµÈÈËÌá³öÒ»ÖÖ¶ÔÓÚ²î·Ö½ø»¯ÖÐ½»²æºÍ±äÒìËã×ÓµÄ²ÎÊýµÄ×ÔÊÊÓ¦²ÎÊý¿ØÖÆ~\cite{controlde2006}¡£
+LampinenÍ¨¹ýÊ¹ÓÃÔÚÔ¼Êø¿Õ¼äÖÐµÄÅÁÀÛÍÐÓÅÊÆÀ´½«²î·Ö½ø»¯´¦ÀíÔ¼ÊøÎÊÌâ~\cite{cde2002}¡£Kukkonen ºÍLampinenÌá³öÒ»ÖÖ¹ãÒå»ùÓÚ²î·Ö½ø»¯µÄËã·¨À´½â¾ö¶àÄ¿±êÔ¼ÊøÓÅ»¯ÎÊÌâ~\cite{cde2006}¡£ÁíÍâÒ»Ð©ÑÐ¾¿ÕßÒ²½«²î·Ö½ø»¯ÖÐµÄ²ÎÊý¿ØÖÆ×÷ÎªÔ¼ÊøÓÅ»¯¡£BrestµÈÈËÌá³öÒ»ÖÖ¶ÔÓÚ²î·Ö½ø»¯ÖÐ½»²æºÍ±äÒìËã×ÓµÄ²ÎÊýµÄ×ÔÊÊÓ¦²ÎÊý¿ØÖÆ¡£%~\cite{controlde2006}
 
 {\bf Õë¶Ô¶àÄ¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯Ëã·¨£º}µÃÒæÓÚ²î·Ö½ø»¯µÄ¼òµ¥µ«È´Ç¿´óµÄÌØµã£¬²î·Ö½ø»¯Í¬Ê±Ò²µÃµ½ÁË¶àÄ¿±êÑÐ¾¿Ñ§ÕßµÄ¹ã·º¹Ø×¢¡£ ChangµÈÈËµÚÒ»´Î½«²î·Ö½ø»¯ÍØÕ¹ÓÃÓÚ½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ~\cite{demo1999}¡£AbbasºÍSarkarÌá³öÁËÅÁÀÛÍÐ²î·Ö½ø»¯Ëã·¨£¨PDE£©Í¨¹ýÁ¬Ðø±äÁ¿À´½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ~\cite{pde2002}£¬²¢ÇÒÕâ¸öËã·¨ÔÚºÍÆäËü¶àÄ¿±êÓÅ»¯Ëã·¨Ïà±È¾ßÓÐºÜ´óµÄ¾ºÕùÁ¦¡£KukkonenºÍLampinenÍ¨¹ý½«DE/rand/a/bin½øÐÐÍØÕ¹ÓÃÓÚ½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ£¬Ìá³ö¹ãÒå²î·Ö½ø»¯£¨GDE£©~\cite{gde2004}¡£½Ó×Å£¬ËûÃÇÒ²Ìá³öÁËÒ»ÏµÁÐµÄ¸Ä½øËã·¨¡£XueµÈÈËÌá³öÁËÒ»¸ö¶àÄ¿±ê²î·Ö½ø»¯~\cite{mode2005}£¨MODE£©£¬ÀûÓÃ×îºÃµÄ¸öÌåÀ´²úÉúºó´ú¡£Í¨¹ý»ùÓÚParetoµÄ·½·¨À´ÌôÑ¡×îºÃµÄ¸öÌå¡£Í¬Ê±£¬»¹Ê¹ÓÃÁË$(\mu+\lambda)$Ñ¡ÔñËã×Ó£¬Pareto ·Ö¼¶ÒÔ¼°¾Û¼¯¾àÀëÀ´²úÉúÐÂ½â²¢Î¬³ÖÆäÁ¼ºÃµÄ·Ö²¼¡£RobicºÍFilipicÌá³öÁËÒ»ÖÖÁíÍâÒ»ÖÖ¶ÔÓÚ¶àÄ¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯DEMO~\cite{demo2005}£¬Õâ¸öËã·¨½áºÏ²î·Ö½ø»¯µÄÓÅµãÒÔ¼°»ùÓÚPareto·Ö¼¶ºÍ¾Û¼¯¾àÀëÅÅÐòµÄ»úÖÆ¡£DEMO½öÎ¬³ÖÒ»¸öÖÖÈº²¢ÇÒµ±²úÉúÐÂ½âµÄÊ±ºòÕâ¸öÖÖÈº»á±»½øÐÐÍØÕ¹¡£ÕâÄÜ¹»È·±£ÖÖÈºÏòPareto front ¿ìËÙÊÕÁ²£¬È»¶ø·ÇÁÓÅÅÐòºÍ¾Û¼¯¾àÀëµÄÊ¹ÓÃÔì³ÉÁË½â¼¯µÄ¾ùÔÈÀ©Èö¡£IorioµÈÈËÌá³ö·ÇÁÓÅÅÐò²î·Ö½ø»¯Ëã·¨£¨NSDE£©~\cite{nsde2004}£¬Õâ¸öËã·¨ÊÇ»ùÓÚNSGA-II×ö³öÁËÒ»Ð©¸Ä¶¯¡£ÕâÁ½¸öËã·¨µÄÖ÷ÒªÇø±ðÊ±²úÉúÐÂµÄ¸öÌåµÄ·½Ê½¡£NSGA-IIÊ¹ÓÃÊµÊý±àÂë½»²æËã×ÓºÍ±äÒìËã×Ó£¬¶øNSDEÔòÊÇÊ¹ÓÃ²î·Ö½ø»¯ÖÐµÄ½»²æËã×ÓºÍ±äÒìËã×Ó¡£NSDEÔÚ½â¾öÐý×ªµÄ¶àÄ¿±êÓÅ»¯ÎÊÌâÉÏÒªÓÅÓÚNSGA-II¡£
 
@@ -1318,14 +1319,14 @@ DE/EDAÊÇÒ»ÖÖ¶ÔÓÚÈ«¾ÖÓÅ»¯µÄ¾ßÓÐºÜ´óÇ±Á¦µÄ·½·¨£¬Ëü½áºÏÁË·Ö²¼¹À¼ÆËã·¨µÄÈ«¾Ö½¨Ä£ÐÅÏ¢
 \item ¶ÔÓÚDE/DEAËã·¨¿ò¼ÜÖÐ£¬DEºÍEDA×ÊÔ´µÄ·ÖÅäÊÇÒ»¸öÓÐÒâË¼µÄ»°Ìâ£¬ÖµµÃ½øÒ»²½µØÌ½Ë÷ÑÐ¾¿¡£
 \end{itemize}
 
-\newpage
 
-\renewcommand{\refname}{\hei ²Î¿¼ÎÄÏ×}
+
+%\renewcommand{\refname}{\hei ²Î¿¼ÎÄÏ×}
+\newpage
 \bibliography{gecco2016}
+\end{CJK*}
 
-\newpage
-
-
+\begin{CJK*}{GBK}{song}\newpage
 \hspace*{\fill}\mbox{\Large\textbf{ÖÂ\quad\,Ð»}}\hspace*{\fill}
 
 °×¾Ô¹ýÏ¶£¬ÈýÄêµÄÑÐ¾¿ÉúµÄÑ§Ï°Éú»î×ªÑÛÀ´µ½ÁËÎ²Éù¡£ÏëÆðµ±³õµÄÊÂÇé£¬ÒÀÈ»¶¼ÀúÀúÔÚÄ¿¡£»ØÏëÕâÈýÄêµÄµãµãµÎµÎ£¬²»½û¸Ð¿®ÍòÇ§£¬¼ÈÓÐÀáË®£¬Ò²ÓÐº¹Ë®£¬µ±È»Ò²ÓÐ¸ü¶àµÄÊÕ»ñ¡£ÔÚÕâÈýÄêµÄÑÐ¾¿ÉúÉúÑÄÖ®ÖÐ£¬×Ô¼ºÊÕ»ñÁËºÜ¶à£¬µÃµ½ÁË³É³¤£¬½áÊ¶ÁËºÜ¶àµÄºÃÅóÓÑ£¬µÃµ½ÁËÀÏÊ¦ÃÇµÄ°ïÖú£¬Ê¹µÃÎÒ×îÖÕÄÜ¹»Ë³ÀûµØÍê³ÉÑ§Òµ¡£
