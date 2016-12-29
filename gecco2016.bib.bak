@@ -96,7 +96,7 @@
 @Article{das2009,
   Title                    = {Differential evolution using a neighborhood-based mutation operator},
   Author                   = {Das, Swagatam and Abraham, Ajith and Chakraborty, Uday K and Konar, Amit},
-  Journal                  = {Evolutionary Computation, IEEE Transactions on},
+  Journal                  = {IEEE Transactions on Evolutionary Computation},
   Year                     = {2009},
   Number                   = {3},
   Pages                    = {526--553},
@@ -132,7 +132,7 @@
 @Article{des2011,
   Title                    = {Differential evolution: a survey of the state-of-the-art},
   Author                   = {Das, Swagatam and Suganthan, Ponnuthurai Nagaratnam},
-  Journal                  = {Evolutionary Computation, IEEE Transactions on},
+  Journal                  = {IEEE Transactions on Evolutionary Computation},
   Year                     = {2011},
   Number                   = {1},
   Pages                    = {4--31},
@@ -145,7 +145,7 @@
 @Article{nsga-ii,
   Title                    = {A fast and elitist multiobjective genetic algorithm:{ NSGA-II}},
   Author                   = {Deb, Kalyanmoy and Pratap, Amrit and Agarwal, Sameer and Meyarivan, TAMT},
-  Journal                  = {Evolutionary Computation, IEEE Transactions on},
+  Journal                  = {IEEE Transactions on Evolutionary Computation},
   Year                     = {2002},
   Number                   = {2},
   Pages                    = {182--197},
@@ -189,7 +189,7 @@
 @Article{DE-EIG,
   Title                    = {Enhancing differential evolution utilizing eigenvector-based crossover operator},
   Author                   = {Guo, Shu-Mei and Yang, Chin-Chang},
-  Journal                  = {Evolutionary Computation, IEEE Transactions on},
+  Journal                  = {IEEE Transactions on Evolutionary Computation},
   Year                     = {2015},
   Number                   = {1},
   Pages                    = {31--49},
@@ -282,7 +282,7 @@
 @Article{powell1998,
   Title                    = {Nonlinear numerical optimization with use of a hybrid Genetic Algorithm incorporating the Modified Powell method},
   Author                   = {Okamoto, Masahiro and Nonaka, Taisuke and Ochiai, Shuichiro and Tominaga, Daisuke},
-  Journal                  = {Applied Mathematics \& Computation},
+  Journal                  = {Applied Mathematics {and} Computation},
   Year                     = {1998},
   Number                   = {1},
   Pages                    = {63-72},
@@ -308,7 +308,7 @@
 @Article{desa2009,
   Title                    = {Differential evolution algorithm with strategy adaptation for global numerical optimization},
   Author                   = {Qin, A Kai and Huang, Vicky Ling and Suganthan, Ponnuthurai N},
-  Journal                  = {IEEE transactions on Evolutionary Computation},
+  Journal                  = {IEEE Transactions on Evolutionary Computation},
   Year                     = {2009},
 
   Owner                    = {neal},
@@ -318,7 +318,7 @@
 @Article{ODE,
   Title                    = {Opposition-based differential evolution},
   Author                   = {Rahnamayan, Shahryar and Tizhoosh, Hamid R and Salama, Magdy},
-  Journal                  = {Evolutionary Computation, IEEE Transactions on},
+  Journal                  = {IEEE Transactions on Evolutionary Computation},
   Year                     = {2008},
   Number                   = {1},
   Pages                    = {64--79},
@@ -331,7 +331,7 @@
 @Article{ode2008,
   Title                    = {Opposition-based differential evolution},
   Author                   = {Rahnamayan, Shahryar and Tizhoosh, Hamid R and Salama, Magdy},
-  Journal                  = {Evolutionary Computation, IEEE Transactions on},
+  Journal                  = {IEEE Transactions on Evolutionary Computation},
   Year                     = {2008},
   Number                   = {1},
   Pages                    = {64--79},
@@ -357,7 +357,7 @@
 @Book{eo1995,
   Title                    = {Evolution and Optimum Seeking: The Sixth Generation},
   Author                   = {Schwefel, Hans Paul Paul},
-  Publisher                = {John Wiley \& Sons, Inc.},
+  Publisher                = {John Wiley and Sons, Inc.},
   Year                     = {1995},
 
   Owner                    = {neal},
@@ -380,7 +380,7 @@
 @Book{ea2013,
   Title                    = {Evolutionary optimization algorithms},
   Author                   = {Simon, Dan},
-  Publisher                = {John Wiley \& Sons},
+  Publisher                = {John Wiley and Sons},
   Year                     = {2013},
 
   Owner                    = {neal},
@@ -582,7 +582,7 @@
 @Book{eda2006,
   Title                    = {Towards a new evolutionary computation: advances on estimation of distribution algorithms},
   Author                   = {Lozano, Jose A},
-  Publisher                = {Springer Science \& Business Media},
+  Publisher                = {Springer Science and Business Media},
   Year                     = {2006},
   Volume                   = {192},
 
@@ -732,7 +732,7 @@
   author={Deb, Kalyanmoy},
   volume={16},
   year={2001},
-  publisher={John Wiley \& Sons}
+  publisher={John Wiley and Sons}
 }
 
 @inproceedings{bmoa2002,
@@ -792,7 +792,7 @@
   title={Differential evolution: a practical approach to global optimization},
   author={Price, Kenneth and Storn, Rainer M and Lampinen, Jouni A},
   year={2006},
-  publisher={Springer Science \& Business Media}
+  publisher={Springer Science and Business Media}
 }
 
 @article{nde2009,
@@ -826,7 +826,7 @@
 }
 
 @inproceedings{depso2003,
-  title={DEPSO: hybrid particle swarm with differential evolution operator},
+  title={{DEPSO}: hybrid particle swarm with differential evolution operator},
   author={Zhang, Wen-Jun and Xie, Xiao-Feng and others},
   booktitle={IEEE International Conference on Systems Man and Cybernetics},
   volume={4},
@@ -865,7 +865,7 @@
 @article{als2008,
   title={Accelerating differential evolution using an adaptive local search},
   author={Noman, Nasimul and Iba, Hitoshi},
-  journal={IEEE Transactions on evolutionary Computation},
+  journal={IEEE Transactions on Evolutionary Computation},
   volume={12},
   number={1},
   pages={107--125},
