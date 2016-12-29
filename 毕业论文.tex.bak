@@ -61,7 +61,7 @@
 \newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}
 \newcommand{\xiaosihao}{\fontsize{12pt}{14pt}\selectfont}
 \newcommand{\wuhao}{\fontsize{10.5pt}{12.6pt}\selectfont}
-\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+%\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
 
 \newcommand{\R}{\ensuremath{\mathbb{R}}}
 \newcommand{\N}{\ensuremath{\mathbb{N}}}
@@ -377,9 +377,12 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 \textbf{\large{致\quad 谢}$\dotfill 46$}\par
 
 \newpage
-\pagenumbering{arabic} \pagestyle{fancy}
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE]{\leftmark}
 \lhead{\bf\song 华东师范大学硕士论文}
-\rhead{\song\leftmark} \cfoot{\thepage}
+\rhead{\song\rightmark} \cfoot{\thepage}
 
 \section{绪论}
 
@@ -409,17 +412,15 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 论文内容安排如下：
 
-第一章 ~~~绪论，介绍演化算法以及本文的研究目的和论文安排。
+第一章 ~~~绪论，介绍演化算法以及本文的研究目的和论文内容安排。
 
-第二章 ~~~理论基础，介绍分布估计算法和差分进化的基本概念以及相应的算法框架。
+第二章 ~~~研究背景，介绍了演化算法中多目标优化和单目标优化问题，并且介绍了分布估计算法和差分进化的相关概念和当前的研究现状。
 
-第三章 ~~~提出基于差分进化的采样策略以及相应的算法框架。
+第三章 ~~~对于连续多目标优化问题的研究，提出一种基于差分进化的采样策略，通过这种新型的采样策略去改进RM-MEDA的采样环节，具体描述了相关的研究背景和算法框架和具体实现。最后，通过综合的实验对比来分析基于差分进化的采样策略的重要意义。
 
-第四章 ~~~将基于差分进化的采样策略应用到多目标优化问题上面，并给出相应的算法框架和实验结果分析。
+第四章 ~~~对于全局单目标优化问题的研究，基于DE/EDA算法框架，引进基于特征向量的差分进化算法，并且通过结合expensive LS来进一步提高算法性能，最终提出基于差分进化采样策略的单目标分布估计算法EDA/DE-EIG。通过和JADE，DE/EDA的综合实验分析对比，可以对于基于差分进化的采样策略在解决单目标优化问题的作用和意义。
 
-第四章 ~~~将基于差分进化的采样策略应用到单目标优化问题上，并给出相应的算法框架和试验结果分析。
-
-第五章 ~~~论文总结和展望。
+第五章 ~~~对本文进行全面地总结，并且根据目前工作的不足之处提出未来的展望。
 
 \newpage
 \section{研究背景}
@@ -1318,14 +1319,14 @@ DE/EDA是一种对于全局优化的具有很大潜力的方法，它结合了分布估计算法的全局建模信息
 \item 对于DE/DEA算法框架中，DE和EDA资源的分配是一个有意思的话题，值得进一步地探索研究。
 \end{itemize}
 
-\newpage
 
-\renewcommand{\refname}{\hei 参考文献}
+
+%\renewcommand{\refname}{\hei 参考文献}
+\newpage
 \bibliography{gecco2016}
+\end{CJK*}
 
-\newpage
-
-
+\begin{CJK*}{GBK}{song}\newpage
 \hspace*{\fill}\mbox{\Large\textbf{致\quad\,谢}}\hspace*{\fill}
 
 白驹过隙，三年的研究生的学习生活转眼来到了尾声。想起当初的事情，依然都历历在目。回想这三年的点点滴滴，不禁感慨万千，既有泪水，也有汗水，当然也有更多的收获。在这三年的研究生生涯之中，自己收获了很多，得到了成长，结识了很多的好朋友，得到了老师们的帮助，使得我最终能够顺利地完成学业。
@@ -1349,7 +1350,5 @@ DE/EDA是一种对于全局优化的具有很大潜力的方法，它结合了分布估计算法的全局建模信息
 
 
 \end{CJK*}
-
-\clearpage
 
 \end{document}
