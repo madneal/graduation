@@ -1,15 +1,16 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  29 DEC 2016 20:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  30 DEC 2016 08:32
 entering extended mode
-**C:/Users/neal1/project/graduation/毕业论文.tex
-(C:/Users/neal1/project/graduation/毕业论文.tex
+**G:/project/graduation/毕业论文.tex
+(G:/project/graduation/毕业论文.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(C:\CTEX\CTeX\tex\ty\tdw.tex
+("F:\Program Files\CTEX\CTeX\tex\ty\tdw.tex"
 \microdimen=\dimen102
 \lengthunit=\dimen103
-) (C:\CTEX\MiKTeX\tex\latex\base\article.cls
+)
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(C:\CTEX\MiKTeX\tex\latex\base\size12.clo
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\size12.clo"
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,55 +25,56 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen104
 )
-(C:\CTEX\MiKTeX\tex\latex\cjk\CJK.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\CJK.sty"
 Package: CJK 2008/12/29 4.8.2
 
-(C:\CTEX\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\mule\MULEenc.sty"
 Package: MULEenc 2008/12/29 4.8.2
 )
-(C:\CTEX\MiKTeX\tex\latex\cjk\CJK.enc
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\CJK.enc"
 File: CJK.enc 2008/12/29 4.8.2
 )
 LaTeX Info: Redefining \selectfont on input line 756.
 \CJK@indent=\box26
 )
-(C:\CTEX\MiKTeX\tex\latex\cjk\CJKnumb.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\CJKnumb.sty"
 Package: CJKnumb 2008/12/29 4.8.2
 \CJK@q=\count87
 \CJK@r=\count88
 )
-(C:\CTEX\MiKTeX\tex\latex\bbm\bbm.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\bbm\bbm.sty"
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
-) (C:\CTEX\MiKTeX\tex\latex\tipa\tipa.sty
+)
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tipa\tipa.sty"
 Package: tipa 2002/08/08 TIPA version 1.1
 
-(C:\CTEX\MiKTeX\tex\latex\base\fontenc.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(C:\CTEX\MiKTeX\tex\latex\tipa\t3enc.def
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tipa\t3enc.def"
 File: t3enc.def 2001/12/31 T3 encoding
 )
-(C:\CTEX\MiKTeX\tex\latex\base\ot1enc.def
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\ot1enc.def"
 File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding OT1 on input line 43.
 )))
-(C:\CTEX\MiKTeX\tex\latex\stmaryrd\stmaryrd.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\stmaryrd\stmaryrd.sty"
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
-(C:\CTEX\MiKTeX\tex\latex\base\latexsym.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(C:\CTEX\MiKTeX\tex\latex\tools\bm.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tools\bm.sty"
 Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -81,7 +83,7 @@ Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
 LaTeX Info: Redefining \bm on input line 204.
 )
-(C:\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup10
@@ -89,65 +91,66 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
-(C:\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2009/06/22 v3.00
 LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 39.
 )
-(C:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(C:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+("F:\Program Files\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: dvips.def on input line 91.
 
-(C:\CTEX\MiKTeX\tex\latex\graphics\dvips.def
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\dvips.def"
 File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(C:\CTEX\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\jknappen\mathrsfs.sty"
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup12
 )
-(C:\CTEX\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
-(C:\CTEX\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
-(C:\CTEX\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex"
 \pgfutil@everybye=\toks15
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def"
 \pgfutil@abb=\box27
 
-(C:\CTEX\MiKTeX\tex\latex\ms\everyshi.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex"
 Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
 ))
 Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
-(C:\CTEX\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
-(C:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
 )
-(C:\CTEX\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex"
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.t
+ex"
 \pgfkeys@tmptoks=\toks19
 ))
 \pgf@x=\dimen107
@@ -164,42 +167,43 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \c@pgf@countb=\count90
 \c@pgf@countc=\count91
 \c@pgf@countd=\count92
-
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+ ("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Package pgfsys Info: Driver file for pgf: pgfsys-dvips.def on input line 900.
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-dvips.def
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-dvips.def"
 File: pgfsys-dvips.def 2008/04/03  (rcs-revision 1.20)
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-postscript.def
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-postsc
+ript.def"
 File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
 \pgf@objectcount=\count93
 )))
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.
+tex"
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
 \pgfsyssoftpath@smallbuffer@items=\count94
 \pgfsyssoftpath@bigbuffer@items=\count95
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.
+tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-(C:\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty
+)) ("F:\Program Files\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(C:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+("F:\Program Files\CTEX\MiKTeX\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(C:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count96
@@ -213,13 +217,13 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen115
 \pgfmath@count=\count97
 \pgfmath@box=\box28
@@ -227,18 +231,26 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks21
 \pgfmath@stack@operation=\toks22
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)))
-(C:\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code
+.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonomet
+ric.code.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.cod
+e.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison
+.code.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.
+tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code
+.tex")
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.
+tex")))
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count98
 ))
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.te
+x"
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@picminx=\dimen116
 \pgf@picmaxx=\dimen117
@@ -255,95 +267,114 @@ File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@zx=\dimen128
 \pgf@zy=\dimen129
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.
+code.tex"
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
 \pgf@path@lastx=\dimen130
 \pgf@path@lasty=\dimen131
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code
+.tex"
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 \pgf@shorten@end@additional=\dimen132
 \pgf@shorten@start@additional=\dimen133
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.te
+x"
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box29
 \pgf@hbox=\box30
 \pgf@layerbox@main=\box31
 \pgf@picture@serial@count=\count99
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.c
+ode.tex"
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
 \pgflinewidth=\dimen134
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformation
+s.code.tex"
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
 \pgf@pt@x=\dimen135
 \pgf@pt@y=\dimen136
 \pgf@pt@temp=\dimen137
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.t
+ex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing
+.code.tex"
 File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.te
+x"
 File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+"
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen138
 \pgf@sys@shading@range@num=\count100
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+"
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.
+tex"
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
 \pgfexternal@startupbox=\box32
 ))
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.te
+x"
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.c
+ode.tex"
 File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
 )
-(C:\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.
+tex"
 File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
-(C:\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+"
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
 \pgfnodeparttextbox=\box33
-)
-(C:\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+) ("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+"
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
-(C:\CTEX\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65
+.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen139
 \pgf@nodesepend=\dimen140
 )
-(C:\CTEX\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18
+.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
-))
-(C:\CTEX\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
-(C:\CTEX\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex))
-(C:\CTEX\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+)) ("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\utilities\pgffor.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty"
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen141
 \pgffor@skip=\dimen142
 \pgffor@stack=\toks23
 \pgffor@toks=\toks24
 ))
-(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+"
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers
+.code.tex"
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count101
 \pgfplotmarksize=\dimen143
@@ -361,7 +392,8 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikznumberofcurrentchild=\count104
 \tikz@fig@count=\count105
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+"
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 \pgfmatrixcurrentrow=\count106
 \pgfmatrixcurrentcolumn=\count107
@@ -369,31 +401,32 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 )
 \tikz@expandcount=\count109
 
-(C:\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths
-.code.tex
+("F:\Program Files\CTEX\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tik
+zlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-))) (C:\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf.sty
+)))
+("F:\Program Files\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(C:\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(C:\CTEX\MiKTeX\tex\latex\oberdiek\grfext.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
 ))
-(C:\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\etexcmds.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\ifluatex.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -402,10 +435,10 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
 
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+("F:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -421,28 +454,28 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
-(C:\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(C:\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(C:\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(C:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks25
 \ex@=\dimen150
 ))
-(C:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 LaTeX Info: Redefining \boldsymbol on input line 54.
 \pmbraise@=\dimen151
 )
-(C:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count110
@@ -483,7 +516,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(C:\CTEX\MiKTeX\tex\latex\ams\classes\amsthm.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ams\classes\amsthm.sty"
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks30
 \thm@bodyfont=\toks31
@@ -495,10 +528,10 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip48
 \dth@everypar=\toks35
 )
-(C:\CTEX\MiKTeX\tex\latex\cases\cases.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cases\cases.sty"
 Package: cases 2002/05/02 ver 2.5 
 )
-(C:\CTEX\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip49
 \f@ncyO@elh=\skip50
 \f@ncyO@erh=\skip51
@@ -509,7 +542,7 @@ Package: cases 2002/05/02 ver 2.5
 \f@ncyO@olf=\skip56
 \f@ncyO@orf=\skip57
 )
-(C:\CTEX\MiKTeX\tex\latex\titlesec\titlesec.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box38
 \beforetitleunit=\skip58
@@ -521,7 +554,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen162
 \titlewidthfirst=\dimen163
 )
-(C:\CTEX\MiKTeX\tex\latex\float\float.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count122
 \float@exts=\toks37
@@ -529,7 +562,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks38
 \@floatcapt=\box40
 )
-(C:\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip60
 \subfigcapskip=\skip61
@@ -545,14 +578,14 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(C:\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg)
+("F:\Program Files\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg")
 \subfig@top=\skip64
 \subfig@bottom=\skip65
 )
-(C:\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen166
 )
-(C:\CTEX\MiKTeX\tex\latex\lineno\lineno.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\lineno\lineno.sty"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count127
 \output=\toks39
@@ -570,15 +603,15 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box41
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(C:\CTEX\MiKTeX\tex\latex\graphics\epsfig.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen172
 \epsfysize=\dimen173
 )
-(C:\CTEX\MiKTeX\tex\latex\caption\caption.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\caption\caption.sty"
 Package: caption 2011/11/10 v3.2e Customizing captions (AR)
 
-(C:\CTEX\MiKTeX\tex\latex\caption\caption3.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\caption\caption3.sty"
 Package: caption3 2011/11/01 v1.4a caption3 kernel (AR)
 \captionmargin=\dimen174
 \captionmargin@=\dimen175
@@ -591,30 +624,30 @@ Package: caption3 2011/11/01 v1.4a caption3 kernel (AR)
 Package caption Info: float package is loaded.
 Package caption Info: subfigure package is loaded.
 )
-(C:\CTEX\MiKTeX\tex\latex\base\fontenc.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(C:\CTEX\MiKTeX\tex\latex\base\t1enc.def
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(C:\CTEX\MiKTeX\tex\latex\tools\xspace.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tools\xspace.sty"
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-(C:\CTEX\MiKTeX\tex\latex\setspace\setspace.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\CTEX\MiKTeX\tex\latex\subeqnarray\subeqnarray.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\subeqnarray\subeqnarray.sty"
 Package: subeqnarray 2004/04/15 v2.1c subeqnarray package
 \c@subequation=\count135
 )
-(C:\CTEX\MiKTeX\tex\latex\extarrows\extarrows.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\extarrows\extarrows.sty"
 Package: extarrows 2008/05/15 v1.0b Some extensible arrows
 )
-(C:\CTEX\MiKTeX\tex\latex\dstroke\dsfont.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\dstroke\dsfont.sty"
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
-(C:\CTEX\MiKTeX\tex\latex\listings\listings.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\listings\listings.sty"
 \lst@mode=\count136
 \lst@gtempboxa=\box42
 \lst@token=\toks40
@@ -628,34 +661,34 @@ Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 \lst@lineno=\count141
 \lst@maxwidth=\dimen183
 
-(C:\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count142
 \lst@skipnumbers=\count143
 \lst@framebox=\box43
 )
-(C:\CTEX\MiKTeX\tex\latex\listings\listings.cfg
+("F:\Program Files\CTEX\MiKTeX\tex\latex\listings\listings.cfg"
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(C:\CTEX\MiKTeX\tex\latex\threeparttable\threeparttable.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\threeparttable\threeparttable.sty"
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box44
 )
-(C:\CTEX\MiKTeX\tex\latex\cite\cite.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
 )
-(C:\CTEX\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2008/00/00 v3.10 algorithms environments
 \c@AlgoLine=\count144
 
-(C:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\CTEX\MiKTeX\tex\latex\ltxmisc\relsize.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
 ********************************************************
@@ -695,10 +728,10 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count147
 \algocf@algoframe=\box50
 \algocf@algobox=\box51
-) (C:\CTEX\MiKTeX\tex\latex\colortbl\colortbl.sty
+) ("F:\Program Files\CTEX\MiKTeX\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
 
-(C:\CTEX\MiKTeX\tex\latex\tools\array.sty
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen190
 \extrarowheight=\dimen191
@@ -709,7 +742,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \everycr=\toks42
 \minrowclearance=\skip82
 )
-(C:\Users\neal1\project\graduation\毕业论文.aux)
+(G:\project\graduation\毕业论文.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
@@ -789,12 +822,13 @@ LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 120.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 120.
 
-(C:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
+("F:\Program Files\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 120.
- ABD: EveryShipout initializing macros
-(C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+
+ABD: EveryShipout initializing macros
+("F:\Program Files\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count148
 \scratchdimen=\dimen192
@@ -813,19 +847,19 @@ Package caption Info: listings package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count154
- (C:\CTEX\MiKTeX\tex\latex\cjk\standard.bdg
+ ("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\standard.bdg"
 File: standard.bdg 2008/12/29 4.8.2
 )
-(C:\CTEX\MiKTeX\tex\latex\cjk\extended.enc
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\extended.enc"
 File: extended.enc 2008/12/29 4.8.2
 )
-(C:\CTEX\MiKTeX\tex\latex\cjk\extended.chr
+("F:\Program Files\CTEX\MiKTeX\tex\latex\cjk\extended.chr"
 File: extended.chr 2008/12/29 4.8.2
 )
 LaTeX Font Info:    Try loading font information for C19+song on input line 122
 .
 
-(C:\CTEX\CTeX\tex\latex\CJK\GB\c19song.fd
+("F:\Program Files\CTEX\CTeX\tex\latex\CJK\GB\c19song.fd"
 File: c19song.fd 2009/09/23 4.8.2
 )
 \c@dingyi=\count155
@@ -835,10 +869,10 @@ File: c19song.fd 2009/09/23 4.8.2
 LaTeX Font Info:    Try loading font information for U+stmry on input line 142.
 
 
-(C:\CTEX\MiKTeX\tex\latex\stmaryrd\ustmry.fd)
+("F:\Program Files\CTEX\MiKTeX\tex\latex\stmaryrd\ustmry.fd")
 LaTeX Font Info:    Try loading font information for U+lasy on input line 142.
 
-(C:\CTEX\MiKTeX\tex\latex\base\ulasy.fd
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
@@ -846,17 +880,17 @@ LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 (Font)              using `U/stmry/m/n' instead on input line 142.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 142.
-(C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+("F:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 142.
 
-(C:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+("F:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 142.
 
-(C:\CTEX\MiKTeX\tex\latex\jknappen\ursfs.fd
+("F:\Program Files\CTEX\MiKTeX\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 <ecnu.png, id=1, 78.2925pt x 70.76437pt>
@@ -873,7 +907,8 @@ Package pdftex.def Info: ECNU_Name_black.png used on input line 150.
 (pdftex.def)             Requested size: 352.10284pt x 61.49368pt.
 LaTeX Font Info:    Try loading font information for C19+hei on input line 155.
 
- (C:\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd
+
+("F:\Program Files\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd"
 File: c19hei.fd 2009/09/23 4.8.2
 ) [1
 Non-PDF special ignored!
@@ -892,9 +927,9 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}
-{UGBK.sfd}} <C:/Users/neal1/project/graduation/ecnu.png> <C:/Users/neal1/projec
-t/graduation/ECNU_Name_black.png>]
+Non-PDF special ignored!{F:/Program Files/CTEX/UserData/pdftex/config/pdftex.ma
+p{Unicode.sfd}{UGBK.sfd}} <G:/project/graduation/ecnu.png> <G:/project/graduati
+on/ECNU_Name_black.png>]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <15.75> not available
 (Font)              size <14.4> substituted on input line 198.
@@ -1001,13 +1036,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1 <C:/Users/neal1/project/graduation/figs/ec.png>] [2] [3]
+[1 <G:/project/graduation/figs/ec.png>] [2] [3]
 <figs/car.png, id=113, 333.245pt x 288.07625pt>
 File: figs/car.png Graphic file (type png)
  <use figs/car.png>
 Package pdftex.def Info: figs/car.png used on input line 436.
 (pdftex.def)             Requested size: 234.73523pt x 202.92233pt.
- [4 <C:/Users/neal1/project/graduation/figs/car.png>] [5] [6]
+ [4 <G:/project/graduation/figs/car.png>] [5] [6]
 <figs/independent.png, id=133, 350.30875pt x 301.125pt>
 File: figs/independent.png Graphic file (type png)
 
@@ -1032,12 +1067,13 @@ File: figs/markov.png Graphic file (type png)
 <use figs/markov.png>
 Package pdftex.def Info: figs/markov.png used on input line 513.
 (pdftex.def)             Requested size: 187.78531pt x 161.46666pt.
- [7 <C:/Users/neal1/project/graduation/figs/independent.png> <C:/Users/neal1/pr
-oject/graduation/figs/ecga.png> <C:/Users/neal1/project/graduation/figs/bayesia
-n.png> <C:/Users/neal1/project/graduation/figs/markov.png>] [8] [9]
+ [7 <G:/project/graduation/figs/independent.png> <G:/project/graduation/figs/ec
+ga.png> <G:/project/graduation/figs/bayesian.png> <G:/project/graduation/figs/m
+arkov.png>] [8] [9]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 551.
 
- (C:\CTEX\MiKTeX\tex\latex\base\omscmr.fd
+
+("F:\Program Files\CTEX\MiKTeX\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -1063,14 +1099,14 @@ File: figs/figure/ps.png Graphic file (type png)
 <use figs/figure/ps.png>
 Package pdftex.def Info: figs/figure/ps.png used on input line 733.
 (pdftex.def)             Requested size: 234.73523pt x 128.58444pt.
- [17 <C:/Users/neal1/project/graduation/figs/figure/ps.png>] [18] <figs/lpca.pn
-g, id=194, 647.41875pt x 212.795pt>
+ [17 <G:/project/graduation/figs/figure/ps.png>]
+[18] <figs/lpca.png, id=194, 647.41875pt x 212.795pt>
 File: figs/lpca.png Graphic file (type png)
-
-<use figs/lpca.png>
+ <use figs/lpca.png>
 Package pdftex.def Info: figs/lpca.png used on input line 805.
 (pdftex.def)             Requested size: 375.57779pt x 123.44714pt.
- [19 <C:/Users/neal1/project/graduation/figs/lpca.png>]
+
+[19 <G:/project/graduation/figs/lpca.png>]
 <figs/figure/pareto.png, id=199, 688.5725pt x 377.41pt>
 File: figs/figure/pareto.png Graphic file (type png)
 
@@ -1084,20 +1120,20 @@ File: figs/figure/mutation.png Graphic file (type png)
 <use figs/figure/mutation.png>
 Package pdftex.def Info: figs/figure/mutation.png used on input line 836.
 (pdftex.def)             Requested size: 234.73523pt x 171.34665pt.
- [20 <C:/Users/neal1/project/graduation/figs/figure/pareto.png> <C:/Users/neal1
-/project/graduation/figs/figure/mutation.png>]
-[21]
+ [20 <G:/project/graduation/figs/figure/pareto.png> <G:/project/graduation/figs
+/figure/mutation.png>] [21]
 Package epstopdf Info: Source file: <figs/box/box_f1.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 12117 bytes
 (epstopdf)             Output file: <figs/box/box_f1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4421 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f1-eps-convert
 ed-to.pdf figs/box/box_f1.eps>
 (epstopdf)             \includegraphics on input line 928.
 Package epstopdf Info: Output file is already uptodate.
- <figs/box/box_f1-eps-converted-to.pdf, id=209, 490.83376pt x 387.4475pt>
+
+<figs/box/box_f1-eps-converted-to.pdf, id=209, 490.83376pt x 387.4475pt>
 File: figs/box/box_f1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f1-eps-converted-to.pdf>
@@ -1105,10 +1141,10 @@ Package pdftex.def Info: figs/box/box_f1-eps-converted-to.pdf used on input lin
 e 928.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f2.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 12322 bytes
 (epstopdf)             Output file: <figs/box/box_f2-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4482 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f2-eps-convert
 ed-to.pdf figs/box/box_f2.eps>
@@ -1123,10 +1159,10 @@ Package pdftex.def Info: figs/box/box_f2-eps-converted-to.pdf used on input lin
 e 929.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f3.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 12563 bytes
 (epstopdf)             Output file: <figs/box/box_f3-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4620 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f3-eps-convert
 ed-to.pdf figs/box/box_f3.eps>
@@ -1141,10 +1177,10 @@ Package pdftex.def Info: figs/box/box_f3-eps-converted-to.pdf used on input lin
 e 930.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f4.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 12137 bytes
 (epstopdf)             Output file: <figs/box/box_f4-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4472 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f4-eps-convert
 ed-to.pdf figs/box/box_f4.eps>
@@ -1159,10 +1195,10 @@ Package pdftex.def Info: figs/box/box_f4-eps-converted-to.pdf used on input lin
 e 931.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f5.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 12511 bytes
 (epstopdf)             Output file: <figs/box/box_f5-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4550 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f5-eps-convert
 ed-to.pdf figs/box/box_f5.eps>
@@ -1177,10 +1213,10 @@ Package pdftex.def Info: figs/box/box_f5-eps-converted-to.pdf used on input lin
 e 932.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f6.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 12651 bytes
 (epstopdf)             Output file: <figs/box/box_f6-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4665 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f6-eps-convert
 ed-to.pdf figs/box/box_f6.eps>
@@ -1195,10 +1231,10 @@ Package pdftex.def Info: figs/box/box_f6-eps-converted-to.pdf used on input lin
 e 933.
 (pdftex.def)             Requested size: 122.05974pt x 97.54742pt.
 Package epstopdf Info: Source file: <figs/box/box_f7.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 14146 bytes
 (epstopdf)             Output file: <figs/box/box_f7-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 5210 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f7-eps-convert
 ed-to.pdf figs/box/box_f7.eps>
@@ -1213,10 +1249,10 @@ Package pdftex.def Info: figs/box/box_f7-eps-converted-to.pdf used on input lin
 e 934.
 (pdftex.def)             Requested size: 122.05974pt x 97.54742pt.
 Package epstopdf Info: Source file: <figs/box/box_f8.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 12515 bytes
 (epstopdf)             Output file: <figs/box/box_f8-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4588 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f8-eps-convert
 ed-to.pdf figs/box/box_f8.eps>
@@ -1231,10 +1267,10 @@ Package pdftex.def Info: figs/box/box_f8-eps-converted-to.pdf used on input lin
 e 935.
 (pdftex.def)             Requested size: 122.05974pt x 95.37181pt.
 Package epstopdf Info: Source file: <figs/box/box_f9.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 14251 bytes
 (epstopdf)             Output file: <figs/box/box_f9-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 5174 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f9-eps-convert
 ed-to.pdf figs/box/box_f9.eps>
@@ -1249,10 +1285,10 @@ Package pdftex.def Info: figs/box/box_f9-eps-converted-to.pdf used on input lin
 e 936.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f10.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 13724 bytes
 (epstopdf)             Output file: <figs/box/box_f10-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 5101 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f10-eps-conver
 ted-to.pdf figs/box/box_f10.eps>
@@ -1266,21 +1302,19 @@ File: figs/box/box_f10-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/box/box_f10-eps-converted-to.pdf used on input li
 ne 937.
 (pdftex.def)             Requested size: 122.05974pt x 96.9444pt.
- [22] [23 <C:/Users/neal1/project/graduation/figs/box/box_f1-eps-converted-to.p
-df> <C:/Users/neal1/project/graduation/figs/box/box_f2-eps-converted-to.pdf> <C
-:/Users/neal1/project/graduation/figs/box/box_f3-eps-converted-to.pdf> <C:/User
-s/neal1/project/graduation/figs/box/box_f4-eps-converted-to.pdf> <C:/Users/neal
-1/project/graduation/figs/box/box_f5-eps-converted-to.pdf> <C:/Users/neal1/proj
-ect/graduation/figs/box/box_f6-eps-converted-to.pdf> <C:/Users/neal1/project/gr
-aduation/figs/box/box_f7-eps-converted-to.pdf> <C:/Users/neal1/project/graduati
-on/figs/box/box_f8-eps-converted-to.pdf> <C:/Users/neal1/project/graduation/fig
-s/box/box_f9-eps-converted-to.pdf> <C:/Users/neal1/project/graduation/figs/box/
-box_f10-eps-converted-to.pdf>]
+ [22] [23 <G:/project/graduation/figs/box/box_f1-eps-converted-to.pdf> <G:/proj
+ect/graduation/figs/box/box_f2-eps-converted-to.pdf> <G:/project/graduation/fig
+s/box/box_f3-eps-converted-to.pdf> <G:/project/graduation/figs/box/box_f4-eps-c
+onverted-to.pdf> <G:/project/graduation/figs/box/box_f5-eps-converted-to.pdf> <
+G:/project/graduation/figs/box/box_f6-eps-converted-to.pdf> <G:/project/graduat
+ion/figs/box/box_f7-eps-converted-to.pdf> <G:/project/graduation/figs/box/box_f
+8-eps-converted-to.pdf> <G:/project/graduation/figs/box/box_f9-eps-converted-to
+.pdf> <G:/project/graduation/figs/box/box_f10-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/figure/f1_f5.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 18068 bytes
 (epstopdf)             Output file: <figs/figure/f1_f5-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 5847 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/figure/f1_f5-eps-conve
 rted-to.pdf figs/figure/f1_f5.eps>
@@ -1295,10 +1329,10 @@ Package pdftex.def Info: figs/figure/f1_f5-eps-converted-to.pdf used on input l
 ine 950.
 (pdftex.def)             Requested size: 150.23398pt x 114.13339pt.
 Package epstopdf Info: Source file: <figs/figure/f6_f9.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 13313 bytes
 (epstopdf)             Output file: <figs/figure/f6_f9-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 5561 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/figure/f6_f9-eps-conve
 rted-to.pdf figs/figure/f6_f9.eps>
@@ -1313,10 +1347,10 @@ Package pdftex.def Info: figs/figure/f6_f9-eps-converted-to.pdf used on input l
 ine 951.
 (pdftex.def)             Requested size: 150.23398pt x 114.13339pt.
 Package epstopdf Info: Source file: <figs/figure/f10.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 10312 bytes
 (epstopdf)             Output file: <figs/figure/f10-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4510 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/figure/f10-eps-convert
 ed-to.pdf figs/figure/f10.eps>
@@ -1331,11 +1365,11 @@ Package pdftex.def Info: figs/figure/f10-eps-converted-to.pdf used on input lin
 e 952.
 (pdftex.def)             Requested size: 150.23398pt x 114.79381pt.
 Package epstopdf Info: Source file: <figs/figure/f_performance.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 13603 bytes
 (epstopdf)             Output file: <figs/figure/f_performance-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4796 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/figure/f_performance-e
 ps-converted-to.pdf figs/figure/f_performance.eps>
@@ -1349,18 +1383,18 @@ File: figs/figure/f_performance-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/figure/f_performance-eps-converted-to.pdf used on
  input line 968.
 (pdftex.def)             Requested size: 187.78531pt x 151.1532pt.
- [24 <C:/Users/neal1/project/graduation/figs/figure/f1_f5-eps-converted-to.pdf>
- <C:/Users/neal1/project/graduation/figs/figure/f6_f9-eps-converted-to.pdf> <C:
-/Users/neal1/project/graduation/figs/figure/f10-eps-converted-to.pdf>]
+ [24 <G:/project/graduation/figs/figure/f1_f5-eps-converted-to.pdf> <G:/project
+/graduation/figs/figure/f6_f9-eps-converted-to.pdf> <G:/project/graduation/figs
+/figure/f10-eps-converted-to.pdf>]
 Overfull \hbox (50.51172pt too wide) in paragraph at lines 985--1015
  [] 
  []
 
 Package epstopdf Info: Source file: <figs/igd/f1_igd.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 12591 bytes
 (epstopdf)             Output file: <figs/igd/f1_igd-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4931 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f1_igd-eps-convert
 ed-to.pdf figs/igd/f1_igd.eps>
@@ -1374,10 +1408,10 @@ Package pdftex.def Info: figs/igd/f1_igd-eps-converted-to.pdf used on input lin
 e 1020.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f2_igd.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 12584 bytes
 (epstopdf)             Output file: <figs/igd/f2_igd-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4960 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f2_igd-eps-convert
 ed-to.pdf figs/igd/f2_igd.eps>
@@ -1392,10 +1426,10 @@ Package pdftex.def Info: figs/igd/f2_igd-eps-converted-to.pdf used on input lin
 e 1021.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f3_igd.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 20887 bytes
 (epstopdf)             Output file: <figs/igd/f3_igd-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 14157 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f3_igd-eps-convert
 ed-to.pdf figs/igd/f3_igd.eps>
@@ -1410,10 +1444,10 @@ Package pdftex.def Info: figs/igd/f3_igd-eps-converted-to.pdf used on input lin
 e 1022.
 (pdftex.def)             Requested size: 122.05974pt x 98.08302pt.
 Package epstopdf Info: Source file: <figs/igd/f4_igd.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 13706 bytes
 (epstopdf)             Output file: <figs/igd/f4_igd-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 5856 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f4_igd-eps-convert
 ed-to.pdf figs/igd/f4_igd.eps>
@@ -1428,10 +1462,10 @@ Package pdftex.def Info: figs/igd/f4_igd-eps-converted-to.pdf used on input lin
 e 1023.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f5_igd.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 12583 bytes
 (epstopdf)             Output file: <figs/igd/f5_igd-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4969 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f5_igd-eps-convert
 ed-to.pdf figs/igd/f5_igd.eps>
@@ -1446,10 +1480,10 @@ Package pdftex.def Info: figs/igd/f5_igd-eps-converted-to.pdf used on input lin
 e 1024.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f6_igd.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 12603 bytes
 (epstopdf)             Output file: <figs/igd/f6_igd-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 4957 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f6_igd-eps-convert
 ed-to.pdf figs/igd/f6_igd.eps>
@@ -1464,10 +1498,10 @@ Package pdftex.def Info: figs/igd/f6_igd-eps-converted-to.pdf used on input lin
 e 1025.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f7_igd.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 18939 bytes
 (epstopdf)             Output file: <figs/igd/f7_igd-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 11950 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f7_igd-eps-convert
 ed-to.pdf figs/igd/f7_igd.eps>
@@ -1482,10 +1516,10 @@ Package pdftex.def Info: figs/igd/f7_igd-eps-converted-to.pdf used on input lin
 e 1026.
 (pdftex.def)             Requested size: 122.05974pt x 98.08302pt.
 Package epstopdf Info: Source file: <figs/igd/f8_igd.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 13669 bytes
 (epstopdf)             Output file: <figs/igd/f8_igd-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 5921 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f8_igd-eps-convert
 ed-to.pdf figs/igd/f8_igd.eps>
@@ -1500,10 +1534,10 @@ Package pdftex.def Info: figs/igd/f8_igd-eps-converted-to.pdf used on input lin
 e 1027.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f9_igd.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 21349 bytes
 (epstopdf)             Output file: <figs/igd/f9_igd-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 11533 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f9_igd-eps-convert
 ed-to.pdf figs/igd/f9_igd.eps>
@@ -1518,10 +1552,10 @@ Package pdftex.def Info: figs/igd/f9_igd-eps-converted-to.pdf used on input lin
 e 1028.
 (pdftex.def)             Requested size: 122.05974pt x 98.08302pt.
 Package epstopdf Info: Source file: <figs/igd/f10_igd.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 19356 bytes
 (epstopdf)             Output file: <figs/igd/f10_igd-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-01 08:48:35
 (epstopdf)                    size: 9010 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f10_igd-eps-conver
 ted-to.pdf figs/igd/f10_igd.eps>
@@ -1535,27 +1569,25 @@ File: figs/igd/f10_igd-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/igd/f10_igd-eps-converted-to.pdf used on input li
 ne 1029.
 (pdftex.def)             Requested size: 122.05974pt x 98.87529pt.
- [25 <C:/Users/neal1/project/graduation/figs/figure/f_performance-eps-converted
--to.pdf>] [26 <C:/Users/neal1/project/graduation/figs/igd/f1_igd-eps-converted-
-to.pdf> <C:/Users/neal1/project/graduation/figs/igd/f2_igd-eps-converted-to.pdf
-> <C:/Users/neal1/project/graduation/figs/igd/f3_igd-eps-converted-to.pdf> <C:/
-Users/neal1/project/graduation/figs/igd/f4_igd-eps-converted-to.pdf> <C:/Users/
-neal1/project/graduation/figs/igd/f5_igd-eps-converted-to.pdf> <C:/Users/neal1/
-project/graduation/figs/igd/f6_igd-eps-converted-to.pdf> <C:/Users/neal1/projec
-t/graduation/figs/igd/f7_igd-eps-converted-to.pdf> <C:/Users/neal1/project/grad
-uation/figs/igd/f8_igd-eps-converted-to.pdf> <C:/Users/neal1/project/graduation
-/figs/igd/f9_igd-eps-converted-to.pdf> <C:/Users/neal1/project/graduation/figs/
-igd/f10_igd-eps-converted-to.pdf>]
-[27] [28] [29] [30] [31] [32] [33]
+ [25 <G:/project/graduation/figs/figure/f_performance-eps-converted-to.pdf>] [2
+6 <G:/project/graduation/figs/igd/f1_igd-eps-converted-to.pdf> <G:/project/grad
+uation/figs/igd/f2_igd-eps-converted-to.pdf> <G:/project/graduation/figs/igd/f3
+_igd-eps-converted-to.pdf> <G:/project/graduation/figs/igd/f4_igd-eps-converted
+-to.pdf> <G:/project/graduation/figs/igd/f5_igd-eps-converted-to.pdf> <G:/proje
+ct/graduation/figs/igd/f6_igd-eps-converted-to.pdf> <G:/project/graduation/figs
+/igd/f7_igd-eps-converted-to.pdf> <G:/project/graduation/figs/igd/f8_igd-eps-co
+nverted-to.pdf> <G:/project/graduation/figs/igd/f9_igd-eps-converted-to.pdf> <G
+:/project/graduation/figs/igd/f10_igd-eps-converted-to.pdf>] [27] [28] [29] [30
+] [31] [32] [33]
 Package epstopdf Info: Source file: <figs/eda-de-eig/f1.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 19149 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 18393 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 8389 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f1-eps-conv
 erted-to.pdf figs/eda-de-eig/f1.eps>
-(epstopdf)             \includegraphics on input line 1272.
+(epstopdf)             \includegraphics on input line 1274.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f1-eps-converted-to.pdf, id=371, 506.89375pt x 408.52625pt>
@@ -1563,17 +1595,17 @@ File: figs/eda-de-eig/f1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f1-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f1-eps-converted-to.pdf used on input 
-line 1272.
+line 1274.
 (pdftex.def)             Requested size: 140.84256pt x 113.50763pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f2.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 19134 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 18378 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f2-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 8333 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f2-eps-conv
 erted-to.pdf figs/eda-de-eig/f2.eps>
-(epstopdf)             \includegraphics on input line 1273.
+(epstopdf)             \includegraphics on input line 1275.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f2-eps-converted-to.pdf, id=372, 502.87875pt x 408.52625pt>
@@ -1581,17 +1613,17 @@ File: figs/eda-de-eig/f2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f2-eps-converted-to.pdf used on input 
-line 1273.
+line 1275.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f3.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 18385 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 17661 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f3-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 8093 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f3-eps-conv
 erted-to.pdf figs/eda-de-eig/f3.eps>
-(epstopdf)             \includegraphics on input line 1274.
+(epstopdf)             \includegraphics on input line 1276.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f3-eps-converted-to.pdf, id=373, 502.87875pt x 408.52625pt>
@@ -1599,17 +1631,17 @@ File: figs/eda-de-eig/f3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f3-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f3-eps-converted-to.pdf used on input 
-line 1274.
+line 1276.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f4.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 16304 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 15668 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f4-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 8027 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f4-eps-conv
 erted-to.pdf figs/eda-de-eig/f4.eps>
-(epstopdf)             \includegraphics on input line 1275.
+(epstopdf)             \includegraphics on input line 1277.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f4-eps-converted-to.pdf, id=374, 502.87875pt x 408.52625pt>
@@ -1617,17 +1649,17 @@ File: figs/eda-de-eig/f4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f4-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f4-eps-converted-to.pdf used on input 
-line 1275.
+line 1277.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f5.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 18403 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 17677 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f5-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 8072 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f5-eps-conv
 erted-to.pdf figs/eda-de-eig/f5.eps>
-(epstopdf)             \includegraphics on input line 1276.
+(epstopdf)             \includegraphics on input line 1278.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f5-eps-converted-to.pdf, id=375, 502.87875pt x 408.52625pt>
@@ -1635,17 +1667,17 @@ File: figs/eda-de-eig/f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f5-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f5-eps-converted-to.pdf used on input 
-line 1276.
+line 1278.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f7.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 16090 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 15458 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f7-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 8630 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f7-eps-conv
 erted-to.pdf figs/eda-de-eig/f7.eps>
-(epstopdf)             \includegraphics on input line 1278.
+(epstopdf)             \includegraphics on input line 1280.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f7-eps-converted-to.pdf, id=376, 498.86375pt x 408.52625pt>
@@ -1653,17 +1685,17 @@ File: figs/eda-de-eig/f7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f7-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f7-eps-converted-to.pdf used on input 
-line 1278.
+line 1280.
 (pdftex.def)             Requested size: 140.84256pt x 115.33408pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f8.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 14643 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 14071 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f8-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 8341 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f8-eps-conv
 erted-to.pdf figs/eda-de-eig/f8.eps>
-(epstopdf)             \includegraphics on input line 1279.
+(epstopdf)             \includegraphics on input line 1281.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f8-eps-converted-to.pdf, id=377, 494.84875pt x 408.52625pt>
@@ -1671,17 +1703,17 @@ File: figs/eda-de-eig/f8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f8-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f8-eps-converted-to.pdf used on input 
-line 1279.
+line 1281.
 (pdftex.def)             Requested size: 140.84256pt x 116.26912pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f9.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 19405 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 18636 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f9-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 8284 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f9-eps-conv
 erted-to.pdf figs/eda-de-eig/f9.eps>
-(epstopdf)             \includegraphics on input line 1280.
+(epstopdf)             \includegraphics on input line 1282.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f9-eps-converted-to.pdf, id=378, 502.87875pt x 408.52625pt>
@@ -1689,17 +1721,17 @@ File: figs/eda-de-eig/f9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f9-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f9-eps-converted-to.pdf used on input 
-line 1280.
+line 1282.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f10.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 19087 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 18331 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f10-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 8085 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f10-eps-con
 verted-to.pdf figs/eda-de-eig/f10.eps>
-(epstopdf)             \includegraphics on input line 1281.
+(epstopdf)             \includegraphics on input line 1283.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f10-eps-converted-to.pdf, id=379, 502.87875pt x 408.52625pt>
@@ -1707,17 +1739,17 @@ File: figs/eda-de-eig/f10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f10-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f10-eps-converted-to.pdf used on input
- line 1281.
+ line 1283.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f11.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 17801 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 17095 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f11-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 6966 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f11-eps-con
 verted-to.pdf figs/eda-de-eig/f11.eps>
-(epstopdf)             \includegraphics on input line 1282.
+(epstopdf)             \includegraphics on input line 1284.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f11-eps-converted-to.pdf, id=380, 502.87875pt x 408.52625pt>
@@ -1725,17 +1757,17 @@ File: figs/eda-de-eig/f11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f11-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f11-eps-converted-to.pdf used on input
- line 1282.
+ line 1284.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f12.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 19092 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 18336 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f12-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 7772 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f12-eps-con
 verted-to.pdf figs/eda-de-eig/f12.eps>
-(epstopdf)             \includegraphics on input line 1283.
+(epstopdf)             \includegraphics on input line 1285.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f12-eps-converted-to.pdf, id=381, 502.87875pt x 408.52625pt>
@@ -1743,17 +1775,17 @@ File: figs/eda-de-eig/f12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f12-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f12-eps-converted-to.pdf used on input
- line 1283.
+ line 1285.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f13.eps>
-(epstopdf)                    date: 2016-12-26 02:46:20
-(epstopdf)                    size: 19095 bytes
+(epstopdf)                    date: 2016-12-07 08:05:35
+(epstopdf)                    size: 18339 bytes
 (epstopdf)             Output file: <figs/eda-de-eig/f13-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-26 02:46:20
+(epstopdf)                    date: 2016-12-07 08:05:35
 (epstopdf)                    size: 7744 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f13-eps-con
 verted-to.pdf figs/eda-de-eig/f13.eps>
-(epstopdf)             \includegraphics on input line 1284.
+(epstopdf)             \includegraphics on input line 1286.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f13-eps-converted-to.pdf, id=382, 502.87875pt x 408.52625pt>
@@ -1761,24 +1793,23 @@ File: figs/eda-de-eig/f13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f13-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f13-eps-converted-to.pdf used on input
- line 1284.
+ line 1286.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
- [34] [35 <C:/Users/neal1/project/graduation/figs/eda-de-eig/f1-eps-converted-t
-o.pdf> <C:/Users/neal1/project/graduation/figs/eda-de-eig/f2-eps-converted-to.p
-df> <C:/Users/neal1/project/graduation/figs/eda-de-eig/f3-eps-converted-to.pdf>
- <C:/Users/neal1/project/graduation/figs/eda-de-eig/f4-eps-converted-to.pdf> <C
-:/Users/neal1/project/graduation/figs/eda-de-eig/f5-eps-converted-to.pdf> <C:/U
-sers/neal1/project/graduation/figs/eda-de-eig/f7-eps-converted-to.pdf> <C:/User
-s/neal1/project/graduation/figs/eda-de-eig/f8-eps-converted-to.pdf> <C:/Users/n
-eal1/project/graduation/figs/eda-de-eig/f9-eps-converted-to.pdf> <C:/Users/neal
-1/project/graduation/figs/eda-de-eig/f10-eps-converted-to.pdf> <C:/Users/neal1/
-project/graduation/figs/eda-de-eig/f11-eps-converted-to.pdf> <C:/Users/neal1/pr
-oject/graduation/figs/eda-de-eig/f12-eps-converted-to.pdf> <C:/Users/neal1/proj
-ect/graduation/figs/eda-de-eig/f13-eps-converted-to.pdf>] [36] [37] [38]
-(C:\Users\neal1\project\graduation\毕业论文.bbl
+ [34] [35 <G:/project/graduation/figs/eda-de-eig/f1-eps-converted-to.pdf> <G:/p
+roject/graduation/figs/eda-de-eig/f2-eps-converted-to.pdf> <G:/project/graduati
+on/figs/eda-de-eig/f3-eps-converted-to.pdf> <G:/project/graduation/figs/eda-de-
+eig/f4-eps-converted-to.pdf> <G:/project/graduation/figs/eda-de-eig/f5-eps-conv
+erted-to.pdf> <G:/project/graduation/figs/eda-de-eig/f7-eps-converted-to.pdf> <
+G:/project/graduation/figs/eda-de-eig/f8-eps-converted-to.pdf> <G:/project/grad
+uation/figs/eda-de-eig/f9-eps-converted-to.pdf> <G:/project/graduation/figs/eda
+-de-eig/f10-eps-converted-to.pdf> <G:/project/graduation/figs/eda-de-eig/f11-ep
+s-converted-to.pdf> <G:/project/graduation/figs/eda-de-eig/f12-eps-converted-to
+.pdf> <G:/project/graduation/figs/eda-de-eig/f13-eps-converted-to.pdf>] [36] [3
+7] [38]
+(G:\project\graduation\毕业论文.bbl
 LaTeX Font Info:    Try loading font information for C19+HEI on input line 80.
 
-(C:\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd
+("F:\Program Files\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd"
 File: c19hei.fd 2009/09/23 4.8.2
 )
 
@@ -1786,7 +1817,7 @@ LaTeX Font Warning: Font shape `C19/HEI/m/n' undefined
 (Font)              using `C19/song/m/n' instead on input line 80.
 
 [39] [40] [41] [42] [43] [44] [45]) [46] [47] [48]
-(C:\Users\neal1\project\graduation\毕业论文.aux)
+(G:\project\graduation\毕业论文.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.35pt have occurred.
@@ -1797,79 +1828,94 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  19841 strings out of 495354
- 330347 string characters out of 3183858
- 379875 words of memory out of 3000000
+ 335055 string characters out of 3183074
+ 380875 words of memory out of 3000000
  22410 multiletter control sequences out of 15000+200000
- 108846 words of font info for 362 fonts, out of 3000000 for 9000
+ 108850 words of font info for 362 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,18n,55p,1518b,983s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
-chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
-X/fonts/truetype/chinese/simsun.ttf>{C:/CTEX/MiKTeX/fonts/enc/dvips/cm-super/cm
--super-t1.enc}<C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fon
-ts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>
-<C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/ch
-inese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/
-fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.t
-tf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype
-/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CT
-eX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsu
-n.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truet
-ype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX
-/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/si
-msun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/tr
-uetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/C
-TEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese
-/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts
-/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C
-:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chin
-ese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fo
-nts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/c
-hinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX
-/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.
-ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetyp
-e/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Window
-s/Fonts/simhei.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
-X/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun
-.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/simhei.t
-tf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/
-simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Window
-s/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C
-:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhe
-i.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fon
-ts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Win
+ 56i,18n,55p,1506b,983s stack positions out of 5000i,500n,10000p,200000b,50000s
+<F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Fil
+es/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/font
+s/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chines
+e/simsun.ttf>{F:/Program Files/CTEX/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1
+.enc}<F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program 
+Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/f
+onts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chi
+nese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><
+F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/
+CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/t
+ruetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/s
+imsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Pro
+gram Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/C
+TeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetyp
+e/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.
+ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program F
+iles/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fo
+nts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chin
+ese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F
+:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/C
+TEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/tr
+uetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/si
+msun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Prog
+ram Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CT
+eX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype
+/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.t
+tf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Fi
+les/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fon
+ts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chine
+se/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:
+/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CT
+EX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/tru
+etype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/sim
+sun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Progr
+am Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/simhei.t
+tf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Fi
+les/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fon
+ts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chine
+se/simsun.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Win
 dows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf
 ><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/si
 mhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/
-Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/CTEX/CTeX/fonts/truetype/chin
-ese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fo
-nts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
-><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/c
-hinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX
-/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.
-ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetyp
-e/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/CTEX/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/CTEX/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/
-amsfonts/symbols/msbm10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx080
-0.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/CTEX/MiKTeX/
-fonts/type1/public/cm-super/sfbx1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-
-super/sfbx1728.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><C:
-/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/CTEX/MiKTeX/fonts/typ
-e1/public/cm-super/sfrm0800.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfr
-m1000.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/CTEX/MiK
-TeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public
-/cm-super/sfrm2074.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb
->
-Output written on 毕业论文.pdf (56 pages, 1417617 bytes).
+Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/
+Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
+ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts
+/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windo
+ws/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><
+C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simh
+ei.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Progra
+m Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX
+/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/c
+hinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program File
+s/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts
+/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese
+/simsun.ttf><F:/Program Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/P
+rogram Files/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX
+/CTeX/fonts/truetype/chinese/simsun.ttf><F:/Program Files/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmex10.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi6.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/P
+rogram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Program F
+iles/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><F:/Program Files/CTEX
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><F:/Program Files/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program Files/CTEX/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmsy6.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/symbols/msbm10.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-supe
+r/sfbx0800.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx12
+00.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><
+F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><F:/Progr
+am Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><F:/Program Files
+/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><F:/Program Files/CTEX/Mi
+KTeX/fonts/type1/public/cm-super/sfrm0800.pfb><F:/Program Files/CTEX/MiKTeX/fon
+ts/type1/public/cm-super/sfrm1000.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1
+/public/cm-super/sfrm1200.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/
+cm-super/sfrm1440.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super
+/sfrm2074.pfb><F:/Program Files/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti120
+0.pfb>
+Output written on 毕业论文.pdf (56 pages, 1248403 bytes).
 PDF statistics:
  849 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
