@@ -93,15 +93,15 @@ J.~Sun, Q.~Zhang, and E.~P. Tsang, ``{DE/EDA}: A new evolutionary algorithm for
   global optimization,'' \emph{Information Sciences}, vol. 169, no.~3, pp.
   249--262, 2005.
 
-\bibitem{moead}
-Q.~Zhang and H.~Li, ``{MOEA/D}: A multiobjective evolutionary algorithm based
-  on decomposition,'' \emph{IEEE Transactions on Evolutionary Computation},
-  vol.~11, no.~6, pp. 712--731, 2007.
-
 \bibitem{global2000}
 R.~Horst, P.~M. Pardalos, and N.~Van~Thoai, \emph{Introduction to global
   optimization}.\hskip 1em plus 0.5em minus 0.4em\relax Springer Science and
   Business Media, 2000.
+
+\bibitem{moead}
+Q.~Zhang and H.~Li, ``{MOEA/D}: A multiobjective evolutionary algorithm based
+  on decomposition,'' \emph{IEEE Transactions on Evolutionary Computation},
+  vol.~11, no.~6, pp. 712--731, 2007.
 
 \bibitem{eda2006}
 J.~A. Lozano, \emph{Towards a new evolutionary computation: advances on
@@ -410,16 +410,6 @@ H.~Li and Q.~Zhang, ``Multiobjective optimization problems with complicated
   pareto sets, {MOEA/D} and {NSGA-II},'' \emph{IEEE Transactions on
   Evolutionary Computation}, vol.~13, no.~2, pp. 284--302, 2009.
 
-\bibitem{lpca}
-N.~Kambhatla and T.~Leen, ``Dimension reduction by local principal component
-  analysis,'' \emph{Neural Computation}, vol.~9, no.~7, pp. 1493--1516, 1997.
-
-\bibitem{igd}
-E.~Zitzler, L.~Thiele, M.~Laumanns, C.~M. Fonseca, and V.~G. Da~Fonseca,
-  ``Performance assessment of multiobjective optimizers: an analysis and
-  review,'' \emph{IEEE Transactions on Evolutionary Computation}, vol.~7,
-  no.~2, pp. 117--132, 2003.
-
 \bibitem{DE-EIG}
 S.-M. Guo and C.-C. Yang, ``Enhancing differential evolution utilizing
   eigenvector-based crossover operator,'' \emph{IEEE Transactions on
@@ -440,5 +430,15 @@ M.~Okamoto, T.~Nonaka, S.~Ochiai, and D.~Tominaga, ``Nonlinear numerical
 X.~Yao, Y.~Liu, and G.~Lin, ``Evolutionary programming made faster,''
   \emph{IEEE Transactions on Evolutionary Computation}, vol.~3, no.~2, pp.
   82--102, 1999.
+
+\bibitem{lpca}
+N.~Kambhatla and T.~Leen, ``Dimension reduction by local principal component
+  analysis,'' \emph{Neural Computation}, vol.~9, no.~7, pp. 1493--1516, 1997.
+
+\bibitem{igd}
+E.~Zitzler, L.~Thiele, M.~Laumanns, C.~M. Fonseca, and V.~G. Da~Fonseca,
+  ``Performance assessment of multiobjective optimizers: an analysis and
+  review,'' \emph{IEEE Transactions on Evolutionary Computation}, vol.~7,
+  no.~2, pp. 117--132, 2003.
 
 \end{thebibliography}
