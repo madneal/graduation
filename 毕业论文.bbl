@@ -93,6 +93,11 @@ J.~Sun, Q.~Zhang, and E.~P. Tsang, ``{DE/EDA}: A new evolutionary algorithm for
   global optimization,'' \emph{Information Sciences}, vol. 169, no.~3, pp.
   249--262, 2005.
 
+\bibitem{moead}
+Q.~Zhang and H.~Li, ``{MOEA/D}: A multiobjective evolutionary algorithm based
+  on decomposition,'' \emph{IEEE Transactions on Evolutionary Computation},
+  vol.~11, no.~6, pp. 712--731, 2007.
+
 \bibitem{eda2006}
 J.~A. Lozano, \emph{Towards a new evolutionary computation: advances on
   estimation of distribution algorithms}.\hskip 1em plus 0.5em minus
@@ -425,11 +430,6 @@ M.~Okamoto, T.~Nonaka, S.~Ochiai, and D.~Tominaga, ``Nonlinear numerical
 X.~Yao, Y.~Liu, and G.~Lin, ``Evolutionary programming made faster,''
   \emph{IEEE Transactions on Evolutionary Computation}, vol.~3, no.~2, pp.
   82--102, 1999.
-
-\bibitem{moead}
-Q.~Zhang and H.~Li, ``{MOEA/D}: A multiobjective evolutionary algorithm based
-  on decomposition,'' \emph{IEEE Transactions on Evolutionary Computation},
-  vol.~11, no.~6, pp. 712--731, 2007.
 
 \bibitem{lpca}
 N.~Kambhatla and T.~Leen, ``Dimension reduction by local principal component
