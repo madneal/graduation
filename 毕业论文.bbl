@@ -83,15 +83,15 @@ R.~Storn and K.~Price, ``Differential evolution--a simple and efficient
   heuristic for global optimization over continuous spaces,'' \emph{Journal of
   global optimization}, vol.~11, no.~4, pp. 341--359, 1997.
 
-\bibitem{RM-MEDA}
-Q.~Zhang, A.~Zhou, and Y.~Jin, ``{RM-MEDA}: A regularity model based
-  multiobjective estimation of distribution algorithm,'' \emph{IEEE
-  Transactions on Evolutionary Computation}, vol.~12, no.~1, pp. 41--63, 2008.
-
 \bibitem{DEEDA2005}
 J.~Sun, Q.~Zhang, and E.~P. Tsang, ``{DE/EDA}: A new evolutionary algorithm for
   global optimization,'' \emph{Information Sciences}, vol. 169, no.~3, pp.
   249--262, 2005.
+
+\bibitem{RM-MEDA}
+Q.~Zhang, A.~Zhou, and Y.~Jin, ``{RM-MEDA}: A regularity model based
+  multiobjective estimation of distribution algorithm,'' \emph{IEEE
+  Transactions on Evolutionary Computation}, vol.~12, no.~1, pp. 41--63, 2008.
 
 \bibitem{moead}
 Q.~Zhang and H.~Li, ``{MOEA/D}: A multiobjective evolutionary algorithm based
