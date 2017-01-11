@@ -178,6 +178,11 @@ H.~Muhlenbein§¯ and T.~Mahnig, ``Convergence theory and applications of the
   factorized distribution algorithm,'' \emph{Journal of Computing and
   Information Theory}, vol.~7, no.~1, pp. 19--32, 1999.
 
+\bibitem{hboa2006}
+M.~Pelikan and D.~E. Goldberg, ``Hierarchical bayesian optimization
+  algorithm,'' in \emph{Scalable optimization via probabilistic
+  modeling}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2006, pp. 63--90.
+
 \bibitem{edasurvey2011}
 M.~Hauschild and M.~Pelikan, ``An introduction and survey of estimation of
   distribution algorithms,'' \emph{Swarm and Evolutionary Computation}, vol.~1,
