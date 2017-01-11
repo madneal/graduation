@@ -384,37 +384,29 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 \noindent{\large 中文摘要}\hfill\rmfamily{i} \\[4mm]
 {\large 英文摘要}\hfill \rmfamily{ii}\\[4mm]
-
 {\large 1 绪论}\hfill \rmfamily{1}\par
 {\large 1.1 研究的目的和意义}$\dotfill 1$\par
 {\large 1.2 本文所做的工作和内容安排}$\dotfill 2$\\[4mm]
-
 {\large 2 研究背景}\hfill \rmfamily{3}\par
 {\large 2.1 最优化问题}$\dotfill 3$\par
 {\large 2.2 演化算法}$\dotfill 4$\par
 {\large 2.3 分布估计算法}$\dotfill 4$\par
 {\large 2.4 差分进化}$\dotfill 10$\\[4mm]
-
 {\large 3 基于差分采样的多目标优化}\hfill \rmfamily{17}\par
 {\large 3.1 全局单目标优化问题}$\dotfill 17$\par
 {\large 3.2 基于差分采样的单目标分布估计算法}$\dotfill 17$\par
 {\large 3.3 实验分析}$\dotfill 22$\par
 {\large 3.4 本章小结}$\dotfill 25$\\[4mm]
-
 {\large 4 基于差分采样的多目标优化}\hfill \rmfamily{28}\par
 {\large 4.1 连续多目标优化问题}$\dotfill 28$\par
 {\large 4.2 基于差分采样的多目标分布估计算法}$\dotfill 28$\par
 {\large 4.3 实验分析}$\dotfill 31$\par
 {\large 4.4 本章小结}$\dotfill 34$\\[4mm]
-
 {\large 5 总结与展望}\hfill \rmfamily{37}\par
 {\large 5.1 本文工作总结}$\dotfill 37$\par
 {\large 5.2 工作展望}$\dotfill 37$\\[4mm]
-
 {\large 参考文献}$\dotfill 39$\par
-
 {\large 致\quad 谢}$\dotfill 47$\par
-
 {\large 在校期间的学术论文和科研项目$\dotfill 48$}\par
 
 
@@ -432,7 +424,7 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 演化计算，受自然界进化所启发，也就是对现有的解进行过滤并且产生新的解。个体中的基因相对于问题解中的组成部分。评价函数被用来评价个体对于问题解决的程度。种群中的个体通过在搜索空间中随机采样产生。在演化的过程中，现有的个体通过交叉变异来交换信息来产生新的子代种群。具有更好适应性的个体更有可能进行交叉变异，它们产生的子代也会更优。通过产生越来越好的解，演化计算最终就有可能找到全局最优解。演化计算的基本流程图如图~\ref{ec}所示。
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \graphicspath{{figs/}}
 \centering
   \includegraphics[width=0.8\columnwidth]{ec.png}
@@ -480,7 +472,7 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 
 根据决策变量是离散的还是连续的，最优化问题可以分为组合优化问题和连续优化问题。本文的重点主要是连续优化问题。连续优化问题在工程实践和数学领域都有着广泛的应用，因此对于连续优化问题的研究具有重要意义。
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \graphicspath{{figs/}}
 \centering
   \includegraphics[width=0.5\columnwidth]{car.png}
@@ -793,7 +785,7 @@ DE-EIG算法是基于上文提出的新的交叉策略提出的一种新的差分进化。ED-EIG和经典的差分
 
 在算法~\ref{deeigalgorithm}中，参数$p$是用来DE-EIG是在原始坐标空间或者旋转的坐标空间做交叉操作。$rand()$是服从均匀分布的0到1之间的小数。通过转化种群的坐标空间，可以避免种群统计信息的丢失，加速种群的收敛。
 
-\begin{algorithm}[h]
+\begin{algorithm}[ht]
 \caption{DE-EIG}
 \label{deeigalgorithm}
 初始化种群$Pop(t)=\{x_1, x_2, x_3, \cdots, x_N\}$ ($N$是种群大小)
@@ -956,7 +948,7 @@ JADE是一种自适应的差分进化算法，它通过使用一种新型的变异策略"DE/current-to\emph{
 
 \subsubsection{实验分析}
 
-\begin{table*}[h]\small
+\begin{table*}[ht]\small
 \centering
 \caption{三个算法在测试题$f1-f13$上对于（平均值$\pm$标准差）的统计结果}
 \label{eda-de-eig-tab}
@@ -1058,7 +1050,7 @@ DE/EDA是一种对于全局优化的具有很大潜力的方法，它结合了分布估计算法的全局建模信息
 在多目标优化问题中，多个目标相互之间往往是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都能够达到全局最优解，但是存在一组Pareto最优解~\cite{moead}。 对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}\emph{Pareto 最优解}，如果不存在$x\in\Omega$使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则成为Pareto前端（PF）。
 
 多目标问题在很多工程领域都普遍存在，通常来说，多目标问题中的各个目标之间往往都是相互冲突的在一般条件下，根据Karush-Kuhn-Tucker 可以推导出：连续多目标问题在决策空间中的Pareto set 是一个连续分段的（m-1）维的流形体（m是目标数）。对于一个成功的多目标演化算法（multiobjective estimation of distribution algorithm, MOEA）来说，独立的个体应该是在决策空间中分散在Pareto set附近，如图~\ref{FIG1}所示。
-\begin{figure}[h]
+\begin{figure}[ht]
 \graphicspath{{figs/figure/}}
 \centering
   \includegraphics[width=0.5\columnwidth]{ps.png}
@@ -1192,7 +1184,7 @@ $\varepsilon^\prime$是一个服从分布$\mathcal{N}(0,\sigma_\tau{I})$的高斯噪音（$\t
 
 其中$X_{r_1}$, $X_{r_2}$, $X_{r_3}$是种群中的随机个体，$r_1, r_2, r_3$则是从1到NP(NP是种群的大小)之间选择的三个互不相同的整数。F是变异策略中的缩放因子，rand是0 到1 之间符合均匀分布的随机数。
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \graphicspath{{figs/figure/}}
 \centering
   \includegraphics[width=0.5\columnwidth]{mutation.png}
