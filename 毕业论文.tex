@@ -320,10 +320,11 @@
 \title{{Differential Evolution based Sampling Strategy in Evolutionary Algorithms}}
 
 \thispagestyle{plain}
-\section*{\hspace*{\fill}\Large{Differential Evolution Sampling Strategy }\hspace*{\fill}
-\\\hspace*{\fill}\Large{in Evolution Algorithms} \hspace*{\fill}}
+\section*{\hspace*{\fill}\Large{Differential Evolution Sampling Strategy in}\hspace*{\fill}
+\\\hspace*{\fill}\Large{Estimation of Distribution Algorithms} \hspace*{\fill}}
 \subsection*{\hspace*{\fill}ABSTRACT \hspace*{\fill}}
-\vspace*{5mm} \normalfont \quad This paper mainly studies the differential evolution sampling strategy in evolutionary algorithms. Evolution algorithm is a kind of algorithm inspired by biological evolution. Evolutionary algorithms are utilized to solve diverse problems. As it does not need any complex assumption conditions. Evolutionary algorithms have been widely applied to engineer, biology, economy, gene engineer and social science.
+\vspace*{5mm} \normalfont
+ This paper mainly studies the differential evolution sampling strategy in evolutionary algorithms. Evolution algorithm is a kind of algorithm inspired by biological evolution. Evolutionary algorithms are utilized to solve diverse problems. As it does not need any complex assumption conditions. Evolutionary algorithms have been widely applied to engineer, biology, economy, gene engineer and social science.
 
 Estimation of distribution algorithm is a novel evolutionary algorithm. Unlike traditional evolutionary algorithm, there is no crossover and mutation in EDA. EDA mainly consists of three steps, namely, modeling, sampling and selection. Sampling is crucial to EDA. Since it is significant to generate promising offspring generation, which will be useful to obtain the final solutions.
 
@@ -667,7 +668,7 @@ u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
 \subsubsection{差分进化算法的研究现状}
 差分进化算法自从提出之后，就受到了工业界以及学术界的广泛关注，针对差分进化的研究百花齐放。根据差分进化解决的问题类型，可以将差分进化分为以下几种类型,对于下面每种类型的差分进化算法下面也分为多种类型的算法。
 
-{\bf 针对连读单目标优化问题的差分进化算法：}Fan等人在提出了一种三角变异算子来提高差分进化的性能~\cite{tde2003}。为了实现这种方法，对于对于每一个目标向量，会在种群中随机选择三个不同的向量。对于第$i$个目标向量$X_{i,G}$而选择的种群个体是$X_{r1,G}$，$X_{r2,G}$和$X_{r3,G}$。三个下标$r1$，$r2$和$r3$ 是从[1, NP]区间选择的三个互不相同的整数，同时它们也不同于$i$。那么这三个加权系数就可以根据下面的公式生成：
+{\bf 针对连读单目标优化问题的差分进化算法：}Fan等人在提出了一种三角变异算子来提高差分进化的性能~\cite{tde2003}。为了实现这种方法，对于对于每一个目标向量，会在种群中随机选择三个不同的种群个体。对于第$i$个目标向量$X_{i,G}$而选择的种群个体是$X_{r1,G}$，$X_{r2,G}$和$X_{r3,G}$。三个下标$r1$，$r2$和$r3$ 是从$[1, NP]$区间选择的三个互不相同的整数，同时它们也不同于$i$。那么三个加权系数就可以根据下面的公式生成：
 \begin{equation}
 \label{tm1}
 \begin{aligned}
@@ -693,7 +694,7 @@ u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
 %p_3=\frac{|f(X_{r3}|}{p^{'}}
 %\end{equation}
 
-令$\Gamma$为0到1之间的三角变异比率，那么三角变异可能会按照以下方式实现：
+令$\Gamma$为0到1之间的三角变异比率，那么三角变异会按照以下方式实现：
 
 \begin{equation}
 \label{tm5}
@@ -708,27 +709,27 @@ V_{i,G+1}=\left\{
 
 因此，这个方法会在$\Gamma$概率下执行三角变异，在$(1-\Gamma)$概率下执行DE/rand/1变异策略。
 
-Price在2006年又提出一种先进的DE/rand/1-either-or算法~\cite{de2006}。这个算法中，在概率$p_F$下，试验向量全都是突变体，而在概率$1-p_F$下，试验向量全都是重组体。这一新的方法相对于传统的rand/1/bin和target-to-best/1/bin有着较大的竞争力。试验向量的产生方式如下：
+Price在2006年又提出一种先进的DE/rand/1-either-or算法~\cite{de2006}。在这个算法中，在概率$p_F$下，试验向量全都是突变体，而在概率$1-p_F$下，试验向量全都是重组体。这一新的方法相对于传统的rand/1/bin和target-to-best/1/bin有着较大的竞争力。试验向量的产生方式如下：
 
 \begin{equation}
 \label{de/rand/1/either-or}
 U_{i,G}=\left\{
 \begin{aligned}
 &X_{r1,G}+F\cdot(X_{r2,G}-X_{r3,G}) \quad \text{如果} rand_i(0,1)<p_F \\
-&X_{r0,G}+k\cdot(X_{r1}+X_{r2}-2\cdot X_{r0} \qquad \text{其它}
+&X_{r0,G}+k\cdot(X_{r1}+X_{r2}-2\cdot X_{r0}) \qquad \text{其它}
 \end{aligned}
 \right.
 \end{equation}
 
-参数$k$是对于算术交叉的加权系数，对于它的推荐设置是对于给定的$F$,将其设置为$k=0.5\cdot(F+1)$。参数$p_F$决定了变异和算术交叉的重要性，推荐设置是0.4。根据目标函数的一些特殊属性从而自适应地设置参数$p_F$的值，这也是一个值得研究的话题。
+参数$k$是算术交叉的加权系数，对于它的推荐设置是对于给定的$F$,将其设置为$k=0.5\cdot(F+1)$。参数$p_F$决定了变异和算术交叉的重要性，推荐设置是0.4。根据目标函数的一些特殊属性从而自适应地设置参数$p_F$的值，这也是一个值得研究的话题。
 
-反向差分进化（ODE）~\cite{ode2008}是一种基于反向学习的用于快速全局搜索和优化的算法。这个算法在噪音优化方面得到了重要的应用。通过对利用反向数对传统差分在三个层次上进行进化优化，即，种群初始化，迭代数跳跃和种群最优解局部改善。
+反向差分进化（ODE）~\cite{ode2008}是一种基于反向学习的用于快速全局搜索和优化的算法。这个算法在噪音优化方面得到了重要的应用。通过对利用反向数对传统差分进化算法在三个层次上进行进化优化，即，种群初始化，迭代数跳跃和种群最优解局部改善。
 
-大多数的演化算法的运行效率取决于它们在搜索时利用和开发的趋势。为了更好地平衡演化算法中的利用和开发的趋势，Das提出了两种邻域拓扑模型~\cite{nde2009}。根据这一原理，提出了基于全局和局部邻域的差分进化（DEGL），对于DE/target-to-best/1策略做出了不小的改进。
+大多数的演化算法的运行效率取决于它们在搜索时勘探和开采的趋势。为了更好地平衡演化算法中的勘探和开采的趋势，Das提出了两种邻域拓扑模型~\cite{nde2009}。根据这一原理，提出了基于全局和局部邻域的差分进化（DEGL），对于DE/target-to-best/1策略做出了重大改进。
 
-差分进化中试验向量的产生策略多种多样，每一个策略可能只对特定的问题比较有效。Qin等人第一次提出了自适应的差分进化算法SaDE~\cite{sade2005}，根据之前解的产生过程来调整参数从而达到试验向量的产生策略的自适应。在SaDE使用了四个有效地试验向量产生策略，包括：DE/rand/1/bin，DE/rand-to-best/2/bin，DE/rand/2/bin以及DE/current-to-rand/1策略，通过这些策略来构建一个策略候选池。前三个策略使用二项式交叉，最后一个使用算术重组。在SaDE算法中，对于当前种群中的每一个试验向量，会根据之前能够进入下一迭代节的成功比率从而在参数池中选择合适的策略。接着这个策略会被用于目标向量来产生试验向量。更特别的是，在每一次迭代中，四个参数的选择概率的总和为1。最初每个策略的概率都是相同的，然后对着演化过程的推进，会自适应地做出相应的调整。JADE~\cite{JADE}是一种新型的差分进化算法，在JADE中提出了一种新的变异策略"DE/current-to-\emph{p}best"，它通过使用一种自适应的方式来进行种群的更新，从而提高算法的自适应性。对于种群中的每一个目标向量，JADE都会对F和CR 进行更新，同时这些信息也将用于更新F和CR，从而作用于新的种群。
+差分进化中试验向量的产生策略多种多样，每一个策略可能只对特定的问题比较有效。Qin等人第一次提出了自适应的差分进化算法SaDE~\cite{sade2005}，根据之前解的产生过程来调整参数从而达到试验向量的产生策略的自适应。在SaDE使用了四个有效的试验向量产生策略，包括：DE/rand/1/bin，DE/rand-to-best/2/bin，DE/rand/2/bin以及DE/current-to-rand/1策略，通过这些策略来构建一个策略候选池。前三个策略使用二项式交叉，最后一个使用算术重组。在SaDE算法中，对于当前种群中的每一个试验向量，会根据之前能够进入下一迭代节的成功比率从而在参数池中选择合适的策略。接着这个策略会被用于目标向量来产生试验向量。更特别的是，在每一次迭代中，四个参数的选择概率的总和为1。最初每个策略的概率都是相同的，然后对着演化过程的推进，会自适应地做出相应的调整。JADE~\cite{JADE}是一种新型的差分进化算法，在JADE中提出了一种新的变异策略"DE/current-to-\emph{p}best"，它通过使用一种自适应的方式来进行种群的更新，从而提高算法的自适应性。对于种群中的每一个目标向量，JADE都会对F和CR 进行更新，同时这些信息也将用于更新F和CR，从而作用于新的种群。
 
-相对于共通启发式算法，混合技术是将两个或者多个算法的特点结合起来构建一个新的混合算法，这个混合算法比原始任意算法在解决特别的应用或者相应的测试集上表现得更佳。一般来说，差分进化的混合算法包括将差分进化和全局优化算法相结合以及将差分进化和局部搜索方法两个种类。粒子群算法（PSO）最初的提出是模仿人类的社交行为，现在已经被广泛地应用于全局搜索和优化。Hendtlass第一次将差分进化和粒子群优化算法结合起来，提出一个混合优化器~\cite{psode2001}。 在这个优化器中，只有后代的适应度更好的时候粒子的位置才会发生改变。差分进化只会在特定的间隔的迭代中才会对粒子群算法起作用。Zang等人提出了另外一种流行的粒子群差分进化混合算法（DEPSO）~\cite{depso2003}。在这个算法中，粒子群算法和差分进化分别作用于奇数迭代和偶数迭代中。DEPSO相对于原始的算法在某些约束优化问题上能够达到更好的收敛。对于粒子群算法和差分进化，还有更多的研究，在此就不一一叙述。差分进化还与其他的全局优化算法相结合，比如：菌群优化算法（BFOA）~\cite{bfoa2007}，蚁群优化算法（DEACO）~\cite{deaco2008}，以及人工免疫系统（AIS）~\cite{deais2007}等。局部搜索算法是在解空间中候选解的小范围内搜索，直到找到局部最优解或者达到限制时间。一般在局部搜索算法中，每一个候选解都有多个邻域解；向哪一个邻域解移动取决于当前解邻域中的解集的信息。Noman等人提出了一个基于自适应局部搜索算子的交叉算子从而来进一步提高传统差分进化的性能~\cite{als2008}。Yang等人提出的基于邻域搜索的差分进化（NSDE）~\cite{nsde2007}被认为是对于演化编程协助的主要策略之一。NSDE通过向每个目标向量的成分添加一个服从正态分布的随机数来执行变异操作：
+相对于共通启发式算法，混合技术是将两个或者多个算法的特点结合起来构建一个新的混合算法，这个混合算法比原始任意算法在解决特别的应用或者相应的测试集上表现得更佳。一般来说，差分进化的混合算法包括将差分进化和全局优化算法相结合以及将差分进化和局部搜索方法两个种类。粒子群算法（PSO）最初的提出是模仿人类的社交行为，现在已经被广泛地应用于全局搜索和优化。Hendtlass第一次将差分进化和粒子群优化算法结合起来，提出一个混合优化器~\cite{psode2001}。 在这个优化器中，只有后代的适应度更好的时候粒子的位置才会发生改变。差分进化只会在特定的间隔的迭代中才会对粒子群算法起作用。Zang等人提出了另外一种流行的粒子群差分进化混合算法（DEPSO）~\cite{depso2003}。在这个算法中，粒子群算法和差分进化分别作用于奇数迭代和偶数迭代中。DEPSO相对于原始的算法在某些约束优化问题上能够达到更好的收敛。对于粒子群算法和差分进化，还有更多的深层次研究工作。差分进化还与其他的全局优化算法相结合，比如：菌群优化算法（BFOA）~\cite{bfoa2007}，蚁群优化算法（DEACO）~\cite{deaco2008}，以及人工免疫系统（AIS）~\cite{deais2007}等。局部搜索算法是在解空间中候选解的小范围内搜索，直到找到局部最优解或者达到限制时间。一般在局部搜索算法中，每一个候选解都有多个邻域解；向哪一个邻域解移动取决于当前解邻域中的解集的信息。Noman等人提出了一个基于自适应局部搜索算子的交叉算子从而来进一步提高传统差分进化的性能~\cite{als2008}。Yang等人提出的基于邻域搜索的差分进化（NSDE）~\cite{nsde2007}被认为是对于演化编程协助的主要策略之一。NSDE通过向每个目标向量的成分添加一个服从正态分布的随机数来执行变异操作：
 \begin{equation}
 \label{nsde}
 V_{i,G}=X_{{r^i}_1,G}+\left\{
@@ -741,13 +742,13 @@ V_{i,G}=X_{{r^i}_1,G}+\left\{
 
 $d_{i,G}=X_{{r^i}_2,G}-X_{{r^i}_3,G}$，$\delta$表示一个尺度参数$t$为1的柯西随机变量。Yang 等人后续又提出了基于协同演化框架的自适应的基于邻域搜索的差分进化，这一算法能够解决大规模不可分问题（达到1000维以上）。
 
-{\bf 针对约束优化的差分进化算法：}现实生活中优化问题不仅涉及找到最优解，同时需要满足一个或者多个约束条件。边界限制在现实世界中是非常常见的，因为参数是和物理元素或者具有具有自然限制有关。为了处理这些边界限制，通过利用惩罚方法来根据目标函数的相关标准从而在有限的区域内寻找最优解。差分进化主要通过四种惩罚方法来处理违反边界限制，包括：1）砖墙惩罚~\cite{de2006}：如果向量的任何参数草果事先定义的上限或者下限，那么目标函数值则会变得足够大从而保证个体不会被选择；2）自适应惩罚~\cite{ade1996}：和砖墙惩罚类似，不过个体目标函数的增长幅度取决于向量超过边界的程度；3）随机重新初始化~\cite{mde1999}：当参数超过界限的时候，从可行区间内重新挑选一个值。
+{\bf 针对约束优化的差分进化算法：}现实生活中优化问题不仅涉及如何找到最优解，同时需要满足一个或者多个约束条件。边界限制在现实世界中是非常常见的，因为参数是和物理元素或者自然限制有关。为了处理这些边界限制，通过利用惩罚方法来根据目标函数的相关标准从而在有限的区域内寻找最优解。差分进化主要通过四种惩罚方法来处理违反边界限制，包括：1）砖墙惩罚~\cite{de2006}：如果向量的任何参数超过事先定义的上限或者下限，那么目标函数值则会变得足够大从而保证个体不会被选择；2）自适应惩罚~\cite{ade1996}：和砖墙惩罚类似，不过个体目标函数的增长幅度取决于向量超过边界的程度；3）随机重新初始化~\cite{mde1999}：当参数超过界限的时候，从可行区间内重新挑选一个值。
 
 Storn首次将差分进化加以拓展用来处理非等式约束优化问题，他提出了一种多成分差分进化算法CADE~\cite{cade1999}对每一个个体产生$M$个儿子，接着在$M+1$个个体中只会有一个个体会存活到下一代。Zhang等人将动态随机分级和多成分差分进化框架相结合~\cite{dezhang2008}，这个算法在CEC 2006 的约束优化中的22个测试集上都取得了好的表现。
 
 Lampinen通过使用在约束空间中的帕累托优势来将差分进化处理约束问题~\cite{cde2002}。Kukkonen 和Lampinen提出一种广义基于差分进化的算法来解决多目标约束优化问题~\cite{cde2006}。另外一些研究者也将差分进化中的参数控制作为约束优化。Brest 等人提出一种对于差分进化中交叉和变异算子的参数的自适应参数控制。%~\cite{controlde2006}
 
-{\bf 针对多目标优化问题的差分进化算法：}得益于差分进化的简单但却强大的特点，差分进化同时也得到了多目标研究学者的广泛关注。 Chang等人第一次将差分进化拓展用于解决多目标优化问题~\cite{demo1999}。Abbas和Sarkar提出了帕累托差分进化算法（PDE）通过连续变量来解决多目标优化问题~\cite{pde2002}，并且这个算法在和其它多目标优化算法相比具有很大的竞争力。Kukkonen 和Lampinen通过将DE/rand/a/bin进行拓展用于解决多目标优化问题，提出广义差分进化（GDE）~\cite{gde2004}。接着，他们也提出了一系列的改进算法。Xue等人提出了一个多目标差分进化~\cite{mode2005}（MODE），利用最好的个体来产生后代。通过基于Pareto的方法来挑选最好的个体。同时，还使用了$(\mu+\lambda)$选择算子，Pareto 分级以及聚集距离来产生新解并维持其良好的分布。Robic和Filipic提出了一种另外一种对于多目标优化问题的差分进化DEMO~\cite{demo2005}，这个算法结合差分进化的优点以及基于Pareto 分级和聚集距离排序的机制。DEMO仅维持一个种群并且当产生新解的时候这个种群会被进行拓展。这能够确保种群向Pareto front 快速收敛，然而非劣排序和聚集距离的使用造成了解集的均匀扩撒。Iorio等人提出非劣排序差分进化算法（NSDE）~\cite{nsde2004}，这个算法是基于NSGA-II做出了一些改动。这两个算法的主要区别时产生新的个体的方式。NSGA-II使用实数编码交叉算子和变异算子，而NSDE则是使用差分进化中的交叉算子和变异算子。NSDE在解决旋转的多目标优化问题上要优于NSGA-II。
+{\bf 针对多目标优化问题的差分进化算法：}得益于差分进化的简单但却强大的特点，差分进化同时也得到了多目标研究学者的广泛关注。 Chang等人第一次将差分进化拓展用于解决多目标优化问题~\cite{demo1999}。Abbas和Sarkar提出了帕累托差分进化算法（PDE）通过连续变量来解决多目标优化问题~\cite{pde2002}，并且这个算法在和其它多目标优化算法相比具有很大的竞争力。Kukkonen 和Lampinen通过将DE/rand/1/bin进行拓展用于解决多目标优化问题，提出广义差分进化（GDE）~\cite{gde2004}。Xue等人提出了一个多目标差分进化~\cite{mode2005} （MODE），利用最好的个体来产生后代。通过基于Pareto的方法来挑选最好的个体。同时，还使用了$(\mu+\lambda)$选择算子，Pareto 分级以及聚集距离来产生新解并维持其良好的分布。Robic和Filipic提出了另外一种对于多目标优化问题的差分进化DEMO~\cite{demo2005}，这个算法结合差分进化的优点以及基于Pareto 分级和聚集距离排序的机制。DEMO仅维持一个种群并且当产生新解的时候这个种群会被进行拓展。这能够确保种群向Pareto front 快速收敛，然而非劣排序和聚集距离的使用造成了解集的均匀扩撒。Iorio等人提出非劣排序差分进化算法（NSDE）~\cite{nsde2004}，这个算法是基于NSGA-II 做出了一些改动。这两个算法的主要区别时产生新的个体的方式。NSGA-II使用实数编码交叉算子和变异算子，而NSDE则是使用差分进化中的交叉算子和变异算子。NSDE在解决旋转的多目标优化问题上要优于NSGA-II。
 
 有一些研究者也一处采用非Pareto的方法来解决多目标优化问题。Babu等人提出一个结合两种函数的多目标差分进化算法~\cite{demo2003}。这个算法通过结合两种函数来构建新的机制来解决双目标问题，这两种函数包括约束函数和聚集函数。Li等人提出基于分解的多目标差分进化算法（MOEA/D-DE）~\cite{moea-d-de2009}用于解决连续多目标问题。值得注意的是，MOEA/D是一个得到广泛应用的多目标优化算法，该方法得到研究者的广泛应用。在MOEA/D-DE之中，DE/rand/1/bin倍用于产生新的实验向量，并且所有子问题的邻域关系也会被定义从而这些子问题具有相似的最优解。
 
