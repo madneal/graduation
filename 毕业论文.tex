@@ -790,9 +790,11 @@ DE-EIG最主要的贡献就是提出一种在旋转的坐标空间中对种群个体进行交叉操作。这样可以
 \subsubsection{DE-EIG算法框架}
 DE-EIG算法是基于上文提出的新的交叉策略提出的一种新的差分进化。ED-EIG和经典的差分进化的主要区别是使用基于特征向量的交叉策略。同时为了保证种群的多样性，DE-EIG是将基于特征向量的交叉策略和经典的交叉策略相结合。这样在保证解快速收敛的同时，也保证了种群的多样性，避免种群的过早收敛。
 
+在算法~\ref{deeigalgorithm}中，参数$p$是用来DE-EIG是在原始坐标空间或者旋转的坐标空间做交叉操作。$rand()$是服从均匀分布的0到1之间的小数。通过转化种群的坐标空间，可以避免种群统计信息的丢失，加速种群的收敛。
+
 \begin{algorithm}[h]
-\label{de-eig}
 \caption{DE-EIG}
+\label{deeigalgorithm}
 初始化种群$Pop(t)=\{x_1, x_2, x_3, \cdots, x_N\}$ ($N$是种群大小)
 
 \While{not terminate}
@@ -836,14 +838,14 @@ $ t = t + 1$
 }
 \end{algorithm}
 
-在算法~\ref{de-eig}参数$p$是用来DE-EIG是在原始坐标空间或者旋转的坐标空间做交叉操作。$rand()$是服从均匀分布的0到1之间的小数。通过转化种群的坐标空间，可以避免种群统计信息的丢失，加速种群的收敛。
+
 
 \subsubsection{DE/EDA算法}
 差分进化是一种非常成功的用于解决全局连续问题优化的算法。它主要是利用当前种群中的距离和方向信息来指导未来的搜索。分布估计算法则是通过从建立的概率模型中采样来产生新的种群个体。DE/EDA 就是将差分进化和分布估计算法结合起来，用于解决全局连读问题优化。通过利用分布估计算法可以提取种群全局信息和差分进化可以提取种群差分信息的优点，DE/EDA 是一种非常具有研究前景的算法。本章节将会基于DE/EDA这一算法框架作进一步的研究。
 
 \begin{algorithm}
-\label{alg4}
 \caption{DE/EDA}
+\label{alg4}
  在可行的搜索空间内构建一个随机种群$Pop(t)$
 
 \While{not terminate}
@@ -896,8 +898,8 @@ $ t = t + 1$
 基于DE/EDA框架，将DE-EIG算法引入到之中，来进一步改善分布估计算法的采样环节。同时为了保持种群的多样性，通过一个随机参数来控制种群是通过概率模型采样产生亦或是通过DE-EIG来产生。这样，可以增加种群的多样性，同时也可以提高差分进化的搜索能力。同时，expensive local search 也将会被用于进一步提升算法求解的性能。
 
 \begin{algorithm}
-\label{eda/de-eig}
 \caption{EDA/DE-EIG}
+\label{eda/de-eig}
 初始化种群$Pop(t)=\{x_1, x_2, x_3, \cdots, x_N\}$ ($N$是种群的大小)
 
 \While{not terminate}

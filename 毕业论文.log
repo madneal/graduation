@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.26)  11 JAN 2017 13:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.26)  11 JAN 2017 13:43
 entering extended mode
 **E:/graduation/毕业论文.tex
 (E:/graduation/毕业论文.tex
@@ -1057,13 +1057,6 @@ x/n/12/61  \C19/song/bx/n/12/59 � \C19/song/bx/n/12/48 �$\OML/cmm/m/it/12 u[]$
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package caption Warning: \label without proper \caption on input line 794.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `de-eig' on page 19 undefined on input line 839.
-
 [19] [20] [21] [22]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1076,14 +1069,14 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f1.eps>
 (epstopdf)                    size: 8389 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f1-eps-conv
 erted-to.pdf figs/eda-de-eig/f1.eps>
-(epstopdf)             \includegraphics on input line 1003.
+(epstopdf)             \includegraphics on input line 1005.
 Package epstopdf Info: Output file is already uptodate.
 <figs/eda-de-eig/f1-eps-converted-to.pdf, id=197, 506.89375pt x 408.52625pt>
 File: figs/eda-de-eig/f1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f1-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f1-eps-converted-to.pdf used on input 
-line 1003.
+line 1005.
 (pdftex.def)             Requested size: 140.84256pt x 113.50763pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f2.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1093,7 +1086,7 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f2.eps>
 (epstopdf)                    size: 8333 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f2-eps-conv
 erted-to.pdf figs/eda-de-eig/f2.eps>
-(epstopdf)             \includegraphics on input line 1004.
+(epstopdf)             \includegraphics on input line 1006.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f2-eps-converted-to.pdf, id=198, 502.87875pt x 408.52625pt>
@@ -1101,7 +1094,7 @@ File: figs/eda-de-eig/f2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f2-eps-converted-to.pdf used on input 
-line 1004.
+line 1006.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f3.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1111,7 +1104,7 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f3.eps>
 (epstopdf)                    size: 8093 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f3-eps-conv
 erted-to.pdf figs/eda-de-eig/f3.eps>
-(epstopdf)             \includegraphics on input line 1005.
+(epstopdf)             \includegraphics on input line 1007.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f3-eps-converted-to.pdf, id=199, 502.87875pt x 408.52625pt>
@@ -1119,7 +1112,7 @@ File: figs/eda-de-eig/f3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f3-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f3-eps-converted-to.pdf used on input 
-line 1005.
+line 1007.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f4.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1129,7 +1122,7 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f4.eps>
 (epstopdf)                    size: 8027 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f4-eps-conv
 erted-to.pdf figs/eda-de-eig/f4.eps>
-(epstopdf)             \includegraphics on input line 1006.
+(epstopdf)             \includegraphics on input line 1008.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f4-eps-converted-to.pdf, id=200, 502.87875pt x 408.52625pt>
@@ -1137,7 +1130,7 @@ File: figs/eda-de-eig/f4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f4-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f4-eps-converted-to.pdf used on input 
-line 1006.
+line 1008.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f5.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1147,7 +1140,7 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f5.eps>
 (epstopdf)                    size: 8072 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f5-eps-conv
 erted-to.pdf figs/eda-de-eig/f5.eps>
-(epstopdf)             \includegraphics on input line 1007.
+(epstopdf)             \includegraphics on input line 1009.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f5-eps-converted-to.pdf, id=201, 502.87875pt x 408.52625pt>
@@ -1155,7 +1148,7 @@ File: figs/eda-de-eig/f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f5-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f5-eps-converted-to.pdf used on input 
-line 1007.
+line 1009.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f7.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1165,7 +1158,7 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f7.eps>
 (epstopdf)                    size: 8630 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f7-eps-conv
 erted-to.pdf figs/eda-de-eig/f7.eps>
-(epstopdf)             \includegraphics on input line 1009.
+(epstopdf)             \includegraphics on input line 1011.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f7-eps-converted-to.pdf, id=202, 498.86375pt x 408.52625pt>
@@ -1173,7 +1166,7 @@ File: figs/eda-de-eig/f7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f7-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f7-eps-converted-to.pdf used on input 
-line 1009.
+line 1011.
 (pdftex.def)             Requested size: 140.84256pt x 115.33408pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f8.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1183,7 +1176,7 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f8.eps>
 (epstopdf)                    size: 8341 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f8-eps-conv
 erted-to.pdf figs/eda-de-eig/f8.eps>
-(epstopdf)             \includegraphics on input line 1010.
+(epstopdf)             \includegraphics on input line 1012.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f8-eps-converted-to.pdf, id=203, 494.84875pt x 408.52625pt>
@@ -1191,7 +1184,7 @@ File: figs/eda-de-eig/f8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f8-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f8-eps-converted-to.pdf used on input 
-line 1010.
+line 1012.
 (pdftex.def)             Requested size: 140.84256pt x 116.26912pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f9.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1201,7 +1194,7 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f9.eps>
 (epstopdf)                    size: 8284 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f9-eps-conv
 erted-to.pdf figs/eda-de-eig/f9.eps>
-(epstopdf)             \includegraphics on input line 1011.
+(epstopdf)             \includegraphics on input line 1013.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f9-eps-converted-to.pdf, id=204, 502.87875pt x 408.52625pt>
@@ -1209,7 +1202,7 @@ File: figs/eda-de-eig/f9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f9-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f9-eps-converted-to.pdf used on input 
-line 1011.
+line 1013.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f10.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1219,7 +1212,7 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f10.eps>
 (epstopdf)                    size: 8085 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f10-eps-con
 verted-to.pdf figs/eda-de-eig/f10.eps>
-(epstopdf)             \includegraphics on input line 1012.
+(epstopdf)             \includegraphics on input line 1014.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f10-eps-converted-to.pdf, id=205, 502.87875pt x 408.52625pt>
@@ -1227,7 +1220,7 @@ File: figs/eda-de-eig/f10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f10-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f10-eps-converted-to.pdf used on input
- line 1012.
+ line 1014.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f11.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1237,7 +1230,7 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f11.eps>
 (epstopdf)                    size: 6966 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f11-eps-con
 verted-to.pdf figs/eda-de-eig/f11.eps>
-(epstopdf)             \includegraphics on input line 1013.
+(epstopdf)             \includegraphics on input line 1015.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f11-eps-converted-to.pdf, id=206, 502.87875pt x 408.52625pt>
@@ -1245,7 +1238,7 @@ File: figs/eda-de-eig/f11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f11-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f11-eps-converted-to.pdf used on input
- line 1013.
+ line 1015.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f12.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1255,7 +1248,7 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f12.eps>
 (epstopdf)                    size: 7772 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f12-eps-con
 verted-to.pdf figs/eda-de-eig/f12.eps>
-(epstopdf)             \includegraphics on input line 1014.
+(epstopdf)             \includegraphics on input line 1016.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f12-eps-converted-to.pdf, id=207, 502.87875pt x 408.52625pt>
@@ -1263,7 +1256,7 @@ File: figs/eda-de-eig/f12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f12-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f12-eps-converted-to.pdf used on input
- line 1014.
+ line 1016.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
 Package epstopdf Info: Source file: <figs/eda-de-eig/f13.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1273,7 +1266,7 @@ Package epstopdf Info: Source file: <figs/eda-de-eig/f13.eps>
 (epstopdf)                    size: 7744 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/eda-de-eig/f13-eps-con
 verted-to.pdf figs/eda-de-eig/f13.eps>
-(epstopdf)             \includegraphics on input line 1015.
+(epstopdf)             \includegraphics on input line 1017.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/eda-de-eig/f13-eps-converted-to.pdf, id=208, 502.87875pt x 408.52625pt>
@@ -1281,7 +1274,7 @@ File: figs/eda-de-eig/f13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f13-eps-converted-to.pdf>
 Package pdftex.def Info: figs/eda-de-eig/f13-eps-converted-to.pdf used on input
- line 1015.
+ line 1017.
 (pdftex.def)             Requested size: 140.84256pt x 114.4115pt.
  [23] [24 <E:/graduation/figs/eda-de-eig/f1-eps-converted-to.pdf> <E:/graduatio
 n/figs/eda-de-eig/f2-eps-converted-to.pdf> <E:/graduation/figs/eda-de-eig/f3-ep
@@ -1296,7 +1289,7 @@ igs/eda-de-eig/f10-eps-converted-to.pdf> <E:/graduation/figs/eda-de-eig/f11-eps
 File: figs/figure/ps.png Graphic file (type png)
 
 <use figs/figure/ps.png>
-Package pdftex.def Info: figs/figure/ps.png used on input line 1061.
+Package pdftex.def Info: figs/figure/ps.png used on input line 1063.
 (pdftex.def)             Requested size: 234.73523pt x 128.58444pt.
 
 
@@ -1306,21 +1299,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figs/lpca.png, id=312, 647.41875pt x 212.795pt>
 File: figs/lpca.png Graphic file (type png)
  <use figs/lpca.png>
-Package pdftex.def Info: figs/lpca.png used on input line 1133.
+Package pdftex.def Info: figs/lpca.png used on input line 1135.
 (pdftex.def)             Requested size: 375.57779pt x 123.44714pt.
  [29]
 <figs/figure/pareto.png, id=323, 688.5725pt x 377.41pt>
 File: figs/figure/pareto.png Graphic file (type png)
 
 <use figs/figure/pareto.png>
-Package pdftex.def Info: figs/figure/pareto.png used on input line 1144.
+Package pdftex.def Info: figs/figure/pareto.png used on input line 1146.
 (pdftex.def)             Requested size: 234.73523pt x 128.65747pt.
  [30 <E:/graduation/figs/lpca.png> <E:/graduation/figs/figure/pareto.png>]
 <figs/figure/mutation.png, id=328, 309.40594pt x 225.84375pt>
 File: figs/figure/mutation.png Graphic file (type png)
 
 <use figs/figure/mutation.png>
-Package pdftex.def Info: figs/figure/mutation.png used on input line 1195.
+Package pdftex.def Info: figs/figure/mutation.png used on input line 1197.
 (pdftex.def)             Requested size: 234.73523pt x 171.34665pt.
  [31 <E:/graduation/figs/figure/mutation.png>]
 [32]
@@ -1332,14 +1325,14 @@ Package epstopdf Info: Source file: <figs/box/box_f1.eps>
 (epstopdf)                    size: 4421 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f1-eps-convert
 ed-to.pdf figs/box/box_f1.eps>
-(epstopdf)             \includegraphics on input line 1254.
+(epstopdf)             \includegraphics on input line 1256.
 Package epstopdf Info: Output file is already uptodate.
  <figs/box/box_f1-eps-converted-to.pdf, id=340, 490.83376pt x 387.4475pt>
 File: figs/box/box_f1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f1-eps-converted-to.pdf>
 Package pdftex.def Info: figs/box/box_f1-eps-converted-to.pdf used on input lin
-e 1254.
+e 1256.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f2.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1349,7 +1342,7 @@ Package epstopdf Info: Source file: <figs/box/box_f2.eps>
 (epstopdf)                    size: 4482 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f2-eps-convert
 ed-to.pdf figs/box/box_f2.eps>
-(epstopdf)             \includegraphics on input line 1255.
+(epstopdf)             \includegraphics on input line 1257.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/box/box_f2-eps-converted-to.pdf, id=341, 490.83376pt x 387.4475pt>
@@ -1357,7 +1350,7 @@ File: figs/box/box_f2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f2-eps-converted-to.pdf>
 Package pdftex.def Info: figs/box/box_f2-eps-converted-to.pdf used on input lin
-e 1255.
+e 1257.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f3.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1367,7 +1360,7 @@ Package epstopdf Info: Source file: <figs/box/box_f3.eps>
 (epstopdf)                    size: 4620 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f3-eps-convert
 ed-to.pdf figs/box/box_f3.eps>
-(epstopdf)             \includegraphics on input line 1256.
+(epstopdf)             \includegraphics on input line 1258.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/box/box_f3-eps-converted-to.pdf, id=342, 490.83376pt x 387.4475pt>
@@ -1375,7 +1368,7 @@ File: figs/box/box_f3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f3-eps-converted-to.pdf>
 Package pdftex.def Info: figs/box/box_f3-eps-converted-to.pdf used on input lin
-e 1256.
+e 1258.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f4.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1385,7 +1378,7 @@ Package epstopdf Info: Source file: <figs/box/box_f4.eps>
 (epstopdf)                    size: 4472 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f4-eps-convert
 ed-to.pdf figs/box/box_f4.eps>
-(epstopdf)             \includegraphics on input line 1257.
+(epstopdf)             \includegraphics on input line 1259.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/box/box_f4-eps-converted-to.pdf, id=343, 490.83376pt x 387.4475pt>
@@ -1393,7 +1386,7 @@ File: figs/box/box_f4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f4-eps-converted-to.pdf>
 Package pdftex.def Info: figs/box/box_f4-eps-converted-to.pdf used on input lin
-e 1257.
+e 1259.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f5.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1403,7 +1396,7 @@ Package epstopdf Info: Source file: <figs/box/box_f5.eps>
 (epstopdf)                    size: 4550 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f5-eps-convert
 ed-to.pdf figs/box/box_f5.eps>
-(epstopdf)             \includegraphics on input line 1258.
+(epstopdf)             \includegraphics on input line 1260.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/box/box_f5-eps-converted-to.pdf, id=344, 490.83376pt x 387.4475pt>
@@ -1411,7 +1404,7 @@ File: figs/box/box_f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f5-eps-converted-to.pdf>
 Package pdftex.def Info: figs/box/box_f5-eps-converted-to.pdf used on input lin
-e 1258.
+e 1260.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f6.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1421,7 +1414,7 @@ Package epstopdf Info: Source file: <figs/box/box_f6.eps>
 (epstopdf)                    size: 4665 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f6-eps-convert
 ed-to.pdf figs/box/box_f6.eps>
-(epstopdf)             \includegraphics on input line 1259.
+(epstopdf)             \includegraphics on input line 1261.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/box/box_f6-eps-converted-to.pdf, id=345, 484.81125pt x 387.4475pt>
@@ -1429,7 +1422,7 @@ File: figs/box/box_f6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f6-eps-converted-to.pdf>
 Package pdftex.def Info: figs/box/box_f6-eps-converted-to.pdf used on input lin
-e 1259.
+e 1261.
 (pdftex.def)             Requested size: 122.05974pt x 97.54742pt.
 Package epstopdf Info: Source file: <figs/box/box_f7.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1439,7 +1432,7 @@ Package epstopdf Info: Source file: <figs/box/box_f7.eps>
 (epstopdf)                    size: 5210 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f7-eps-convert
 ed-to.pdf figs/box/box_f7.eps>
-(epstopdf)             \includegraphics on input line 1260.
+(epstopdf)             \includegraphics on input line 1262.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/box/box_f7-eps-converted-to.pdf, id=346, 484.81125pt x 387.4475pt>
@@ -1447,7 +1440,7 @@ File: figs/box/box_f7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f7-eps-converted-to.pdf>
 Package pdftex.def Info: figs/box/box_f7-eps-converted-to.pdf used on input lin
-e 1260.
+e 1262.
 (pdftex.def)             Requested size: 122.05974pt x 97.54742pt.
 Package epstopdf Info: Source file: <figs/box/box_f8.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1457,7 +1450,7 @@ Package epstopdf Info: Source file: <figs/box/box_f8.eps>
 (epstopdf)                    size: 4588 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f8-eps-convert
 ed-to.pdf figs/box/box_f8.eps>
-(epstopdf)             \includegraphics on input line 1261.
+(epstopdf)             \includegraphics on input line 1263.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/box/box_f8-eps-converted-to.pdf, id=347, 495.8525pt x 387.4475pt>
@@ -1465,7 +1458,7 @@ File: figs/box/box_f8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f8-eps-converted-to.pdf>
 Package pdftex.def Info: figs/box/box_f8-eps-converted-to.pdf used on input lin
-e 1261.
+e 1263.
 (pdftex.def)             Requested size: 122.05974pt x 95.37181pt.
 Package epstopdf Info: Source file: <figs/box/box_f9.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1475,7 +1468,7 @@ Package epstopdf Info: Source file: <figs/box/box_f9.eps>
 (epstopdf)                    size: 5174 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f9-eps-convert
 ed-to.pdf figs/box/box_f9.eps>
-(epstopdf)             \includegraphics on input line 1262.
+(epstopdf)             \includegraphics on input line 1264.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/box/box_f9-eps-converted-to.pdf, id=348, 490.83376pt x 387.4475pt>
@@ -1483,7 +1476,7 @@ File: figs/box/box_f9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f9-eps-converted-to.pdf>
 Package pdftex.def Info: figs/box/box_f9-eps-converted-to.pdf used on input lin
-e 1262.
+e 1264.
 (pdftex.def)             Requested size: 122.05974pt x 96.34729pt.
 Package epstopdf Info: Source file: <figs/box/box_f10.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1493,7 +1486,7 @@ Package epstopdf Info: Source file: <figs/box/box_f10.eps>
 (epstopdf)                    size: 5101 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/box/box_f10-eps-conver
 ted-to.pdf figs/box/box_f10.eps>
-(epstopdf)             \includegraphics on input line 1263.
+(epstopdf)             \includegraphics on input line 1265.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/box/box_f10-eps-converted-to.pdf, id=349, 487.8225pt x 387.4475pt>
@@ -1501,7 +1494,7 @@ File: figs/box/box_f10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f10-eps-converted-to.pdf>
 Package pdftex.def Info: figs/box/box_f10-eps-converted-to.pdf used on input li
-ne 1263.
+ne 1265.
 (pdftex.def)             Requested size: 122.05974pt x 96.9444pt.
 Package epstopdf Info: Source file: <figs/figure/f1_f5.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1511,7 +1504,7 @@ Package epstopdf Info: Source file: <figs/figure/f1_f5.eps>
 (epstopdf)                    size: 5847 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/figure/f1_f5-eps-conve
 rted-to.pdf figs/figure/f1_f5.eps>
-(epstopdf)             \includegraphics on input line 1276.
+(epstopdf)             \includegraphics on input line 1278.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/figure/f1_f5-eps-converted-to.pdf, id=350, 517.935pt x 393.47pt>
@@ -1519,7 +1512,7 @@ File: figs/figure/f1_f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/figure/f1_f5-eps-converted-to.pdf>
 Package pdftex.def Info: figs/figure/f1_f5-eps-converted-to.pdf used on input l
-ine 1276.
+ine 1278.
 (pdftex.def)             Requested size: 150.23398pt x 114.13339pt.
 Package epstopdf Info: Source file: <figs/figure/f6_f9.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1529,7 +1522,7 @@ Package epstopdf Info: Source file: <figs/figure/f6_f9.eps>
 (epstopdf)                    size: 5561 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/figure/f6_f9-eps-conve
 rted-to.pdf figs/figure/f6_f9.eps>
-(epstopdf)             \includegraphics on input line 1277.
+(epstopdf)             \includegraphics on input line 1279.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/figure/f6_f9-eps-converted-to.pdf, id=351, 517.935pt x 393.47pt>
@@ -1537,7 +1530,7 @@ File: figs/figure/f6_f9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/figure/f6_f9-eps-converted-to.pdf>
 Package pdftex.def Info: figs/figure/f6_f9-eps-converted-to.pdf used on input l
-ine 1277.
+ine 1279.
 (pdftex.def)             Requested size: 150.23398pt x 114.13339pt.
 Package epstopdf Info: Source file: <figs/figure/f10.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1547,7 +1540,7 @@ Package epstopdf Info: Source file: <figs/figure/f10.eps>
 (epstopdf)                    size: 4510 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/figure/f10-eps-convert
 ed-to.pdf figs/figure/f10.eps>
-(epstopdf)             \includegraphics on input line 1278.
+(epstopdf)             \includegraphics on input line 1280.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/figure/f10-eps-converted-to.pdf, id=352, 514.92375pt x 393.47pt>
@@ -1555,7 +1548,7 @@ File: figs/figure/f10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/figure/f10-eps-converted-to.pdf>
 Package pdftex.def Info: figs/figure/f10-eps-converted-to.pdf used on input lin
-e 1278.
+e 1280.
 (pdftex.def)             Requested size: 150.23398pt x 114.79381pt.
  [33] [34 <E:/graduation/figs/box/box_f1-eps-converted-to.pdf> <E:/graduation/f
 igs/box/box_f2-eps-converted-to.pdf> <E:/graduation/figs/box/box_f3-eps-convert
@@ -1575,7 +1568,7 @@ Package epstopdf Info: Source file: <figs/figure/f_performance.eps>
 (epstopdf)                    size: 4796 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/figure/f_performance-e
 ps-converted-to.pdf figs/figure/f_performance.eps>
-(epstopdf)             \includegraphics on input line 1294.
+(epstopdf)             \includegraphics on input line 1296.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/figure/f_performance-eps-converted-to.pdf, id=409, 488.82625pt x 393.47pt
@@ -1583,7 +1576,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: figs/figure/f_performance-eps-converted-to.pdf Graphic file (type pdf)
  <use figs/figure/f_performance-eps-converted-to.pdf>
 Package pdftex.def Info: figs/figure/f_performance-eps-converted-to.pdf used on
- input line 1294.
+ input line 1296.
 (pdftex.def)             Requested size: 187.78531pt x 151.1532pt.
  [35 <E:/graduation/figs/figure/f_performance-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/igd/f1_igd.eps>
@@ -1594,7 +1587,7 @@ Package epstopdf Info: Source file: <figs/igd/f1_igd.eps>
 (epstopdf)                    size: 4931 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f1_igd-eps-convert
 ed-to.pdf figs/igd/f1_igd.eps>
-(epstopdf)             \includegraphics on input line 1346.
+(epstopdf)             \includegraphics on input line 1348.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/igd/f1_igd-eps-converted-to.pdf, id=420, 498.86375pt x 402.50375pt>
@@ -1602,7 +1595,7 @@ File: figs/igd/f1_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f1_igd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/igd/f1_igd-eps-converted-to.pdf used on input lin
-e 1346.
+e 1348.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f2_igd.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1612,7 +1605,7 @@ Package epstopdf Info: Source file: <figs/igd/f2_igd.eps>
 (epstopdf)                    size: 4960 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f2_igd-eps-convert
 ed-to.pdf figs/igd/f2_igd.eps>
-(epstopdf)             \includegraphics on input line 1347.
+(epstopdf)             \includegraphics on input line 1349.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/igd/f2_igd-eps-converted-to.pdf, id=421, 498.86375pt x 402.50375pt>
@@ -1620,7 +1613,7 @@ File: figs/igd/f2_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f2_igd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/igd/f2_igd-eps-converted-to.pdf used on input lin
-e 1347.
+e 1349.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f3_igd.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1630,7 +1623,7 @@ Package epstopdf Info: Source file: <figs/igd/f3_igd.eps>
 (epstopdf)                    size: 14157 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f3_igd-eps-convert
 ed-to.pdf figs/igd/f3_igd.eps>
-(epstopdf)             \includegraphics on input line 1348.
+(epstopdf)             \includegraphics on input line 1350.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/igd/f3_igd-eps-converted-to.pdf, id=422, 500.87125pt x 402.50375pt>
@@ -1638,7 +1631,7 @@ File: figs/igd/f3_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f3_igd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/igd/f3_igd-eps-converted-to.pdf used on input lin
-e 1348.
+e 1350.
 (pdftex.def)             Requested size: 122.05974pt x 98.08302pt.
 Package epstopdf Info: Source file: <figs/igd/f4_igd.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1648,7 +1641,7 @@ Package epstopdf Info: Source file: <figs/igd/f4_igd.eps>
 (epstopdf)                    size: 5856 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f4_igd-eps-convert
 ed-to.pdf figs/igd/f4_igd.eps>
-(epstopdf)             \includegraphics on input line 1349.
+(epstopdf)             \includegraphics on input line 1351.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/igd/f4_igd-eps-converted-to.pdf, id=423, 498.86375pt x 402.50375pt>
@@ -1656,7 +1649,7 @@ File: figs/igd/f4_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f4_igd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/igd/f4_igd-eps-converted-to.pdf used on input lin
-e 1349.
+e 1351.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f5_igd.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1666,7 +1659,7 @@ Package epstopdf Info: Source file: <figs/igd/f5_igd.eps>
 (epstopdf)                    size: 4969 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f5_igd-eps-convert
 ed-to.pdf figs/igd/f5_igd.eps>
-(epstopdf)             \includegraphics on input line 1350.
+(epstopdf)             \includegraphics on input line 1352.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/igd/f5_igd-eps-converted-to.pdf, id=424, 498.86375pt x 402.50375pt>
@@ -1674,7 +1667,7 @@ File: figs/igd/f5_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f5_igd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/igd/f5_igd-eps-converted-to.pdf used on input lin
-e 1350.
+e 1352.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f6_igd.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1684,7 +1677,7 @@ Package epstopdf Info: Source file: <figs/igd/f6_igd.eps>
 (epstopdf)                    size: 4957 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f6_igd-eps-convert
 ed-to.pdf figs/igd/f6_igd.eps>
-(epstopdf)             \includegraphics on input line 1351.
+(epstopdf)             \includegraphics on input line 1353.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/igd/f6_igd-eps-converted-to.pdf, id=425, 498.86375pt x 402.50375pt>
@@ -1692,7 +1685,7 @@ File: figs/igd/f6_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f6_igd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/igd/f6_igd-eps-converted-to.pdf used on input lin
-e 1351.
+e 1353.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f7_igd.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1702,7 +1695,7 @@ Package epstopdf Info: Source file: <figs/igd/f7_igd.eps>
 (epstopdf)                    size: 11950 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f7_igd-eps-convert
 ed-to.pdf figs/igd/f7_igd.eps>
-(epstopdf)             \includegraphics on input line 1352.
+(epstopdf)             \includegraphics on input line 1354.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/igd/f7_igd-eps-converted-to.pdf, id=426, 500.87125pt x 402.50375pt>
@@ -1710,7 +1703,7 @@ File: figs/igd/f7_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f7_igd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/igd/f7_igd-eps-converted-to.pdf used on input lin
-e 1352.
+e 1354.
 (pdftex.def)             Requested size: 122.05974pt x 98.08302pt.
 Package epstopdf Info: Source file: <figs/igd/f8_igd.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1720,7 +1713,7 @@ Package epstopdf Info: Source file: <figs/igd/f8_igd.eps>
 (epstopdf)                    size: 5921 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f8_igd-eps-convert
 ed-to.pdf figs/igd/f8_igd.eps>
-(epstopdf)             \includegraphics on input line 1353.
+(epstopdf)             \includegraphics on input line 1355.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/igd/f8_igd-eps-converted-to.pdf, id=427, 498.86375pt x 402.50375pt>
@@ -1728,7 +1721,7 @@ File: figs/igd/f8_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f8_igd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/igd/f8_igd-eps-converted-to.pdf used on input lin
-e 1353.
+e 1355.
 (pdftex.def)             Requested size: 122.05974pt x 98.48222pt.
 Package epstopdf Info: Source file: <figs/igd/f9_igd.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1738,7 +1731,7 @@ Package epstopdf Info: Source file: <figs/igd/f9_igd.eps>
 (epstopdf)                    size: 11533 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f9_igd-eps-convert
 ed-to.pdf figs/igd/f9_igd.eps>
-(epstopdf)             \includegraphics on input line 1354.
+(epstopdf)             \includegraphics on input line 1356.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/igd/f9_igd-eps-converted-to.pdf, id=428, 500.87125pt x 402.50375pt>
@@ -1746,7 +1739,7 @@ File: figs/igd/f9_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f9_igd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/igd/f9_igd-eps-converted-to.pdf used on input lin
-e 1354.
+e 1356.
 (pdftex.def)             Requested size: 122.05974pt x 98.08302pt.
 Package epstopdf Info: Source file: <figs/igd/f10_igd.eps>
 (epstopdf)                    date: 2016-12-12 16:04:06
@@ -1756,7 +1749,7 @@ Package epstopdf Info: Source file: <figs/igd/f10_igd.eps>
 (epstopdf)                    size: 9010 bytes
 (epstopdf)             Command: <epstopdf --outfile=figs/igd/f10_igd-eps-conver
 ted-to.pdf figs/igd/f10_igd.eps>
-(epstopdf)             \includegraphics on input line 1355.
+(epstopdf)             \includegraphics on input line 1357.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/igd/f10_igd-eps-converted-to.pdf, id=429, 496.85625pt x 402.50375pt>
@@ -1764,7 +1757,7 @@ File: figs/igd/f10_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f10_igd-eps-converted-to.pdf>
 Package pdftex.def Info: figs/igd/f10_igd-eps-converted-to.pdf used on input li
-ne 1355.
+ne 1357.
 (pdftex.def)             Requested size: 122.05974pt x 98.87529pt.
  [36] [37 <E:/graduation/figs/igd/f1_igd-eps-converted-to.pdf> <E:/graduation/f
 igs/igd/f2_igd-eps-converted-to.pdf> <E:/graduation/figs/igd/f3_igd-eps-convert
@@ -1792,14 +1785,11 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
  19895 strings out of 495354
- 331156 string characters out of 3183859
- 382894 words of memory out of 3000000
+ 331164 string characters out of 3183859
+ 382808 words of memory out of 3000000
  22460 multiletter control sequences out of 15000+200000
  114305 words of font info for 378 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1872,7 +1862,7 @@ X/fonts/type1/public/cm-super/sfrm1095.pfb><C:/CTEX/MiKTeX/fonts/type1/public/c
 m-super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><
 C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/CTEX/MiKTeX/fonts/t
 ype1/public/cm-super/sfti1200.pfb>
-Output written on 毕业论文.pdf (58 pages, 1300771 bytes).
+Output written on 毕业论文.pdf (58 pages, 1300557 bytes).
 PDF statistics:
  871 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
