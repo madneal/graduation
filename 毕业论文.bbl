@@ -267,6 +267,11 @@ A.~K. Qin, V.~L. Huang, and P.~N. Suganthan, ``Differential evolution algorithm
   with strategy adaptation for global numerical optimization,'' \emph{IEEE
   Transactions on Evolutionary Computation}, 2009.
 
+\bibitem{tde2003}
+H.-Y. Fan and J.~Lampinen, ``A trigonometric mutation operation to differential
+  evolution,'' \emph{Journal of global optimization}, vol.~27, no.~1, pp.
+  105--129, 2003.
+
 \bibitem{de2006}
 K.~Price, R.~M. Storn, and J.~A. Lampinen, \emph{Differential evolution: a
   practical approach to global optimization}.\hskip 1em plus 0.5em minus
