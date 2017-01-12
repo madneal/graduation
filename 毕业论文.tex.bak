@@ -3,6 +3,7 @@
 \documentclass [a4paper,12pt,oneside] {article}
 
 \usepackage{CJK,CJKnumb}
+\usepackage{ccmap}
 \usepackage{bbm}
 \usepackage{tipa}
 \usepackage{stmaryrd}
@@ -392,7 +393,7 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 {\large 2.2 演化算法}$\dotfill 4$\par
 {\large 2.3 分布估计算法}$\dotfill 4$\par
 {\large 2.4 差分进化}$\dotfill 10$\\[4mm]
-{\large 3 基于差分采样的多目标优化}\hfill \rmfamily{17}\par
+{\large 3 基于差分采样的单目标优化}\hfill \rmfamily{17}\par
 {\large 3.1 全局单目标优化问题}$\dotfill 17$\par
 {\large 3.2 基于差分采样的单目标分布估计算法}$\dotfill 17$\par
 {\large 3.3 实验分析}$\dotfill 22$\par
@@ -403,7 +404,7 @@ This paper combine differential evolution sampling strategy with EDA. Moreover, 
 {\large 4.3 实验分析}$\dotfill 31$\par
 {\large 4.4 本章小结}$\dotfill 34$\\[4mm]
 {\large 5 总结与展望}\hfill \rmfamily{37}\par
-{\large 5.1 本文工作总结}$\dotfill 37$\par
+{\large 5.1 工作总结}$\dotfill 37$\par
 {\large 5.2 工作展望}$\dotfill 37$\\[4mm]
 {\large 参考文献}$\dotfill 39$\par
 {\large 致\quad 谢}$\dotfill 47$\par
@@ -657,7 +658,7 @@ u_{i,G}=x_{i,G}+K\cdot(x_{r1,G}-x_{i,G})+F'\cdot(x_{r2,G}-x_{r3,G})
 
 经典的差分进化利用一对一的竞争机制从目标向量和试验向量中挑选个体。如果试验向量的目标函数值小于或者等于目标向量的目标函数值，则试验向量进入下一代，否则目标向量进入下一代。
 
-\subsubsection{差分进化算法的研究现状}
+\subsubsection{差分进化的研究现状}
 差分进化算法自从提出之后，就受到了工业界以及学术界的广泛关注，针对差分进化的研究百花齐放。根据差分进化解决的问题类型，可以将差分进化分为以下几种类型,对于下面每种类型的差分进化算法下面也分为多种类型的算法。
 
 {\bf 针对连读单目标优化问题的差分进化算法：}Fan等人在提出了一种三角变异算子来提高差分进化的性能~\cite{tde2003}。为了实现这种方法，对于对于每一个目标向量，会在种群中随机选择三个不同的种群个体。对于第$i$个目标向量$X_{i,G}$而选择的种群个体是$X_{r1,G}$，$X_{r2,G}$和$X_{r3,G}$。三个下标$r1$，$r2$和$r3$ 是从$[1, NP]$区间选择的三个互不相同的整数，同时它们也不同于$i$。那么三个加权系数就可以根据下面的公式生成：
@@ -830,8 +831,6 @@ $v_{i,G}=x_{r1,G}+F\cdot(x_{r2,G}-x_{r3,G})$
 $ t = t + 1$
 }
 \end{algorithm}
-
-
 
 \subsubsection{DE/EDA算法}
 差分进化是一种非常成功的用于解决全局连续问题优化的算法。它主要是利用当前种群中的距离和方向信息来指导未来的搜索。分布估计算法则是通过从建立的概率模型中采样来产生新的种群个体。DE/EDA 就是将差分进化和分布估计算法结合起来，用于解决全局连读问题优化。通过利用分布估计算法可以提取种群全局信息和差分进化可以提取种群差分信息的优点，DE/EDA 是一种非常具有研究前景的算法。本章节将会基于DE/EDA这一算法框架作进一步的研究。
@@ -1035,7 +1034,7 @@ DE/EDA是一种对于全局优化的具有很大潜力的方法，它结合了分布估计算法的全局建模信息
 
 3.1节给出了连续多目标问题的相关背景知识，3.2节主要介绍RM-MEDA算法框架以及相应的背景知识，3.3节详细介绍基于差分进化的采样策略，3.4节主要讲述通过基于差分进化的采样策略来改进RM-MEDA 算法，3.5节是实验结果的分析。
 
-\subsection{连续多目标问题}
+\subsection{连续多目标优化问题}
 为了不失一般性，在本文中，在本文中我们假设多目标优化问题中的每个问题都是最小化问题，则多目标优化问题可以由以下数学公式表达：
 \begin{equation}
 \begin{array}{rl}
