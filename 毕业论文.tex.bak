@@ -299,7 +299,7 @@
 \newpage
 \pagenumbering{roman}
 
-%\section*{\hspace*{\fill}\Huge {分布估计算法中差分采样策略的研究}\hspace*{\fill}}
+\section*{\hspace*{\fill}\Huge {分布估计算法中差分采样策略的研究}\hspace*{\fill}}
 %\\\hspace*{\fill}\Huge {自适应加权均值滤波算法} \hspace*{\fill}}
 \subsection*{\hspace*{\fill}\huge{中\quad 文\quad 摘\quad 要} \hspace*{\fill}}
 \vspace*{5mm} \normalfont
@@ -320,8 +320,8 @@
 \title{{Differential Evolution based Sampling Strategy in Evolutionary Algorithms}}
 
 \thispagestyle{plain}
-%\section*{\hspace*{\fill}\Large{The Study of Differential Evolution Sampling Strategy in}\hspace*{\fill}
-%\\\hspace*{\fill}\Large{Estimation of Distribution Algorithms} \hspace*{\fill}}
+\section*{\hspace*{\fill}\Large{The Study of Differential Evolution Sampling Strategy in}\hspace*{\fill}
+\\\hspace*{\fill}\Large{Estimation of Distribution Algorithms} \hspace*{\fill}}
 \subsection*{\hspace*{\fill}ABSTRACT \hspace*{\fill}}
 \vspace*{5mm} \normalfont
 Evolutionary algorithm is a heuristic optimization algorithm based on population which is inspired by biological evolution. Evolution algorithms are applied to various problems, as it does not need any complex assumptions. Evolutionary algorithms have been widely applied to engineering, bibliography, economy, gene engineering and social science, etc.
