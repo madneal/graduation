@@ -624,19 +624,19 @@ MIDEA算法~\cite{mieda2006}是对于多目标优化问题上的IDEA算法框架的进一步拓展。通过
 在传统意义中的演化计算中，变异是通过一个随机元素从而使种群发生改变或者扰动从而产生变异向量来找到更好的解。在差分进化中，对于每一个目标向量$x_{i,G}$都会使用某一种变异策略来产生相应的变异向量$v_{i,G}$。下面是六种文献中常用的变异策略：
 
 \begin{enumerate}
-\item DE/rand/1策略
+\item DE/rand/1
 \begin{equation}
 v_{i,G}=x_{r1,G}+F\cdot(x_{r2,G}+x_{r3,G})
 \end{equation}
-\item DE/best/1策略
+\item DE/best/1
 \begin{equation}
 v_{i,G}=x_{best,G}+F\cdot(x_{r1,G}+x_{r2,G})
 \end{equation}
-\item DE/rand/2策略
+\item DE/rand/2
 \begin{equation}
 v_{i,G}=x_{r1,G}+F\cdot(x_{r2,G}-x_{r3,G})+F\cdot(x_{r4,G}-x_{r5,G})
 \end{equation}
-\item DE/best/2策略
+\item DE/best/2
 \begin{equation}
 v_{i,G}=x_{best,G}+F\cdot(x_{r1,G}-x_{r2,G})+F\cdot(x_{r3,G}-x_{r4,G})
 \end{equation}
