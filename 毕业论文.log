@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  5 FEB 2017 16:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  14 FEB 2017 10:37
 entering extended mode
-**C:/Users/neal1/project/graduation/毕业论文.tex
-(C:/Users/neal1/project/graduation/毕业论文.tex
+**毕业论文.tex
+(C:\Users\neal1\project\graduation\毕业论文.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (C:\CTEX\CTeX\tex\ty\tdw.tex
@@ -1836,7 +1836,7 @@ Here is how much of TeX's memory you used:
  22522 multiletter control sequences out of 15000+200000
  111619 words of font info for 369 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,18n,55p,1510b,961s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,18n,55p,1476b,961s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
 chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
 X/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun
@@ -1904,7 +1904,7 @@ b><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/CTEX/MiKTeX/font
 s/type1/public/cm-super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-supe
 r/sfrm1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/CTE
 X/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on 毕业论文.pdf (60 pages, 1529746 bytes).
+Output written on 毕业论文.pdf (60 pages, 1532490 bytes).
 PDF statistics:
  917 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

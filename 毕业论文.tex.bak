@@ -624,19 +624,19 @@ MIDEA算法~\cite{mieda2006}是对于多目标优化问题上的IDEA算法框架的进一步拓展。通过
 在传统意义中的演化计算中，变异是通过一个随机元素从而使种群发生改变或者扰动从而产生变异向量来找到更好的解。在差分进化中，对于每一个目标向量$x_{i,G}$都会使用某一种变异策略来产生相应的变异向量$v_{i,G}$。下面是六种文献中常用的变异策略：
 
 \begin{enumerate}
-\item DE/rand/1策略
+\item DE/rand/1
 \begin{equation}
 v_{i,G}=x_{r1,G}+F\cdot(x_{r2,G}+x_{r3,G})
 \end{equation}
-\item DE/best/1策略
+\item DE/best/1
 \begin{equation}
 v_{i,G}=x_{best,G}+F\cdot(x_{r1,G}+x_{r2,G})
 \end{equation}
-\item DE/rand/2策略
+\item DE/rand/2
 \begin{equation}
 v_{i,G}=x_{r1,G}+F\cdot(x_{r2,G}-x_{r3,G})+F\cdot(x_{r4,G}-x_{r5,G})
 \end{equation}
-\item DE/best/2策略
+\item DE/best/2
 \begin{equation}
 v_{i,G}=x_{best,G}+F\cdot(x_{r1,G}-x_{r2,G})+F\cdot(x_{r3,G}-x_{r4,G})
 \end{equation}
@@ -1084,7 +1084,7 @@ RM-MEDA算法是基于分布估计算法的框架，主要也是包括建模、采样、选择三个环节。算法~
 
 \end{algorithm}
 
-建模是分布估计算法中关键环节，在RM-MEDA中，如何找到种群中的个体在决策空间中的中心曲线或曲面是建模的关键。在此假设$\xi$由$k$个流体$M^1,\cdots,M^k$ 组成，每一个流体是一个超矩形。一般来说，对于双目标，每一个流体$M^j$是一个线段，对于三个目标，每一个流体$M^j$是一个二维矩形。建模的重点就是估计流体$M^j$以及流体的主要组成部分$\zeta$。为了更好地描述这些流体，通过LPCA 将种群划分为$k$个聚类：$C_1,\cdots, C_k$。 令$S$为$R^n$ 的有限子集，则定义子集$C$ 的均值为：
+建模是分布估计算法中关键环节，在RM-MEDA中，如何找到种群中的个体在决策空间中的中心曲线或曲面是建模的关键。在此假设$\xi$由$k$个流体$M^1,\cdots,M^k$ 组成，每一个流体是一个超矩形。一般来说，对于双目标，每一个流体$M^j$是一个线段，对于三个目标，每一个流体$M^j$是一个二维矩形。建模的重点就是估计流体$M^j$以及流体的主要组成部分$\zeta$。为了更好地描述这些流体，通过LPCA 将种群划分为$k$个聚类：$C_1,\cdots, C_k$。 令$C$为$R^n$ 的有限子集，则定义子集$C$ 的均值为：
 \begin{equation}
 \label{C}
 \overline{x}=\frac{1}{|C|}\sum_{x\in{C}}x
@@ -1126,7 +1126,7 @@ LPCA通过最小化以下误差函数的最小值来将种群划分聚类：
 \end{figure}
 
 \subsubsection{RM-MEDA中存在的问题和解决方法}
-在RM-MEDA中，通过使用LPCA将种群分成k个聚类。如图~\ref{pareto}所示，在每一个聚类之中，$N^k$用来表示聚类中的Pareto set，而$M^k$则用来覆盖每个聚类中的Pareto set。 为了能够覆盖聚类中的Pareto set，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto set。但是这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不禁相同。如果缩放比例设置过大，则对于实际的Pareto set则显得多余；如果设置的缩放比例过小，又不足以覆盖实际的Pareto set。 因此，如何设置一个合适的缩放比例也成为了一个比较困难的问题。
+在RM-MEDA中，通过使用LPCA将种群分成k个聚类。如图~\ref{pareto}所示，在每一个聚类之中，$N^k$用来表示聚类中的Pareto set，而$M^k$则用来覆盖每个聚类中的Pareto set。 为了能够覆盖聚类中的Pareto set，RM-MEDA通过设置一个缩放比例用来覆盖聚类中的Pareto set。但是这个缩放比例依赖于具体的问题，对于不同的问题，其表现也不尽相同。如果缩放比例设置过大，则对于实际的Pareto set则显得多余；如果设置的缩放比例过小，又不足以覆盖实际的Pareto set。 因此，如何设置一个合适的缩放比例也成为了一个比较困难的问题。
 
 \begin{figure}
 \graphicspath{{figs/figure/}}
