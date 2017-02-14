@@ -182,7 +182,7 @@
       \cline{2-2}
 \end{tabular}
 \end{center}
-\vfill \centerline{\large 2017~年~6~月~6~日}
+\vfill \centerline{\large 2017~年~2~月~13~日}
 \end{titlepage}
 
 \newpage
@@ -217,7 +217,7 @@
       \cline{2-2}
     \end{tabular}
    \vfill
-   {\large June，2017 $\cdot$ Shanghai}
+   {\large February，2017 $\cdot$ Shanghai}
   \end{center}
 \vfill
 %%-------------------------独创性声明-------------------------------------------------------------------------------------
@@ -312,7 +312,7 @@
 本文的主要内容是基于差分采样策略的单目标分布估计算法和多目标分布估计算法。对于单目标优化问题，基于DE/EDA算法框架，通过结合基于特征向量的差分进化来采样，同时，利用expensive local search(LS) 来进一步提高解集质量，提出了基于差分采样的单目标分布估计算法。另一方面，对于多目标优化问题，通过差分采样策略来改进RM-MEDA的采样，并且效果显著。通过将差分采样策略分别应用单目标和多目标分布估计算法，并且在综合的实验分析的基础上，有效地表明了差分采样策略对于分布估计算法的重大意义。
 \\[2mm]
 
-\bfseries{ 关键词:}\normalfont\quad\ 分布估计算法，差分进化，演化算法，全局优化多目标优化
+\bfseries{ 关键词:}\normalfont\quad\ 分布估计算法，差分进化，演化算法，全局优化，多目标优化
 
 \newpage
 \title{{Differential Evolution based Sampling Strategy in Evolutionary Algorithms}}
@@ -332,7 +332,7 @@ The main contents of this paper are single objective estimation of distribution 
 
 \vspace*{3mm}
 
-\bfseries{Key words:}\normalfont \quad ~estimation of distribution algorithm,~differential evolution,~evolutionary algorithm,~global optimization
+\bfseries{Key words:}\normalfont \quad ~estimation of distribution algorithm,~differential evolution,~evolutionary algorithm,~global optimization,~multiobjective optimization
 
 
 \newpage
@@ -447,7 +447,7 @@ The main contents of this paper are single objective estimation of distribution 
 
 第三章 ~~~对于全局单目标优化问题，为了进一步提高单目标分布估计算法的采样性能，利用差分采样策略来进一步改进单目标分布股计算法的采样性能。基于DE/EDA算法框架，引入基于特征向量的差分进化算法，并且通过结合expensive LS来进一步提高算法性能，最终提出基于差分采样策略的单目标分布估计算法EDA/DE-EIG。 通过和JADE，DE/EDA的综合实验分析对比，分析出基于差分进化的采样策略在解决单目标优化问题的作用和意义。
 
-第四章 ~~~对于连续多目标优化问题的研究，在RM-MEDA的基础上提出差分采样策略，通过这种新型的采样策略去改进RM-MEDA的采样环节。即在采样环节中，将种群转换到隐空间中，采取一种新型的变异策略对种群进行变异操作，然后再将个体转换到原始的空间中，从而产生新的个体。具体描述了相关的研究背景和算法框架和具体实现。最后，通过综合的实验分析了RM-MEDA中存在的问题，并且通过一系列综合实验分析来分析差分采样策略的重要意义。
+第四章 ~~~对于连续多目标优化问题的研究，在RM-MEDA的基础上提出差分采样策略，通过这种新型的采样策略去改进RM-MEDA的采样环节。即在采样环节中，将种群转换到隐空间中，采取一种新型的变异策略对种群进行变异操作，然后再将个体转换到原始的空间中，从而产生新的个体。具体描述了相关的研究背景和算法框架和具体实现。最后，通过综合的实验分析了RM-MEDA 中存在的问题，并且通过一系列综合实验分析来分析差分采样策略的重要意义。
 
 第五章 ~~~对本文进行全面地总结，并且根据目前工作的不足之处提出未来的展望。
 
@@ -1013,7 +1013,7 @@ $f13$   &${\cellcolor{lightgray}}\textbf{1.35e-32}\pm{\cellcolor{lightgray}}\tex
 
 同时，为了从一个更加客观的角度来比较最终的结果，威尔克松统计分析被用来比较这几个算法。对于JADE，EDA/DE-EIG在3个测试题上要优于JADE；这两个算法在6个测试题上取得了近似的结果；在4 个测试题上，JADE的最终结果更好。在与DE/EDA相比，EDA/DE-EIG有着不小的提升。同时，对于JADE，这两个算法从统计上来说在13个测试题上有着近似的表现。这表明DE-EIG的确取得了有意义的效果。这证明EDA/DE-EIG的性能表现还是具有潜力的同时也需要进一步的提升研究。
 
-为了进一步诠释EDA/DE-EIG和其他两个算法之间的性能比较，图~\ref{eda-deeig-fig1}是这三个算法结果的趋势图。因为在测试题f6上，JADE和EDA/DE-EIG都收敛得非常早，为了更好地展现结果，在本章节就不做在f6上的趋势图比较。在13个测试题中，EDA/DE-EIG在8个测试题上取得了最好的结果。EDA/DE-EIG在收敛速度和最终的收敛结果上都取得了较好的结果。对于某些测试题，差异还是比较显著的，包括f1，f2，f3，f4和f11。对于DE/EDA而言，在11个测试题上，DE/EDA都表现得更差，除了测试题f7和f8。与JADE相比较，对于测试题f1-f4，EDA/DE-EIG在收敛速度和最终收敛结果都是领先的。对于测试题f5,JADE最终结果更好，但是EDA/DE-EIG具有更好地收敛趋势并且更早地收敛。对于测试题f7，f8和f9上，EDA/DE-EIG的表现不佳。在测试题f10，f12和f13上，EDA/DE-EIG 具有一个更好的收敛速度。总之，EDA/DE-EIG在与DE/EDA相比还是具有比较明显的优势。同时，和JADE相比较，EDA/DE-EIG 的表现还是具有相当的竞争力。
+为了进一步诠释EDA/DE-EIG和其他两个算法之间的性能比较，图~\ref{eda-deeig-fig1}是这三个算法结果的趋势图。因为在测试题f6上，JADE和EDA/DE-EIG都收敛得非常早，为了更好地展现结果，在本章节就不做在f6上的趋势图比较。在13个测试题中，EDA/DE-EIG在8个测试题上取得了最好的结果。EDA/DE-EIG在收敛速度和最终的收敛结果上都取得了较好的结果。对于某些测试题，差异还是比较显著的，包括f1，f2，f3，f4和f11。对于DE/EDA而言，在11个测试题上，DE/EDA都表现得更差，除了测试题f7和f8。与JADE相比较，对于测试题f1-f4，EDA/DE-EIG在收敛速度和最终收敛结果都是领先的。对于测试题f5,JADE最终结果更好，但是EDA/DE-EIG具有更好地收敛趋势并且更早地收敛。对于测试题f7，f8和f9上，EDA/DE-EIG的表现不佳。在测试题f10，f12和f13上，EDA/DE-EIG 具有一个更好的收敛速度。总之，EDA/DE-EIG在与DE/EDA 相比还是具有比较明显的优势。同时，和JADE相比较，EDA/DE-EIG 的表现还是具有相当的竞争力。
 
 \subsection{本章小结}
 \label{3.4}
@@ -1174,7 +1174,7 @@ $\varepsilon^\prime$是一个服从分布$\mathcal{N}(0,\sigma_\tau{I})$的高斯噪音（$\t
   X=X_{r_1}+rand\cdot(X_{r_2}-X_{r_3})+F\cdot(X_{r_2}-X_{r_3})
 \end{equation}
 
-其中$X_{r_1}$, $X_{r_2}$, $X_{r_3}$是种群中的随机个体，$r_1, r_2, r_3$则是从1到NP(NP是种群的大小)之间选择的三个互不相同的整数。F是变异策略中的缩放因子，rand是0到1之间服从均匀分布的随机数。
+其中$X_{r_1}$, $X_{r_2}$, $X_{r_3}$是种群中的随机个体，$r_1, r_2, r_3$则是从1到NP(NP是种群的大小)之间选择的三个互不相同的整数。F是变异策略中的缩放因子，rand是0到1 之间服从均匀分布的随机数。
 
 \begin{figure}[ht]
 \graphicspath{{figs/figure/}}
