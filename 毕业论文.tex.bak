@@ -403,8 +403,8 @@ The main contents of this paper are single objective estimation of distribution 
 {\large 5.1 工作总结}$\dotfill 39$\par
 {\large 5.2 工作展望}$\dotfill 39$\\[4mm]
 {\large 参考文献}$\dotfill 41$\par
-{\large 致\quad 谢}$\dotfill 48$\par
-{\large 在校期间的学术论文和科研项目$\dotfill 49$}\par
+{\large 致\quad 谢}$\dotfill 49$\par
+{\large 在校期间的学术论文和科研项目}$\dotfill 50$\par
 
 
 \newpage
@@ -437,7 +437,7 @@ The main contents of this paper are single objective estimation of distribution 
 差分进化是一种有效并且简单的演化算法~\cite{DE1,DE2}。差分进化通过利用种群中的距离和方向信息来指导搜索的过程。差分进化通过提取种群中的差分信息来指导下一步搜素并且可以加快解集收敛的速度。分布估计算法中传统的采样一般是根据建立的概率模型进行采样。然而，如何建立并且更新概率模型是一个比较困难的问题，同时如何从建立的概率模型。基于以上问题，并且受到差分进化算法思想的启发，我们提出基于差分进化的采样策略，即差分采样策略（Differential Evolution based on Sampling, DES)~\cite{des}。 通过利用分布估计算法中概率模型不断收集种群中的统计信息，不断地更新概率模型，指导搜索的进行，同时利用差分采样策略产生精英个体，提高种群的多样性，在保证种群多样性的同时，也加速了最终结果的收敛，从而进一步提高算法的性能。
 
 \subsection{本文所做的工作和内容安排}
-针对分布估计算法的采样，提出差分采样策略，用于提高分布估计算法的性能。针对单目标和多目标优化问题，通过一系列的综合实验分析来研究差分采样策略对于提高分布估计算法性能的意义。在单目标优化问题上，基于差分进化和分布估计算法的混合算法（DE/DEA)~\cite{DEEDA2005}，通过改进DE/EDA 中的差分进化算法，并且同时提出一种基于差分采样策略的单目标分布估计算法（EDA/DE-EIG），研究其对于提高分布估计算法对于解决单目标优化问题上算法性能和速度提升的意义。在多目标优化问题上，DES被用于改进基于规律模型的分布估计算法（A Regularity Model-based Estimation of Distribution Algorithm, RM-MEDA)~\cite{RM-MEDA} 中的采样策略，提出了基于差分采样的多目标分布估计算法，并且通过综合实验分析研究算法性能。
+针对分布估计算法的采样，提出差分采样策略，用于提高分布估计算法的性能。针对单目标和多目标优化问题，通过一系列的综合实验分析来研究差分采样策略对于提高分布估计算法性能的意义。在单目标优化问题上，基于差分进化和分布估计算法的混合算法（DE/DEA)~\cite{DEEDA2005}，通过改进DE/EDA 中的差分进化算法，并且同时提出一种基于差分采样策略的单目标分布估计算法（EDA/DE-EIG）~\cite{edade-eig}，研究其对于提高分布估计算法对于解决单目标优化问题上算法性能和速度提升的意义。在多目标优化问题上，DES被用于改进基于规律模型的分布估计算法（A Regularity Model-based Estimation of Distribution Algorithm, RM-MEDA)~\cite{RM-MEDA} 中的采样策略，提出了基于差分采样的多目标分布估计算法，并且通过综合实验分析研究算法性能。
 
 论文内容安排如下：
 
@@ -578,7 +578,7 @@ MIDEA算法~\cite{mieda2006}是对于多目标优化问题上的IDEA算法框架的进一步拓展。通过
 \subsection{差分进化}
 差分进化（Differential Evolution, DE）自从由Storn于1995年提出，就得到了广大学者的关注并且发展迅速~\cite{DE1}。自从20 世纪90年代以来，差分进化就在多数科学工程领域得到广泛的应用~\cite{des2011}。究其原因，可以总结如下：
 \begin{itemize}
-\item 与传统的演化算法相比，差分进化结构更简单也更容易实现。算法的代码往往只需要几行代码即可，因此它可以很好地应用于其他的领域。尽管粒子群优化算法（Particle Swarm Optimization, PSO）的代码也比较简单，但是差分进化算法在大多数问题上的表现都比粒子群优化算法要更加优秀~\cite{den2009}。%~\cite{deo2008,den2009}。
+\item 与传统的演化算法相比，差分进化结构更简单也更容易实现。算法的代码往往只需要几行代码即可，因此它可以很好地应用于其他的领域。尽管粒子群优化算法（Particle Swarm Optimization, PSO）的代码也比较简单，但是差分进化算法在大多数问题上的表现都比粒子群优化算法要更加优秀~\cite{deo2008,den2009}。
 \item 另一方面，差分进化中的控制参数和其他的演化算法相比，控制参数更少。在经典的差分进化中，一般只有控制参数Cr， 缩放因子F以及种群大小NP三个参数。对于F和Cr的自适应规则的研究，在不给算法带来额外的负担的条件下，对于算法性能的提升意义重大~\cite{sde2006,desa2009}。
 \end{itemize}
 
@@ -1402,9 +1402,9 @@ $F10$ &$1.25e+02$	&$2.35e+01$	&$2.27e+01$	&$1.44e+02$	&${\cellcolor{lightgray}}\
 \newpage
 \hspace*{\fill}\mbox{\Large\textbf{在校期间的学术论文和科研项目}}\hspace*{\fill}
 
-[1] B. Dong, A. M. Zhou and G. X. Zhang,  “Sampling in Latent Space for a Multiobjective Estimation of Distribution Algorithm,” IEEE Congress on Evolutionary Computation, 2016
+[1] B. Dong, A. M. Zhou and G. X. Zhang,  “Sampling in Latent Space for a Multiobjective Estimation of Distribution Algorithm,” IEEE Congress on Evolutionary Computation, 2016,  pp. 3027–3034
 
-[2] B. Dong, A. M. Zhou and G. X. Zhang, “A Hybrid Estimation of Distribution Algorithm with Differential Evolution for Global Optimization,” IEEE Symposium Series on Computational Intelligence, 2016
+[2] B. Dong, A. M. Zhou and G. X. Zhang, “A Hybrid Estimation of Distribution Algorithm with Differential Evolution for Global Optimization,” IEEE Symposium Series on Computational Intelligence, 2016, pp. 1-7
 
 [3] 国家重大科学仪器设备开发专项子课题(2012YQ18013201): 拉曼光谱仪软件算法设计
 

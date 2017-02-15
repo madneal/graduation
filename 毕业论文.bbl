@@ -76,7 +76,7 @@ M.~Pelikan, D.~E. Goldberg, and F.~G. Lobo, ``A survey of optimization by
 \bibitem{des}
 B.~Dong, A.~Zhou, and G.~Zhang, ``Sampling in latent space for a multiobjective
   estimation of distribution algorithm,'' in \emph{2016 IEEE Congress on
-  Evolutionary Computation (CEC)}, 2016.
+  Evolutionary Computation (CEC)}, 2016, pp. 3027--3034.
 
 \bibitem{DE2}
 R.~Storn and K.~Price, ``Differential evolution--a simple and efficient
@@ -87,6 +87,11 @@ R.~Storn and K.~Price, ``Differential evolution--a simple and efficient
 J.~Sun, Q.~Zhang, and E.~P. Tsang, ``{DE/EDA}: A new evolutionary algorithm for
   global optimization,'' \emph{Information Sciences}, vol. 169, no.~3, pp.
   249--262, 2005.
+
+\bibitem{edade-eig}
+B.~Dong, A.~Zhou, and G.~Zhang, ``A hybrid estimation of distribution algorithm
+  with differential evolution for global optimization,'' in \emph{2016 IEEE
+  Symposium Series on Computational Intelligence (SSCI)}, 2016, pp. 1--7.
 
 \bibitem{RM-MEDA}
 Q.~Zhang, A.~Zhou, and Y.~Jin, ``{RM-MEDA}: A regularity model based
@@ -105,7 +110,7 @@ J.~A. Lozano, \emph{Towards a new evolutionary computation: advances on
 
 \bibitem{military2006}
 T.-L. Yu, S.~Santarelli, and D.~E. Goldberg, ``Military antenna design using a
-  simple genetic algorithm and hboa,'' in \emph{Scalable Optimization via
+  simple genetic algorithm and h{BOA},'' in \emph{Scalable Optimization via
   Probabilistic Modeling}.\hskip 1em plus 0.5em minus 0.4em\relax Springer,
   2006, pp. 275--289.
 
@@ -119,8 +124,8 @@ R.~Shah, P.~Reed, R.~Shah, and P.~Reed, ``Comparative analysis of
 R.~Arst, B.~Minsker, and D.~E. Goldberg, ``Comparing advanced genetic
   algorithms and simple genetic algorithms for groundwater management,'' in
   \emph{Proceedings of the American Society of Civil Engineers (ASCE)
-  Environmental \& Water Resources Institute (EWRI) 2002 Water Resources
-  Planning \& Management Conference}, 2002.
+  Environmental and Water Resources Institute (EWRI) 2002 Water Resources
+  Planning and Management Conference}, 2002.
 
 \bibitem{forest2005}
 E.~I. Ducheyne, B.~D. Baets, and R.~D. Wulf, \emph{Probabilistic Models for
@@ -236,7 +241,7 @@ N.~Khan, D.~E. Goldberg, and M.~Pelikan, ``Multi-objective bayesian
   optimization algorithm,'' \emph{Urbana}, vol.~51, p. 61801, 2002.
 
 \bibitem{mhboa2005}
-M.~Pelikan, K.~Sastry, and D.~E. Goldberg, ``Multiobjective hboa, clustering,
+M.~Pelikan, K.~Sastry, and D.~E. Goldberg, ``Multiobjective h{BOA}, clustering,
   and scalability,'' in \emph{Proceedings of the 7th annual conference on
   Genetic and evolutionary computation}.\hskip 1em plus 0.5em minus 0.4em\relax
   ACM, 2005, pp. 663--670.
@@ -245,6 +250,11 @@ M.~Pelikan, K.~Sastry, and D.~E. Goldberg, ``Multiobjective hboa, clustering,
 S.~Das and P.~N. Suganthan, ``Differential evolution: a survey of the
   state-of-the-art,'' \emph{IEEE Transactions on Evolutionary Computation},
   vol.~15, no.~1, pp. 4--31, 2011.
+
+\bibitem{deo2008}
+S.~Rahnamayan, H.~R. Tizhoosh, and M.~M. Salama, ``Opposition-based
+  differential evolution,'' \emph{IEEE Transactions on Evolutionary
+  computation}, vol.~12, no.~1, pp. 64--79, 2008.
 
 \bibitem{den2009}
 S.~Das, A.~Abraham, U.~K. Chakraborty, and A.~Konar, ``Differential evolution

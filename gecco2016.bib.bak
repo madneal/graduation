@@ -5,22 +5,12 @@
 @InProceedings{groundwater2002,
   Title                    = {Comparing advanced genetic algorithms and simple genetic algorithms for groundwater management},
   Author                   = {Arst, Rachel and Minsker, Barbara and Goldberg, David E},
-  Booktitle                = {Proceedings of the American Society of Civil Engineers (ASCE) Environmental and Water Resources Institute (EWRI) 2002 Water Resources Planning and Management Conference},
+  Booktitle                = {Proceedings of the American Society of Civil Engineers (ASCE) Environmental \& Water Resources Institute (EWRI) 2002 Water Resources Planning \& Management Conference},
   Year                     = {2002},
 
   Owner                    = {neal},
   Timestamp                = {2016.12.12}
 }
-
-%@Article{groundwater2002,
-%  title={Comparing advanced genetic algorithms and simple genetic algorithms for groundwater management},
-%  author={Arst, Rachel and Minsker, Barbara and Goldberg, David E},
-%  journal={Urbana},
-%  volume={51},
-%  pages={61820},
-%  year={2002},
-%  publisher={Citeseer}
-%}
 
 @Article{ec1997,
   Title                    = {Handbook of evolutionary computation},
@@ -498,7 +488,7 @@
 }
 
 @Incollection{military2006,
-  Title                    = {Military Antenna Design Using a Simple Genetic Algorithm and h{BOA}},
+  Title                    = {Military Antenna Design Using a Simple Genetic Algorithm and hBOA},
   Author                   = {Yu, Tian-Li and Santarelli, Scott and Goldberg, David E},
   Booktitle                = {Scalable Optimization via Probabilistic Modeling},
   Pages                    = {275-289},
@@ -791,7 +781,7 @@
 }
 
 @inproceedings{mhboa2005,
-  title={Multiobjective h{BOA}, clustering, and scalability},
+  title={Multiobjective hBOA, clustering, and scalability},
   author={Pelikan, Martin and Sastry, Kumara and Goldberg, David E},
   booktitle={Proceedings of the 7th annual conference on Genetic and evolutionary computation},
   pages={663--670},
@@ -1045,14 +1035,6 @@
   pages={105--129},
   year={2003},
   publisher={Springer}
-}
-
-@INPROCEEDINGS{edade-eig,
-    author={Bing Dong and Aimin Zhou and Guixu Zhang},
-    booktitle={2016 IEEE Symposium Series on Computational Intelligence (SSCI)},
-    title={A hybrid estimation of distribution algorithm with differential evolution for global optimization},
-    year={2016},
-    pages={1-7}
 }
 
 @comment{jabref-meta: databaseType:bibtex;}
