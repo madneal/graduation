@@ -403,8 +403,8 @@ The main contents of this paper are single objective estimation of distribution 
 {\large 5.1 工作总结}$\dotfill 39$\par
 {\large 5.2 工作展望}$\dotfill 39$\\[4mm]
 {\large 参考文献}$\dotfill 41$\par
-{\large 致\quad 谢}$\dotfill 49$\par
-{\large 在校期间的学术论文和科研项目$\dotfill 50$}\par
+{\large 致\quad 谢}$\dotfill 48$\par
+{\large 在校期间的学术论文和科研项目}$\dotfill 49$\par
 
 
 \newpage
@@ -883,10 +883,10 @@ DE-EIG算法是基于上文提出的新的交叉策略提出的一种新的差分进化。ED-EIG和经典的差分
 
 通过将$min\{\Delta{f}, \Delta{x}\}$和给定的阈值$\theta$进行比较，可以判断解是否收敛。另外，为了提高算法的运行效率，每两次expensive LS至少间隔50代。
 
-一旦种群被认为是收敛的，就是用改进的鲍威尔方法~\cite{powell1998}来进一步优化。鲍威尔方法是一种基于置信域的优化方法。它不使用任何的梯度信息，而是通过估计海塞矩阵来定位局部最优解。
+一旦种群被认为是收敛的，就是用改进的鲍威尔方法~\cite{powell1998}来进一步优化。鲍威尔方法是一种基于置信域的优化方法，可以用于求解函数的局部最小值。它不使用任何的梯度信息，而是通过估计海塞矩阵来定位局部最优解。
 
 \subsubsection{基于差分采样的单目标分布估计算法}
-基于DE/EDA算法框架，将DE-EIG算法引入到之中，来进一步改善分布估计算法的采样环节。同时为了保持种群的多样性，通过一个随机参数来控制种群是通过概率模型采样产生亦或是通过DE-EIG来产进行采样。这样，可以增加种群的多样性，同时也可以提高差分进化的搜索能力。同时，expensive LS也将会被用于进一步提升算法求解的性能。基于差分采样的单目标分布估计算法如算法~\ref{eda/de-eig}所示。
+基于DE/EDA算法框架，将DE-EIG算法引入到之中，来进一步改善分布估计算法的采样环节。同时为了保持种群的多样性，通过一个随机参数来控制种群是通过概率模型采样产生亦或是通过DE-EIG来产进行采样。这样，可以增加种群的多样性，同时也可以提高差分进化的搜索能力。同时，利用Converage函数来判断是否执行expensive LS从而进一步提升算法的性能。基于差分采样的单目标分布估计算法如算法~\ref{eda/de-eig}所示。
 
 \begin{algorithm}
 \caption{EDA/DE-EIG}
