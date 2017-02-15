@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  15 FEB 2017 15:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  15 FEB 2017 16:29
 entering extended mode
 **C:/Users/neal1/project/graduation/毕业论文.tex
 (C:/Users/neal1/project/graduation/毕业论文.tex
@@ -1811,7 +1811,7 @@ t/graduation/figs/igd/f7_igd-eps-converted-to.pdf> <C:/Users/neal1/project/grad
 uation/figs/igd/f8_igd-eps-converted-to.pdf> <C:/Users/neal1/project/graduation
 /figs/igd/f9_igd-eps-converted-to.pdf> <C:/Users/neal1/project/graduation/figs/
 igd/f10_igd-eps-converted-to.pdf>]
-[37] [38] [39] (C:\Users\neal1\project\graduation\毕业论文.bbl
+[37] [38] [39] [40] (C:\Users\neal1\project\graduation\毕业论文.bbl
 LaTeX Font Info:    Try loading font information for C19+HEI on input line 80.
 
 (C:\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd
@@ -1821,8 +1821,8 @@ File: c19hei.fd 2009/09/23 4.8.2
 LaTeX Font Warning: Font shape `C19/HEI/m/n' undefined
 (Font)              using `C19/song/m/n' instead on input line 80.
 
-[40] [41]<<c1929.cmap>> [42] [43] [44] [45] [46]) [47]<<c1984.cmap>><<c1976.cma
-p>> [48] [49] (C:\Users\neal1\project\graduation\毕业论文.aux)
+[41] [42]<<c1929.cmap>> [43] [44] [45] [46] [47]) [48]<<c1984.cmap>><<c1976.cma
+p>> [49] [50] (C:\Users\neal1\project\graduation\毕业论文.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.35pt have occurred.
@@ -1898,9 +1898,9 @@ super/sfrm1095.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:
 /CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/CTEX/MiKTeX/fonts/typ
 e1/public/cm-super/sfrm2074.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sft
 i1200.pfb>
-Output written on 毕业论文.pdf (58 pages, 1463247 bytes).
+Output written on 毕业论文.pdf (59 pages, 1461080 bytes).
 PDF statistics:
- 855 PDF objects out of 1000 (max. 8388607)
+ 858 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  417 words of extra memory for PDF output out of 10000 (max. 10000000)
 
