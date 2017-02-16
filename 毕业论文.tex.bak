@@ -939,9 +939,9 @@ JADE是一种自适应的差分进化算法，它通过使用一种新型的变异策略"DE/current-to-\emph
 为了公平地比较这几个算法的性能，参数设置将会根据其相应论文里面的参数。所有的算法都是通过Matlab来实现的，并且是在同一台计算机上运行。试验参数设置如下：
 \begin{enumerate}
   \item 测试题中所有种群维度都设置为30。所有算法都会在每一个测试题上独立运行50 次，停机条件是450000函数评估。
-  \item JADE：参数设置为：$N=150, p=0.05, c=0.1, F=0.5$ and $CR=0.9$。
-  \item DE/EDA: $N=150, F=0.5$ and $CRP=0.9$。
-  \item EDA/DE-EIG: $CRP=0.5, F=0.5, CR=0.6, \theta=0.1$；控制坐标旋转的参数$p$ 设置为0.5；种群的大小$N$设置为150。 对于expensive LS的相关参数的设置，与EDA/LS~\cite{EDALS}中的参数设置相同。
+  \item JADE：参数设置为：$N=150, p=0.05, c=0.1, F=0.5$, $CR=0.9$。
+  \item DE/EDA: $N=150, F=0.5$, $CRP=0.9$。
+  \item EDA/DE-EIG: $CRP=0.5, F=0.5, CR=0.6, \theta=0.1$；控制坐标旋转的参数$p$ 设置为0.5；种群的大小$N$设置为150。对于expensive LS的相关参数的设置，与EDA/LS~\cite{EDALS}中的参数设置相同。
 \end{enumerate}
 
 \subsubsection{实验分析}
