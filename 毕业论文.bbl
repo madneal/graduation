@@ -226,15 +226,15 @@ J.~Ocenasek, S.~Kern, N.~Hansen, and P.~Koumoutsakos, ``A mixed bayesian
   minus 0.4em\relax Springer, 2004, pp. 352--361.
 
 \bibitem{spea2-2002}
-E.~Ziztler, M.~Laumanns, and L.~Thiele, ``Spea2: Improving the strength pareto
-  evolutionary algorithm for multiobjective optimization,'' \emph{Evolutionary
-  Methods for Design, Optimization, and Control}, pp. 95--100, 2002.
+E.~Ziztler, M.~Laumanns, and L.~Thiele, ``{SPEA2}: Improving the strength
+  pareto evolutionary algorithm for multiobjective optimization,''
+  \emph{Evolutionary Methods for Design, Optimization, and Control}, pp.
+  95--100, 2002.
 
 \bibitem{mieda2006}
-P.~A. Bosman and D.~Thierens, ``Multi-objective optimization with the
-  naive$\backslash$ mathbb $\{$M$\}$ id$\backslash$ mathbb $\{$E$\}$ a,'' in
-  \emph{Towards a New Evolutionary Computation}.\hskip 1em plus 0.5em minus
-  0.4em\relax Springer, 2006, pp. 123--157.
+P.~A. Bosman and D.~Thierens, ``Multi-objective optimization with the naive
+  {MIDEA},'' in \emph{Towards a New Evolutionary Computation}.\hskip 1em plus
+  0.5em minus 0.4em\relax Springer, 2006, pp. 123--157.
 
 \bibitem{mboa2002}
 N.~Khan, D.~E. Goldberg, and M.~Pelikan, ``Multi-objective bayesian
