@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  17 FEB 2017 13:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  17 FEB 2017 14:28
 entering extended mode
 **C:/Users/neal1/project/graduation/毕业论文.tex
 (C:/Users/neal1/project/graduation/毕业论文.tex
@@ -1818,10 +1818,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20341 strings out of 495354
- 337774 string characters out of 3183858
+ 20340 strings out of 495354
+ 337754 string characters out of 3183858
  382273 words of memory out of 3000000
- 22484 multiletter control sequences out of 15000+200000
+ 22483 multiletter control sequences out of 15000+200000
  110080 words of font info for 364 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,18n,55p,1510b,966s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1883,7 +1883,7 @@ fonts/type1/public/cm-super/sfrm1095.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-
 super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:
 /CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/CTEX/MiKTeX/fonts/typ
 e1/public/cm-super/sfti1200.pfb>
-Output written on 毕业论文.pdf (60 pages, 1456615 bytes).
+Output written on 毕业论文.pdf (60 pages, 1459460 bytes).
 PDF statistics:
  857 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
