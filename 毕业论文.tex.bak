@@ -1,5 +1,5 @@
 \def\ChineseScale{1200}
-\input tdw
+%\input tdw
 \documentclass [a4paper,12pt,oneside] {article}
 
 \usepackage{CJK,CJKnumb}
@@ -42,7 +42,6 @@
 \usepackage{listings}
 \usepackage{threeparttable}
 \usepackage{cite}
-%\usepackage{algorithm2e}
 \usepackage[ruled, lined,linesnumbered]{algorithm2e}
 \usepackage{colortbl}
 
@@ -121,6 +120,14 @@
 \begin{document}
 \begin{CJK*}{GBK}{song}
 \CJKindent\CJKtilde
+
+
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+{-3.5ex \@plus -1ex \@minus -.2ex}%
+{2.3ex \@plus.2ex}%
+{\normalfont\normalsize\CJKfamily{hei}}}
+\makeatother
 
 %%%%%%===== 标题名称中文化 =====
 \renewcommand{\algorithmcfname}{算法} %改变caption中的algorithm为算法
@@ -406,6 +413,8 @@ The main contents of this paper are single objective estimation of distribution 
 {\large 致\quad 谢}$\dotfill 49$\par
 {\large 在校期间的学术论文和科研项目}$\dotfill 50$\par
 
+%\tableofcontents
+
 
 \newpage
 \pagenumbering{arabic}
@@ -651,7 +660,7 @@ v_{i,G}=x_{r1,G}+F\cdot(x_{best,G}-x_{i,G})+F\cdot(x_{r1,G}-x_{r2,G})
 
 其中$x_{best,G}$是指当前种群中的最优个体，$x_{i,G}$为目标向量（父代种群个体），$u_{i,G}$ 是父代种群个体对应的变异向量。不同的策略往往针对不同类型的问题更为有效，一般来说，DE/rand/1 是最常用的策略。
 
-差分进化利用变异算子来产生变异向量$v_{i,G}$，通过交叉算子来结合变异向量$v_{i,G}$和目标向量$x_{i,G}$来产生试验向量$u_{i,G}$。$CR$是交叉控制参数，$j_{rand}$是1到$D$之间的随机整数，为了使试验向量至少在一个维度上与目标向量不同。$rand_j(0,1)$是一个0到1之间服从均匀分布的随机数。
+差分进化利用变异算子来产生变异向量$v_{i,G}$，通过交叉算子来结合变异向量$v_{i,G}$和目标向量$x_{i,G}$来产生试验向量$u_{i,G}$。$CR$是交叉控制参数，$j_{rand}$是1到$D$之间的随机整数，为了使试验向量至少在一个维度上与目标向量不同。$rand_j(0,1)$是一个0到1 之间服从均匀分布的随机数。
 
 经典的差分进化利用一对一的竞争机制从目标向量和试验向量中挑选个体。如果试验向量的目标函数值小于或者等于目标向量的目标函数值，则试验向量进入下一代，否则目标向量进入下一代。
 
@@ -938,7 +947,7 @@ JADE是一种自适应的差分进化算法，它通过使用一种新型的变异策略"DE/current-to-\emph
 \subsubsection{参数设置}
 为了公平地比较这几个算法的性能，参数设置将会根据其相应论文里面的参数。所有的算法都是通过Matlab来实现的，并且是在同一台计算机上运行。试验参数设置如下：
 \begin{enumerate}
-  \item 测试题中所有种群维度都设置为30。所有算法都会在每一个测试题上独立运行50 次，停机条件是450000函数评估。
+  \item 测试题中所有种群维度都设置为30。所有算法都会在每一个测试题上独立运行50 次，停机条件是450000次函数评估。
   \item JADE：参数设置为：$N=150, p=0.05, c=0.1, F=0.5$, $CR=0.9$。
   \item DE/EDA: $N=150, F=0.5$, $CRP=0.9$。
   \item EDA/DE-EIG: $CRP=0.5, F=0.5, CR=0.6, \theta=0.1$；控制坐标旋转的参数$p$ 设置为0.5；种群的大小$N$设置为150。对于expensive LS的相关参数的设置，与EDA/LS~\cite{EDALS}中的参数设置相同。
@@ -1042,7 +1051,7 @@ DE/EDA是一种对于全局优化的具有很大潜力的方法，它结合了分布估计算法的全局建模信息
 
 其中，$x=(x_1, \cdots, x_n)^T\in R^n$ 是决策变量向量，$\Omega=\Pi_{i=1}^{n}[a_i, b_i] \subset R^n$ 表示可能的搜索空间区域，$f_i: R^n \rightarrow R, i=1, \cdots, m$ 是一个连续的目标函数，$F(x)$则是相应的目标函数向量。
 
-在多目标优化问题中，多个目标相互之间往往是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都能够达到全局最优解，但是存在一组Pareto最优解~\cite{moead}。 对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto最优解，如果不存在$x\in\Omega$使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则成为Pareto前端（PF）。
+在多目标优化问题中，多个目标相互之间往往是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都能够达到全局最优解，但是存在一组Pareto最优解~\cite{moead}。 对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto最优解，如果不存在$x\in\Omega$使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则成为Pareto前沿（PF）。
 
 多目标问题在很多工程领域都普遍存在，通常来说，多目标问题中的各个目标之间往往都是相互冲突的。在一般条件下，根据Karush-Kuhn-Tucker 可以推导出：连续多目标问题在决策空间中的Pareto set 是一个连续分段的（m-1）维的流形体（m是目标数）。对于一个成功的多目标演化算法（multiobjective evolutionary algorithm, MOEA）来说，独立的个体应该是在决策空间中分散在Pareto set附近，如图~\ref{FIG1}所示。
 \begin{figure}[ht]
@@ -1223,7 +1232,7 @@ $\varepsilon^\prime$是一个服从分布$\mathcal{N}(0,\sigma_\tau{I})$的高斯噪音（$\t
   IGD(P^*,P)=\frac{\sum_{v\in{P^*}}d(v,P)}{P^*}
 \end{equation}
 
-其中，$d(v,P)$是$v$到$P$中任意一点的最小欧氏距离。如果$P^*$足够大到可以表示Pareto前沿，那么$IGD(P^*,P)$就可以用来测量$P$ 的多样性和收敛性。$IGD(P^*,P)$的值越小，则$P$距离$P^*$ 越近。
+其中，$d(v,P)$是$v$到$P$中任意一点的最小欧氏距离。如果$P^*$足够大到可以表示Pareto前沿，那么$IGD(P^*,P)$就可以用来测量$P$ 的多样性和收敛性。$IGD(P^*,P)$的值越小，则$P$ 距离$P^*$ 越近。
 
 RM-MEDA和DES-RM-MEDA都是使用Matlab进行编程实现并且是在同一台计算机上运行程序。在这篇论文中的试验参数如下：
 

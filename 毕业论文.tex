@@ -121,6 +121,8 @@
 \begin{CJK*}{GBK}{song}
 \CJKindent\CJKtilde
 
+\titleformat{\section}[block]{\erhao\hei\center}{第\,\CJKnumber\thesection\,章}{1em}{} %更改章节格式，令其居中
+
 %%%%%%===== 标题名称中文化 =====
 \renewcommand{\algorithmcfname}{算法} %改变caption中的algorithm为算法
 \renewcommand\abstractname{\hei~摘\quad 要}
@@ -300,7 +302,7 @@
 
 %\section*{\hspace*{\fill}\Huge {分布估计算法中差分采样策略的研究}\hspace*{\fill}}
 %\\\hspace*{\fill}\Huge {自适应加权均值滤波算法} \hspace*{\fill}}
-\subsection*{\hspace*{\fill}\huge{中\quad 文\quad 摘\quad 要} \hspace*{\fill}}
+\subsection*{\hspace*{\fill}\huge{摘\quad 要} \hspace*{\fill}}
 \vspace*{5mm} \normalfont
 演化算法是一种受生物进化启发的基于种群的启发式优化算法。演化算法已经被广泛应用于工程、生物学、经济学、基因工程以及社会科学等。
 
@@ -380,25 +382,25 @@ The main contents of this paper are single objective estimation of distribution 
 
 \noindent{\large 中文摘要}\hfill\rmfamily{i} \\[4mm]
 {\large 英文摘要}\hfill \rmfamily{ii}\\[4mm]
-{\large 1 绪论}\hfill \rmfamily{1}\par
+{\large 第一章\quad 绪论}\hfill \rmfamily{1}\par
 {\large 1.1 研究的目的和意义}$\dotfill 1$\par
 {\large 1.2 本文所做的工作和内容安排}$\dotfill 2$\\[4mm]
-{\large 2 研究背景}\hfill \rmfamily{4}\par
+{\large 第二章\quad 研究背景}\hfill \rmfamily{4}\par
 {\large 2.1 最优化问题}$\dotfill 4$\par
 {\large 2.2 演化算法}$\dotfill 5$\par
 {\large 2.3 分布估计算法}$\dotfill 6$\par
 {\large 2.4 差分进化}$\dotfill 11$\\[4mm]
-{\large 3 基于差分采样的单目标优化}\hfill \rmfamily{18}\par
+{\large 第三章\quad 基于差分采样的单目标优化}\hfill \rmfamily{18}\par
 {\large 3.1 全局单目标优化问题}$\dotfill 18$\par
 {\large 3.2 基于差分采样的单目标分布估计算法}$\dotfill 18$\par
 {\large 3.3 实验分析}$\dotfill 21$\par
 {\large 3.4 本章小结}$\dotfill 26$\\[4mm]
-{\large 4 基于差分采样的多目标优化}\hfill \rmfamily{27}\par
+{\large 第四章\quad 基于差分采样的多目标优化}\hfill \rmfamily{27}\par
 {\large 4.1 连续多目标优化问题}$\dotfill 27$\par
 {\large 4.2 基于差分采样的多目标分布估计算法}$\dotfill 28$\par
 {\large 4.3 实验分析}$\dotfill 32$\par
 {\large 4.4 本章小结}$\dotfill 37$\\[4mm]
-{\large 5 总结与展望}\hfill \rmfamily{39}\par
+{\large 第五章\quad 总结与展望}\hfill \rmfamily{39}\par
 {\large 5.1 工作总结}$\dotfill 39$\par
 {\large 5.2 工作展望}$\dotfill 39$\\[4mm]
 {\large 参考文献}$\dotfill 41$\par
@@ -407,14 +409,16 @@ The main contents of this paper are single objective estimation of distribution 
 
 %\tableofcontents
 
-
+% 设置页眉页脚，修改rightmark样式
 \newpage
 \pagenumbering{arabic}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[RE]{\leftmark}
 \lhead{\bf\song 华东师范大学硕士论文}
 \rhead{\song\rightmark} \cfoot{\thepage}
+\renewcommand{\sectionmark}[1]{\markright{~#1}{}}
+
+
 
 \section{绪论}
 
@@ -1380,14 +1384,18 @@ $F10$ &$1.25e+02$	&$2.35e+01$	&$2.27e+01$	&$1.44e+02$	&${\cellcolor{lightgray}}\
 
 %\renewcommand{\refname}{\hei 参考文献}
 \newpage
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\bf\song 华东师范大学硕士论文}
+\rhead{\song 参考文献} \cfoot{\thepage}
 \bibliography{gecco2016}
 
 %\end{CJK*}
 %
 %\begin{CJK*}{GBK}{song}
 \newpage
-\pagestyle{fancy}
 \fancyhf{}
+\pagestyle{fancy}
 \lhead{\bf\song 华东师范大学硕士论文}
 \rhead{\song 致谢} \cfoot{\thepage}
 \hspace*{\fill}\mbox{\Large\textbf{致\quad\,谢}}\hspace*{\fill}
