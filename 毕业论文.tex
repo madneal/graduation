@@ -1242,8 +1242,8 @@ RM-MEDA和DES-RM-MEDA都是使用Matlab进行编程实现并且是在同一台计算机上运行程序。在
   \item 迭代次数：对于测试题（$F1$, $F2$, $F5$, $F6$）迭代次数设置为100，对于测试题$F4$和$F8$设置为200，其它的设置为1000。
 \end{itemize}
 
-\subsubsection{RM-MEDA缩放因子的影响}
-为了研究缩放因子对于RM-MEDA性能的影响，在本章节中，从0到0.5之间以0.05为间隔设置10个缩放因子，并比较RM-MEDA在这些缩放因子作用下的性能比较。图~\ref{scale-rm-meda}是RM-MEDA在不同缩放因子的作用下IGD指标的箱线图。
+\subsubsection{RM-MEDA缩放比例的影响}
+为了研究缩放比例对于RM-MEDA性能的影响，在本章节中，从0到0.5之间以0.05为间隔设置10个缩放比例，并比较RM-MEDA在这些缩放比例作用下的性能比较。图~\ref{scale-rm-meda}是RM-MEDA在不同缩放比例的作用下IGD指标的箱线图。
 
 \begin{figure*}
 \centering
@@ -1258,11 +1258,11 @@ RM-MEDA和DES-RM-MEDA都是使用Matlab进行编程实现并且是在同一台计算机上运行程序。在
 \subfigure[F8]{\includegraphics[ width=0.26\textwidth]{box_f8.eps}}
 \subfigure[F9]{\includegraphics[ width=0.26\textwidth]{box_f9.eps}}
 \subfigure[F10]{\includegraphics[ width=0.26\textwidth]{box_f10.eps}}
-\caption{不同缩放因子下，RM-MEDA的IGD指标的箱线图}
+\caption{不同缩放比例下，RM-MEDA的IGD指标的箱线图}
  \label{scale-rm-meda}
 \end{figure*}
 
-从这个箱线图中可以看出，如果不设置缩放因子，那么RM-MEDA表现则不是很好。一般来说，缩放因子设置的越大，则RM-MEDA表现得也更加优秀。但对于设置较大的缩放因子也可能会造成性能的不稳定，比如图~\ref{scale-rm-meda}(g)和(h)。总的来说，如何在实践中设置一个最佳的缩放因子还是比较困难的。
+从这个箱线图中可以看出，如果不设置缩放比例，那么RM-MEDA表现则不是很好。一般来说，缩放比例设置的越大，则RM-MEDA表现得也更加优秀。但对于设置较大的缩放比例也可能会造成性能的不稳定，比如图~\ref{scale-rm-meda}(g)和(h)。总的来说，如何在实践中设置一个最佳的缩放比例还是比较困难的。
 
 \subsubsection{缩放因子F的敏感性}
 为了验证DES-RM-MEDA中缩放因子$F$的敏感性，在本节中，将F设置为从0到1之间的数，并将其和RM-MEDA的性能作比较，从而来比较在不同缩放因子F作用下，DES-RM-MEDA 的性能表现。
