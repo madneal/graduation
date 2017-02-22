@@ -329,7 +329,7 @@ Estimation of distribution algorithm is a kind of fresh evolution algorithm. Unl
 
 This paper mainly studies the sampling strategy of estimation of distribution algorithm. Traditional estimation of distribution algorithms utilize the built probabilistic model to sample. Inspired by differential evolution, this paper proposes a sampling strategy based on differential evolution, namely DES. And this strategy is utilized in estimation of distribution algorithm to study its performance. This paper combines DES with estimation of distribution algorithm, and studies its performance on single objective optimization problems and multiobjective optimization problems respectively. According to the comprehensive experimental analysis, it can be seen that DES is impressively significant to improve the sampling of estimation of distribution algorithm with dramatical potential.
 
-The main contents of this paper are single objective estimation of distribution algorithm based on DES and multiobjective estimation of distribution algorithm based on DES. For single objective optimization problems, based on the framework of DE/EDA, utilize a differential evolution based on eigenvector to sample. Meanwhile, expensive local search is applied to improve the quality of solutions. Hence, single objective estimation of distribution algorithm based on DES is proposed. On the other hand, for multiobjective optimization problems, utilize DES to improve the sampling of RM-MEDA and obtain positive results, propose multiobjective estimation of distribution algorithm based on DES. This paper applies DES to single objective estimation of distribution algorithm and multiobjective estimation of distribution algorithm. The comprehensive and systematic experimental analysis indicates the significance of DES in estimation of distribution algorithms.
+The main contents of this paper are single objective estimation of distribution algorithm based on DES and multiobjective estimation of distribution algorithm based on DES. For single objective optimization problems, based on the framework of DE/EDA, utilize a differential evolution based on eigenvector to sample. Meanwhile, expensive local search is applied to improve the quality of solutions. Hence, single objective estimation of distribution algorithm based on DES is finally proposed. On the other hand, for multiobjective optimization problems, utilize DES to improve the sampling of RM-MEDA and obtain positive results, propose multiobjective estimation of distribution algorithm based on DES. This paper applies DES to single objective estimation of distribution algorithm and multiobjective estimation of distribution algorithm. The comprehensive and systematic experimental analysis indicates the significance of DES in estimation of distribution algorithms.
 
 \vspace*{3mm}
 
@@ -422,9 +422,9 @@ The main contents of this paper are single objective estimation of distribution 
 
 \section{绪论}
 
-演化计算~\cite{ec2006, ec1997, eo1995}是用于解决大量优化问题的通用的并且强大的优化算法框架。通过利用现有的解并且同时在解空间中继续搜索，演化计算能够在合理的时间内找到最优解。通过结合现有解的统计信息以及搜索区域中个体的属性，演化计算可以有效地解决优化问题。演化计算通过种群个体（即代表对于问题的候选解）的演化的搜索来求解最终解。
+演化计算~\cite{ec2006, ec1997, eo1995}是用于解决大量优化问题的通用的并且强大的优化算法框架。通过利用现有的解并且同时在解空间中继续搜索，演化计算能够在合理的时间内找到最优解。通过结合现有解的统计信息以及搜索区域中个体的属性，演化计算可以持续搜索最优解，从而有效解决优化问题。演化计算通过种群个体（即代表对于问题的候选解）的演化的搜索来求解最终解。
 
-演化计算，受自然界进化所启发，也就是对现有的解进行过滤并且产生新的解。个体中的基因相对于问题解中的组成部分。评价函数被用来评价个体对于问题解决的程度。种群中的个体通过在搜索空间中随机采样产生。在演化的过程中，现有的个体通过交叉变异来交换信息来产生新的子代种群。具有更好适应性的个体更有可能进行交叉变异，它们产生的子代也会更优。通过产生越来越好的解，演化计算最终就有可能找到全局最优解。演化计算的基本流程图如图~\ref{ec}所示。
+演化计算，受自然界进化所启发，也就是对现有的解进行过滤并且产生新的解。个体中的基因相对于问题解中的组成部分。评价函数被用来评价个体对于问题解决的程度。种群通过在搜索空间中随机采样产生。在演化的过程中，现有的个体通过交叉以及变异来交换信息来产生子代种群个体。具有更好适应性的个体更有可能继续交叉和变异操作，它们产生的子代也会更优。通过产生越来越好的种群个体，演化计算最终就能够找到全局最优解。演化计算的基本流程图如下图所示。
 
 \begin{figure}[ht]
 \graphicspath{{figs/}}
@@ -434,31 +434,31 @@ The main contents of this paper are single objective estimation of distribution 
   \label{ec}
 \end{figure}
 
-演化算法是隶属于演化计算的一种人工智能算法，是一种基于种群的启发式优化算法。演化算法被广泛地应用于解决优化问题，包括单目标以及多目标优化问题~\cite{ea2013}。现如今演化算法已经得到了众多研究学者的关注，演化算法已经分化成多个分支：遗传算法~\cite{nsga-ii}，生物地理学优化~\cite{bbo2008}，遗传编程~\cite{gp1998}，演化编程~\cite{ep1996}，差分进化~\cite{DE1}等等。演化算法被广泛地应用于工程实践和学术研究中。
+演化算法是隶属于演化计算的一种人工智能算法，是一种基于种群的启发式优化算法。演化算法在求解最优化问题中得到了广泛的应用，包括单目标以及多目标优化问题~\cite{ea2013}。 现如今演化算法已经得到了众多研究学者的关注，演化算法已经分化成多个分支：遗传算法~\cite{nsga-ii}，生物地理学优化~\cite{bbo2008}，遗传编程~\cite{gp1998}，演化编程~\cite{ep1996}，差分进化~\cite{DE1}等等。
 
 \subsection{研究目的和意义}
-分布估计算法是一种新兴的演化算法，它通过建立一个概率模型，然后通过在这个概率模型中采样来产生新的种群个体，通过提取当前精英中的统计信息来进一步地更新概率模型来指导下一步的搜索~\cite{eda2002}~\cite{edasurvey2002}。不同于传统的演化算法，在分布估计算法中不存在交叉或变异，而是通过使用一个精确的概率模型来提取种群的统计信息。子代种群个体通过从建立的概率模型中采样产生，并且产生的个体会部分或者全部地取代父代中的个体。分布估计算法通过概率模型能够更好地进行全局搜索，提取全局统计信息。分布估计算法主要由三个步骤组成，即：建模，采样，选择。采样是分布估计算法的重要环节，好的采样有利于精英个体的产生。本文主要针对分布估计算法中的采样，提升采样的性能可以大大地提高算法的性能，更有可能产生更优的精英个体~\cite{des}。
+分布估计算法作为一种新兴起的演化算法，它首先会建立一个概率模型，然后通过在这个概率模型中采样来产生下一代种群个体，通过提取当前精英中的统计信息来进一步地更新概率模型来指导下一步的搜索~\cite{eda2002}~\cite{edasurvey2002}。不同于传统的演化算法，在分布估计算法中不存在交叉或变异，而是通过使用一个精确的概率模型来提取种群的统计信息。子代种群个体通过从建立的概率模型中采样产生，并且产生的个体会部分或者全部地取代父代中的个体。分布估计算法通过概率模型能够更好地进行全局搜索，提取全局统计信息。分布估计算法主要由三个步骤组成，即：建模，采样，选择。采样是分布估计算法的重要环节，好的采样有利于精英个体的产生。本文主要针对分布估计算法中的采样，提升采样的性能可以大大地提高算法的性能，更有可能产生更优的精英个体~\cite{des}。
 
-差分进化是一种有效并且简单的演化算法~\cite{DE1,DE2}。差分进化通过利用种群中的距离和方向信息来指导搜索的过程。差分进化通过提取种群中的差分信息来指导下一步搜素并且可以加快解集收敛的速度。分布估计算法中传统的采样一般是根据建立的概率模型进行采样。然而，如何建立并且更新概率模型是一个比较困难的问题，同时如何从建立的概率模型。基于以上问题，并且受到差分进化算法思想的启发，我们提出基于差分进化的采样策略，即差分采样策略（Differential Evolution based on Sampling, DES)~\cite{des}。 通过利用分布估计算法中概率模型不断收集种群中的统计信息，不断地更新概率模型，指导搜索的进行，同时利用差分采样策略产生精英个体，提高种群的多样性，在保证种群多样性的同时，也加速了最终结果的收敛，从而进一步提高算法的性能。
+差分进化隶属于演化算法，是一种简单但却有效的优化方法~\cite{DE1,DE2}。在差分进化中，种群的距离和方向信息被用于指导对最优解的搜索。差分进化通过提取种群中的差分信息来指导下一步搜素并且可以加快解集收敛的速度。分布估计算法中传统的采样一般是根据建立的概率模型进行采样。然而，如何建立并且更新概率模型是一个比较困难的问题，同时如何从建立的概率模型。基于以上问题，并且受到差分进化思想的启发，我们提出基于差分进化的采样策略，即差分采样策略（Differential Evolution based on Sampling, DES)~\cite{des}。 通过利用分布估计算法中概率模型不断收集种群中的统计信息，生成子代种群，不断地更新概率模型，指导搜索的进行，同时利用差分采样策略产生精英个体，提高种群的多样性，在保证种群多样性的同时，也加速了最终结果的收敛，从而令算法性能得到进一步提升。
 
 \subsection{本文所做的工作和内容安排}
-针对分布估计算法的采样，提出差分采样策略，用于提高分布估计算法的性能。针对单目标和多目标优化问题，通过一系列的综合实验分析来研究差分采样策略对于提高分布估计算法性能的意义。在单目标优化问题上，基于差分进化和分布估计算法的混合算法（DE/DEA)~\cite{DEEDA2005}，通过改进DE/EDA 中的差分进化算法，并且同时提出一种基于差分采样策略的单目标分布估计算法（EDA/DE-EIG）~\cite{edade-eig}，研究其对于提高分布估计算法对于解决单目标优化问题上算法性能和速度提升的意义。在多目标优化问题上，DES被用于改进基于规律模型的分布估计算法（A Regularity Model-based Estimation of Distribution Algorithm, RM-MEDA)~\cite{RM-MEDA} 中的采样策略，提出了基于差分采样的多目标分布估计算法，并且通过综合实验分析研究算法性能。
+针对分布估计算法的采样，提出差分采样策略，进一步提升采样，从而提升算法的性能表现。针对单目标和多目标优化问题，通过一系列的综合实验分析来研究差分采样策略对于提高分布估计算法性能的意义。在单目标优化问题上，在差分进化和分布估计算法的混合算法（DE/DEA)~\cite{DEEDA2005}基础上，通过基于特征向量的差分进化算法（DE-EIG）来改进DE/EDA 中的采样，提出一种基于差分采样策略的单目标分布估计算法（EDA/DE-EIG）~\cite{edade-eig}，研究其对于提高分布估计算法对于解决单目标优化问题上算法性能和速度提升的意义。在多目标优化问题上，DES被用于改进基于规律模型的分布估计算法（A Regularity Model-based Estimation of Distribution Algorithm, RM-MEDA)~\cite{RM-MEDA} 中的采样策略，提出了基于差分采样的多目标分布估计算法，并且通过综合实验分析研究算法性能。
 
 论文内容安排如下：
 
-第一章 ~~~绪论，介绍演化算法以及本文的研究目的和论文内容安排。
+第一章 ~~~绪论，首先介绍了演化计算和演化算法，接着阐述了本文研究的目的和意义，最好介绍论文的主要工作以及论文的组织架构。
 
 第二章 ~~~研究背景，介绍了最优化问题以及演化算法，接着着重介绍了分布估计算法和差分进化的相关概念和当前的研究现状。
 
-第三章 ~~~对于全局单目标优化问题，为了进一步提高单目标分布估计算法的采样性能，利用差分采样策略来进一步改进单目标分布股计算法的采样性能。基于DE/EDA算法框架，引入基于特征向量的差分进化算法，并且通过结合expensive LS来进一步提高算法性能，最终提出基于差分采样策略的单目标分布估计算法EDA/DE-EIG。 通过和JADE，DE/EDA的综合实验分析对比，分析出差分采样策略在解决单目标优化问题的作用和意义。
+第三章 ~~~对于全局单目标优化问题，为了进一步提高单目标分布估计算法的采样性能，利用差分采样策略来进一步改进单目标分布股计算法的采样性能。基于DE/EDA算法框架，引入基于特征向量的差分进化算法，并且通过结合expensive LS来进一步提高算法性能，最终提出基于差分采样策略的单目标分布估计算法（EDA/DE-EIG）。 通过和JADE，DE/EDA的综合实验分析对比，分析出差分采样策略在解决单目标优化问题的作用和意义。
 
-第四章 ~~~对于连续多目标优化问题的研究，在RM-MEDA的基础上提出差分采样策略，通过这种新型的采样策略去改进RM-MEDA的采样环节。即在采样环节中，将种群转换到隐空间中，采取一种新型的变异策略对种群进行变异操作，然后再将个体转换到原始的空间中，从而产生新的个体。具体描述了相关的研究背景和基于差分采样的多目标分布估计算法框架和具体实现。最后，通过综合的实验分析了RM-MEDA 中存在的问题，并且通过一系列综合实验分析来分析差分采样策略的重要意义。
+第四章 ~~~对于连续多目标优化问题的研究，在RM-MEDA的基础上提出差分采样策略，通过这种新型的采样策略去改进RM-MEDA的采样环节。即在采样环节中，将种群转换到隐空间中，采取一种新型的变异策略对种群进行变异操作，然后再将个体转换到原始的空间中，从而产生新的个体。具体描述了相关的研究背景和基于差分采样策略的多目标分布估计算法（DES-RM-MEDA）框架和具体实现。最后，通过综合的实验分析了RM-MEDA 中存在的问题，并且通过一系列综合实验分析来分析差分采样策略的重要意义。
 
 第五章 ~~~对本文进行全面地总结，并且根据目前工作的不足之处提出几点展望。
 
 \newpage
 \section{研究背景}
-本章首先介绍了最优化问题，以及最优化问题在数学领域中的定义。对于最优化问题的求解，介绍了传统的优化方法和演化算法。针对本文的重点讨论的单目标和多目标优化问题，简要地介绍了单目标和多目标演化算法，并将多目标演化算法分为四大类。接着着重介绍了分布估计算法的算法和研究现状。最后介绍了差分进化的算法和研究现状。
+本章首先介绍了最优化问题，以及其相关的数学定义。对于最优化问题的求解，介绍了传统的优化方法和演化算法。针对本文的重点讨论的单目标和多目标优化问题，简要地介绍了单目标和多目标演化算法，并将多目标演化算法分为四大类。接着着重介绍了分布估计算法的算法和研究现状。最后介绍了差分进化的算法和研究现状。
 
 \subsection{最优化问题}
 在数学以及计算机科学中，最优化问题就是对于一个问题在可能的解集中找到一个最优的解。可以将最优化问题使用以下公式描述：
