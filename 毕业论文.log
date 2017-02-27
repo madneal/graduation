@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  21 FEB 2017 23:03
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  27 FEB 2017 22:53
 entering extended mode
 **C:/Users/neal1/project/graduation/æ¯•ä¸šè®ºæ–‡.tex
 (C:/Users/neal1/project/graduation/æ¯•ä¸šè®ºæ–‡.tex
@@ -985,48 +985,64 @@ File: figs/car.png Graphic file (type png)
  <use figs/car.png>
 Package pdftex.def Info: figs/car.png used on input line 480.
 (pdftex.def)             Requested size: 234.73523pt x 202.92233pt.
- [4 <C:/Users/neal1/project/graduation/figs/car.png>]<<c1978.cmap>>
+<<c1978.cmap>> [4]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 492.
 
-
-(C:\CTEX\MiKTeX\tex\latex\base\omscmr.fd
+ (C:\CTEX\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 492.
- [5] [6]
-<figs/independent.png, id=170, 350.30875pt x 301.125pt>
+
+Overfull \hbox (11.69713pt too wide) in paragraph at lines 492--493
+[]\C19/song/bx/n/12/44 Ä \C19/song/m/n/12/62 u \C19/song/bx/n/12/41 © \C19/song
+/m/n/12/46 ) \C19/song/bx/n/12/40  õ \C19/song/bx/n/12/51 8 \C19/song/bx/n/12/
+37 I \C19/song/bx/n/12/60 ü \C19/song/bx/n/12/44 z \C19/song/bx/n/12/56 Ž \C19/
+song/bx/n/12/41 { \C19/song/m/n/12/26 µ \C19/song/bx/n/12/44 Ä \C19/song/m/n/12
+/62 u \C19/song/bx/n/12/41 © \C19/song/m/n/12/46 ) \C19/song/bx/n/12/40  õ \C1
+9/song/bx/n/12/51 8 \C19/song/bx/n/12/37 I \C19/song/bx/n/12/60 ü \C19/song/bx/
+n/12/44 z \C19/song/bx/n/12/56 Ž \C19/song/bx/n/12/41 { \C19/song/m/n/12/26 £\T
+1/cmr/m/n/12 MOEA/D\C19/song/m/n/12/26 ¤ \T1/cmr/m/n/12 [17]\C19/song/bx/n/12/5
+5 ´\T1/cmr/m/n/12 Zhang\C19/song/bx/n/12/40 
+ []
+
+[5 <C:/Users/neal1/project/graduation/figs/car.png>]
+<figs/independent.png, id=166, 350.30875pt x 301.125pt>
 File: figs/independent.png Graphic file (type png)
 
 <use figs/independent.png>
 Package pdftex.def Info: figs/independent.png used on input line 530.
 (pdftex.def)             Requested size: 187.78531pt x 161.42421pt.
- <figs/ecga.png, id=171, 342.27875pt x 310.15875pt>
+ <figs/ecga.png, id=167, 342.27875pt x 310.15875pt>
 File: figs/ecga.png Graphic file (type png)
 
 <use figs/ecga.png>
 Package pdftex.def Info: figs/ecga.png used on input line 531.
 (pdftex.def)             Requested size: 187.78531pt x 170.16663pt.
- <figs/bayesian.png, id=172, 315.1775pt x 283.0575pt>
+ <figs/bayesian.png, id=168, 315.1775pt x 283.0575pt>
 File: figs/bayesian.png Graphic file (type png)
 
 <use figs/bayesian.png>
 Package pdftex.def Info: figs/bayesian.png used on input line 532.
 (pdftex.def)             Requested size: 187.78531pt x 168.64804pt.
- <figs/markov.png, id=173, 322.20375pt x 277.035pt>
+ <figs/markov.png, id=169, 322.20375pt x 277.035pt>
 File: figs/markov.png Graphic file (type png)
 
 <use figs/markov.png>
 Package pdftex.def Info: figs/markov.png used on input line 533.
 (pdftex.def)             Requested size: 187.78531pt x 161.46666pt.
- [7 <C:/Users/neal1/project/graduation/figs/independent.png> <C:/Users/neal1/pr
-oject/graduation/figs/ecga.png> <C:/Users/neal1/project/graduation/figs/bayesia
-n.png> <C:/Users/neal1/project/graduation/figs/markov.png>]<<c1981.cmap>> [8] [
-9] [10]
+ [6]
+
+LaTeX Warning: File t139.cmap not found on input line 553.
+
+[7]<<c1981.cmap>> [8 <C:/Users/neal1/project/graduation/figs/independent.png> <
+C:/Users/neal1/project/graduation/figs/ecga.png> <C:/Users/neal1/project/gradua
+tion/figs/bayesian.png> <C:/Users/neal1/project/graduation/figs/markov.png>]
+[9] [10] [11]
 
 LaTeX Warning: File t156.cmap not found on input line 597.
 
-[11] [12] [13] [14] [15] [16] [17] [18]
+[12] [13] [14] [15] [16] [17] [18]
 
 LaTeX Warning: File t138.cmap not found on input line 788.
 
@@ -1799,10 +1815,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20344 strings out of 495354
- 337841 string characters out of 3183858
+ 20348 strings out of 495354
+ 337891 string characters out of 3183858
  382273 words of memory out of 3000000
- 22487 multiletter control sequences out of 15000+200000
+ 22490 multiletter control sequences out of 15000+200000
  110080 words of font info for 364 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,18n,55p,1510b,966s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1864,7 +1880,7 @@ fonts/type1/public/cm-super/sfrm1095.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-
 super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:
 /CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/CTEX/MiKTeX/fonts/typ
 e1/public/cm-super/sfti1200.pfb>
-Output written on æ¯•ä¸šè®ºæ–‡.pdf (60 pages, 1460767 bytes).
+Output written on æ¯•ä¸šè®ºæ–‡.pdf (60 pages, 1457422 bytes).
 PDF statistics:
  857 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
