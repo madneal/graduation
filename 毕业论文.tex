@@ -383,29 +383,30 @@ The main contents of this paper are single objective estimation of distribution 
 \noindent{\large 中文摘要}\hfill\rmfamily{i} \\[4mm]
 {\large 英文摘要}\hfill \rmfamily{ii}\\[4mm]
 {\large 第一章\quad 绪论}\hfill \rmfamily{1}\par
-{\large 1.1 研究的目的和意义}$\dotfill 1$\par
+{\large 1.1 研究的目的和意义}$\dotfill 2$\par
 {\large 1.2 本文所做的工作和内容安排}$\dotfill 2$\\[4mm]
 {\large 第二章\quad 研究背景}\hfill \rmfamily{4}\par
 {\large 2.1 最优化问题}$\dotfill 4$\par
 {\large 2.2 演化算法}$\dotfill 5$\par
 {\large 2.3 分布估计算法}$\dotfill 6$\par
-{\large 2.4 差分进化}$\dotfill 11$\\[4mm]
-{\large 第三章\quad 基于差分采样的单目标优化}\hfill \rmfamily{18}\par
+{\large 2.4 差分进化}$\dotfill 11$\par
+{\large 2.5 本章小结}$\dotfill 18$\\[4mm]
+{\large 第三章\quad 基于差分采样的单目标优化}\hfill \rmfamily{19}\par
 {\large 3.1 全局单目标优化问题}$\dotfill 18$\par
-{\large 3.2 基于差分采样的单目标分布估计算法}$\dotfill 18$\par
-{\large 3.3 实验分析}$\dotfill 21$\par
-{\large 3.4 本章小结}$\dotfill 26$\\[4mm]
-{\large 第四章\quad 基于差分采样的多目标优化}\hfill \rmfamily{27}\par
-{\large 4.1 连续多目标优化问题}$\dotfill 27$\par
-{\large 4.2 基于差分采样的多目标分布估计算法}$\dotfill 28$\par
-{\large 4.3 实验分析}$\dotfill 32$\par
-{\large 4.4 本章小结}$\dotfill 37$\\[4mm]
-{\large 第五章\quad 总结与展望}\hfill \rmfamily{39}\par
-{\large 5.1 工作总结}$\dotfill 39$\par
-{\large 5.2 工作展望}$\dotfill 39$\\[4mm]
-{\large 参考文献}$\dotfill 41$\par
-{\large 致\quad 谢}$\dotfill 49$\par
-{\large 在校期间的学术论文和科研项目}$\dotfill 50$\par
+{\large 3.2 基于差分采样的单目标分布估计算法}$\dotfill 20$\par
+{\large 3.3 实验分析}$\dotfill 23$\par
+{\large 3.4 本章小结}$\dotfill 27$\\[4mm]
+{\large 第四章\quad 基于差分采样的多目标优化}\hfill \rmfamily{29}\par
+{\large 4.1 连续多目标优化问题}$\dotfill 29$\par
+{\large 4.2 基于差分采样的多目标分布估计算法}$\dotfill 30$\par
+{\large 4.3 实验分析}$\dotfill 34$\par
+{\large 4.4 本章小结}$\dotfill 40$\\[4mm]
+{\large 第五章\quad 总结与展望}\hfill \rmfamily{41}\par
+{\large 5.1 工作总结}$\dotfill 41$\par
+{\large 5.2 工作展望}$\dotfill 42$\\[4mm]
+{\large 参考文献}$\dotfill 43$\par
+{\large 致\quad 谢}$\dotfill 53$\par
+{\large 在校期间的学术论文和科研项目}$\dotfill 54$\par
 
 %\tableofcontents
 
@@ -1181,7 +1182,7 @@ $\varepsilon^\prime$是一个服从分布$\mathcal{N}(0,\sigma_\tau{I})$的高斯噪音（$\t
   X=X_{r_1}+rand\cdot(X_{r_2}-X_{r_3})+F\cdot(X_{r_2}-X_{r_3})
 \end{equation}
 
-其中$X_{r_1}$, $X_{r_2}$, $X_{r_3}$是种群中的随机个体，$r_1, r_2, r_3$则是从1到NP(NP是种群的大小)之间选择的三个互不相同的整数。F是变异策略中的缩放因子，rand则是0到1之间服从均匀分布的随机数。
+其中$X_{r_1}$, $X_{r_2}$, $X_{r_3}$是种群中的随机个体，$r_1, r_2, r_3$则是从1到NP(NP是种群的大小)之间选择的三个互不相同的整数。F是变异策略中的缩放因子，rand则是0 到1之间服从均匀分布的随机数。
 
 图~\ref{mutation}诠释了在二维空间中这个变异策略是如何实现的。向量$rand\cdot(X_{r_2}-X_{r_3})+F\cdot(X_{r_2}-X_{r_3})$对于增加种群的多样性具有重要意义。
 
