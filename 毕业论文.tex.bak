@@ -742,12 +742,12 @@ StornÊ×´Î½«²î·Ö½ø»¯¼ÓÒÔÍØÕ¹ÓÃÀ´´¦Àí·ÇµÈÊ½Ô¼ÊøÓÅ»¯ÎÊÌâ£¬ËûÌá³öÁËÒ»ÖÖ¶à³É·Ö²î·Ö½ø»
 
 LampinenÍ¨¹ýÊ¹ÓÃÔÚÔ¼Êø¿Õ¼äÖÐµÄParetoÖ§ÅäÀ´ÀûÓÃ²î·Ö½ø»¯½â¾öÔ¼ÊøÎÊÌâ~\cite{cde2002}¡£Kukkonen ºÍLampinenÌá³öÒ»ÖÖ¹ãÒå»ùÓÚ²î·Ö½ø»¯µÄËã·¨À´½â¾ö¶àÄ¿±êÔ¼ÊøÓÅ»¯ÎÊÌâ~\cite{cde2006}¡£ÁíÍâÒ»Ð©ÑÐ¾¿ÕßÒ²½«²î·Ö½ø»¯ÖÐµÄ²ÎÊý¿ØÖÆ×÷ÎªÔ¼ÊøÓÅ»¯¡£Brest µÈÈËÌá³öÒ»ÖÖ¶ÔÓÚ²î·Ö½ø»¯ÖÐ½»²æºÍ±äÒìËã×ÓµÄ²ÎÊýµÄ×ÔÊÊÓ¦²ÎÊý¿ØÖÆ¡£%~\cite{controlde2006}
 
-{\bf Õë¶Ô¶àÄ¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯Ëã·¨£º}µÃÒæÓÚ²î·Ö½ø»¯µÄ¼òµ¥µ«È´Ç¿´óµÄÌØµã£¬²î·Ö½ø»¯Í¬Ê±Ò²µÃµ½ÁË¶àÄ¿±êÓÅ»¯ÑÐ¾¿Ñ§ÕßµÄ¹ã·º¹Ø×¢¡£ ChangµÈÈËµÚÒ»´Î½«²î·Ö½ø»¯ÍØÕ¹ÓÃÓÚ½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ~\cite{demo1999}¡£AbbasºÍSarkarÌá³öÁËPareto²î·Ö½ø»¯Ëã·¨£¨PDE£©Í¨¹ýÁ¬Ðø±äÁ¿À´½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ~\cite{pde2002}£¬²¢ÇÒÕâ¸öËã·¨ÔÚºÍÆäËü¶àÄ¿±êÓÅ»¯Ëã·¨Ïà±È¾ßÓÐºÜ´óµÄ¾ºÕùÁ¦¡£Kukkonen ºÍLampinenÍ¨¹ý½«DE/rand/1/bin½øÐÐÍØÕ¹ÓÃÓÚ½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ£¬Ìá³ö¹ãÒå²î·Ö½ø»¯£¨GDE£©~\cite{gde2004}¡£XueµÈÈËÌá³öÁËÒ»¸ö¶àÄ¿±ê²î·Ö½ø»¯~\cite{mode2005}£¨MODE£©£¬ÀûÓÃ×îºÃµÄ¸öÌåÀ´²úÉúºó´ú¡£Í¨¹ý»ùÓÚParetoµÄ·½·¨À´ÌôÑ¡×îºÃµÄ¸öÌå¡£Í¬Ê±£¬»¹Ê¹ÓÃÁË$(\mu+\lambda)$Ñ¡ÔñËã×Ó£¬Pareto ·Ö¼¶ÒÔ¼°¾Û¼¯¾àÀëÀ´²úÉúÐÂ½â²¢Î¬³ÖÆäÁ¼ºÃµÄ·Ö²¼¡£RobicºÍFilipicÌá³öÁËÁíÍâÒ»ÖÖ¶ÔÓÚ¶àÄ¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯DEMO~\cite{demo2005}£¬Õâ¸öËã·¨½áºÏ²î·Ö½ø»¯µÄÓÅµãÒÔ¼°»ùÓÚPareto·Ö¼¶ºÍ¾Û¼¯¾àÀëÅÅÐòµÄ»úÖÆ¡£DEMO½öÎ¬³ÖÒ»¸öÖÖÈº²¢ÇÒµ±²úÉúÐÂ½âµÄÊ±ºòÕâ¸öÖÖÈº»á±»½øÐÐÍØÕ¹¡£ÕâÄÜ¹»È·±£ÖÖÈºÏòParetoÇ°ÑØ¿ìËÙÊÕÁ²£¬È»¶ø·ÇÁÓÅÅÐòºÍ¾Û¼¯¾àÀëµÄÊ¹ÓÃÔì³ÉÁË½â¼¯µÄ¾ùÔÈÀ©Èö¡£IorioµÈÈËÌá³ö·ÇÁÓÅÅÐò²î·Ö½ø»¯Ëã·¨£¨NSDE£©~\cite{nsde2004}£¬Õâ¸öËã·¨ÊÇ»ùÓÚNSGA-II ×ö³öÁËÒ»Ð©¸Ä¶¯¡£ÕâÁ½¸öËã·¨µÄÖ÷ÒªÇø±ðÊ±²úÉúÐÂµÄ¸öÌåµÄ·½Ê½¡£NSGA-IIÊ¹ÓÃÊµÊý±àÂë½»²æËã×ÓºÍ±äÒìËã×Ó£¬¶øNSDEÔòÊÇÊ¹ÓÃ²î·Ö½ø»¯ÖÐµÄ½»²æËã×ÓºÍ±äÒìËã×Ó¡£NSDEÔÚ½â¾öÐý×ªµÄ¶àÄ¿±êÓÅ»¯ÎÊÌâÉÏÒªÓÅÓÚNSGA-II¡£
+{\bf Õë¶Ô¶àÄ¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯Ëã·¨£º}µÃÒæÓÚ²î·Ö½ø»¯µÄ¼òµ¥µ«È´Ç¿´óµÄÌØµã£¬²î·Ö½ø»¯Í¬Ê±Ò²µÃµ½ÁË¶àÄ¿±êÓÅ»¯ÑÐ¾¿Ñ§ÕßµÄ¹ã·º¹Ø×¢¡£ ChangµÈÈËµÚÒ»´Î½«²î·Ö½ø»¯ÍØÕ¹ÓÃÓÚÇó½â¶àÄ¿±êÓÅ»¯ÎÊÌâ~\cite{demo1999}¡£AbbasºÍSarkarÌá³öÁËPareto²î·Ö½ø»¯Ëã·¨£¨PDE£©Í¨¹ýÁ¬Ðø±äÁ¿À´½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ~\cite{pde2002}£¬²¢ÇÒÕâ¸öËã·¨ÔÚºÍÆäËü¶àÄ¿±êÓÅ»¯Ëã·¨Ïà±È¾ßÓÐºÜ´óµÄ¾ºÕùÁ¦¡£Kukkonen ºÍLampinenÍ¨¹ý½«DE/rand/1/bin½øÐÐÍØÕ¹ÓÃÓÚ½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ£¬Ìá³ö¹ãÒå²î·Ö½ø»¯£¨GDE£©~\cite{gde2004}¡£XueµÈÈËÌá³öÁËÒ»¸ö¶àÄ¿±ê²î·Ö½ø»¯~\cite{mode2005}£¨MODE£©£¬ÀûÓÃ×îºÃµÄ¸öÌåÀ´²úÉúºó´ú¡£Í¨¹ý»ùÓÚParetoµÄ·½·¨À´ÌôÑ¡×îºÃµÄ¸öÌå¡£Í¬Ê±£¬»¹Ê¹ÓÃÁË$(\mu+\lambda)$Ñ¡ÔñËã×Ó£¬Pareto ·Ö¼¶ÒÔ¼°¾Û¼¯¾àÀëÀ´²úÉúÐÂ½â²¢Î¬³ÖÆäÁ¼ºÃµÄ·Ö²¼¡£RobicºÍFilipicÌá³öÁËÁíÍâÒ»ÖÖ¶ÔÓÚ¶àÄ¿±êÓÅ»¯ÎÊÌâµÄ²î·Ö½ø»¯DEMO~\cite{demo2005}£¬Õâ¸öËã·¨½áºÏ²î·Ö½ø»¯µÄÌØÐÔÒÔ¼°»ùÓÚPareto·Ö¼¶ºÍ¾Û¼¯¾àÀëÅÅÐòµÄ»úÖÆ¡£DEMO½öÎ¬³ÖÒ»¸öÖÖÈº²¢ÇÒµ±²úÉúÐÂ½âµÄÊ±ºòÕâ¸öÖÖÈº»á±»½øÐÐÍØÕ¹¡£ÕâÄÜ¹»È·±£ÖÖÈºÏòParetoÇ°ÑØ¿ìËÙÊÕÁ²£¬È»¶ø·ÇÁÓÅÅÐòºÍ¾Û¼¯¾àÀëµÄÊ¹ÓÃÔì³ÉÁË½â¼¯µÄ¾ùÔÈÀ©Èö¡£IorioµÈÈËÌá³ö·ÇÁÓÅÅÐò²î·Ö½ø»¯Ëã·¨£¨NSDE£©~\cite{nsde2004}£¬Õâ¸öËã·¨ÊÇ»ùÓÚNSGA-II ×ö³öÁËÒ»Ð©¸Ä¶¯¡£ÕâÁ½¸öËã·¨µÄÖ÷ÒªÇø±ðÊ±Éú³ÉÐÂµÄ¸öÌåµÄ·½Ê½¡£NSGA-IIÊ¹ÓÃÊµÊý±àÂë½»²æËã×ÓºÍ±äÒìËã×Ó£¬¶øNSDEÔòÊÇÊ¹ÓÃ²î·Ö½ø»¯ÖÐµÄ½»²æËã×ÓºÍ±äÒìËã×Ó¡£NSDEÔÚÐý×ªµÄ¶àÄ¿±êÓÅ»¯ÎÊÌâÉÏµÄ±íÏÖÒªÓÅÓÚNSGA-II¡£
 
 ÓÐÒ»Ð©ÑÐ¾¿ÕßÒ²³¢ÊÔ²ÉÓÃ·ÇParetoµÄ·½·¨À´½â¾ö¶àÄ¿±êÓÅ»¯ÎÊÌâ¡£BabuµÈÈËÌá³öÒ»ÖÖ½áºÏÁ½ÖÖº¯ÊýµÄ¶àÄ¿±ê²î·Ö½ø»¯Ëã·¨~\cite{demo2003}¡£Õâ¸öËã·¨Í¨¹ý½áºÏÁ½ÖÖº¯ÊýÀ´¹¹½¨ÐÂµÄ»úÖÆÀ´½â¾öË«Ä¿±êÎÊÌâ£¬ÕâÁ½ÖÖº¯Êý·Ö±ðÎªÔ¼Êøº¯ÊýºÍ¾Û¼¯º¯Êý¡£LiµÈÈËÌá³ö»ùÓÚ·Ö½âµÄ¶àÄ¿±ê²î·Ö½ø»¯Ëã·¨£¨MOEA/D-DE£©~\cite{moea-d-de2009}ÓÃÓÚ½â¾öÁ¬Ðø¶àÄ¿±êÎÊÌâ¡£ÖµµÃ×¢ÒâµÄÊÇ£¬MOEA/DÊÇÒ»¸öµÃµ½¹ã·ºÓ¦ÓÃµÄ¶àÄ¿±êÓÅ»¯Ëã·¨£¬¸Ã·½·¨µÃµ½ÑÐ¾¿ÕßµÄ¹ã·ºÓ¦ÓÃ¡£ÔÚMOEA/D-DEÖ®ÖÐ£¬DE/rand/1/bin±¶ÓÃÓÚ²úÉúÐÂµÄÊÔÑéÏòÁ¿£¬²¢ÇÒËùÓÐ×ÓÎÊÌâµÄÁÚÓò¹ØÏµÒ²»á±»¶¨Òå´Ó¶øÕâÐ©×ÓÎÊÌâ¾ßÓÐÏàËÆµÄ×îÓÅ½â¡£
 
 \subsection{±¾ÕÂÐ¡½á}
-±¾ÕÂÊ×ÏÈ¼òÒª½éÉÜÁË×îÓÅ»¯ÎÊÌâÒÔ¼°ÏàÓ¦µÄ·½·¨£¬°üÀ¨´«Í³µÄÓÅ»¯·½·¨ºÍÑÝ»¯Ëã·¨¡£ÑÝ»¯Ëã·¨ÊÇÒ»ÖÖÓÃÓÚ½â¾ö×îÓÅ»¯ÎÊÌâµÄÆô·¢Ê½ÓÅ»¯·½·¨¡£½Ó×Å½éÉÜÁËÑÝ»¯Ëã·¨µÄÖ÷ÒªÖÖÀà£¬
+±¾ÕÂÊ×ÏÈ¼òÒª½éÉÜÁË×îÓÅ»¯ÎÊÌâÒÔ¼°ÏàÓ¦µÄ·½·¨£¬Ö÷Òª°üÀ¨´«Í³µÄÓÅ»¯·½·¨ºÍÑÝ»¯Ëã·¨¡£ÑÝ»¯Ëã·¨ÊÇÒ»ÖÖÓÃÓÚ½â¾ö×îÓÅ»¯ÎÊÌâµÄÆô·¢Ê½ÓÅ»¯·½·¨¡£½Ó×Å½éÉÜÁËÑÝ»¯Ëã·¨µÄÖ÷ÒªÖÖÀà£¬
 ²¢ÇÒ½«¶àÄ¿±êÑÝ»¯Ëã·¨·ÖÎªËÄ´óÀà¡£±¾ÎÄµÄÑÐ¾¿ÖØµãÊÇ·Ö²¼¹À¼ÆËã·¨ºÍ²î·Ö²ÉÑù²ßÂÔ£¬Òò´Ë±¾ÕÂÖØµã½éÉÜÁË·Ö²¼¹À¼ÆËã·¨ºÍ²î·Ö½ø»¯µÄËã·¨¿ò¼ÜºÍÑÐ¾¿ÏÖ×´£¬Ö÷Òª¶ÔÓÚÑÐ¾¿±³¾°Ëã·¨½øÐÐ½éÉÜ¡£
 
 %CoDE(Composite DE)~\cite{code2011}Ëã·¨Í¨¹ý½áºÏÈý¸ö²»Í¬µÄºó´ú²úÉú²ßÂÔºÍÈý¸ö³£ÓÃµÄ²ÎÊýÉèÖÃ£¬ºó´ú²úÉú²ßÂÔºÍ²ÎÊýÉèÖÃ»áËæ»ú×éºÏÔÚÒ»ÆðÀ´²úÉúÐÂµÄ½â¼¯¡£Õâ¸öËã·¨ËäÈ»±È½Ï¼òµ¥£¬µ«È´Ê®·ÖÓÐÐ§£¬ÔÚCEC2005ËùÓÐµÄ²âÊÔÌâÉÏ¾­¹ýÔËËã£¬ºÍÆäËû²î·Ö½ø»¯Ëã·¨Ïà±È¶¼ÓÐ×Å²»Ð¡µÄÌá¸ß¡£È»¶ø¶ÔÓÚ½»²æºÍ±äÒìµÄ±ÈÂÊ³ýÁË°´ÕÕ²»Í¬µÄ±ÈÂÊÀ´ÔËÐÐËã·¨Ö®ÍâÃ»ÓÐ¸üºÃµÄ·½·¨¡£
