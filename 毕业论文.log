@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  7 MAR 2017 21:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  8 MAR 2017 19:23
 entering extended mode
 **C:/Users/neal1/project/graduation/ÊØï‰∏öËÆ∫Êñá.tex
 (C:/Users/neal1/project/graduation/ÊØï‰∏öËÆ∫Êñá.tex
@@ -983,12 +983,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <figs/car.png, id=153, 333.245pt x 288.07625pt>
 File: figs/car.png Graphic file (type png)
  <use figs/car.png>
-Package pdftex.def Info: figs/car.png used on input line 481.
+Package pdftex.def Info: figs/car.png used on input line 479.
 (pdftex.def)             Requested size: 234.73523pt x 202.92233pt.
-<<c1978.cmap>> [4]
+
+
+LaTeX Warning: File t163.cmap not found on input line 486.
+
+[4 <C:/Users/neal1/project/graduation/figs/car.png>]<<c1978.cmap>>
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 493.
 
- (C:\CTEX\MiKTeX\tex\latex\base\omscmr.fd
+
+(C:\CTEX\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -1006,51 +1011,43 @@ n/12/44 z \C19/song/bx/n/12/56 é \C19/song/bx/n/12/41 { \C19/song/m/n/12/26 £\T
 5 ¥\T1/cmr/m/n/12 Zhang\C19/song/bx/n/12/40 
  []
 
-[5 <C:/Users/neal1/project/graduation/figs/car.png>] [6]
-<figs/independent.png, id=169, 350.30875pt x 301.125pt>
+[5] <figs/independent.png, id=166, 350.30875pt x 301.125pt>
 File: figs/independent.png Graphic file (type png)
 
 <use figs/independent.png>
 Package pdftex.def Info: figs/independent.png used on input line 531.
 (pdftex.def)             Requested size: 187.78531pt x 161.42421pt.
- <figs/ecga.png, id=170, 342.27875pt x 310.15875pt>
+ <figs/ecga.png, id=167, 342.27875pt x 310.15875pt>
 File: figs/ecga.png Graphic file (type png)
 
 <use figs/ecga.png>
 Package pdftex.def Info: figs/ecga.png used on input line 532.
 (pdftex.def)             Requested size: 187.78531pt x 170.16663pt.
- <figs/bayesian.png, id=171, 315.1775pt x 283.0575pt>
+ <figs/bayesian.png, id=168, 315.1775pt x 283.0575pt>
 File: figs/bayesian.png Graphic file (type png)
 
 <use figs/bayesian.png>
 Package pdftex.def Info: figs/bayesian.png used on input line 533.
 (pdftex.def)             Requested size: 187.78531pt x 168.64804pt.
- <figs/markov.png, id=172, 322.20375pt x 277.035pt>
+ <figs/markov.png, id=169, 322.20375pt x 277.035pt>
 File: figs/markov.png Graphic file (type png)
 
 <use figs/markov.png>
 Package pdftex.def Info: figs/markov.png used on input line 534.
 (pdftex.def)             Requested size: 187.78531pt x 161.46666pt.
- [7] [8 <C:/Users/neal1/project/graduation/figs/independent.png> <C:/Users/neal
-1/project/graduation/figs/ecga.png> <C:/Users/neal1/project/graduation/figs/bay
-esian.png> <C:/Users/neal1/project/graduation/figs/markov.png>]<<c1981.cmap>> [
-9] [10] [11]
+ [6] [7] [8 <C:/Users/neal1/project/graduation/figs/independent.png> <C:/Users/
+neal1/project/graduation/figs/ecga.png> <C:/Users/neal1/project/graduation/figs
+/bayesian.png> <C:/Users/neal1/project/graduation/figs/markov.png>]<<c1981.cmap
+>> [9] [10] [11]
 
 LaTeX Warning: File t156.cmap not found on input line 597.
 
-[12]
-
-LaTeX Warning: File t146.cmap not found on input line 661.
-
-[13] [14] [15] [16] [17] [18] [19]
+[12] [13] [14] [15] [16] [17] [18] [19]
 
 LaTeX Warning: File t138.cmap not found on input line 787.
 
 
 LaTeX Warning: File t153.cmap not found on input line 827.
-
-
-LaTeX Warning: File t163.cmap not found on input line 842.
 
 
 LaTeX Warning: File t143.cmap not found on input line 868.
@@ -1334,20 +1331,6 @@ Package pdftex.def Info: figs/figure/mutation.png used on input line 1191.
 LaTeX Warning: File t137.cmap not found on input line 1225.
 
 [34 <C:/Users/neal1/project/graduation/figs/figure/mutation.png>]
-Overfull \hbox (1.39719pt too wide) in paragraph at lines 1230--1231
-[]\C19/song/bx/n/12/52 Ÿ \C19/song/bx/n/12/64 • \C19/song/bx/n/12/26 ß$\OML/cmm
-/m/it/12 d\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v; P\OT1/cmr/m/n/12 )$\C19/song/bx/
-n/12/55 ¥$\OML/cmm/m/it/12 v$\C19/song/bx/n/12/40 $\OML/cmm/m/it/12 P$\C19/son
-g/bx/n/12/64 • \C19/song/bx/n/12/54 ? \C19/song/bx/n/12/61 ø ò \C19/song/bx/n/1
-2/40 :  \C19/song/bx/n/12/65 Å \C19/song/bx/n/12/60  \C19/song/bx/n/12/51 Ó \
-C19/song/bx/n/12/55 º \C19/song/bx/n/12/46 Â \C19/song/bx/n/12/48 l \C19/song/m
-/n/12/25 " \C19/song/bx/n/12/54 X \C19/song/bx/n/12/43 J$\OML/cmm/m/it/12 P[]$\
-C19/song/bx/n/12/65 v \C19/song/bx/n/12/43 
- \C19/song/bx/n/12/39 å \C19/song/bx/n/12/40  \C19/song/bx/n/12/47 å \C19/song
-/bx/n/12/61 ± \C19/song/bx/n/12/37 L \C19/song/bx/n/12/55 ´\T1/cmr/m/n/12 Paret
-o\C19/song/bx/n/12/53 c
- []
-
 Package epstopdf Info: Source file: <figs/box/box_f1.eps>
 (epstopdf)                    date: 2016-12-26 02:46:20
 (epstopdf)                    size: 12117 bytes
@@ -1358,6 +1341,7 @@ Package epstopdf Info: Source file: <figs/box/box_f1.eps>
 ed-to.pdf figs/box/box_f1.eps>
 (epstopdf)             \includegraphics on input line 1249.
 Package epstopdf Info: Output file is already uptodate.
+
 <figs/box/box_f1-eps-converted-to.pdf, id=382, 490.83376pt x 387.4475pt>
 File: figs/box/box_f1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1817,10 +1801,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20343 strings out of 495354
- 337803 string characters out of 3183858
- 381274 words of memory out of 3000000
- 22487 multiletter control sequences out of 15000+200000
+ 20339 strings out of 495354
+ 337753 string characters out of 3183858
+ 382273 words of memory out of 3000000
+ 22484 multiletter control sequences out of 15000+200000
  109762 words of font info for 363 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,18n,55p,1520b,966s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1881,7 +1865,7 @@ r/sfrm1000.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/CTE
 X/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/p
 ublic/cm-super/sfrm1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm207
 4.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on ÊØï‰∏öËÆ∫Êñá.pdf (63 pages, 1459168 bytes).
+Output written on ÊØï‰∏öËÆ∫Êñá.pdf (63 pages, 1458262 bytes).
 PDF statistics:
  863 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
