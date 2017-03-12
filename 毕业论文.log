@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  12 MAR 2017 15:17
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  12 MAR 2017 17:29
 entering extended mode
 **C:/Users/neal1/project/graduation/毕业论文.tex
 (C:/Users/neal1/project/graduation/毕业论文.tex
@@ -1292,12 +1292,12 @@ eal1/project/graduation/figs/eda-de-eig/f11-eps-converted-to.pdf> <C:/Users/nea
 l1/project/graduation/figs/eda-de-eig/f12-eps-converted-to.pdf> <C:/Users/neal1
 /project/graduation/figs/eda-de-eig/f13-eps-converted-to.pdf>]<<c1967.cmap>> [2
 7] [28]
-<figs/figure/ps.png, id=356, 236.38312pt x 129.48375pt>
+<figs/figure/ps.png, id=356, 324.61275pt x 167.4255pt>
 File: figs/figure/ps.png Graphic file (type png)
 
 <use figs/figure/ps.png>
 Package pdftex.def Info: figs/figure/ps.png used on input line 1055.
-(pdftex.def)             Requested size: 234.73523pt x 128.58444pt.
+(pdftex.def)             Requested size: 234.73523pt x 121.06996pt.
  [29] [30 <C:/Users/neal1/project/graduation/figs/figure/ps.png>] [31] <figs/lp
 ca.png, id=367, 647.41875pt x 212.795pt>
 File: figs/lpca.png Graphic file (type png)
@@ -1320,12 +1320,12 @@ LaTeX Warning: File t141.cmap not found on input line 1170.
 
 [32 <C:/Users/neal1/project/graduation/figs/lpca.png> <C:/Users/neal1/project/g
 raduation/figs/figure/pareto.png>]
-<figs/figure/mutation.png, id=373, 309.40594pt x 225.84375pt>
+<figs/figure/mutation.png, id=373, 418.56375pt x 293.898pt>
 File: figs/figure/mutation.png Graphic file (type png)
 
 <use figs/figure/mutation.png>
 Package pdftex.def Info: figs/figure/mutation.png used on input line 1191.
-(pdftex.def)             Requested size: 234.73523pt x 171.34665pt.
+(pdftex.def)             Requested size: 234.73523pt x 164.81943pt.
  [33]
 
 LaTeX Warning: File t137.cmap not found on input line 1225.
@@ -1865,7 +1865,7 @@ r/sfrm1000.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/CTE
 X/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/p
 ublic/cm-super/sfrm1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm207
 4.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on 毕业论文.pdf (63 pages, 1455476 bytes).
+Output written on 毕业论文.pdf (63 pages, 1487752 bytes).
 PDF statistics:
  863 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
