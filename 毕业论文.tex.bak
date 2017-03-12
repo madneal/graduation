@@ -473,8 +473,6 @@ The main contents of this paper are single objective estimation of distribution 
 
 其中$x$是一组决策向量，$f_i(x)\leq{b_i}, i=1,\cdots,m$是相应的约束条件。对于目标函数$f(x)$，在满足约束条件的情况下得到最小的解。
 
-根据决策变量是离散的还是连续的，最优化问题可以分为组合优化问题和连续优化问题。本文的重点主要是连续优化问题。连续优化问题在工程实践和数学领域都有着广泛的应用，因此对于连续优化问题的研究具有重要意义。
-
 \begin{figure}[ht]
 \graphicspath{{figs/}}
 \centering
@@ -482,6 +480,8 @@ The main contents of this paper are single objective estimation of distribution 
   \caption{生活中的多目标优化问题}
   \label{car}
 \end{figure}
+
+根据决策变量是离散的还是连续的，最优化问题可以分为组合优化问题和连续优化问题。本文的重点主要是连续优化问题。连续优化问题在工程实践和数学领域都有着广泛的应用，因此对于连续优化问题的研究具有重要意义。
 
 在本文中，主要研究的是单目标和多目标优化问题。单目标问题就是对于一个目标求得最优的解。在科学研究和工程应用中，在设计和策略的解决方案中往往涉及到对于多个目标的优化，这就是本文中所说的多目标优化问题（Multiobjective Optimization Problems, MOPs）。拿一个我们日常生活中买车的例子，如图~\ref{car}所示，在买车的时候我们既要考虑到价格同时也要考虑到安全性，这可以理解成为一种多目标优化问题。
 
