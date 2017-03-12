@@ -23,7 +23,7 @@
 
 \bibitem{ec2006}
 D.~B. Fogel, \emph{Evolutionary computation: toward a new philosophy of machine
-  intelligence}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley and Sons,
+  intelligence}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley \& Sons,
   2006, vol.~1.
 
 \bibitem{ec1997}
@@ -32,12 +32,12 @@ T.~B{\"a}ck, D.~Fogel, and Z.~Michalewicz, ``Handbook of evolutionary
 
 \bibitem{eo1995}
 H.~P.~P. Schwefel, \emph{Evolution and Optimum Seeking: The Sixth
-  Generation}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley and Sons,
-  Inc., 1995.
+  Generation}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley \& Sons, Inc.,
+  1995.
 
 \bibitem{ea2013}
 D.~Simon, \emph{Evolutionary optimization algorithms}.\hskip 1em plus 0.5em
-  minus 0.4em\relax John Wiley and Sons, 2013.
+  minus 0.4em\relax John Wiley \& Sons, 2013.
 
 \bibitem{nsga-ii}
 K.~Deb, A.~Pratap, S.~Agarwal, and T.~Meyarivan, ``A fast and elitist
@@ -66,7 +66,7 @@ R.~Storn and K.~Price, \emph{Differential evolution-a simple and efficient
 \bibitem{eda2002}
 P.~Larranaga and J.~A. Lozano, \emph{Estimation of distribution algorithms: A
   new tool for evolutionary computation}.\hskip 1em plus 0.5em minus
-  0.4em\relax Springer Science and Business Media, 2002, vol.~2.
+  0.4em\relax Springer Science \& Business Media, 2002, vol.~2.
 
 \bibitem{edasurvey2002}
 M.~Pelikan, D.~E. Goldberg, and F.~G. Lobo, ``A survey of optimization by
@@ -106,7 +106,7 @@ Q.~Zhang and H.~Li, ``{MOEA/D}: A multiobjective evolutionary algorithm based
 \bibitem{eda2006}
 J.~A. Lozano, \emph{Towards a new evolutionary computation: advances on
   estimation of distribution algorithms}.\hskip 1em plus 0.5em minus
-  0.4em\relax Springer Science and Business Media, 2006, vol. 192.
+  0.4em\relax Springer Science \& Business Media, 2006, vol. 192.
 
 \bibitem{military2006}
 T.-L. Yu, S.~Santarelli, and D.~E. Goldberg, ``Military antenna design using a
@@ -210,8 +210,8 @@ A.~Ratle and M.~Sebag, ``Avoiding the bloat with stochastic grammar-based
 
 \bibitem{mop2001}
 K.~Deb, \emph{Multi-objective optimization using evolutionary
-  algorithms}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley and Sons,
-  2001, vol.~16.
+  algorithms}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley \& Sons, 2001,
+  vol.~16.
 
 \bibitem{bmoa2002}
 M.~Laumanns and J.~Ocenasek, ``Bayesian optimization algorithms for
@@ -280,7 +280,7 @@ H.-Y. Fan and J.~Lampinen, ``A trigonometric mutation operation to differential
 \bibitem{de2006}
 K.~Price, R.~M. Storn, and J.~A. Lampinen, \emph{Differential evolution: a
   practical approach to global optimization}.\hskip 1em plus 0.5em minus
-  0.4em\relax Springer Science and Business Media, 2006.
+  0.4em\relax Springer Science \& Business Media, 2006.
 
 \bibitem{ode2008}
 S.~Rahnamayan, H.~R. Tizhoosh, and M.~Salama, ``Opposition-based differential
@@ -422,7 +422,7 @@ H.~Li and Q.~Zhang, ``Multiobjective optimization problems with complicated
 
 \bibitem{global2000}
 R.~Horst, P.~M. Pardalos, and N.~Van~Thoai, \emph{Introduction to global
-  optimization}.\hskip 1em plus 0.5em minus 0.4em\relax Springer Science and
+  optimization}.\hskip 1em plus 0.5em minus 0.4em\relax Springer Science \&
   Business Media, 2000.
 
 \bibitem{DE-EIG}

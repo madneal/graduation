@@ -213,7 +213,7 @@
 @Book{global2000,
   Title                    = {Introduction to global optimization},
   Author                   = {Horst, Reiner and Pardalos, Panos M and Van Thoai, Nguyen},
-  Publisher                = {Springer Science \& Business Media},
+  Publisher                = {Springer Science and Business Media},
   Year                     = {2000},
 
   Owner                    = {neal},
@@ -236,7 +236,7 @@
 @Book{eda2002,
   Title                    = {Estimation of distribution algorithms: A new tool for evolutionary computation},
   Author                   = {Larranaga, Pedro and Lozano, Jose A},
-  Publisher                = {Springer Science \& Business Media},
+  Publisher                = {Springer Science and Business Media},
   Year                     = {2002},
   Volume                   = {2},
 
@@ -583,7 +583,7 @@
 @Book{eda2006,
   Title                    = {Towards a new evolutionary computation: advances on estimation of distribution algorithms},
   Author                   = {Lozano, Jose A},
-  Publisher                = {Springer Science \& Business Media},
+  Publisher                = {Springer Science and Business Media},
   Year                     = {2006},
   Volume                   = {192},
 
@@ -793,7 +793,7 @@
   title={Differential evolution: a practical approach to global optimization},
   author={Price, Kenneth and Storn, Rainer M and Lampinen, Jouni A},
   year={2006},
-  publisher={Springer Science \& Business Media}
+  publisher={Springer Science and Business Media}
 }
 
 @article{nde2009,
