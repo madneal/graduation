@@ -308,7 +308,7 @@
 
 分布估计算法是演化计算中最近流形的一种演化算法。不同于传统的演化算法，分布估计算法中没有杂交或者变异。分布估计算法中主要包含三步，即：建模，采样，选择。采样对于分布估计算法来说是至关重要的环节，它关系到能否产生更为优异的的子代种群。优异的子代种群对于最终结果的求解有着重大意义。差分进化自从1995 年被提出之后就吸引了来自于各个领域的众多学者。差分进化是一种简单但却有效的随机优化算法，得益于其诸多优点，差分进化已经被广泛应用于各个领域。差分进化在路径规划、电子工程、通信工程、工程系统设计等众多领域受到了广大学者的研究和关注。
 
-本文主要关注分布估计算法中的采样的相关工作。传统的分布估计算法通过建立的概率模型来进行采样。本文受差分进化思想所启发，提出了基于差分进化的采样策略，即差分采样策略（DES），并将这种采样策略应用于分布估计算法之中，从而提高算法性能和运行效率。本文利用差分采样策略来提升分布估计算法中的采样，并且分别研究其在解决单目标和多目标优化问题上的性能表现。通过综合的实验结果分析，可以看分析出差分采样策略对于提高分布估计算法中的采样具有重大意义，并且具有很大的潜力。
+本文主要关注分布估计算法中采样的相关工作。传统的分布估计算法通过建立的概率模型来进行采样。本文受差分进化思想所启发，提出了基于差分进化的采样策略，即差分采样策略（DES），并将这种采样策略应用于分布估计算法之中，从而提高算法性能和运行效率。本文利用差分采样策略来提升分布估计算法的采样，并且分别研究其在解决单目标和多目标优化问题上的性能表现。通过综合的实验结果分析，可以分析出差分采样策略对于提高分布估计算法的采样具有重大意义，并且具有很大的潜力。
 
 本文的主要内容是基于差分采样策略的单目标分布估计算法和基于差分采样策略的多目标分布估计算法。对于单目标优化问题，基于DE/EDA算法框架，通过结合基于特征向量的差分进化来采样，同时，利用expensive local search来进一步提高解集质量，最终提出基于差分采样策略的单目标分布估计算法。另一方面，对于多目标优化问题，通过差分采样策略来改进RM-MEDA的采样，提出了基于差分进化采样策略的多目标分布估计算法，并且效果显著。通过将差分采样策略分别应用于单目标和多目标分布估计算法，并且在综合的实验分析的基础上，有效地表明了差分采样策略对于分布估计算法的重大意义。
 \\[2mm]
@@ -325,11 +325,11 @@
 \vspace*{5mm} \normalfont
 Evolutionary algorithm is a heuristic optimization algorithm based on population which is inspired by biological evolution. Evolutionary algorithms have been widely applied to industrial design, bibliography, economy, power engineering and social science, etc.
 
-Estimation of distribution algorithm is a kind of popular evolution algorithm in evolutionary computation. Unlike traditional evolutionary algorithms, there is no crossover or mutation operations. Generally, estimation of distribution algorithm consists of three steps, modeling, sampling and selection. Sampling is a crucial step to estimation of distribution algorithm, as it is related to whether to generate more promising offspring population. The promising offspring population is significant to the final solutions. Differential evolution has attracted many researchers from various fields since proposed in 1995. Differential evolution is a kind of simple but effective stochastic optimization algorithm. Due to the advantages of differential evolution, it has been widely utilized in different fields. There have been quantities of significant work of differential evolution on route plan, electronic engineering, communication engineering,engineering system design, etc.
+Estimation of distribution algorithm is a kind of popular evolutionary algorithm in evolutionary computation. Unlike traditional evolutionary algorithms, there is no crossover or mutation operations. Generally, estimation of distribution algorithm consists of three steps, modeling, sampling and selection. Sampling is a crucial step to estimation of distribution algorithm, as it is related to whether to generate more promising offspring population. The promising offspring population is significant to the final solutions. Differential evolution has attracted many researchers from various fields since proposed in 1995. Differential evolution is a kind of simple but effective stochastic optimization algorithm. Due to the advantages of differential evolution, it has been widely utilized in different fields. There have been quantities of significant work of differential evolution on route plan, electronic engineering, communication engineering, engineering system design, etc.
 
 This paper mainly studies the sampling strategy of estimation of distribution algorithm. Traditional estimation of distribution algorithms utilize the built probabilistic model to sample. Inspired by differential evolution, this paper proposes a sampling strategy based on differential evolution, namely DES. And this strategy is utilized in estimation of distribution algorithm to study its performance. This paper combines DES with estimation of distribution algorithm, and studies its performance on single objective optimization problems and multiobjective optimization problems respectively. According to the comprehensive experimental analysis, it can be seen that DES is impressively significant to improve the sampling of estimation of distribution algorithm with dramatical potential.
 
-The main contents of this paper are single objective estimation of distribution algorithm based on DES and multiobjective estimation of distribution algorithm based on DES. For single objective optimization problems, based on the framework of DE/EDA, utilize a differential evolution based on eigenvector to sample. Meanwhile, expensive local search is applied to improve the quality of solutions. Hence, single objective estimation of distribution algorithm based on DES is finally proposed. On the other hand, for multiobjective optimization problems, utilize DES to improve the sampling of RM-MEDA and obtain positive results, propose multiobjective estimation of distribution algorithm based on DES. This paper applies DES to single objective estimation of distribution algorithm and multiobjective estimation of distribution algorithm. The comprehensive and systematic experimental analysis indicates the significance of DES in estimation of distribution algorithms.
+The main contents of this paper are single objective estimation of distribution algorithm based on DES and multiobjective estimation of distribution algorithm based on DES. For single objective optimization problems, based on the framework of DE/EDA, utilize a differential evolution based on eigenvector to sample. Meanwhile, expensive local search is applied to improve the quality of solutions. Hence, single objective estimation of distribution algorithm based on DES is finally proposed. On the other hand, for multiobjective optimization problems, utilize DES to improve the sampling of RM-MEDA and obtain positive results, propose multiobjective estimation of distribution algorithm based on DES with impressive performance. This paper applies DES to single objective estimation of distribution algorithm and multiobjective estimation of distribution algorithm. The comprehensive and systematic experimental analysis indicates the significance of DES in estimation of distribution algorithms.
 
 \vspace*{3mm}
 
@@ -424,7 +424,7 @@ The main contents of this paper are single objective estimation of distribution 
 
 \section{绪论}
 
-演化计算~\cite{ec2006, ec1997, eo1995}是用于解决大量优化问题的通用的并且强大的优化算法框架。通过利用现有的解并且同时在解空间中继续搜索，演化计算能够在合理的时间内找到最优解。通过结合现有解的统计信息以及搜索区域中个体的属性，演化计算可以持续搜索最优解，从而最终有效解决优化问题。演化计算通过种群个体（即代表对于问题的候选解）的演化的搜索来求解最终解。
+演化计算~\cite{ec2006, ec1997, eo1995}是用于解决大量优化问题的通用并且强大的优化算法框架。通过利用现有的解并且同时在解空间中继续搜索，演化计算能够在合理的时间内找到最优解。通过结合现有解的统计信息以及搜索区域中个体的属性，演化计算可以持续搜索最优解，从而最终有效解决优化问题。演化计算通过种群个体（即代表对于问题的候选解）的演化的搜索来求解最终解。
 
 演化计算，受自然界进化所启发，也就是对现有的解进行过滤并且产生新的解。个体中的基因相对于问题解中的组成部分。评价函数被用来评价个体对于问题解决的程度。种群通过在搜索空间中随机采样产生。在演化的过程中，现有的个体通过交叉以及变异来交换信息来产生子代种群个体。具有更好适应性的个体更有可能继续交叉和变异操作，它们产生的子代也会更优。通过产生越来越好的种群个体，演化计算最终就能够找到全局最优解。演化计算的演化过程如下图所示。
 
@@ -432,7 +432,7 @@ The main contents of this paper are single objective estimation of distribution 
 \graphicspath{{figs/}}
 \centering
   \includegraphics[width=0.8\columnwidth]{ec.png}
-  \caption{演化计算的基本流程图}
+  \caption{演化计算的基本流程}
   \label{ec}
 \end{figure}
 
@@ -493,7 +493,7 @@ The main contents of this paper are single objective estimation of distribution 
 在本文中，主要研究的是单目标和多目标优化问题。单目标问题就是对于一个目标求得最优的解。在科学研究和工程应用中，在设计和策略的解决方案中往往涉及到对于多个目标的优化，这就是本文中所说的多目标优化问题（Multiobjective Optimization Problems, MOPs）。拿一个我们日常生活中买车的例子，如图~\ref{car}所示，在买车的时候我们既要考虑到价格同时也要考虑到安全性，这可以理解成为一种多目标优化问题。
 
 \subsection{演化算法}
-对于最优化问题求解的方法是多种多样的。传统的优化方法一般是利用问题的梯度信息来确定搜索方向并且设置合适的步长来迭代寻找目标函数的最优解，包括梯度下降法、牛顿法、置信域方法、共轭梯度法等。但是这些方法在靠近极小值速度比较慢或者在求解效率上还有较大的提升空间。
+对于最优化问题求解的方法是多种多样的。传统的优化方法一般是利用问题的梯度信息来确定搜索方向并且设置合适的步长来迭代寻找目标函数的最优解，包括梯度下降法、牛顿-拉弗森法、置信域方法、共轭梯度法等。但是这些方法在靠近极小值速度比较慢或者在求解效率上还有较大的提升空间。
 
 演化算法是另外一种适用于求解最优化问题的方法。相对于传统优化方法，演化算法具有以下优点。首先，演化算法可以被广泛应用，即使问题没有被完整地定义，演化算法可以解决多峰、非连续以及约束问题等多种问题；其次，对于可行搜索空间，演化算法不需要任何假设；最后，将演化算法应用到新的优化问题上的代价相对较低，其实现也更加简单。演化算法主要包括：遗传算法、遗传编程、演化编程、演化策略、分布估计算法、差分进化以及其他的群体智能优化算法。演化算法是解决单目标优化问题的主流方法之一。然而现实世界中的问题往往更加复杂，经常是涉及多个目标的问题，因此多目标演化算法（Multiobjective Evolutionary Algorithms, MOEAs）的研究意义也极为重大。现在对于多目标演化算法的研究百花齐放，可以将多目标演化算法分为以下几类：
 \begin{itemize}
@@ -506,12 +506,11 @@ The main contents of this paper are single objective estimation of distribution 
 本文的重点是利用差分采样策略来改进分布估计算法，来求解单目标和多目标优化问题。分布估计算法是一种新型的用于解决最优化问题的算法。本文所提出的差分采样策略是基于差分进化的采样策略，差分进化是另外一种得到广泛研究的演化算法。下面主要讲解分布估计算法和差分进化以及其相应的研究现状。
 
 \subsection{分布估计算法}
-分布估计算法（Estimation of Distribution Algorithm, EDA），也被称为基于概率模型的遗传算法（Probabilistic Model-based Genetic Algorithm, PMGA），是一种通过建模和采样来搜索最优解的随机优化方法~\cite{eda2002}。分布估计算法虽然属于演化算法，但是和传统的演化算法却有着较大的不同之处。传统的算法通过变量之间隐含的分布关系来产生新的子代种群，然而分布估计算法是通过概率模型建立的精确的分布关系来产生新的子代种群~\cite{eda2006}。
+分布估计算法（Estimation of Distribution Algorithm, EDA），也被称为基于概率模型的遗传算法（Probabilistic Model-based Genetic Algorithm, PMGA），是一种通过建模和采样来搜索最优解的随机优化方法~\cite{eda2002}。分布估计算法虽然属于演化算法，但是和传统的演化算法却有着较大的不同之处。传统的演化算法通过变量之间隐含的分布关系来产生新的子代种群，然而分布估计算法是通过概率模型建立的精确的分布关系来产生新的子代种群~\cite{eda2006}。
 
 \subsubsection{算法框架}
 分布估计算法主要由三个步骤组成：建模，采样和选择。传统的分布估计算法的算法框架如算法~\ref{eda}所示。
 \begin{algorithm}
-%\SetAlgorithmName{算法}
 \caption{分布估计算法}
 \label{eda}
 \textbf{初始化}: 建立随机初始种群$Pop(t)$，$t$ 是相应的种群代数。
@@ -556,9 +555,9 @@ p(X_1, X_2, \cdots, X_n)=p(X_1)p(X_2),\cdots,p(X_n)
 $p(X_i)$是变量$X_i$的概率分布，$p(X_1,X_2,\cdots,X_n)$是候选解集$(X_1,X_2,\cdots,X_n)$的概率分布。
 
 
-对于单变量模型的例子，比如单变量边缘分布算法（UMDA）~\cite{umda1996}，被用于求解onemax 问题。通常大多数的分布估计算法是通过维护一个候选解种群来工作的。增量分布估计算法通过概率模型的更新来替换种群。种群中的个体开始在解空间中服从均匀分布，在之后的每一个迭代之中，都会产生新的解，最好的解或者相对来说比较好的解会被选择进入下一个迭代。这个概率模型就会根据解集的性质慢慢发生变化。通过这种方式，概率模型不断地获得改良，并且不需要将大量的种群全部存储起来。基于种群的增量学习（PBIL）~\cite{pbil1994}是一种作用于二进制串的单变量的增量分布估计算法。像UMDA 一样，PBIL 也是通过概率模型来构建概率向量。另外，为了防止种群过早收敛，会通过一个变异比率参数在每一次迭代中对概率向量进行微调。压缩遗传算法（cGA）~\cite{cga1999}是另一种增量的单变量增量分布估计算法。和PBIL类似，cGA也是通过使用概率向量来代表整个种群中的解集，使用指定长度的二进制串进行编码。cGA和PBIL最主要的区别就是这两者在每一代种群中更新概率向量的方法。
+对于单变量模型的例子，比如单变量边缘分布算法（UMDA）~\cite{umda1996}，被用于求解onemax 问题。通常大多数的分布估计算法是通过维护一个候选解种群来工作的。增量分布估计算法通过概率模型的更新来替换种群。种群中的个体开始在解空间中服从均匀分布，在之后的每一次迭代之中，都会产生新的解，最好的解或者相对来说比较好的解会被选择进入下一个迭代。这个概率模型就会根据解集的性质慢慢发生变化。通过这种方式，概率模型不断地获得改良，并且不需要将大量的种群全部存储起来。基于种群的增量学习（PBIL）~\cite{pbil1994}是一种作用于二进制串的单变量的增量分布估计算法。像UMDA 一样，PBIL也是通过概率模型来构建概率向量。另外，为了防止种群过早收敛，会通过一个变异比率参数在每一次迭代中对概率向量进行微调。压缩遗传算法（cGA）~\cite{cga1999}是另一种增量的单变量增量分布估计算法。和PBIL类似，cGA也是通过使用概率向量来代表整个种群中的解集，使用指定长度的二进制串进行编码。cGA和PBIL最主要的区别就是这两者在每一代种群中更新概率向量的方法。
 
-单变量模型是基于变量之间是相互独立的假设，然而很多问题的变量之间往往是相互联系的。双变量依赖假设是比变量独立假设更为宽松的假设，即随机变量的依赖性仅存在于两个变量之间。树形表示模型是一种常用的用于分布估计算法的概率模型。MIMIC~\cite{mimic1997} 是一种通过链分布来描述变量之间关系的分布估计算法。假设问题中n 个变量的排列为，$\pi=i_1, i_2,\cdots,{i_n}$，MIMIC可以将$p(X_1, X_2, \cdots, X_n)$的概率分布分解为：
+单变量模型是基于变量之间是相互独立的假设，然而很多问题的变量之间往往是相互联系的。双变量依赖假设是比变量独立假设更为宽松的假设，即随机变量的依赖性仅存在于两个变量之间。树形表示模型是一种常用的用于分布估计算法的概率模型。MIMIC~\cite{mimic1997} 是一种通过链分布来描述变量之间关系的分布估计算法。假设问题中n个变量的排列为，$\pi=i_1, i_2,\cdots,{i_n}$，MIMIC可以将$p(X_1, X_2, \cdots, X_n)$的概率分布分解为：
 \begin{equation}
 \label{mimic}
 p_{\pi}(X)=p(X_{i_1}|X_{i_2})p(X_{i_2}|X_{i_3})\cdots p(X_{i_{n-1}}|X_{i_n})p(X_{i_n})
@@ -568,7 +567,7 @@ $p(X_{i_j}|X_{i_{j+1}})$表示在给定$X_{i_{j+1}}$的条件下，$X_{i_j}$的条件概率。新
 
 相对于MIMIC中的链分布模型，Baluja等人于1997年提出使用依赖关系树来进一步提升概率模型的表现力~\cite{dt1997}。在依赖关系树中，每一个父代都可以有多个子代。这个分布估计算法依靠一个包含所有成对关系概率的概率矩阵来工作。概率模型中的关系树可以最大化相互联系变量之间的交互信息，根据真实分布的相对熵，这个模型被证明是最优的模型~\cite{dt1968}。这个概率矩阵的初始化是相对应于所有解集的均匀分布。在算法的每一次的迭代中，依赖关系树都会被建立并且产生新的解，接着最好的解会被用来进一步地更新概率矩阵。二变量边缘分布算法（BMDA）使用一组相互独立依赖关系树来建模~\cite{bmda1999}。 通过从种群中获得的条件概率信息来建模并且采样。
 
-对于多元变量的问题，依赖关系树模型可能就没有办法很好地描述。拓展压缩遗传算法（ECGA）~\cite{ecga1999}使用一种模型可以将变量划分成独立的聚类，每一个聚类被当做是一个单独的变量。这个模型的建立也是基于所有问题变量都是独立的假设之上的。在模型建立的每一次迭代中，两个聚类会合并来进一步提升模型的质量。模型的质量是通过最小描述长度（MDL）来度量的。当聚类的合并没有办法提升模型质量的时候，建模过程就会终止。一旦模型的结构建立完成，就会计算出了一个概率表来描述在每个聚类中基于概率关系被挑选的解和采样产生的新解。在ECGA的每一次迭代中，这个建模过程都会被重复，因此在每次迭代中，概率模型都会包含不同的变量聚类。ECGA概率模型的例子如图~\ref{ecgab}所示。很多包含重叠子问题的问题没有办法将问题化分成独立的聚类。贝叶斯优化算法是利用贝叶斯网络来对候选解集进行建模。贝叶斯网络是一个无环的图，每一个结点表示一个变量，每一条边表示结点之间的条件依赖关系。一个具有n个结点的贝叶斯网络可以通过使用n个随机变量$X_1, X_2, \cdots, X_n$的联合分布来表示：
+对于多元变量的问题，依赖关系树模型可能就没有办法很好地描述。拓展压缩遗传算法（ECGA）~\cite{ecga1999}使用一种模型可以将变量划分成独立的聚类，每一个聚类被当做是一个单独的变量。这个模型的建立也是基于所有问题变量皆是独立的假设之上的。在模型建立的每一次迭代中，两个聚类会合并来进一步提升模型的质量。模型的质量是通过最小描述长度（MDL）来度量的。当聚类的合并没有办法提升模型质量的时候，建模过程就会终止。一旦模型的结构建立完成，就会计算出了一个概率表来描述在每个聚类中基于概率关系被挑选的解和采样产生的新解。在ECGA的每一次迭代中，这个建模过程都会被重复，因此在每次迭代中，概率模型都会包含不同的变量聚类。ECGA概率模型的例子如图~\ref{ecgab}所示。很多包含重叠子问题的问题没有办法将问题化分成独立的聚类。贝叶斯优化算法是利用贝叶斯网络来对候选解集进行建模。贝叶斯网络是一个无环的图，每一个结点表示一个变量，每一条边表示结点之间的条件依赖关系。一个具有n个结点的贝叶斯网络可以通过使用n 个随机变量$X_1, X_2, \cdots, X_n$的联合分布来表示：
 \begin{equation}
 \label{bayesian_equation}
 p(X_1, X_2, \cdots, X_n)=\prod^{n}_{i=1}p(X_i|\prod_i)
