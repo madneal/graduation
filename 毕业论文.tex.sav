@@ -557,7 +557,7 @@ $p(X_i)$是变量$X_i$的概率分布，$p(X_1,X_2,\cdots,X_n)$是候选解集$(X_1,X_2,\cdots
 
 对于单变量模型的例子，比如单变量边缘分布算法（UMDA）~\cite{umda1996}，被用于求解onemax 问题。通常大多数的分布估计算法是通过维护一个候选解种群来工作的。增量分布估计算法通过概率模型的更新来替换种群。种群中的个体开始在解空间中服从均匀分布，在之后的每一次迭代之中，都会产生新的解，最好的解或者相对来说比较好的解会被选择进入下一个迭代。这个概率模型就会根据解集的性质慢慢发生变化。通过这种方式，概率模型不断地获得改良，并且不需要将大量的种群全部存储起来。基于种群的增量学习（PBIL）~\cite{pbil1994}是一种作用于二进制串的单变量的增量分布估计算法。像UMDA 一样，PBIL也是通过概率模型来构建概率向量。另外，为了防止种群过早收敛，会通过一个变异比率参数在每一次迭代中对概率向量进行微调。压缩遗传算法（cGA）~\cite{cga1999}是另一种增量的单变量增量分布估计算法。和PBIL类似，cGA也是通过使用概率向量来代表整个种群中的解集，使用指定长度的二进制串进行编码。cGA和PBIL最主要的区别就是这两者在每一代种群中更新概率向量的方法。
 
-单变量模型是基于变量之间是相互独立的假设，然而很多问题的变量之间往往是相互联系的。双变量依赖假设是比变量独立假设更为宽松的假设，即随机变量的依赖性仅存在于两个变量之间。树形表示模型是一种常用的用于分布估计算法的概率模型。MIMIC~\cite{mimic1997} 是一种通过链分布来描述变量之间关系的分布估计算法。假设问题中n个变量的排列为，$\pi=i_1, i_2,\cdots,{i_n}$，MIMIC可以将$p(X_1, X_2, \cdots, X_n)$的概率分布分解为：
+单变量模型是基于变量之间是相互独立的假设，然而很多问题的变量之间往往是相互联系的。双变量依赖假设是比变量独立假设更为宽松的假设，即随机变量的依赖性仅存在于两个变量之间。树形表示模型是一种常用的用于分布估计算法的概率模型。MIMIC~\cite{mimic1997} 是一种通过链分布来描述变量之间关系的分布估计算法。假设问题中n个变量的排列为，$\pi=i_1,i_2,\cdots,{i_n}$，MIMIC可以将$p(X_1, X_2, \cdots, X_n)$的概率分布分解为：
 \begin{equation}
 \label{mimic}
 p_{\pi}(X)=p(X_{i_1}|X_{i_2})p(X_{i_2}|X_{i_3})\cdots p(X_{i_{n-1}}|X_{i_n})p(X_{i_n})
@@ -736,7 +736,7 @@ U_{i,G}=\left\{
 V_{i,G}=X_{{r^i}_1,G}+\left\{
 \begin{aligned}
 &d_{i,G}\cdot N(0.5, 0.5) \quad \text{如果} \quad rand_i(0, 1)<0.5 \\
-&d_{i,G}\cdot\delta \quad \qquad \qquad \text{其它}
+&d_{i,G}\cdot\delta \quad \qquad \qquad \text{其他}
 \end{aligned}
 \right.
 \end{equation}
@@ -751,7 +751,7 @@ Lampinen通过使用在约束空间中的Pareto支配来利用差分进化解决约束优化问题~\cite{cde
 
 {\bf 针对多目标优化的差分进化算法：}得益于差分进化的简单但却强大的特点，差分进化同时也得到了多目标优化研究学者的广泛关注。 Chang等人第一次将差分进化拓展用于求解多目标优化问题~\cite{demo1999}。Abbas和Sarkar提出了Pareto差分进化算法（PDE）通过连续变量来解决多目标优化问题~\cite{pde2002}，并且这个算法在和其它多目标优化算法相比具有很大的竞争力。Kukkonen 和Lampinen通过将DE/rand/1/bin进行拓展用于解决多目标优化问题，提出广义差分进化（GDE）~\cite{gde2004}。Xue等人提出了一个多目标差分进化~\cite{mode2005}（MODE），利用最好的个体来产生后代。通过基于Pareto的方法来挑选最好的个体。同时，还使用了$(\mu+\lambda)$选择算子，Pareto分级以及聚集距离来产生新解并维持其良好的分布。Robic和Filipic提出了另外一种对于多目标优化问题的差分进化DEMO~\cite{demo2005}，这个算法结合差分进化的特性以及基于Pareto分级和聚集距离排序的机制。DEMO仅维持一个种群并且在产生新解的时候这个种群会被进行拓展。这能够确保种群向Pareto前沿快速收敛，然而非劣排序和聚集距离的使用造成了解集的均匀扩撒。Iorio等人提出非劣排序差分进化算法（NSDE）~\cite{nsde2004}，这个算法是基于NSGA-II 做出了一些改动。这两个算法的主要区别时生成新的个体的方式。NSGA-II使用实数编码交叉算子和变异算子，而NSDE则是使用差分进化中的交叉算子和变异算子。NSDE在旋转的多目标优化问题上的表现要优于NSGA-II。
 
-有一些研究者也尝试采用非Pareto的方法来求解多目标优化问题。Babu等人设计了一种结合两种函数的多目标差分进化算法~\cite{demo2003}。这个算法通过结合两种函数来构建新的机制来解决双目标问题，这两种函数分别为约束函数和聚集函数。Li等人提出基于分解的多目标差分进化算法（MOEA/D-DE）~\cite{moea-d-de2009}用于解决连续多目标问题。值得注意的是，MOEA/D是一个得到广泛应用的多目标优化算法，该方法得到研究者的广泛应用。在MOEA/D-DE之中，DE/rand/1/bin被用于产生新的试验向量，并且所有子问题的邻域关系也会被定义从而这些子问题具有相似的最优解。
+有一些研究者也尝试采用非Pareto的方法来求解多目标优化问题。Babu等人设计了一种结合两种函数的多目标差分进化算法~\cite{demo2003}。这个算法通过结合两种函数来构建新的机制来解决双目标问题，这两种函数分别为约束函数和聚集函数。Li等人提出基于分解的多目标差分进化算法（MOEA/D-DE）~\cite{moea-d-de2009}用于解决连续多目标问题。值得注意的是，MOEA/D是一个得到广泛应用的多目标优化算法，该方法得到研究者的广泛应用。在MOEA/D-DE之中，DE/rand/1/bin倍用于产生新的试验向量，并且所有子问题的邻域关系也会被定义从而这些子问题具有相似的最优解。
 
 \subsection{本章小结}
 本章首先简要介绍了最优化问题以及相应的方法，主要包括传统的优化方法和演化算法。演化算法是用于求解最优化问题的启发式优化方法之一。接着介绍了演化算法的主要种类，包括单目标演化算法和多目标演化算法，并且将多目标演化算法分为四大类。本文的研究重点是分布估计算法和差分采样策略，因此本章重点介绍了分布估计算法和差分进化的算法框架和研究现状。
@@ -896,7 +896,7 @@ DE-EIG算法是基于上文描述的新的交叉策略提出的一种新的差分进化算法。DE-EIG和经典的
 一旦种群被认为是收敛的，就是用改进的鲍威尔方法~\cite{powell1998}来进一步优化。鲍威尔方法是一种基于置信域的优化方法，可以用于求解函数的局部最小值。它不使用任何的梯度信息，而是通过估计海塞矩阵来定位局部最优解。
 
 \subsubsection{基于差分采样的单目标分布估计算法}
-基于DE/EDA算法框架，将DE-EIG算法引入到其中，来进一步改善分布估计算法的采样环节。同时为了保持种群的多样性，通过一个随机参数来控制种群是通过概率模型采样产生亦或是通过DE-EIG来进行采样。这样，可以提升种群的多样性，同时也能够进一步提升差分进化的搜索能力。同时，利用Converage函数来判断是否执行expensive LS从而进一步提升算法的性能。基于差分采样的单目标分布估计算法如算法~\ref{eda/de-eig}所示。
+基于DE/EDA算法框架，将DE-EIG算法引入到其中，来进一步改善分布估计算法的采样环节。同时为了保持种群的多样性，通过一个随机参数来控制种群是通过概率模型采样产生亦或是通过DE-EIG来产进行采样。这样，可以提升种群的多样性，同时也能够进一步提升差分进化的搜索能力。同时，利用Converage函数来判断是否执行expensive LS从而进一步提升算法的性能。基于差分采样的单目标分布估计算法如算法~\ref{eda/de-eig}所示。
 
 \begin{algorithm}
 \caption{EDA/DE-EIG}
@@ -1003,20 +1003,20 @@ $f13$   &${\cellcolor{lightgray}}\textbf{1.35e-32}\pm{\cellcolor{lightgray}}\tex
 \begin{figure*}
 \centering
 \graphicspath{{figs/eda-de-eig/}}
-\subfigure[f1]{\includegraphics[ width=0.32\textwidth]{f1.eps}}
-\subfigure[f2]{\includegraphics[ width=0.32\textwidth]{f2.eps}}
-\subfigure[f3]{\includegraphics[ width=0.32\textwidth]{f3.eps}}
-\subfigure[f4]{\includegraphics[ width=0.32\textwidth]{f4.eps}}
-\subfigure[f5]{\includegraphics[ width=0.32\textwidth]{f5.eps}}
+\subfigure[$f$1]{\includegraphics[ width=0.3\textwidth]{f1.eps}}
+\subfigure[$f2$]{\includegraphics[ width=0.3\textwidth]{f2.eps}}
+\subfigure[$f3$]{\includegraphics[ width=0.3\textwidth]{f3.eps}}
+\subfigure[$f4$]{\includegraphics[ width=0.3\textwidth]{f4.eps}}
+\subfigure[$f5$]{\includegraphics[ width=0.3\textwidth]{f5.eps}}
 %\subfigure[F6]{\includegraphics[ width=0.3\textwidth]{f6.eps}}
-\subfigure[f7]{\includegraphics[ width=0.32\textwidth]{f7.eps}}
-\subfigure[f8]{\includegraphics[ width=0.32\textwidth]{f8.eps}}
-\subfigure[f9]{\includegraphics[ width=0.32\textwidth]{f9.eps}}
-\subfigure[f10]{\includegraphics[ width=0.32\textwidth]{f10.eps}}
-\subfigure[f11]{\includegraphics[ width=0.32\textwidth]{f11.eps}}
-\subfigure[f12]{\includegraphics[ width=0.32\textwidth]{f12.eps}}
-\subfigure[f13]{\includegraphics[ width=0.32\textwidth]{f13.eps}}
-\caption{三个算法在f1-f13中除了f6的12个测试题上目标函数平均值的折线图}
+\subfigure[$f7$]{\includegraphics[ width=0.3\textwidth]{f7.eps}}
+\subfigure[$f8$]{\includegraphics[ width=0.3\textwidth]{f8.eps}}
+\subfigure[$f9$]{\includegraphics[ width=0.3\textwidth]{f9.eps}}
+\subfigure[$f10$]{\includegraphics[ width=0.3\textwidth]{f10.eps}}
+\subfigure[$f11$]{\includegraphics[ width=0.3\textwidth]{f11.eps}}
+\subfigure[$f12$]{\includegraphics[ width=0.3\textwidth]{f12.eps}}
+\subfigure[$f13$]{\includegraphics[ width=0.3\textwidth]{f13.eps}}
+\caption{三个算法在$f1-f13$中除了$f6$的12个测试题上目标函数平均值的折线图}
  \label{eda-deeig-fig1}
 \end{figure*}
 
@@ -1052,7 +1052,7 @@ DE/EDA是一种对于全局优化的具有很大潜力的方法，它结合了分布估计算法的全局建模信息
 
 其中，$x=(x_1, \cdots, x_n)^T\in R^n$ 是决策变量向量，$\Omega=\Pi_{i=1}^{n}[a_i, b_i] \subset R^n$ 表示可能的搜索空间区域，$f_i: R^n \rightarrow R, i=1, \cdots, m$ 是一个连续的目标函数，$F(x)$则是相应的目标函数向量。
 
-在多目标优化问题中，多个目标相互之间经常是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都达到全局最优解，但是存在一组Pareto最优解~\cite{moead}。 对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto最优解，如果不存在$x\in\Omega$使得$F(x)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则称为Pareto前沿（PF）。
+在多目标优化问题中，多个目标相互之间经常是冲突的，从而导致无法在满足所有约束条件下使得所有目标函数都达到全局最优解，但是存在一组Pareto最优解~\cite{moead}。 对于此，做出以下定义：令$a,b\in{R^n}$，当$a_i\le{b_i}\land{a\neq{b}}$，且$i=1,\cdots,n$，则称$a$ 支配$b$。向量$x^*\in\Omega$ 即是公式~\ref{mop}的Pareto最优解，如果不存在$x\in\Omega$使得$F(X)$ 支配$F(x^*)$。$F(x^*)$被称为Pareto最优目标向量。所有的Pareto 最优解的集合就是Pareto最优解集（PS），对应的最优向量的集合则称为Pareto前沿（PF）。
 
 在一般条件下，根据Karush-Kuhn-Tucker条件可以推导出：连续多目标问题在决策空间中的Pareto最优解集是一个连续分段的（m-1）维的流形体（m是目标数）。对于一个成功的多目标演化算法（multiobjective evolutionary algorithm, MOEA）来说，独立的个体应该是在决策空间中分散在Pareto最优解集附近，如图~\ref{FIG1}所示。
 \begin{figure}[ht]
@@ -1068,7 +1068,7 @@ DE/EDA是一种对于全局优化的具有很大潜力的方法，它结合了分布估计算法的全局建模信息
 根据连续多目标问题以上的特性，基于规律模型的多目标分布算法（RM-MEDA）算法被提出用于解决连续多目标问题。通过在每一次迭代中，利用局部主成分分析（LPCA）~\cite{lpca}在决策空间中的区域建立概率分布模型，然后使用拉丁实验设计采样得到新的子代种群。RM-MEDA 采用基于非劣排序的方法~\cite{nsga-ii} 来挑选个体来产生新的种群。RM-MEDA一经提出后，就收到了广泛的关注。本小节基于RM-MEDA算法，提出了差分采样策略，用于进一步提升RM-MEDA 中采样环节。
 
 \subsubsection{RM-MEDA算法}
-对于连续多目标问题，在决策空间中，种群体中的个体如果越接近Pareto解集，则越容易进行问题的求解。因此，假设种群中的个体为随机向量$\xi\in{R}^D$的观测值，$\xi$的中央部分就是Pareto解集。 并且因为在连续多目标问题中，Pareto解集是一个m-1维的流体，那么$\xi$ 则可以由公式~\ref{model}表示：
+对于连续多目标问题，在决策空间中，种群体中的个体如果越接近Pareto解集，则越容易进行问题的求解。因此，假设种群中的个体为随机向量$\xi\in{R}^D$ 的观测值，$\xi$的中央部分就是Pareto解集。 并且因为在连续多目标问题中，Pareto解集是一个m-1维的流体，那么$\xi$ 则可以由公式~\ref{model}表示：
 \begin{equation}\label{model}
   \xi=\zeta+\epsilon
 \end{equation}
@@ -1159,7 +1159,7 @@ $E$是协方差矩阵$C$的特征向量矩阵，$D$是由特征值组成的对角矩阵。
 
 对于聚类中每一个个体$x$，将其映射到隐空间中：
 $$
-y=x \cdot R
+y=x \cdot R.
 $$
 $R$是特征向量矩阵$E$中前$(m-1)$个主要成分。
 
@@ -1170,7 +1170,7 @@ $$
 
 将$y^\prime$映射到原始的决策空间
 $$
-x^\prime=y^\prime\cdot{R^T}
+x^\prime=y^\prime\cdot{R^T}.
 $$
 
 返回产生的新的个体
@@ -1285,7 +1285,7 @@ RM-MEDA和DES-RM-MEDA都是使用Matlab进行编程实现并且是在同一台计算机上运行程序。其
 
 当缩放因子设置为0.2、0.5以及0.7的情况下，DES-RM-MEDA比RM-MEDA在9个测试题上都表现得更好。在缩放因子设置为0.1、0.4、0.6、以及0.9的时候，RM-MEDA在8个测试题上表现不如DES-RM-MEDA。 在将缩放因子设置为其它参数的情况下，DES-RM-MEDA 的IGD指标在7个测试题上要优于RM-MEDA。
 
-对于测试题F1、F2、F3、F4以及F5，DES-RM-MEDA在使用任一缩放因子设置情况下，其性能表现都要优于RM-MEDA。除了将缩放因子设置为0.1，在测试题F6上，DES-RM-MEDA都比RM-MEDA 要表现得更好。对于F7、F8、F9，DES-RM-MEDA的优势表现得不是很稳定。对于测试题F10，可以看出RM-MEDA和DES-RM-MEDA之间的差距还是比较明显的。综合来说，缩放因子的鲁棒性还是比较好的，同时对于算法性能的提升也有着重要的意义。
+对于测试题$F1$、$F2$、$F3$、$F4$以及$F5$，DES-RM-MEDA在使用任一缩放因子设置情况下，其性能表现都要优于RM-MEDA。除了将缩放因子设置为0.1，在测试题$F6$上，DES-RM-MEDA都比RM-MEDA 要表现得更好。对于$F7$、$F8$、$F9$，DES-RM-MEDA的优势表现得不是很稳定。对于测试题$F10$，可以看出RM-MEDA和DES-RM-MEDA之间的差距还是比较明显的。综合来说，缩放因子的鲁棒性还是比较好的，同时对于算法性能的提升也有着重要的意义。
 
 为了进一步比较DES-RM-MEDA在不同的缩放因子下的性能表现，我们将使用威尔科克森秩和检验（Wilcoxon's rank sum test）来对于RM-MEDA和DES-RM-MEDA之间的性能进行比较。层叠柱状图~\ref{bar}可以表明在不同缩放因子下，DES-RM-MEDA的表现还是比较优异的。
 
@@ -1314,11 +1314,11 @@ RM-MEDA和DES-RM-MEDA都是使用Matlab进行编程实现并且是在同一台计算机上运行程序。其
 \caption{IGD指标均值趋势图。实线表示DES-RM-MEDA，虚线表示RM-MEDA。}
  \label{igd_com}
 \end{figure*}
-从表~\ref{tab1}可以看出，在8个测试题上，DES-RM-MEDA的均值都要优于RM-MEDA。同时，DES-RM-MEDA的最好结果和最差结果在9个测试题上都要优于RM-MEDA。对于其它的2个测试题，这两个算法的性能比较接近。值得注意的是，在测试题F3以及F10上，DES-RM-MEDA 在性能上的提升是非常显著的。
+从表~\ref{tab1}可以看出，在8个测试题上，DES-RM-MEDA的均值都要优于RM-MEDA。同时，DES-RM-MEDA的最好结果和最差结果在9个测试题上都要优于RM-MEDA。对于其它的2个测试题，这两个算法的性能比较接近。值得注意的是，在测试题$F3$以及$F10$上，DES-RM-MEDA 在性能上的提升是非常显著的。
 
 图~\ref{igd_com}可以用来比较DES-RM-MEDA和RM-MEDA在测试题上的收敛趋势。从图~\ref{igd_com}能够分析得出，对于大多数测试题，DES-RM-MEDA收敛的更快更好。这表示DES对于RM-MEDA采样的意义还是相当重要的。下面，对于实验结果进行深入的比较分析：
 \begin{enumerate}
-  \item 对于具有两个目标的测试题，DES-RM-MEDA具有非常亮眼的表现。对于简单的测试题，比如F1和F2，以及困难的测试题，比如F3 和F10，无论是在收敛速度还是最终的收敛值，DES-RM-MEDA 都取得更好地表现。在F5和F6这两个测试题上，DES-RM-MEDA在下降趋势最终结果都有着优势。F9是一个相对比较简单的测试题，这两算法这个测试题上的表现近似。只有对于测试题F7，DES-RM-MEDA在前面的表现都不错，但是在后面的代数里面表现的不是足够稳定。
+  \item 对于具有两个目标的测试题，DES-RM-MEDA具有非常亮眼的表现。对于简单的测试题，比如F1和F2，以及困难的测试题，比如F3 和F10，无论是在收敛速度还是最终的收敛值，DES-RM-MEDA 都取得更好地表现。在F5和F6两个测试题上，DES-RM-MEDA在下降趋势最终结果都有着优势。F9是一个相对比较简单的测试题，这两算法这个测试题上的表现近似。只有对于测试题F7，DES-RM-MEDA在前面的表现都不错，但是在后面的代数里面表现的不是足够稳定。
   \item 对于具有三个目标的测试题，包括F4和F8。在这两个测试题上，DES-RM-MEDA的收敛速度更快，最终的收敛水平也要略优于RM-MEDA。
 \end{enumerate}
 
@@ -1370,7 +1370,7 @@ $F10$ &$1.25e+02$	&$2.35e+01$	&$2.27e+01$	&$1.44e+02$	&${\cellcolor{lightgray}}\
 \subsection{本文工作总结}
 演化算法中的勘探和开采一直是一个比较困扰的话题。如何在演化算法中，既能在找到最优解的同时，也避免陷入局部最优解，这一直是演化算法中的一大难题。分布估计算法能够在概率模型的基础上提取全局信息从而找到最优解。差分进化则是一种利用局部搜索能力来找到最优解。毫无疑问，通过差分进化来改进分布估计算法的采样是一次很有价值的尝试。
 
-本文在基于分布估计算法的基础上，通过利用差分进化来改进分布估计算法的采样过程，提出了差分采样策略，并分别研究在解决单目标优化问题和多目标优化问题的性能表现。在阅读大量文献和实验探究的基础上，提出基于差分采样策略的单目标分布估计算法和基于差分采样策略的多目标分布估计算法。通过综合实验对比，可以看出，差分采样策略在解决演化算法中的优化问题上都有着很大的潜力，和其他的一流演化算法具有一定的可比性。下面对本文做进一步的总结：
+本文在基于分布估计算法的基础上，通过利用差分进化来改进分布估计算法的采样过程，提出了差分采样策略，并分别研究在解决单目标优化问题和多目标优化问题的性能表现。在阅读大量文献和实验探究的基础上，提出基于差分采样策略的单目标分布估计算法和基于差分采样策略的多目标分布估计算法。通过综合实验对比，可以看出，差分采样策略在解决演化算法中的优化问题上都有着很大的潜力，和其他的一流演化算法具有一定的可比性。下面对本文作做一步的总结：
 
 本文首先介绍了在演化计算中最优化问题的定义，接着介绍了解决最优化问题的优化方法，包括传统优化方法和演化算法。最后，分别介绍了分布估计算法和差分进化，以及当前学术界的研究情况。
 
@@ -1379,7 +1379,7 @@ $F10$ &$1.25e+02$	&$2.35e+01$	&$2.27e+01$	&$1.44e+02$	&${\cellcolor{lightgray}}\
 对于多目标优化问题，提出了一种基于差分进化的采样策略，在基于RM-MEDA这一经典的多目标分布估计算法的基础上，基于差分进化的采样策略被用于改进RM-MEDA的采样过程，提高了种群的多样性，加速了种群收敛。同时，也分析了RM-MEDA中存在的一个问题，并提出了相应的改进。通过详细的实验对比分析，可以看出差分采样策略对于多目标分布计算法在解决多目标优化问题上的显著效果。
 
 \subsection{工作展望}
-本文的工作是基于分布估计算法框架，提出了差分采样策略，通过利用差分采样策略而不是传统的建模采样来改进分布估计算法中的采样。这项研究工作当前还是比较基础的，还有一些不完善的地方。对于未来工作的展望主要包括以下几个方面：
+本文的工作是基于分布估计算法框架，提出了差分采样策略策略，通过利用差分采样策略而不是传统的建模采样来改进分布估计算法中的采样。这项研究工作当前还是比较基础的，还有一些不完善的地方。对于未来工作的展望主要包括以下几个方面：
 \begin{itemize}
 \item 将差分采样策略应用于其他的多目标演化算法，比如基于分解的多目标演化算法，从而进一步研究基于差分采样策略的潜力和价值。
 \item 进一步优化EDA/DE-EIG算法，简化算法框架。
