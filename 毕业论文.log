@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  19 MAR 2017 13:21
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  24 MAR 2017 23:14
 entering extended mode
 **C:/Users/neal1/project/graduation/毕业论文.tex
 (C:/Users/neal1/project/graduation/毕业论文.tex
@@ -979,8 +979,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1 <C:/Users/neal1/project/graduation/figs/ec.png>] [2] [3] [4]
-<figs/car.png, id=157, 333.245pt x 288.07625pt>
+[1 <C:/Users/neal1/project/graduation/figs/ec.png>] [2]
+
+LaTeX Warning: File t140.cmap not found on input line 465.
+
+[3] [4] <figs/car.png, id=157, 333.245pt x 288.07625pt>
 File: figs/car.png Graphic file (type png)
  <use figs/car.png>
 Package pdftex.def Info: figs/car.png used on input line 486.
@@ -1051,9 +1054,6 @@ LaTeX Warning: File t153.cmap not found on input line 833.
 
 
 LaTeX Warning: File t143.cmap not found on input line 874.
-
-
-LaTeX Warning: File t140.cmap not found on input line 874.
 
 [21] [22]<<c1974.cmap>> [23]
 
@@ -1865,7 +1865,7 @@ r/sfrm1000.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/CTE
 X/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/p
 ublic/cm-super/sfrm1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm207
 4.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on 毕业论文.pdf (64 pages, 1489567 bytes).
+Output written on 毕业论文.pdf (64 pages, 1490160 bytes).
 PDF statistics:
  866 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
