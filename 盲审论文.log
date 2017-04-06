@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  6 APR 2017 18:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.12.26)  6 APR 2017 21:41
 entering extended mode
 **C:/Users/neal1/project/graduation/盲审论文.tex
 (C:/Users/neal1/project/graduation/盲审论文.tex
@@ -966,7 +966,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--315
 
  []
 
-[1] [2] [3] [4] [5] <figs/ec.png, id=141, 586.19pt x 255.95625pt>
+[1] [2] [3] [4] [5] <figs/ec.png, id=142, 586.19pt x 255.95625pt>
 File: figs/ec.png Graphic file (type png)
 
 <use figs/ec.png>
@@ -983,7 +983,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: File t140.cmap not found on input line 465.
 
-[3] [4] <figs/car.png, id=156, 333.245pt x 288.07625pt>
+[3] [4] <figs/car.png, id=157, 333.245pt x 288.07625pt>
 File: figs/car.png Graphic file (type png)
  <use figs/car.png>
 Package pdftex.def Info: figs/car.png used on input line 486.
@@ -1014,25 +1014,25 @@ n/12/44 z \C19/song/bx/n/12/56 � \C19/song/bx/n/12/41 { \C19/song/m/n/12/26 �\T
 5 �\T1/cmr/m/n/12 Zhang\C19/song/bx/n/12/40 
  []
 
-[6] <figs/independent.png, id=168, 350.30875pt x 301.125pt>
+[6] <figs/independent.png, id=169, 350.30875pt x 301.125pt>
 File: figs/independent.png Graphic file (type png)
 
 <use figs/independent.png>
 Package pdftex.def Info: figs/independent.png used on input line 537.
 (pdftex.def)             Requested size: 187.78531pt x 161.42421pt.
- <figs/ecga.png, id=169, 342.27875pt x 310.15875pt>
+ <figs/ecga.png, id=170, 342.27875pt x 310.15875pt>
 File: figs/ecga.png Graphic file (type png)
 
 <use figs/ecga.png>
 Package pdftex.def Info: figs/ecga.png used on input line 538.
 (pdftex.def)             Requested size: 187.78531pt x 170.16663pt.
- <figs/bayesian.png, id=170, 315.1775pt x 283.0575pt>
+ <figs/bayesian.png, id=171, 315.1775pt x 283.0575pt>
 File: figs/bayesian.png Graphic file (type png)
 
 <use figs/bayesian.png>
 Package pdftex.def Info: figs/bayesian.png used on input line 539.
 (pdftex.def)             Requested size: 187.78531pt x 168.64804pt.
- <figs/markov.png, id=171, 322.20375pt x 277.035pt>
+ <figs/markov.png, id=172, 322.20375pt x 277.035pt>
 File: figs/markov.png Graphic file (type png)
 
 <use figs/markov.png>
@@ -1074,7 +1074,7 @@ erted-to.pdf figs/eda-de-eig/f1.eps>
 (epstopdf)             \includegraphics on input line 1006.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f1-eps-converted-to.pdf, id=251, 506.89375pt x 408.52625pt>
+<figs/eda-de-eig/f1-eps-converted-to.pdf, id=252, 506.89375pt x 408.52625pt>
 File: figs/eda-de-eig/f1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f1-eps-converted-to.pdf>
@@ -1092,7 +1092,7 @@ erted-to.pdf figs/eda-de-eig/f2.eps>
 (epstopdf)             \includegraphics on input line 1007.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f2-eps-converted-to.pdf, id=252, 502.87875pt x 408.52625pt>
+<figs/eda-de-eig/f2-eps-converted-to.pdf, id=253, 502.87875pt x 408.52625pt>
 File: figs/eda-de-eig/f2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f2-eps-converted-to.pdf>
@@ -1110,7 +1110,7 @@ erted-to.pdf figs/eda-de-eig/f3.eps>
 (epstopdf)             \includegraphics on input line 1008.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f3-eps-converted-to.pdf, id=253, 502.87875pt x 408.52625pt>
+<figs/eda-de-eig/f3-eps-converted-to.pdf, id=254, 502.87875pt x 408.52625pt>
 File: figs/eda-de-eig/f3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f3-eps-converted-to.pdf>
@@ -1128,7 +1128,7 @@ erted-to.pdf figs/eda-de-eig/f4.eps>
 (epstopdf)             \includegraphics on input line 1009.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f4-eps-converted-to.pdf, id=254, 502.87875pt x 408.52625pt>
+<figs/eda-de-eig/f4-eps-converted-to.pdf, id=255, 502.87875pt x 408.52625pt>
 File: figs/eda-de-eig/f4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f4-eps-converted-to.pdf>
@@ -1146,7 +1146,7 @@ erted-to.pdf figs/eda-de-eig/f5.eps>
 (epstopdf)             \includegraphics on input line 1010.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f5-eps-converted-to.pdf, id=255, 502.87875pt x 408.52625pt>
+<figs/eda-de-eig/f5-eps-converted-to.pdf, id=256, 502.87875pt x 408.52625pt>
 File: figs/eda-de-eig/f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f5-eps-converted-to.pdf>
@@ -1164,7 +1164,7 @@ erted-to.pdf figs/eda-de-eig/f7.eps>
 (epstopdf)             \includegraphics on input line 1012.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f7-eps-converted-to.pdf, id=256, 498.86375pt x 408.52625pt>
+<figs/eda-de-eig/f7-eps-converted-to.pdf, id=257, 498.86375pt x 408.52625pt>
 File: figs/eda-de-eig/f7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f7-eps-converted-to.pdf>
@@ -1182,7 +1182,7 @@ erted-to.pdf figs/eda-de-eig/f8.eps>
 (epstopdf)             \includegraphics on input line 1013.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f8-eps-converted-to.pdf, id=257, 494.84875pt x 408.52625pt>
+<figs/eda-de-eig/f8-eps-converted-to.pdf, id=258, 494.84875pt x 408.52625pt>
 File: figs/eda-de-eig/f8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f8-eps-converted-to.pdf>
@@ -1200,7 +1200,7 @@ erted-to.pdf figs/eda-de-eig/f9.eps>
 (epstopdf)             \includegraphics on input line 1014.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f9-eps-converted-to.pdf, id=258, 502.87875pt x 408.52625pt>
+<figs/eda-de-eig/f9-eps-converted-to.pdf, id=259, 502.87875pt x 408.52625pt>
 File: figs/eda-de-eig/f9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f9-eps-converted-to.pdf>
@@ -1218,7 +1218,7 @@ verted-to.pdf figs/eda-de-eig/f10.eps>
 (epstopdf)             \includegraphics on input line 1015.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f10-eps-converted-to.pdf, id=259, 502.87875pt x 408.52625pt>
+<figs/eda-de-eig/f10-eps-converted-to.pdf, id=260, 502.87875pt x 408.52625pt>
 File: figs/eda-de-eig/f10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f10-eps-converted-to.pdf>
@@ -1236,7 +1236,7 @@ verted-to.pdf figs/eda-de-eig/f11.eps>
 (epstopdf)             \includegraphics on input line 1016.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f11-eps-converted-to.pdf, id=260, 502.87875pt x 408.52625pt>
+<figs/eda-de-eig/f11-eps-converted-to.pdf, id=261, 502.87875pt x 408.52625pt>
 File: figs/eda-de-eig/f11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f11-eps-converted-to.pdf>
@@ -1254,7 +1254,7 @@ verted-to.pdf figs/eda-de-eig/f12.eps>
 (epstopdf)             \includegraphics on input line 1017.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f12-eps-converted-to.pdf, id=261, 502.87875pt x 408.52625pt>
+<figs/eda-de-eig/f12-eps-converted-to.pdf, id=262, 502.87875pt x 408.52625pt>
 File: figs/eda-de-eig/f12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f12-eps-converted-to.pdf>
@@ -1272,7 +1272,7 @@ verted-to.pdf figs/eda-de-eig/f13.eps>
 (epstopdf)             \includegraphics on input line 1018.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/eda-de-eig/f13-eps-converted-to.pdf, id=262, 502.87875pt x 408.52625pt>
+<figs/eda-de-eig/f13-eps-converted-to.pdf, id=263, 502.87875pt x 408.52625pt>
 File: figs/eda-de-eig/f13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/eda-de-eig/f13-eps-converted-to.pdf>
@@ -1292,20 +1292,20 @@ eal1/project/graduation/figs/eda-de-eig/f11-eps-converted-to.pdf> <C:/Users/nea
 l1/project/graduation/figs/eda-de-eig/f12-eps-converted-to.pdf> <C:/Users/neal1
 /project/graduation/figs/eda-de-eig/f13-eps-converted-to.pdf>]<<c1967.cmap>> [2
 8] [29]
-<figs/figure/ps.png, id=358, 324.61275pt x 167.4255pt>
+<figs/figure/ps.png, id=359, 324.61275pt x 167.4255pt>
 File: figs/figure/ps.png Graphic file (type png)
 
 <use figs/figure/ps.png>
 Package pdftex.def Info: figs/figure/ps.png used on input line 1061.
 (pdftex.def)             Requested size: 234.73523pt x 121.06996pt.
  [30] [31 <C:/Users/neal1/project/graduation/figs/figure/ps.png>] [32] <figs/lp
-ca.png, id=369, 647.41875pt x 212.795pt>
+ca.png, id=370, 647.41875pt x 212.795pt>
 File: figs/lpca.png Graphic file (type png)
 
 <use figs/lpca.png>
 Package pdftex.def Info: figs/lpca.png used on input line 1134.
 (pdftex.def)             Requested size: 375.57779pt x 123.44714pt.
- <figs/figure/pareto.png, id=370, 688.5725pt x 377.41pt>
+ <figs/figure/pareto.png, id=371, 688.5725pt x 377.41pt>
 File: figs/figure/pareto.png Graphic file (type png)
 
 <use figs/figure/pareto.png>
@@ -1320,7 +1320,7 @@ LaTeX Warning: File t141.cmap not found on input line 1176.
 
 [33 <C:/Users/neal1/project/graduation/figs/lpca.png> <C:/Users/neal1/project/g
 raduation/figs/figure/pareto.png>]
-<figs/figure/mutation.png, id=375, 418.56375pt x 293.898pt>
+<figs/figure/mutation.png, id=376, 418.56375pt x 293.898pt>
 File: figs/figure/mutation.png Graphic file (type png)
 
 <use figs/figure/mutation.png>
@@ -1342,7 +1342,7 @@ ed-to.pdf figs/box/box_f1.eps>
 (epstopdf)             \includegraphics on input line 1255.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f1-eps-converted-to.pdf, id=384, 490.83376pt x 387.4475pt>
+<figs/box/box_f1-eps-converted-to.pdf, id=385, 490.83376pt x 387.4475pt>
 File: figs/box/box_f1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f1-eps-converted-to.pdf>
@@ -1360,7 +1360,7 @@ ed-to.pdf figs/box/box_f2.eps>
 (epstopdf)             \includegraphics on input line 1256.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f2-eps-converted-to.pdf, id=385, 490.83376pt x 387.4475pt>
+<figs/box/box_f2-eps-converted-to.pdf, id=386, 490.83376pt x 387.4475pt>
 File: figs/box/box_f2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f2-eps-converted-to.pdf>
@@ -1378,7 +1378,7 @@ ed-to.pdf figs/box/box_f3.eps>
 (epstopdf)             \includegraphics on input line 1257.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f3-eps-converted-to.pdf, id=386, 490.83376pt x 387.4475pt>
+<figs/box/box_f3-eps-converted-to.pdf, id=387, 490.83376pt x 387.4475pt>
 File: figs/box/box_f3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f3-eps-converted-to.pdf>
@@ -1396,7 +1396,7 @@ ed-to.pdf figs/box/box_f4.eps>
 (epstopdf)             \includegraphics on input line 1258.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f4-eps-converted-to.pdf, id=387, 490.83376pt x 387.4475pt>
+<figs/box/box_f4-eps-converted-to.pdf, id=388, 490.83376pt x 387.4475pt>
 File: figs/box/box_f4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f4-eps-converted-to.pdf>
@@ -1414,7 +1414,7 @@ ed-to.pdf figs/box/box_f5.eps>
 (epstopdf)             \includegraphics on input line 1259.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f5-eps-converted-to.pdf, id=388, 490.83376pt x 387.4475pt>
+<figs/box/box_f5-eps-converted-to.pdf, id=389, 490.83376pt x 387.4475pt>
 File: figs/box/box_f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f5-eps-converted-to.pdf>
@@ -1432,7 +1432,7 @@ ed-to.pdf figs/box/box_f6.eps>
 (epstopdf)             \includegraphics on input line 1260.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f6-eps-converted-to.pdf, id=389, 484.81125pt x 387.4475pt>
+<figs/box/box_f6-eps-converted-to.pdf, id=390, 484.81125pt x 387.4475pt>
 File: figs/box/box_f6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f6-eps-converted-to.pdf>
@@ -1450,7 +1450,7 @@ ed-to.pdf figs/box/box_f7.eps>
 (epstopdf)             \includegraphics on input line 1261.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f7-eps-converted-to.pdf, id=390, 484.81125pt x 387.4475pt>
+<figs/box/box_f7-eps-converted-to.pdf, id=391, 484.81125pt x 387.4475pt>
 File: figs/box/box_f7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f7-eps-converted-to.pdf>
@@ -1468,7 +1468,7 @@ ed-to.pdf figs/box/box_f8.eps>
 (epstopdf)             \includegraphics on input line 1262.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f8-eps-converted-to.pdf, id=391, 495.8525pt x 387.4475pt>
+<figs/box/box_f8-eps-converted-to.pdf, id=392, 495.8525pt x 387.4475pt>
 File: figs/box/box_f8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f8-eps-converted-to.pdf>
@@ -1486,7 +1486,7 @@ ed-to.pdf figs/box/box_f9.eps>
 (epstopdf)             \includegraphics on input line 1263.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f9-eps-converted-to.pdf, id=392, 490.83376pt x 387.4475pt>
+<figs/box/box_f9-eps-converted-to.pdf, id=393, 490.83376pt x 387.4475pt>
 File: figs/box/box_f9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f9-eps-converted-to.pdf>
@@ -1504,7 +1504,7 @@ ted-to.pdf figs/box/box_f10.eps>
 (epstopdf)             \includegraphics on input line 1264.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/box/box_f10-eps-converted-to.pdf, id=393, 487.8225pt x 387.4475pt>
+<figs/box/box_f10-eps-converted-to.pdf, id=394, 487.8225pt x 387.4475pt>
 File: figs/box/box_f10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/box/box_f10-eps-converted-to.pdf>
@@ -1523,7 +1523,7 @@ rted-to.pdf figs/figure/f1_f5.eps>
 (epstopdf)             \includegraphics on input line 1277.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/figure/f1_f5-eps-converted-to.pdf, id=397, 517.935pt x 393.47pt>
+<figs/figure/f1_f5-eps-converted-to.pdf, id=398, 517.935pt x 393.47pt>
 File: figs/figure/f1_f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/figure/f1_f5-eps-converted-to.pdf>
@@ -1541,7 +1541,7 @@ rted-to.pdf figs/figure/f6_f9.eps>
 (epstopdf)             \includegraphics on input line 1278.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/figure/f6_f9-eps-converted-to.pdf, id=398, 517.935pt x 393.47pt>
+<figs/figure/f6_f9-eps-converted-to.pdf, id=399, 517.935pt x 393.47pt>
 File: figs/figure/f6_f9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/figure/f6_f9-eps-converted-to.pdf>
@@ -1559,7 +1559,7 @@ ed-to.pdf figs/figure/f10.eps>
 (epstopdf)             \includegraphics on input line 1279.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/figure/f10-eps-converted-to.pdf, id=399, 514.92375pt x 393.47pt>
+<figs/figure/f10-eps-converted-to.pdf, id=400, 514.92375pt x 393.47pt>
 File: figs/figure/f10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/figure/f10-eps-converted-to.pdf>
@@ -1578,7 +1578,7 @@ ps-converted-to.pdf figs/figure/f_performance.eps>
 (epstopdf)             \includegraphics on input line 1295.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/figure/f_performance-eps-converted-to.pdf, id=400, 488.82625pt x 393.47pt
+<figs/figure/f_performance-eps-converted-to.pdf, id=401, 488.82625pt x 393.47pt
 >
 File: figs/figure/f_performance-eps-converted-to.pdf Graphic file (type pdf)
  <use figs/figure/f_performance-eps-converted-to.pdf>
@@ -1609,7 +1609,7 @@ ed-to.pdf figs/igd/f1_igd.eps>
 (epstopdf)             \includegraphics on input line 1304.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f1_igd-eps-converted-to.pdf, id=449, 498.86375pt x 402.50375pt>
+<figs/igd/f1_igd-eps-converted-to.pdf, id=450, 498.86375pt x 402.50375pt>
 File: figs/igd/f1_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f1_igd-eps-converted-to.pdf>
@@ -1627,7 +1627,7 @@ ed-to.pdf figs/igd/f2_igd.eps>
 (epstopdf)             \includegraphics on input line 1305.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f2_igd-eps-converted-to.pdf, id=450, 498.86375pt x 402.50375pt>
+<figs/igd/f2_igd-eps-converted-to.pdf, id=451, 498.86375pt x 402.50375pt>
 File: figs/igd/f2_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f2_igd-eps-converted-to.pdf>
@@ -1645,7 +1645,7 @@ ed-to.pdf figs/igd/f3_igd.eps>
 (epstopdf)             \includegraphics on input line 1306.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f3_igd-eps-converted-to.pdf, id=451, 500.87125pt x 402.50375pt>
+<figs/igd/f3_igd-eps-converted-to.pdf, id=452, 500.87125pt x 402.50375pt>
 File: figs/igd/f3_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f3_igd-eps-converted-to.pdf>
@@ -1663,7 +1663,7 @@ ed-to.pdf figs/igd/f4_igd.eps>
 (epstopdf)             \includegraphics on input line 1307.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f4_igd-eps-converted-to.pdf, id=452, 498.86375pt x 402.50375pt>
+<figs/igd/f4_igd-eps-converted-to.pdf, id=453, 498.86375pt x 402.50375pt>
 File: figs/igd/f4_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f4_igd-eps-converted-to.pdf>
@@ -1681,7 +1681,7 @@ ed-to.pdf figs/igd/f5_igd.eps>
 (epstopdf)             \includegraphics on input line 1308.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f5_igd-eps-converted-to.pdf, id=453, 498.86375pt x 402.50375pt>
+<figs/igd/f5_igd-eps-converted-to.pdf, id=454, 498.86375pt x 402.50375pt>
 File: figs/igd/f5_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f5_igd-eps-converted-to.pdf>
@@ -1699,7 +1699,7 @@ ed-to.pdf figs/igd/f6_igd.eps>
 (epstopdf)             \includegraphics on input line 1309.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f6_igd-eps-converted-to.pdf, id=454, 498.86375pt x 402.50375pt>
+<figs/igd/f6_igd-eps-converted-to.pdf, id=455, 498.86375pt x 402.50375pt>
 File: figs/igd/f6_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f6_igd-eps-converted-to.pdf>
@@ -1717,7 +1717,7 @@ ed-to.pdf figs/igd/f7_igd.eps>
 (epstopdf)             \includegraphics on input line 1310.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f7_igd-eps-converted-to.pdf, id=455, 500.87125pt x 402.50375pt>
+<figs/igd/f7_igd-eps-converted-to.pdf, id=456, 500.87125pt x 402.50375pt>
 File: figs/igd/f7_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f7_igd-eps-converted-to.pdf>
@@ -1735,7 +1735,7 @@ ed-to.pdf figs/igd/f8_igd.eps>
 (epstopdf)             \includegraphics on input line 1311.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f8_igd-eps-converted-to.pdf, id=456, 498.86375pt x 402.50375pt>
+<figs/igd/f8_igd-eps-converted-to.pdf, id=457, 498.86375pt x 402.50375pt>
 File: figs/igd/f8_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f8_igd-eps-converted-to.pdf>
@@ -1753,7 +1753,7 @@ ed-to.pdf figs/igd/f9_igd.eps>
 (epstopdf)             \includegraphics on input line 1312.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f9_igd-eps-converted-to.pdf, id=457, 500.87125pt x 402.50375pt>
+<figs/igd/f9_igd-eps-converted-to.pdf, id=458, 500.87125pt x 402.50375pt>
 File: figs/igd/f9_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f9_igd-eps-converted-to.pdf>
@@ -1771,7 +1771,7 @@ ted-to.pdf figs/igd/f10_igd.eps>
 (epstopdf)             \includegraphics on input line 1313.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/igd/f10_igd-eps-converted-to.pdf, id=458, 496.85625pt x 402.50375pt>
+<figs/igd/f10_igd-eps-converted-to.pdf, id=459, 496.85625pt x 402.50375pt>
 File: figs/igd/f10_igd-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/igd/f10_igd-eps-converted-to.pdf>
@@ -1790,8 +1790,8 @@ uation/figs/igd/f8_igd-eps-converted-to.pdf> <C:/Users/neal1/project/graduation
 /figs/igd/f9_igd-eps-converted-to.pdf> <C:/Users/neal1/project/graduation/figs/
 igd/f10_igd-eps-converted-to.pdf>]
 [41] [42] [43] (C:\Users\neal1\project\graduation\盲审论文.bbl [44]
-[45] [46]<<c1929.cmap>> [47] [48] [49] [50] [51] [52]) [53]<<c1984.cmap>><<c197
-6.cmap>> [54] [55] (C:\Users\neal1\project\graduation\盲审论文.aux)
+[45] [46]<<c1929.cmap>> [47] [48] [49] [50] [51] [52]) [53]<<c1984.cmap>>
+[54] [55] (C:\Users\neal1\project\graduation\盲审论文.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.35pt have occurred.
@@ -1801,17 +1801,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20309 strings out of 495354
- 337364 string characters out of 3183858
+ 20293 strings out of 495354
+ 337079 string characters out of 3183858
  382275 words of memory out of 3000000
- 22469 multiletter control sequences out of 15000+200000
- 107131 words of font info for 352 fonts, out of 3000000 for 9000
+ 22457 multiletter control sequences out of 15000+200000
+ 106536 words of font info for 350 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,18n,55p,1520b,968s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
-chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
-X/fonts/truetype/chinese/simsun.ttf>{C:/CTEX/MiKTeX/fonts/enc/dvips/cm-super/cm
--super-t1.enc}<C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fon
+chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>{C:/CTEX/MiK
+TeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/CTEX/CTeX/fonts/truetype/chine
+se/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fon
 ts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/ch
 inese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/
@@ -1825,49 +1825,49 @@ ype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX
 msun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/tr
 uetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/C
 TEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese
-/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts
-/truetype/chinese/simsun.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/sim
-hei.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/tru
-etype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CT
-EX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wind
+/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Windows/Fonts/s
+imhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/sim
+sun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/tru
+etype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/Wi
+ndows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.tt
+f><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/s
+imhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows
+/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:
+/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei
+.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Font
+s/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wind
 ows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>
 <C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/sim
-hei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/F
-onts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/W
-indows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.t
-tf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/
-simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Window
-s/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C
-:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhe
-i.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truet
+hei.ttf><C:/Windows/Fonts/simhei.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsu
+n.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truet
 ype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX
 /CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/si
 msun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/tr
 uetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/C
 TEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese
-/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts
-/truetype/chinese/simsun.ttf><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cme
-x10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/CTEX/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/CTEX/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx0800.pfb><C:/CTEX/MiKTeX/fo
-nts/type1/public/cm-super/sfbx1095.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-su
-per/sfbx1200.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/C
-TEX/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><C:/CTEX/MiKTeX/fonts/type1
-/public/cm-super/sfbx2488.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm0
-800.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/CTEX/MiKTe
-X/fonts/type1/public/cm-super/sfrm1095.pfb><C:/CTEX/MiKTeX/fonts/type1/public/c
-m-super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><
-C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/CTEX/MiKTeX/fonts/t
-ype1/public/cm-super/sfti1200.pfb>
-Output written on 盲审论文.pdf (64 pages, 1486543 bytes).
+/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
+/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/CTEX/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/
+sfbx0800.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/CTEX/
+MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/CTEX/MiKTeX/fonts/type1/pub
+lic/cm-super/sfbx1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx1728.
+pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><C:/CTEX/MiKTeX/fo
+nts/type1/public/cm-super/sfbx2488.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-su
+per/sfrm0800.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/C
+TEX/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/CTEX/MiKTeX/fonts/type1
+/public/cm-super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1
+440.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/CTEX/MiKTe
+X/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on 盲审论文.pdf (64 pages, 1481837 bytes).
 PDF statistics:
- 862 PDF objects out of 1000 (max. 8388607)
+ 861 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 417 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
