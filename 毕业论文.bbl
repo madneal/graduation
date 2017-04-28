@@ -30,10 +30,9 @@ D.~B. Fogel, \emph{Evolutionary computation: toward a new philosophy of machine
 T.~B{\"a}ck, D.~Fogel, and Z.~Michalewicz, ``Handbook of evolutionary
   computation,'' \emph{Release}, vol.~97, no.~1, p.~B1, 1997.
 
-\bibitem{eo1995}
-H.~P.~P. Schwefel, \emph{Evolution and Optimum Seeking: The Sixth
-  Generation}.\hskip 1em plus 0.5em minus 0.4em\relax John Wiley \& Sons, Inc.,
-  1995.
+\bibitem{ea2015}
+A.~E. Eiben and J.~Smith, ``From evolutionary computation to the evolution of
+  things,'' \emph{Nature}, vol. 521, no. 7553, pp. 476--482, 2015.
 
 \bibitem{ea2013}
 D.~Simon, \emph{Evolutionary optimization algorithms}.\hskip 1em plus 0.5em
@@ -48,15 +47,15 @@ K.~Deb, A.~Pratap, S.~Agarwal, and T.~Meyarivan, ``A fast and elitist
 D.~Simon, ``Biogeography-based optimization,'' \emph{IEEE Transactions on
   Evolutionary Computation}, vol.~12, no.~6, pp. 702--713, 2008.
 
-\bibitem{gp1998}
-W.~Banzhaf, P.~Nordin, R.~E. Keller, and F.~D. Francone, ``Genetic programming:
-  an introduction: on the automatic evolution of computer programs and its
-  applications,'' \emph{Genetic Programming}, vol.~19, no.~4, pp. 372--380,
-  1998.
+\bibitem{gp2015}
+W.~B. Langdon and M.~Harman, ``Optimizing existing software with genetic
+  programming,'' \emph{IEEE Transactions on Evolutionary Computation}, vol.~19,
+  no.~1, pp. 118--135, 2015.
 
-\bibitem{ep1996}
-X.~Yao and Y.~Liu, ``Fast evolutionary programming.'' in \emph{Evolutionary
-  Programming}, 1996, pp. 451--460.
+\bibitem{ep2013}
+D.~K. Khatod, V.~Pant, and J.~Sharma, ``Evolutionary programming based optimal
+  placement of renewable distributed generators,'' \emph{IEEE Transactions on
+  Power Systems}, vol.~28, no.~2, pp. 683--695, 2013.
 
 \bibitem{DE1}
 R.~Storn and K.~Price, \emph{Differential evolution-a simple and efficient
@@ -198,9 +197,11 @@ R.~Salustowicz and J.~Schmidhuber, ``Probabilistic incremental program
   evolution: Stochastic search through program space,'' in \emph{ECML}, 1997,
   pp. 213--220.
 
-\bibitem{ecgp2000}
-K.~Sastry and D.~E. Goldberg, ``On extended compact genetic algorithm,''
-  \emph{IlliGAL report}, no. 2000026, 2000.
+\bibitem{ecgp2015}
+M.-K. Jiau and S.-C. Huang, ``Services-oriented computing using the compact
+  genetic algorithm for solving the carpool services problem,'' \emph{IEEE
+  Transactions on Intelligent Transportation Systems}, vol.~16, no.~5, pp.
+  2711--2722, 2015.
 
 \bibitem{sggp2001}
 A.~Ratle and M.~Sebag, ``Avoiding the bloat with stochastic grammar-based

@@ -719,17 +719,6 @@
   year={2000}
 }
 
-@article{ecgp2015,
-  title={Services-oriented computing using the compact genetic algorithm for solving the carpool services problem},
-  author={Jiau, Ming-Kai and Huang, Shih-Chia},
-  journal={IEEE Transactions on Intelligent Transportation Systems},
-  volume={16},
-  number={5},
-  pages={2711--2722},
-  year={2015},
-  publisher={IEEE}
-}
-
 @Inproceedings{sggp2001,
   title={Avoiding the bloat with stochastic grammar-based genetic programming},
   author={Ratle, Alain and Sebag, Mich{\`e}le},
