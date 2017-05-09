@@ -17,6 +17,9 @@
   Author                   = {B{\"a}ck, Thomas and Fogel, DB and Michalewicz, Z},
   Journal                  = {New York: Oxford},
   Year                     = {1997},
+  Number                   = {1},
+  Pages                    = {B1},
+  Volume                   = {97}
 }
 
 @TechReport{eda1994,
