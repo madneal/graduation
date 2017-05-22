@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.4.28)  9 MAY 2017 16:43
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.4.28)  22 MAY 2017 15:20
 entering extended mode
 **C:/Users/neal1/project/graduation/毕业论文.tex
 (C:/Users/neal1/project/graduation/毕业论文.tex
@@ -1801,11 +1801,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20336 strings out of 495354
- 337892 string characters out of 3183859
+ 20284 strings out of 495354
+ 336936 string characters out of 3183859
  382275 words of memory out of 3000000
- 22490 multiletter control sequences out of 15000+200000
- 108025 words of font info for 355 fonts, out of 3000000 for 9000
+ 22464 multiletter control sequences out of 15000+200000
+ 107429 words of font info for 353 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,18n,55p,1520b,968s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
@@ -1826,8 +1826,8 @@ msun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/tr
 uetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/C
 TEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese
 /simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts
-/truetype/chinese/simsun.ttf><C:/Windows/Fonts/simhei.ttf><C:/CTEX/CTeX/fonts/t
-ruetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/
+/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C
+:/Windows/Fonts/simhei.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/
 CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chines
 e/simsun.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wind
 ows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>
@@ -1865,7 +1865,7 @@ r/sfrm1000.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/CTE
 X/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/p
 ublic/cm-super/sfrm1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm207
 4.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on 毕业论文.pdf (64 pages, 1491400 bytes).
+Output written on 毕业论文.pdf (64 pages, 1490688 bytes).
 PDF statistics:
  866 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
