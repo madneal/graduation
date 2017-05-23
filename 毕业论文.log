@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.4.28)  22 MAY 2017 15:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.4.28)  23 MAY 2017 12:27
 entering extended mode
 **C:/Users/neal1/project/graduation/毕业论文.tex
 (C:/Users/neal1/project/graduation/毕业论文.tex
@@ -966,12 +966,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--340
 
  []
 
-[1] [2] [3] [4] [5] <figs/ec.png, id=142, 586.19pt x 255.95625pt>
+[1] [2] [3] [4] [5] <figs/ec.png, id=142, 496.85625pt x 221.02576pt>
 File: figs/ec.png Graphic file (type png)
 
 <use figs/ec.png>
 Package pdftex.def Info: figs/ec.png used on input line 459.
-(pdftex.def)             Requested size: 375.57779pt x 163.99109pt.
+(pdftex.def)             Requested size: 375.57779pt x 167.07745pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1865,7 +1865,7 @@ r/sfrm1000.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/CTE
 X/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/CTEX/MiKTeX/fonts/type1/p
 ublic/cm-super/sfrm1440.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfrm207
 4.pfb><C:/CTEX/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on 毕业论文.pdf (64 pages, 1490688 bytes).
+Output written on 毕业论文.pdf (64 pages, 1495477 bytes).
 PDF statistics:
  866 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
