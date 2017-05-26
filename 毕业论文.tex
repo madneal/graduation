@@ -335,7 +335,7 @@
 
 本文主要关注分布估计算法中采样的相关工作。传统的分布估计算法通过建立的概率模型来进行采样。本文受差分演化思想所启发，提出了基于差分演化的采样策略，即差分采样策略（DES），并将这种采样策略应用于分布估计算法之中，从而提高算法性能和运行效率。本文利用差分采样策略来提升分布估计算法的采样，并且分别研究其在解决单目标和多目标优化问题上的性能表现。通过综合的实验结果分析，可以分析出差分采样策略对于提高分布估计算法的采样具有重大意义，并且具有很大的潜力。
 
-本文的主要内容是基于差分采样策略的单目标分布估计算法和基于差分采样策略的多目标分布估计算法。对于单目标优化问题，基于DE/EDA算法框架，通过结合基于特征向量的差分演化来采样，同时，利用expensive local search来进一步提高解集质量，最终提出基于差分采样策略的单目标分布估计算法。另一方面，对于多目标优化问题，通过差分采样策略来改进RM-MEDA的采样，提出了基于差分采样策略的多目标分布估计算法，并且性能表现显著。通过将差分采样策略分别应用于单目标和多目标分布估计算法，并且在综合的实验分析的基础上，有效地表明了差分采样策略对于分布估计算法的重大意义。
+本文的主要内容是基于差分采样策略的单目标分布估计算法和基于差分采样策略的多目标分布估计算法。对于单目标优化问题，基于DE/EDA算法框架，通过结合基于特征向量的差分演化来采样，同时，利用expensive Local Search来进一步提高解集质量，最终提出基于差分采样策略的单目标分布估计算法。另一方面，对于多目标优化问题，通过差分采样策略来改进RM-MEDA的采样，提出了基于差分采样策略的多目标分布估计算法，并且性能表现显著。通过将差分采样策略分别应用于单目标和多目标分布估计算法，并且在综合的实验分析的基础上，有效地表明了差分采样策略对于分布估计算法的重大意义。
 \\[2mm]
 
 \bfseries{ 关键词:}\normalfont\quad\ 分布估计算法，差分演化，演化算法，全局优化，多目标优化
@@ -354,7 +354,7 @@ Estimation of distribution algorithm is a kind of popular evolutionary algorithm
 
 This paper mainly studies the sampling strategy of estimation of distribution algorithm. Traditional estimation of distribution algorithms utilize the built probabilistic model to sample. Inspired by differential evolution, this paper proposes a sampling strategy based on differential evolution, namely DES. And this strategy is utilized in estimation of distribution algorithm to study its performance. This paper combines DES with estimation of distribution algorithm, and studies its performance on single objective optimization problems and multiobjective optimization problems respectively. According to the comprehensive experimental analysis, it can be seen that DES is impressively significant to improve the sampling of estimation of distribution algorithm with dramatical potential.
 
-The main contents of this paper are single objective estimation of distribution algorithm based on DES and multiobjective estimation of distribution algorithm based on DES. For single objective optimization problems, based on the framework of DE/EDA, utilize a differential evolution based on eigenvector to sample. Meanwhile, expensive local search is applied to improving the quality of solutions. Hence, single objective estimation of distribution algorithm based on DES is finally proposed. On the other hand, for multiobjective optimization problems, utilize DES to improve the sampling of RM-MEDA, then propose multiobjective estimation of distribution algorithm based on DES with impressive performance. This paper applies DES to single objective estimation of distribution algorithm and multiobjective estimation of distribution algorithm. The comprehensive and systematic experimental analysis indicates the significance of DES in estimation of distribution algorithms.
+The main contents of this paper are single objective estimation of distribution algorithm based on DES and multiobjective estimation of distribution algorithm based on DES. For single objective optimization problems, based on the framework of DE/EDA, utilize a differential evolution based on eigenvector to sample. Meanwhile, expensive Local Search is applied to improving the quality of solutions. Hence, single objective estimation of distribution algorithm based on DES is finally proposed. On the other hand, for multiobjective optimization problems, utilize DES to improve the sampling of RM-MEDA, then propose multiobjective estimation of distribution algorithm based on DES with impressive performance. This paper applies DES to single objective estimation of distribution algorithm and multiobjective estimation of distribution algorithm. The comprehensive and systematic experimental analysis indicates the significance of DES in estimation of distribution algorithms.
 
 \vspace*{3mm}
 
@@ -471,7 +471,7 @@ The main contents of this paper are single objective estimation of distribution 
 \subsection{本文的主要工作}
 针对分布估计算法中的采样，提出差分采样策略，进一步提升采样，从而提升算法的性能表现。针对单目标和多目标优化问题，通过一系列的综合实验分析来研究差分采样策略对于提高分布估计算法性能的意义。
 
-在单目标优化问题上，在差分演化和分布估计算法的混合算法（DE/DEA)~\cite{DEEDA2005}基础上，通过基于特征向量的差分演化算法（DE-EIG）来改进DE/EDA 中的采样，利用expensive local search(LS) 进一步优化解集质量，提出基于差分采样策略的单目标分布估计算法（EDA/DE-EIG）~\cite{edade-eig}，研究其对于提高分布估计算法对于解决单目标优化问题上算法性能和速度提升的意义。
+在单目标优化问题上，在差分演化和分布估计算法的混合算法（DE/DEA)~\cite{DEEDA2005}基础上，通过基于特征向量的差分演化算法（DE-EIG）来改进DE/EDA 中的采样，利用expensive Local Search(LS) 进一步优化解集质量，提出基于差分采样策略的单目标分布估计算法（EDA/DE-EIG）~\cite{edade-eig}，研究其对于提高分布估计算法对于解决单目标优化问题上算法性能和速度提升的意义。
 
 在多目标优化问题上，DES 被用于改进基于规律模型的分布估计算法（A Regularity Model-based Estimation of Distribution Algorithm, RM-MEDA)~\cite{RM-MEDA} 中的采样策略，提出了基于差分采样策略的多目标分布估计算法，并且通过综合实验分析研究算法性能。
 
@@ -1431,7 +1431,7 @@ $F10$ &$1.25e+02$	&$2.35e+01$	&$2.27e+01$	&$1.44e+02$	&${\cellcolor{lightgray}}\
 
 白驹过隙，三年的研究生的学习生活转眼来到了尾声。想起当初的事情，依然都历历在目。回想这三年的点点滴滴，不禁感慨万千，既有泪水，也有汗水，当然也有更多的收获。在这三年的研究生生涯之中，自己收获了很多，得到了成长，结识了很多的好朋友，得到了老师们的帮助，使得我最终能够顺利地完成学业。
 
-首先，我最想感谢的是我的导师周爱民老师。我觉得周老师对我的帮助是方方面面，不仅是学习上，学术上方面的内容，同时也包括在工作和生活中的方方面面。周老师教会我如何严谨地进行科学实验，如何写论文，让我在学术研究上成长了很多，我相信这必然是我人生中的一大裨益。另一方面，周老师也给予了我参加应用实践的机会，让我实际地提高了自己的动手编程能力，并且督促我形成良好的编程风格，这为我以后的工作也打下了良好的基础。周老师，也教会了了我在工作中如何和他人保持良好的沟通。周老师对我的帮助太多。
+首先，我最想感谢的是我的导师周爱民老师。我觉得周老师对我的帮助是方方面面，不仅是学习上，学术上方面的内容，同时也包括在工作和生活中的方方面面。周老师教会我如何严谨地进行科学实验，如何写论文，让我在学术研究上成长了很多，我相信这必然是我人生中的一大裨益。另一方面，周老师也给予了我参加应用实践的机会，让我实际地提高了自己的动手编程能力，并且督促我形成良好的编程风格，这为我以后的工作也打下了良好的基础。周老师也教会了了我在工作中如何和他人保持良好的沟通。周老师对我的帮助太多。
 
 其次，感谢李阳师兄和张晋媛学姐。虽然和李阳师兄只有短短一年的相处时间，但我觉得师兄给我的帮助却是很大的。不管是在论文写作上的问题，亦或是生活上的一些问题，李阳师兄都给了我很好的建议。那段时间和李阳师兄一起打羽毛球的时光，也让我怀念不已。张晋媛师姐给我的帮助无疑是巨大的。我觉得师姐是我最好的良师益友，在论文写作的过程中，和师姐讨论过很多问题，她给了我很多很有价值的建议。在我遇到困难的时候，她也给了我莫大的鼓励。感谢实验室的师弟师妹们，我很珍惜我们在一起学习玩耍的时光，我相信这是我人生最美好的时光之一。
 
